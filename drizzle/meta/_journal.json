@@ -1,0 +1,139 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1788795672861,
+      "tag": "0000_editorial_model",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1788804338173,
+      "tag": "0001_revision_review",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1788804338821,
+      "tag": "0002_editorial_boundaries",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1788805223355,
+      "tag": "0003_category_guard_fix",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1788805828490,
+      "tag": "0004_secure_function_search_path",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1788808534858,
+      "tag": "0005_publication_jobs",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1788808535505,
+      "tag": "0006_publication_workflow",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1788808618097,
+      "tag": "0007_redirect_scope",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1788808708220,
+      "tag": "0008_public_routing_views",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1788811079705,
+      "tag": "0009_authorized_job_retry",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1788813966905,
+      "tag": "0010_phase4_pages",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1788813989944,
+      "tag": "0011_trust_routes",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1788814049938,
+      "tag": "0012_public_page_contract",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1788814714246,
+      "tag": "0013_trust_route_guard",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1788849546666,
+      "tag": "0014_phase5_affiliates",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1788849639868,
+      "tag": "0015_phase5_affiliate_contract",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1788858748647,
+      "tag": "0016_phase6_network",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1788858860588,
+      "tag": "0017_phase6_network_contract",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1788859171907,
+      "tag": "0018_phase6_context_overlap",
+      "breakpoints": true
+    }
+  ]
+}

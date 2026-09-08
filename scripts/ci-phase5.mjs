@@ -1,0 +1,30 @@
+import {spawn} from 'node:child_process';
+import {readFile,mkdir,writeFile} from 'node:fs/promises';
+import {parseEnv} from 'node:util';
+await mkdir('docs/qa/phase5',{recursive:true});
+const runtime={...process.env,...parseEnv(await readFile('.env.phase3.local','utf8')),DATABASE_URL_UNPOOLED:'',QA_EVIDENCE_DIR:'docs/qa/phase5',NODE_OPTIONS:'--dns-result-order=ipv4first'};
+const owner=parseEnv(await readFile('.env.test.local','utf8')),checks=[];
+const ownerRuntime={...runtime,DATABASE_URL_UNPOOLED:owner.DATABASE_URL_UNPOOLED,NEON_BRANCH:owner.NEON_BRANCH};
+async function run(label,command,args,env=runtime){
+ const started=new Date().toISOString(),child=spawn(command,args,{env,stdio:['ignore','pipe','pipe']});let output='';
+ child.stdout.on('data',chunk=>{output+=chunk;process.stdout.write(chunk);});child.stderr.on('data',chunk=>{output+=chunk;process.stderr.write(chunk);});
+ const exitCode=await new Promise((resolve,reject)=>{child.on('error',reject);child.on('close',resolve);});
+ await writeFile(`docs/qa/phase5/${label}.log`,output);checks.push({label,command:[command,...args].join(' '),started,exitCode});
+ await writeFile('docs/qa/phase5/checks.json',JSON.stringify({checkedAt:new Date().toISOString(),fullPhase5CiRun:false,checks},null,2)+'\n');
+ if(exitCode!==0)process.exit(exitCode??1);
+}
+await run('providers',process.execPath,['--import','tsx','scripts/phase5/providers.ts']);
+await run('migrate',process.execPath,['--import','tsx','scripts/phase5/migrate.ts'],ownerRuntime);
+await run('runtime',process.execPath,['--conditions=react-server','--import','tsx','scripts/phase5/runtime-test.ts']);
+await run('build','npm',['run','build']);
+await run('typecheck','npm',['run','typecheck']);
+await run('lint','npm',['run','lint']);
+await run('test','npm',['test']);
+await run('affiliate',process.execPath,['--import','tsx','scripts/phase5/affiliate-test.ts'],ownerRuntime);
+await run('consent',process.execPath,['--import','tsx','scripts/phase5/consent-test.ts']);
+await run('metrics',process.execPath,['--import','tsx','scripts/phase5/metrics-test.ts'],ownerRuntime);
+await run('html','npm',['run','qa:html']);
+await run('auth-regression',process.execPath,['--import','tsx','scripts/phase2/http-test.ts']);
+await run('publication-regression',process.execPath,['--import','tsx','scripts/phase3/http-test.ts'],ownerRuntime);
+await writeFile('docs/qa/phase5/checks.json',JSON.stringify({checkedAt:new Date().toISOString(),fullPhase5CiRun:true,acceptance:'F5.A01-F5.A07',checks,finalTemplatePerformanceBudget:'Separate outstanding B09 requirement; no phase-5 exception granted'},null,2)+'\n');
+console.log('PASS: Phase 5 acceptance and raw-HTML verification; final-template performance remains a separate gate.');

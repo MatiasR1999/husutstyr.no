@@ -1,0 +1,15 @@
+node_modules/
+.next/
+.env*
+!.env.example
+*.tsbuildinfo
+work/
+playwright-report/
+test-results/
+.neon
+/.vercel/
+/.agents/
+/skills-lock.json
+/docs/qa/*
+!/docs/qa/README.md
+.DS_Store

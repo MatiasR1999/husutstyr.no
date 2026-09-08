@@ -1,0 +1,1 @@
+ALTER TABLE "editorial"."sites" ADD COLUMN "trust_routes" text[] DEFAULT ARRAY[]::text[] NOT NULL;

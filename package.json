@@ -1,0 +1,61 @@
+{
+  "name": "seo-site-template",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.20.0 <25"
+  },
+  "scripts": {
+    "tokens": "node --import tsx scripts/generate-tokens.ts",
+    "dev": "npm run tokens && next dev --hostname 127.0.0.1",
+    "build": "npm run tokens && node --import tsx scripts/check-launch.ts && next build --webpack",
+    "start": "next start --hostname 127.0.0.1",
+    "typecheck": "next typegen && tsc --noEmit",
+    "lint": "eslint . && node --import tsx scripts/check-architecture.ts",
+    "test": "vitest run",
+    "qa:html": "node --import tsx scripts/verify-html.ts",
+    "qa:performance": "node --import tsx scripts/measure-performance.ts",
+    "ci:phase1": "node scripts/ci-phase1.mjs",
+    "ci:phase2": "node scripts/ci-phase2.mjs",
+    "db:generate": "drizzle-kit generate",
+    "ci:phase3": "node scripts/ci-phase3.mjs",
+    "ci:phase4": "node scripts/ci-phase4.mjs",
+    "ci:phase5": "node scripts/ci-phase5.mjs",
+    "ci:phase6": "node scripts/ci-phase6.mjs",
+    "ci:phase7": "node scripts/ci-phase7.mjs",
+    "qa:launch": "node --import tsx scripts/check-launch.ts --production"
+  },
+  "dependencies": {
+    "@neon/config": "^1.3.0",
+    "@neon/env": "^1.2.1",
+    "@neondatabase/serverless": "^1.0.2",
+    "@vercel/analytics": "2.0.1",
+    "@vercel/speed-insights": "2.0.0",
+    "drizzle-orm": "0.45.2",
+    "jose": "6.2.12",
+    "next": "16.3.4",
+    "openid-client": "6.8.8",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "server-only": "0.0.1",
+    "vanilla-cookieconsent": "3.1.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.13.0",
+    "@playwright/test": "1.63.0",
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "cheerio": "^1.1.2",
+    "drizzle-kit": "0.31.10",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "16.3.4",
+    "tailwindcss": "4.3.3",
+    "tsx": "^4.0.0",
+    "typescript": "^5.9.0",
+    "vitest": "5.0.0"
+  }
+}

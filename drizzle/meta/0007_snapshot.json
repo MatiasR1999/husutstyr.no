@@ -1,0 +1,1939 @@
+{
+  "id": "dd1c1429-b0aa-4199-8b3a-eda51cc23345",
+  "prevId": "e8ad61bf-0c7b-4958-8ea4-8a7f7964505e",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "editorial.affiliate_links": {
+      "name": "affiliate_links",
+      "schema": "editorial",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "site_id": {
+          "name": "site_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "slug": {
+          "name": "slug",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "product_id": {
+          "name": "product_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "destination": {
+          "name": "destination",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "disclosure": {
+          "name": "disclosure",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "enabled": {
+          "name": "enabled",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "affiliate_links_site_id_sites_id_fk": {
+          "name": "affiliate_links_site_id_sites_id_fk",
+          "tableFrom": "affiliate_links",
+          "tableTo": "sites",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "site_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "affiliate_links_product_id_products_id_fk": {
+          "name": "affiliate_links_product_id_products_id_fk",
+          "tableFrom": "affiliate_links",
+          "tableTo": "products",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "product_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "affiliate_links_site_id_slug_unique": {
+          "name": "affiliate_links_site_id_slug_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "site_id",
+            "slug"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {
+        "affiliate_destination": {
+          "name": "affiliate_destination",
+          "value": "\"editorial\".\"affiliate_links\".\"destination\" ~ '^https?://'"
+        }
+      },
+      "isRLSEnabled": false
+    },
+    "editorial.approvals": {
+      "name": "approvals",
+      "schema": "editorial",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "revision_id": {
+          "name": "revision_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "content_hash": {
+          "name": "content_hash",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "approved_by": {
+          "name": "approved_by",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "approvals_revision_id_revisions_id_fk": {
+          "name": "approvals_revision_id_revisions_id_fk",
+          "tableFrom": "approvals",
+          "tableTo": "revisions",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "revision_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "approvals_approved_by_principals_id_fk": {
+          "name": "approvals_approved_by_principals_id_fk",
+          "tableFrom": "approvals",
+          "tableTo": "principals",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "approved_by"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "approvals_revision_id_content_hash_unique": {
+          "name": "approvals_revision_id_content_hash_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "revision_id",
+            "content_hash"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "editorial.articles": {
+      "name": "articles",
+      "schema": "editorial",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "site_id": {
+          "name": "site_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "locale": {
+          "name": "locale",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "category_id": {
+          "name": "category_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "namespace": {
+          "name": "namespace",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "slug": {
+          "name": "slug",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "kind": {
+          "name": "kind",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "status": {
+          "name": "status",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'draft'"
+        },
+        "current_revision_id": {
+          "name": "current_revision_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "published_revision_id": {
+          "name": "published_revision_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "is_test": {
+          "name": "is_test",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "published_at": {
+          "name": "published_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "modified_at": {
+          "name": "modified_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "articles_category_id_site_id_locale_categories_id_site_id_locale_fk": {
+          "name": "articles_category_id_site_id_locale_categories_id_site_id_locale_fk",
+          "tableFrom": "articles",
+          "tableTo": "categories",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "category_id",
+            "site_id",
+            "locale"
+          ],
+          "columnsTo": [
+            "id",
+            "site_id",
+            "locale"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "articles_site_id_locale_namespace_slug_unique": {
+          "name": "articles_site_id_locale_namespace_slug_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "site_id",
+            "locale",
+            "namespace",
+            "slug"
+          ]
+        },
+        "articles_id_site_id_unique": {
+          "name": "articles_id_site_id_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "id",
+            "site_id"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {
+        "article_slug_shape": {
+          "name": "article_slug_shape",
+          "value": "\"editorial\".\"articles\".\"slug\" ~ '^[a-z0-9]+(-[a-z0-9]+)*$' AND length(\"editorial\".\"articles\".\"slug\") <= 100"
+        },
+        "article_kind": {
+          "name": "article_kind",
+          "value": "\"editorial\".\"articles\".\"kind\" IN ('article','news','review')"
+        },
+        "article_status": {
+          "name": "article_status",
+          "value": "\"editorial\".\"articles\".\"status\" IN ('draft','in_review','published')"
+        },
+        "article_publication_dates": {
+          "name": "article_publication_dates",
+          "value": "\"editorial\".\"articles\".\"published_revision_id\" IS NULL OR (\"editorial\".\"articles\".\"status\" = 'published' AND \"editorial\".\"articles\".\"published_at\" IS NOT NULL AND \"editorial\".\"articles\".\"modified_at\" >= \"editorial\".\"articles\".\"published_at\")"
+        }
+      },
+      "isRLSEnabled": false
+    },
+    "editorial.assets": {
+      "name": "assets",
+      "schema": "editorial",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "site_id": {
+          "name": "site_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "provider": {
+          "name": "provider",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "object_key": {
+          "name": "object_key",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "url": {
+          "name": "url",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "alt": {
+          "name": "alt",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "rights": {
+          "name": "rights",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "width": {
+          "name": "width",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "height": {
+          "name": "height",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "assets_site_id_sites_id_fk": {
+          "name": "assets_site_id_sites_id_fk",
+          "tableFrom": "assets",
+          "tableTo": "sites",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "site_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "assets_site_id_object_key_unique": {
+          "name": "assets_site_id_object_key_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "site_id",
+            "object_key"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {
+        "asset_dimensions": {
+          "name": "asset_dimensions",
+          "value": "(\"editorial\".\"assets\".\"width\" IS NULL AND \"editorial\".\"assets\".\"height\" IS NULL) OR (\"editorial\".\"assets\".\"width\" > 0 AND \"editorial\".\"assets\".\"height\" > 0)"
+        }
+      },
+      "isRLSEnabled": false
+    },
+    "editorial.authors": {
+      "name": "authors",
+      "schema": "editorial",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "site_id": {
+          "name": "site_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "slug": {
+          "name": "slug",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "bio": {
+          "name": "bio",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "image": {
+          "name": "image",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "expertise": {
+          "name": "expertise",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "same_as": {
+          "name": "same_as",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "is_test": {
+          "name": "is_test",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "authors_site_id_sites_id_fk": {
+          "name": "authors_site_id_sites_id_fk",
+          "tableFrom": "authors",
+          "tableTo": "sites",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "site_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "authors_site_id_slug_unique": {
+          "name": "authors_site_id_slug_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "site_id",
+            "slug"
+          ]
+        },
+        "authors_id_site_id_unique": {
+          "name": "authors_id_site_id_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "id",
+            "site_id"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "editorial.categories": {
+      "name": "categories",
+      "schema": "editorial",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "site_id": {
+          "name": "site_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "locale": {
+          "name": "locale",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "slug": {
+          "name": "slug",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "introduction": {
+          "name": "introduction",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "seo": {
+          "name": "seo",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "categories_site_id_locale_locales_site_id_locale_fk": {
+          "name": "categories_site_id_locale_locales_site_id_locale_fk",
+          "tableFrom": "categories",
+          "tableTo": "locales",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "site_id",
+            "locale"
+          ],
+          "columnsTo": [
+            "site_id",
+            "locale"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "categories_site_id_locale_slug_unique": {
+          "name": "categories_site_id_locale_slug_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "site_id",
+            "locale",
+            "slug"
+          ]
+        },
+        "categories_id_site_id_locale_unique": {
+          "name": "categories_id_site_id_locale_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "id",
+            "site_id",
+            "locale"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {
+        "category_slug_shape": {
+          "name": "category_slug_shape",
+          "value": "\"editorial\".\"categories\".\"slug\" ~ '^[a-z0-9]+(-[a-z0-9]+)*$' AND length(\"editorial\".\"categories\".\"slug\") <= 100"
+        }
+      },
+      "isRLSEnabled": false
+    },
+    "editorial.locales": {
+      "name": "locales",
+      "schema": "editorial",
+      "columns": {
+        "site_id": {
+          "name": "site_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "locale": {
+          "name": "locale",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "locales_site_id_sites_id_fk": {
+          "name": "locales_site_id_sites_id_fk",
+          "tableFrom": "locales",
+          "tableTo": "sites",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "site_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {
+        "locales_site_id_locale_pk": {
+          "name": "locales_site_id_locale_pk",
+          "columns": [
+            "site_id",
+            "locale"
+          ]
+        }
+      },
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "editorial.login_attempts": {
+      "name": "login_attempts",
+      "schema": "editorial",
+      "columns": {
+        "token_hash": {
+          "name": "token_hash",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "state": {
+          "name": "state",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "nonce": {
+          "name": "nonce",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "verifier": {
+          "name": "verifier",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "expires_at": {
+          "name": "expires_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "editorial.original_research": {
+      "name": "original_research",
+      "schema": "editorial",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "revision_id": {
+          "name": "revision_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "method": {
+          "name": "method",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "responsible_author_id": {
+          "name": "responsible_author_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "performed_at": {
+          "name": "performed_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "evidence": {
+          "name": "evidence",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "original_research_revision_id_revisions_id_fk": {
+          "name": "original_research_revision_id_revisions_id_fk",
+          "tableFrom": "original_research",
+          "tableTo": "revisions",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "revision_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "original_research_responsible_author_id_authors_id_fk": {
+          "name": "original_research_responsible_author_id_authors_id_fk",
+          "tableFrom": "original_research",
+          "tableTo": "authors",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "responsible_author_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {
+        "research_has_evidence": {
+          "name": "research_has_evidence",
+          "value": "length(trim(\"editorial\".\"original_research\".\"method\")) >= 30 AND jsonb_typeof(\"editorial\".\"original_research\".\"evidence\") = 'array' AND jsonb_array_length(\"editorial\".\"original_research\".\"evidence\") > 0"
+        }
+      },
+      "isRLSEnabled": false
+    },
+    "editorial.prices": {
+      "name": "prices",
+      "schema": "editorial",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "product_id": {
+          "name": "product_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "amount": {
+          "name": "amount",
+          "type": "numeric(14, 2)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "currency": {
+          "name": "currency",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "source": {
+          "name": "source",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "checked_at": {
+          "name": "checked_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "valid_until": {
+          "name": "valid_until",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "prices_product_id_products_id_fk": {
+          "name": "prices_product_id_products_id_fk",
+          "tableFrom": "prices",
+          "tableTo": "products",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "product_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {
+        "price_valid": {
+          "name": "price_valid",
+          "value": "\"editorial\".\"prices\".\"amount\" >= 0 AND \"editorial\".\"prices\".\"currency\" ~ '^[A-Z]{3}$' AND \"editorial\".\"prices\".\"valid_until\" > \"editorial\".\"prices\".\"checked_at\""
+        }
+      },
+      "isRLSEnabled": false
+    },
+    "editorial.principals": {
+      "name": "principals",
+      "schema": "editorial",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "site_id": {
+          "name": "site_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "issuer": {
+          "name": "issuer",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "subject": {
+          "name": "subject",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "role": {
+          "name": "role",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "author_id": {
+          "name": "author_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "enabled": {
+          "name": "enabled",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": true
+        },
+        "is_test": {
+          "name": "is_test",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "principals_site_id_sites_id_fk": {
+          "name": "principals_site_id_sites_id_fk",
+          "tableFrom": "principals",
+          "tableTo": "sites",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "site_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "principals_author_id_site_id_authors_id_site_id_fk": {
+          "name": "principals_author_id_site_id_authors_id_site_id_fk",
+          "tableFrom": "principals",
+          "tableTo": "authors",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "author_id",
+            "site_id"
+          ],
+          "columnsTo": [
+            "id",
+            "site_id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "principals_site_id_issuer_subject_unique": {
+          "name": "principals_site_id_issuer_subject_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "site_id",
+            "issuer",
+            "subject"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {
+        "principal_role": {
+          "name": "principal_role",
+          "value": "\"editorial\".\"principals\".\"role\" IN ('writer','editor','viewer')"
+        }
+      },
+      "isRLSEnabled": false
+    },
+    "editorial.products": {
+      "name": "products",
+      "schema": "editorial",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "site_id": {
+          "name": "site_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "manufacturer": {
+          "name": "manufacturer",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "identifier": {
+          "name": "identifier",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "owned": {
+          "name": "owned",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "products_site_id_sites_id_fk": {
+          "name": "products_site_id_sites_id_fk",
+          "tableFrom": "products",
+          "tableTo": "sites",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "site_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "editorial.publication_events": {
+      "name": "publication_events",
+      "schema": "editorial",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "article_id": {
+          "name": "article_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "revision_id": {
+          "name": "revision_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "actor_id": {
+          "name": "actor_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "event": {
+          "name": "event",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "idempotency_key": {
+          "name": "idempotency_key",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "processed_at": {
+          "name": "processed_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "publication_events_article_id_articles_id_fk": {
+          "name": "publication_events_article_id_articles_id_fk",
+          "tableFrom": "publication_events",
+          "tableTo": "articles",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "article_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "publication_events_revision_id_revisions_id_fk": {
+          "name": "publication_events_revision_id_revisions_id_fk",
+          "tableFrom": "publication_events",
+          "tableTo": "revisions",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "revision_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "publication_events_actor_id_principals_id_fk": {
+          "name": "publication_events_actor_id_principals_id_fk",
+          "tableFrom": "publication_events",
+          "tableTo": "principals",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "actor_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "publication_events_idempotency_key_unique": {
+          "name": "publication_events_idempotency_key_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "idempotency_key"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "editorial.publication_jobs": {
+      "name": "publication_jobs",
+      "schema": "editorial",
+      "columns": {
+        "event_id": {
+          "name": "event_id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "snapshot": {
+          "name": "snapshot",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "cache_state": {
+          "name": "cache_state",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'pending'"
+        },
+        "notification_state": {
+          "name": "notification_state",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'pending'"
+        },
+        "attempts": {
+          "name": "attempts",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "default": 0
+        },
+        "next_attempt_at": {
+          "name": "next_attempt_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "lease_token": {
+          "name": "lease_token",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "lease_until": {
+          "name": "lease_until",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "last_error": {
+          "name": "last_error",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {
+        "publication_jobs_next_attempt_at_cache_state_index": {
+          "name": "publication_jobs_next_attempt_at_cache_state_index",
+          "columns": [
+            {
+              "expression": "next_attempt_at",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "cache_state",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {
+        "publication_jobs_event_id_publication_events_id_fk": {
+          "name": "publication_jobs_event_id_publication_events_id_fk",
+          "tableFrom": "publication_jobs",
+          "tableTo": "publication_events",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "event_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {
+        "publication_job_states": {
+          "name": "publication_job_states",
+          "value": "\"editorial\".\"publication_jobs\".\"cache_state\" IN ('pending','confirmed','superseded') AND \"editorial\".\"publication_jobs\".\"notification_state\" IN ('pending','sent','skipped','rejected')"
+        }
+      },
+      "isRLSEnabled": false
+    },
+    "editorial.redirects": {
+      "name": "redirects",
+      "schema": "editorial",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "site_id": {
+          "name": "site_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "from_path": {
+          "name": "from_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "to_path": {
+          "name": "to_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "status": {
+          "name": "status",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "is_test": {
+          "name": "is_test",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true,
+          "default": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "redirects_site_id_sites_id_fk": {
+          "name": "redirects_site_id_sites_id_fk",
+          "tableFrom": "redirects",
+          "tableTo": "sites",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "site_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "redirects_site_id_from_path_unique": {
+          "name": "redirects_site_id_from_path_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "site_id",
+            "from_path"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {
+        "redirect_valid": {
+          "name": "redirect_valid",
+          "value": "(\"editorial\".\"redirects\".\"status\" = 301 AND \"editorial\".\"redirects\".\"to_path\" IS NOT NULL AND \"editorial\".\"redirects\".\"to_path\" <> \"editorial\".\"redirects\".\"from_path\") OR (\"editorial\".\"redirects\".\"status\" = 410 AND \"editorial\".\"redirects\".\"to_path\" IS NULL)"
+        }
+      },
+      "isRLSEnabled": false
+    },
+    "editorial.review_details": {
+      "name": "review_details",
+      "schema": "editorial",
+      "columns": {
+        "revision_id": {
+          "name": "revision_id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "product_id": {
+          "name": "product_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "rating": {
+          "name": "rating",
+          "type": "numeric",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "paid": {
+          "name": "paid",
+          "type": "boolean",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "method": {
+          "name": "method",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "review_details_revision_id_revisions_id_fk": {
+          "name": "review_details_revision_id_revisions_id_fk",
+          "tableFrom": "review_details",
+          "tableTo": "revisions",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "revision_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "review_details_product_id_products_id_fk": {
+          "name": "review_details_product_id_products_id_fk",
+          "tableFrom": "review_details",
+          "tableTo": "products",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "product_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {
+        "review_valid": {
+          "name": "review_valid",
+          "value": "(\"editorial\".\"review_details\".\"rating\" IS NULL OR \"editorial\".\"review_details\".\"rating\" BETWEEN 1 AND 5) AND length(trim(\"editorial\".\"review_details\".\"method\")) >= 30"
+        }
+      },
+      "isRLSEnabled": false
+    },
+    "editorial.review_requests": {
+      "name": "review_requests",
+      "schema": "editorial",
+      "columns": {
+        "revision_id": {
+          "name": "revision_id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "submitted_by": {
+          "name": "submitted_by",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "review_requests_revision_id_revisions_id_fk": {
+          "name": "review_requests_revision_id_revisions_id_fk",
+          "tableFrom": "review_requests",
+          "tableTo": "revisions",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "revision_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "review_requests_submitted_by_principals_id_fk": {
+          "name": "review_requests_submitted_by_principals_id_fk",
+          "tableFrom": "review_requests",
+          "tableTo": "principals",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "submitted_by"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "editorial.revision_topics": {
+      "name": "revision_topics",
+      "schema": "editorial",
+      "columns": {
+        "revision_id": {
+          "name": "revision_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "topic_id": {
+          "name": "topic_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "revision_topics_revision_id_revisions_id_fk": {
+          "name": "revision_topics_revision_id_revisions_id_fk",
+          "tableFrom": "revision_topics",
+          "tableTo": "revisions",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "revision_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "revision_topics_topic_id_topics_id_fk": {
+          "name": "revision_topics_topic_id_topics_id_fk",
+          "tableFrom": "revision_topics",
+          "tableTo": "topics",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "topic_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {
+        "revision_topics_revision_id_topic_id_pk": {
+          "name": "revision_topics_revision_id_topic_id_pk",
+          "columns": [
+            "revision_id",
+            "topic_id"
+          ]
+        }
+      },
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "editorial.revisions": {
+      "name": "revisions",
+      "schema": "editorial",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "article_id": {
+          "name": "article_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "author_id": {
+          "name": "author_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "created_by": {
+          "name": "created_by",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "payload": {
+          "name": "payload",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "author_snapshot": {
+          "name": "author_snapshot",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "content_hash": {
+          "name": "content_hash",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {
+        "revisions_article_id_created_at_index": {
+          "name": "revisions_article_id_created_at_index",
+          "columns": [
+            {
+              "expression": "article_id",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            },
+            {
+              "expression": "created_at",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {
+        "revisions_article_id_articles_id_fk": {
+          "name": "revisions_article_id_articles_id_fk",
+          "tableFrom": "revisions",
+          "tableTo": "articles",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "article_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "revisions_author_id_authors_id_fk": {
+          "name": "revisions_author_id_authors_id_fk",
+          "tableFrom": "revisions",
+          "tableTo": "authors",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "author_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "revisions_created_by_principals_id_fk": {
+          "name": "revisions_created_by_principals_id_fk",
+          "tableFrom": "revisions",
+          "tableTo": "principals",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "created_by"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "revisions_article_id_id_unique": {
+          "name": "revisions_article_id_id_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "article_id",
+            "id"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {
+        "revision_json_object": {
+          "name": "revision_json_object",
+          "value": "jsonb_typeof(\"editorial\".\"revisions\".\"payload\") = 'object'"
+        }
+      },
+      "isRLSEnabled": false
+    },
+    "editorial.sessions": {
+      "name": "sessions",
+      "schema": "editorial",
+      "columns": {
+        "token_hash": {
+          "name": "token_hash",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "principal_id": {
+          "name": "principal_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "expires_at": {
+          "name": "expires_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "sessions_principal_id_principals_id_fk": {
+          "name": "sessions_principal_id_principals_id_fk",
+          "tableFrom": "sessions",
+          "tableTo": "principals",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "principal_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "editorial.sites": {
+      "name": "sites",
+      "schema": "editorial",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "reserved_routes": {
+          "name": "reserved_routes",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "editorial.sources": {
+      "name": "sources",
+      "schema": "editorial",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "revision_id": {
+          "name": "revision_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "url": {
+          "name": "url",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "title": {
+          "name": "title",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "checked_at": {
+          "name": "checked_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "sources_revision_id_revisions_id_fk": {
+          "name": "sources_revision_id_revisions_id_fk",
+          "tableFrom": "sources",
+          "tableTo": "revisions",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "revision_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "editorial.topics": {
+      "name": "topics",
+      "schema": "editorial",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "site_id": {
+          "name": "site_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "locale": {
+          "name": "locale",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "slug": {
+          "name": "slug",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {
+        "topics_site_id_locale_locales_site_id_locale_fk": {
+          "name": "topics_site_id_locale_locales_site_id_locale_fk",
+          "tableFrom": "topics",
+          "tableTo": "locales",
+          "schemaTo": "editorial",
+          "columnsFrom": [
+            "site_id",
+            "locale"
+          ],
+          "columnsTo": [
+            "site_id",
+            "locale"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "topics_site_id_locale_slug_unique": {
+          "name": "topics_site_id_locale_slug_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "site_id",
+            "locale",
+            "slug"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    }
+  },
+  "enums": {},
+  "schemas": {
+    "editorial": "editorial"
+  },
+  "sequences": {},
+  "roles": {},
+  "policies": {},
+  "views": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}

@@ -1,0 +1,67 @@
+import assert from 'node:assert/strict';
+import { randomBytes,createHash,randomUUID } from 'node:crypto';
+import { readFile,writeFile } from 'node:fs/promises';
+import { Pool,neonConfig,neon } from '@neondatabase/serverless';
+import site from '../../site.config';
+import { qaConnection } from './guard';
+import { parseContent } from '../../src/lib/domain/content';
+const owner=neon(qaConnection()),service=neon(process.env.EDITOR_DATABASE_URL!),reader=neon(process.env.DATABASE_URL!);
+neonConfig.webSocketConstructor=WebSocket;
+const fixture=JSON.parse(await readFile('work/phase2-fixture.json','utf8'));
+const results:string[]=[];
+async function denied(action:()=>Promise<unknown>,message:string,code='42501') {await assert.rejects(action,(error:unknown)=>typeof error==='object'&&error!==null&&'code' in error&&error.code===code);results.push(message);}
+const actor=async(id:string,expired=false)=>{const token=randomBytes(32).toString('hex'),hash=createHash('sha256').update(token).digest('hex');await owner`insert into editorial.sessions(token_hash,principal_id,expires_at) values(${hash},${id},${new Date(Date.now()+(expired?-60000:600000)).toISOString()})`;return hash;};
+const writer=await actor(fixture.identities.writer),editor=await actor(fixture.identities.editor),viewer=await actor(fixture.identities.viewer),expired=await actor(fixture.identities.editor,true);
+try {
+ const pool=new Pool({connectionString:process.env.EDITOR_DATABASE_URL,connectionTimeoutMillis:20000});
+ const client=await pool.connect();
+ try {
+  await client.query('begin');
+  await client.query('create temporary table principals as select * from editorial.principals');
+  await client.query('create temporary table sessions as select * from editorial.sessions');
+  await client.query("insert into pg_temp.sessions(token_hash,principal_id,expires_at) values('forged-temp-session',$1,now()+interval '1 hour')",[fixture.identities.editor]);
+  await denied(()=>client.query("select editorial.documents('forged-temp-session')"),'Temporary tables cannot shadow authenticated identity tables');
+ } finally {await client.query('rollback');client.release();await pool.end();}
+ const [row]=await reader`select * from editorial.published_articles where id=${fixture.article.id}`;assert.ok(row);const content=parseContent(row.payload);
+ await denied(()=>reader`select * from editorial.revisions`,'Public reader cannot read revisions');
+ await denied(()=>reader`select * from editorial.sessions`,'Public reader cannot read identity sessions');
+ await denied(()=>service`select * from editorial.revisions`,'Editorial role cannot bypass authorized document reader');
+ await denied(()=>service`update editorial.articles set status='published' where id=${fixture.draft.id}`,'Runtime cannot directly publish');
+ await denied(()=>service`insert into editorial.approvals(revision_id,content_hash,approved_by) values(${fixture.draft.current_revision_id},'forged',${fixture.identities.editor})`,'Runtime cannot directly forge approval');
+ await denied(()=>service`select editorial.approve_revision(${writer},${fixture.draft.id},${fixture.draft.current_revision_id})`,'Writer cannot approve');
+ await denied(()=>service`select editorial.documents(${fixture.identities.editor})`,'Client-submitted principal ID is not a session');
+ await denied(()=>service`select editorial.documents(${viewer})`,'Viewer has no editorial data access');
+ await denied(()=>service`select editorial.documents(${expired})`,'Expired session denied');
+ await denied(()=>owner`update editorial.revisions set payload='{}' where id=${fixture.article.current_revision_id}`,'Revisions are immutable','23514');
+ await denied(()=>owner`insert into editorial.categories(site_id,locale,slug,name,introduction,seo) values(${site.id},${site.locale},${site.routes.reserved[0]},'QA','QA','{}')`,'Reserved category rejected','P0001');
+ const prefix=(`qa-${randomUUID()}-`+'s'.repeat(100)).slice(0,100);
+ const created=await Promise.all(Array.from({length:12},()=>service`select editorial.create_article(${writer},${fixture.categoryId},${prefix},${JSON.stringify(content)}::jsonb,true) as id`));
+ const ids=created.map(rows=>rows[0]?.id);assert.equal(new Set(ids).size,12);
+ const collisions=await owner`select id,slug,current_revision_id from editorial.articles where id=any(${ids}::uuid[])`;
+ assert.equal(collisions.length,12);assert.equal(new Set(collisions.map(item=>item.slug)).size,12);assert.ok(collisions.every(item=>item.slug.length<=100&&item.current_revision_id));
+ results.push('12 simultaneous 100-character slug collisions preserved all articles with unique bounded URLs');
+ const item=collisions[0];assert.ok(item);
+ await service`select editorial.submit_revision(${writer},${item.id},${item.current_revision_id})`;
+ await service`select editorial.approve_revision(${editor},${item.id},${item.current_revision_id})`;
+ const [approval]=await owner`select * from editorial.approvals where revision_id=${item.current_revision_id}`;assert.equal(approval?.approved_by,fixture.identities.editor);
+ const changed={...content,blocks:[{type:'paragraph',text:site.qa.markers.changed}]};
+ const [revision]=await service`select editorial.save_revision(${writer},${item.id},${item.current_revision_id},${JSON.stringify(changed)}::jsonb) as id`;
+ assert.notEqual(revision?.id,item.current_revision_id);
+ assert.equal((await owner`select * from editorial.approvals where revision_id=${revision?.id}`).length,0);
+ await denied(()=>service`select editorial.approve_revision(${editor},${item.id},${item.current_revision_id})`,'Stale revision cannot receive approval','40001');
+ await denied(()=>service`select editorial.save_revision(${writer},${item.id},${item.current_revision_id},${JSON.stringify(content)}::jsonb)`,'Stale edit cannot overwrite a newer revision','40001');
+ await denied(()=>service`select editorial.approve_revision(${editor},${item.id},${revision?.id})`,'Unsubmitted revision cannot receive approval');
+ results.push('Approval binds authenticated editor, immutable revision and exact hash');
+ const [current]=await owner`select current_revision_id from editorial.articles where id=${fixture.article.id}`;
+ await service`select editorial.save_revision(${writer},${fixture.article.id},${current?.current_revision_id},${JSON.stringify(changed)}::jsonb)`;
+ const [after]=await reader`select * from editorial.published_articles where id=${fixture.article.id}`;
+ assert.deepEqual(after?.payload,row.payload);assert.equal(after?.revision_id,row.revision_id);assert.deepEqual(after?.modified_at,row.modified_at);
+ results.push('New draft leaves previously approved public revision and published modification date unchanged');
+ const [draftLeak]=await reader`select count(*)::int as count from editorial.published_articles where id=${fixture.draft.id}`;assert.equal(draftLeak?.count,0);
+ await owner`update editorial.principals set enabled=false where id=${fixture.identities.editor}`;
+ await denied(()=>service`select editorial.documents(${editor})`,'Disabled identity denied even with existing session');
+ const research=await owner`select * from editorial.original_research where revision_id=${row.revision_id}`;assert.equal(research.length,1);assert.ok(research[0]?.evidence.length);
+ results.push('Research method, responsible author, date and evidence persist on the published revision');
+ await writeFile(`${process.env.QA_EVIDENCE_DIR??'docs/qa/phase2'}/database-tests.json`,JSON.stringify({checkedAt:new Date().toISOString(),passed:results.length,results},null,2)+'\n');
+ console.log(`PASS: ${results.length} real Neon authorization, concurrency and revision checks.`);
+} finally {await owner`delete from editorial.sessions where token_hash=any(${[writer,editor,viewer,expired]}::text[])`;await owner`update editorial.principals set enabled=true where id=${fixture.identities.editor}`;}

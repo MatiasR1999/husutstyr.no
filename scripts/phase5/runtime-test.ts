@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import {writeFile} from 'node:fs/promises';
+import {measurementRuntime} from '../../src/lib/measurement/config';
+import {readRuntimeConfig} from '../../src/lib/config';
+import site from '../../site.config';
+const local=readRuntimeConfig({SEO_QA_MODE:'true'});
+assert.equal(measurementRuntime(local,{}).mode,'local-test');
+assert.ok(measurementRuntime(local,{}).analyticsScript.startsWith(site.qa.phase5.collectorOrigin));
+assert.equal(measurementRuntime({...local,qa:false},{}).mode,'off');
+assert.equal(measurementRuntime({...local,qa:false,preview:true},{VERCEL_ENV:'preview'}).mode,'off');
+assert.equal(measurementRuntime({...local,preview:true},{VERCEL_ENV:'preview'}).mode,'off');
+assert.equal(measurementRuntime(local,{VERCEL:'1'}).mode,'off');
+assert.equal(measurementRuntime({...local,qa:false},{VERCEL_ENV:'production'}).mode,'off');
+assert.throws(()=>readRuntimeConfig({SEO_QA_MODE:'true',VERCEL_ENV:'production'}));
+assert.throws(()=>readRuntimeConfig({SEO_QA_MODE:'true',VERCEL_ENV:'preview'}));
+await writeFile('docs/qa/phase5/runtime.json',JSON.stringify({checkedAt:new Date().toISOString(),checks:9,localCollectorOnly:true,previewDisabled:true,productionRequiresExplicitSiteConfig:true},null,2)+'\n');
+console.log('PASS: Nine measurement environment and local-only collector checks.');
