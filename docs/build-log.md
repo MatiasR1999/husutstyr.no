@@ -827,3 +827,35 @@ Gjenstaar F7.04, G10 og L05: Faktisk Vercel-preview krever ferdig nettstedskonfi
 Gjenstaar: Felt-CWV og felt-INP krever trafikk og forblir NOT_RUN.
 Git: Ingen add, commit eller push er kjoert.
 Produksjon: Ingen Vercel-prosjekt, deploy, DNS-endring eller produksjonsdatabase er opprettet.
+
+NETTSTED: HUSUTSTYR.NO KONFIGURERT OG KOBLET TIL VERCEL, 2026-09-09
+Godkjenning: Brukeren bestemte at dette repoet er nettstedet og ikke lenger en gjenbrukbar mal, og ba om at Vercel bygger fra Git.
+Diagnose: Den feilede deployen 2026-09-08 stoppet paa lanseringsporten med 13 BLOCKED-linjer, ikke paa et byggproblem.
+Diagnose: Innholdskontrollen ble aldri naadd fordi launchConfigIssues kortslutter foer databasen spoerres.
+Funn: readRuntimeConfig kaster naar SEO_QA_MODE er true sammen med VERCEL, saa en hosted QA-deploy er umulig ved design.
+Funn: Vercel-prosjektet hadde Framework Preset Other, som ville publisert public-mappen i stedet for Next-bygget.
+Funn: Vercel-prosjektet kjoerte i iad1 mens databasen ligger i aws-eu-central-1.
+Implementert: vercel.json setter framework nextjs og region fra1, slik at deploy-konfigurasjonen ligger i Git og funksjonene er samlokalisert med databasen.
+Verifisert: Byggloggen melder naa Detected Next.js version 16.3.4; presetfeilen er borte.
+Implementert: site.config.ts har id husutstyr, identitet, nisje, tone, forsidemetadata og seksjonstekst uten plassholdere.
+Kontrollert: Forsidetittelen er 54 tegn og beskrivelsen 155 tegn, innenfor kontrakten paa 50-60 og 140-160.
+Implementert: QA-identiteten flyttet til port 3140 fordi 3100 var opptatt av et annet prosjekt paa maskinen.
+Implementert: QA-nettverksregisteret oekte til versjon 2, som databaseguarden krever naar origin endres.
+Omskrevet: tests/launch.test.ts kontrollerer avvisning mot en eksplisitt uferdig klone og krever i tillegg at nettstedets egen konfigurasjon passerer med komplette secrets.
+Omskrevet: scripts/phase7/launch-test.mjs tommer alle lanseringssecrets i det spawnede miljoeet, slik at avvisning bevises av porten selv og ikke av tilfeldig arvet miljoe.
+Begrunnelse: Begge kontrollene hvilte paa at levert konfigurasjon var TODO; den forutsetningen gjelder ikke lenger naar repoet er nettstedet.
+Implementert: scripts/provision-production.ts provisjonerer en uavhengig produksjonsdatabase, nekter i QA-modus og mot QA-verten, og skriver rollekoblinger til privat fil uten aa printe dem.
+Utfoert: Neon-prosjekt husutstyr-prod-eu med id summer-surf-00665520 er opprettet i aws-eu-central-1 med 19 migrasjoner, begge roller og verifiserte begrensede tilkoblinger.
+Implementert: content/categories.json definerer kjokken, rengjoring, oppbevaring og vedlikehold med egne introduksjoner og SEO-tekster.
+Kontrollert: Alle fire kategorier har unike titler og beskrivelser innenfor kontrakten og provisjoneres gjennom validateSeoCopy.
+Implementert: Designtokens er byttet til en varm redaksjonell palett med skarpe hjoerner; layoutene magazine og editorial er beholdt.
+Maalt kontrast: Tekst 16.93:1, aksent 7.43:1 og dempet 6.97:1 mot sidefargen, alle AA eller bedre; skillelinjen er 1.92:1 mot 1.59:1 for forrige standard.
+Miljoe: Aatte produksjonsvariabler er satt i Vercel; OIDC_CLIENT_ID og OIDC_CLIENT_SECRET mangler fordi de krever brukerens Google Cloud-klient.
+Miljoe: Preview har ingen variabler; kloneinstruksen krever at Preview ikke faar produksjonens skrivetilgang og trenger en egen databasegren.
+Kontroll PASS: npm run ci:phase7 fullfoerte 28 grupper med completeRun true og status PASS etter design- og kategoriendringen.
+Maalt ytelse etter endring: Hoeyeste kalde gruppe-p75 er TTFB 474.2 ms og LCP 1288 ms; JS-maksimum er 157973 bytes.
+Git: Fem commits er pushet og merget til main med fast-forward etter brukerens uttrykkelige bestilling.
+Deploy: Produksjonsbygget fra main returnerer naa bare BLOCKED missing-secret OIDC_CLIENT_ID og OIDC_CLIENT_SECRET, mot 13 blokkeringer 2026-09-08.
+Gjenstaar: Google OIDC-klient, deretter innholdskontrollen som krever minst en kategori, en publisert artikkel med fullstendig ekte forfatter og alle sju tillitssidene.
+Avgrensning: Ingen forfatter, tillitsside eller artikkel er diktet opp; disse krever faktiske eier-, kontakt- og personopplysninger fra brukeren.
+Avgrensning: Ingen DNS-endring, domenekobling eller offentlig publisering er utfoert; nettstedet serverer fortsatt ingen trafikk.
