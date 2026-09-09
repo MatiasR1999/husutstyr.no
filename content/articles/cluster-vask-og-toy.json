@@ -1,0 +1,930 @@
+[
+  {
+    "categorySlug": "vask-og-toy",
+    "slug": "vaskemaskin-kapasitet",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Vaskemaskin: kapasitet, sentrifugering og reell programtid",
+      "summary": "Oppgitt kapasitet gjelder ett program og ett materiale. Her er hva tallene betyr for din husholdning.",
+      "section": {
+        "id": "hva-tallene-gjelder",
+        "title": "Hva tallene gjelder"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Vaskemaskiner sammenlignes på kilo, omdreininger og energiklasse. Alle tre er målt på måter som ikke tilsvarer vanlig bruk."
+        },
+        {
+          "type": "heading",
+          "text": "Kapasitet gjelder bomull"
+        },
+        {
+          "type": "paragraph",
+          "text": "Oppgitt kilo gjelder tørr bomull på et fullt bomullsprogram. For ull, syntetisk og finvask er reell kapasitet ofte under halvparten, fordi plaggene trenger plass til å bevege seg for å bli rene."
+        },
+        {
+          "type": "heading",
+          "text": "Sentrifugering er en avveining"
+        },
+        {
+          "type": "paragraph",
+          "text": "Høyere omdreininger fjerner mer vann og forkorter tørketiden. Det belaster også fibrene mer. For plagg du vil beholde lenge, er lavere sentrifugering og lengre tørketid det skånsomste valget."
+        },
+        {
+          "type": "heading",
+          "text": "Energiklassen gjelder ett program"
+        },
+        {
+          "type": "paragraph",
+          "text": "Målingen gjøres på et sparsomt referanseprogram som ofte er langt. Kjører du hurtigprogram til daglig, er forbruket et annet enn merket viser."
+        },
+        {
+          "type": "heading",
+          "text": "Størrelse i forhold til bruk"
+        },
+        {
+          "type": "paragraph",
+          "text": "En stor maskin som alltid kjøres halvfull bruker mer per plagg enn en mindre som fylles. Antall personer i husstanden sier mer om riktig størrelse enn maksimal kapasitet gjør."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Har du trangt vaskerom, kan dybden på maskinen være avgjørende uansett kapasitet. Mål før du velger."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt vaskeresultat, forbruk eller reell programtid."
+        }
+      ],
+      "seo": {
+        "title": "Vaskemaskin: hva kapasitet og energiklasse faktisk gjelder",
+        "description": "Oppgitt kapasitet gjelder bomull på fullt program, og energitallet gjelder ett referanseprogram. Her er hva som betyr noe for din husholdning."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "vask-og-toy",
+    "slug": "torketrommel-kondens-varmepumpe",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Tørketrommel: kondens eller varmepumpe",
+      "summary": "Varmepumpe tørker skånsommere og billigere, men bruker lengre tid. Her er hva forskjellen betyr i praksis.",
+      "section": {
+        "id": "to-prinsipper",
+        "title": "To prinsipper"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tørketromler finnes i to hovedtyper som løser samme oppgave på svært ulik måte."
+        },
+        {
+          "type": "heading",
+          "text": "Kondens"
+        },
+        {
+          "type": "paragraph",
+          "text": "Varmer luften kraftig, fører den gjennom tøyet og kjøler den ned for å felle ut vannet. Rask, men høy temperatur sliter mer på fibrene og bruker mer strøm."
+        },
+        {
+          "type": "heading",
+          "text": "Varmepumpe"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gjenbruker varmen i kretsløpet og tørker ved lavere temperatur. Bruker vesentlig mindre strøm og er skånsommere mot tekstilene. Til gjengjeld tar en syklus lengre tid, ofte betydelig."
+        },
+        {
+          "type": "heading",
+          "text": "Lo er tekstil du mister"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lo i filteret er fibre som ikke lenger sitter i plagget. Jo hardere tørking, jo mer lo. Dette er den mest håndfaste indikasjonen på slitasje fra tørking."
+        },
+        {
+          "type": "heading",
+          "text": "Plassering betyr noe"
+        },
+        {
+          "type": "paragraph",
+          "text": "Varmepumpetromler avgir mindre varme til rommet, som merkes i små vaskerom. Kondenstromler varmer opp rommet de står i, og trenger luftskifte."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Trenger du tøyet raskt tilbake i sirkulasjon, er den lange syklusen på varmepumpe en reell ulempe, ikke bare et tall."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt tørketid, forbruk eller slitasje på konkrete modeller."
+        }
+      ],
+      "seo": {
+        "title": "Tørketrommel: kondens eller varmepumpe, og hva du taper",
+        "description": "Varmepumpe tørker skånsommere og billigere, men bruker lengre tid. Her er hva de to prinsippene gjør med tekstilene og med rommet de står i."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "vask-og-toy",
+    "slug": "vasketemperatur",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Vasketemperatur: hva den gjør med flekker og fibre",
+      "summary": "Temperatur løser fett og dreper mikroorganismer, men koster i farge og fiberlevetid.",
+      "section": {
+        "id": "hva-temperatur-gjor",
+        "title": "Hva temperatur gjør"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Temperaturvalget gjør to ting samtidig, og de trekker i hver sin retning."
+        },
+        {
+          "type": "heading",
+          "text": "Det temperaturen løser"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fett løses vesentlig bedre varmt enn kaldt. Mikroorganismer reduseres først ved høyere temperatur og tilstrekkelig tid. Dette er grunnen til at håndklær, sengetøy og undertøy hører hjemme varmere enn resten."
+        },
+        {
+          "type": "heading",
+          "text": "Det temperaturen koster"
+        },
+        {
+          "type": "paragraph",
+          "text": "Farger blekner raskere, enkelte fibre krymper, og elastan mister spenst ved gjentatt varmvask. Skaden er kumulativ og merkes over måneder, ikke etter én vask."
+        },
+        {
+          "type": "heading",
+          "text": "Moderne midler flytter grensen"
+        },
+        {
+          "type": "paragraph",
+          "text": "Enzymer i moderne vaskemidler virker godt ved lavere temperatur, men de brytes ned ved høy varme. Å vaske varmt med et enzymbasert middel kan derfor gi dårligere resultat på proteinflekker enn å vaske kaldere."
+        },
+        {
+          "type": "heading",
+          "text": "Flekktype avgjør"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Fett og olje: varmt",
+            "Blod og egg: kaldt, varme koagulerer proteinet",
+            "Svette og lukt: varmt eller lang tid",
+            "Farget tøy generelt: så kaldt som resultatet tillater"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ved sykdom i husstanden eller ved vask av tekstiler brukt av spedbarn, veier hygiene tyngre enn fiberlevetid."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt bakterienivå eller fargetap i egne forsøk."
+        }
+      ],
+      "seo": {
+        "title": "Vasketemperatur: hva den gjør med flekker og med fibre",
+        "description": "Varme løser fett og reduserer mikroorganismer, men bleker farger og sliter på fibrene. Her er hva flekktypen sier om hvilken temperatur du bør velge."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "vask-og-toy",
+    "slug": "vaskemidler-typer",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Vaskemidler: pulver, flytende eller kapsler",
+      "summary": "De tre formene er ikke samme middel i ulik innpakning. De skiller seg i hva de klarer og hvordan de doseres.",
+      "section": {
+        "id": "tre-former",
+        "title": "Tre former, tre egenskaper"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Valget mellom pulver, flytende og kapsler framstilles som et spørsmål om bekvemmelighet. Det er også et spørsmål om hva middelet faktisk inneholder."
+        },
+        {
+          "type": "heading",
+          "text": "Pulver"
+        },
+        {
+          "type": "paragraph",
+          "text": "Inneholder som regel blekemiddel, som gjør det best på hvitt tøy og på flekker fra te, kaffe og rødvin. Løser seg dårligere i kaldt vann, og rester kan bli igjen i maskinen ved lave temperaturer."
+        },
+        {
+          "type": "heading",
+          "text": "Flytende"
+        },
+        {
+          "type": "paragraph",
+          "text": "Løser seg fullstendig også kaldt, og er skånsomt mot farger fordi det normalt ikke inneholder blekemiddel. Til gjengjeld svakere på nettopp de flekkene blekemiddel løser."
+        },
+        {
+          "type": "heading",
+          "text": "Kapsler"
+        },
+        {
+          "type": "paragraph",
+          "text": "Doserer likt hver gang, som er en fordel når vasken er full og en ulempe når den ikke er det. Overdosering gir rester i tøyet, ikke renere tøy."
+        },
+        {
+          "type": "heading",
+          "text": "Dosering er der folk taper mest"
+        },
+        {
+          "type": "paragraph",
+          "text": "For mye middel skyller ikke ut, og legger seg i fibrene. Det oppleves som stivt tøy og som at maskinen lukter. Vannets hardhet i ditt område styrer riktig mengde mer enn plaggmengden gjør."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Har du små barn i huset, er kapsler et sikkerhetsspørsmål, ikke bare et praktisk valg."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke sammenlignet vaskeresultat mellom midler i kontrollerte forsøk."
+        }
+      ],
+      "seo": {
+        "title": "Vaskemidler: pulver, flytende eller kapsler, og hva de gjør",
+        "description": "De tre formene skiller seg i innhold, ikke bare i innpakning. Her er hva hver av dem klarer, og hvorfor dosering er der de fleste taper mest."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "vask-og-toy",
+    "slug": "ull-og-silke",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Ull og silke: programvalg og de vanlige feilene",
+      "summary": "Ull filtrer seg av bevegelse og varme, ikke av vann. Det forklarer nesten alle ullvaskeuhell.",
+      "section": {
+        "id": "hvorfor-ull-filter-seg",
+        "title": "Hvorfor ull filter seg"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ull tåler vann. Det den ikke tåler er kombinasjonen av bevegelse, varmeendring og alkalisk middel. Nesten alle ullvaskeuhell skyldes en av de tre."
+        },
+        {
+          "type": "heading",
+          "text": "Bevegelse"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ullfibre har skjell som griper i hverandre når de gnis. Når de først har låst seg, kan det ikke reverseres. Derfor er ullprogram preget av lite bevegelse og lav sentrifugering, ikke av lav temperatur alene."
+        },
+        {
+          "type": "heading",
+          "text": "Temperatursjokk"
+        },
+        {
+          "type": "paragraph",
+          "text": "Brå endring fra varmt til kaldt får fibrene til å trekke seg sammen. Skylling i vesentlig kaldere vann enn vasken er en vanlig og oversett årsak."
+        },
+        {
+          "type": "heading",
+          "text": "Feil middel"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vanlig vaskemiddel er alkalisk og bryter ned ullfiberen over tid. Ullmiddel er nøytralt av denne grunn, ikke fordi det er mildere i markedsføringen."
+        },
+        {
+          "type": "heading",
+          "text": "Silke"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tåler enda mindre mekanisk påkjenning, og misfarges av blekemiddel og enkelte enzymer. Håndvask i lunkent vann med nøytralt middel er hovedregelen."
+        },
+        {
+          "type": "heading",
+          "text": "Tørking"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ull skal tørkes flatt. Henges den våt, drar vekten plagget ut av fasong permanent."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke testet ullprogram på konkrete maskiner, og programnavn dekker ulik oppførsel mellom produsenter."
+        }
+      ],
+      "seo": {
+        "title": "Ull og silke: programvalg og feilene som ødelegger plagg",
+        "description": "Ull filtrer seg av bevegelse og temperatursjokk, ikke av vann. Her er de tre årsakene til de vanligste uhellene, og hvordan silke skiller seg."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "vask-og-toy",
+    "slug": "flekkfjerning",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Flekkfjerning etter flekktype",
+      "summary": "Riktig førstehjelp avhenger av hva flekken består av. Feil metode kan feste den permanent.",
+      "section": {
+        "id": "flekktypen-styrer",
+        "title": "Flekktypen styrer metoden"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Flekkfjerning går galt når samme metode brukes på alt. Hovedskillet går mellom fett, protein, farge og en gruppe som krever egen behandling."
+        },
+        {
+          "type": "heading",
+          "text": "Fett og olje"
+        },
+        {
+          "type": "paragraph",
+          "text": "Løses av varme og alkalisk middel. Kaldt vann gjør lite. Oppvaskmiddel direkte på flekken før vask fungerer fordi det er laget for nettopp fett."
+        },
+        {
+          "type": "heading",
+          "text": "Protein"
+        },
+        {
+          "type": "paragraph",
+          "text": "Blod, egg og melk koagulerer av varme og setter seg permanent. Kaldt vann først, alltid. Dette er den vanligste feilen, fordi refleksen er å bruke varmt."
+        },
+        {
+          "type": "heading",
+          "text": "Fargeflekker"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kaffe, te, rødvin og bær løses best av blekemiddel eller oksygenbasert middel. Her er pulvervaskemiddel ofte mer effektivt enn flytende."
+        },
+        {
+          "type": "heading",
+          "text": "Tid betyr mer enn middel"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ferske flekker løses av mye enklere midler enn gamle. Skyll fra baksiden av stoffet, slik at flekken presses ut samme vei den kom inn, ikke gjennom."
+        },
+        {
+          "type": "heading",
+          "text": "Aldri tørketrommel før flekken er borte"
+        },
+        {
+          "type": "paragraph",
+          "text": "Varme fikserer det som er igjen. En flekk som overlever tørketrommelen, blir som regel permanent."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke testet flekkfjernere. Rådene bygger på alminnelig kjent kjemi, ikke på egne forsøk."
+        }
+      ],
+      "seo": {
+        "title": "Flekkfjerning: riktig metode avhenger av hva flekken er",
+        "description": "Fett løses varmt, protein må ha kaldt vann, og varme fikserer resten permanent. Her er inndelingen som avgjør hva du skal gjøre først med flekken."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "vask-og-toy",
+    "slug": "torking-innendors",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Tørking innendørs: fukten må et sted",
+      "summary": "Tøy som tørker inne avgir all fukten til rommet. Uten luftskifte flyttes problemet i stedet for å løses.",
+      "section": {
+        "id": "fukten-blir-igjen",
+        "title": "Fukten blir igjen i rommet"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "En vaskemaskin sentrifugerer ut mesteparten av vannet, men det som er igjen i tøyet må fordampe et sted. Tørker du inne, blir det i boligen."
+        },
+        {
+          "type": "heading",
+          "text": "Mengden er ikke ubetydelig"
+        },
+        {
+          "type": "paragraph",
+          "text": "En full maskin med tøy avgir flere liter vann til inneluften i løpet av tørketiden. I et lite rom uten ventilasjon merkes det på både luftfuktighet og kondens på vinduer."
+        },
+        {
+          "type": "heading",
+          "text": "Luftskifte er avgjørende"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tørking går raskere og gir mindre fuktproblem når luften skiftes ut. Et åpent vindu på gløtt gjør mer for tørketiden enn å øke temperaturen i rommet."
+        },
+        {
+          "type": "heading",
+          "text": "Temperatur alene hjelper lite"
+        },
+        {
+          "type": "paragraph",
+          "text": "Varm luft kan holde mer fukt, men bare hvis den fuktige luften faktisk erstattes. Uten luftskifte når rommet metning, og tørkingen stopper opp uansett hvor varmt det er."
+        },
+        {
+          "type": "heading",
+          "text": "Der det går galt"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tørking i soverom med lukket dør er den vanligste kilden til kondens og muggvekst rundt vinduer. Kald yttervegg og høy fuktighet er kombinasjonen som gir problemer."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Har du balansert ventilasjon som fungerer, håndteres dette av anlegget, og innendørs tørking er langt mindre problematisk."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt fuktavgivelse i konkrete rom. Sammenhengen er allment kjent, men størrelsen avhenger av boligen din."
+        }
+      ],
+      "seo": {
+        "title": "Tørking innendørs: hvor fukten fra tøyet faktisk tar veien",
+        "description": "Tøy som tørker inne avgir flere liter vann til rommet. Uten luftskifte flyttes problemet i stedet for å løses. Her er hva som gjør forskjell."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "vask-og-toy",
+    "slug": "stryking-og-damp",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Stryking og damp: når hvert verktøy lønner seg",
+      "summary": "Strykejern, dampbørste og dampstasjon løser ulike oppgaver, og forskjellen er hvor mye damp som produseres.",
+      "section": {
+        "id": "damp-er-variabelen",
+        "title": "Damp er variabelen"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Alle tre verktøyene bruker damp til å myke opp fibre slik at de legger seg. Forskjellen er hvor mye damp de klarer å levere kontinuerlig."
+        },
+        {
+          "type": "heading",
+          "text": "Strykejern"
+        },
+        {
+          "type": "paragraph",
+          "text": "Presser og glatter med varme og trykk. Best på bomull, lin og alt som skal ha skarpe kanter. Krever underlag og tar tid, og er upraktisk til plagg som henger."
+        },
+        {
+          "type": "heading",
+          "text": "Dampbørste"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fjerner lette skrukker på hengende plagg uten å presse. Rask og enkel, men gir aldri skarpe kanter og gjør lite på tungt bomull eller lin."
+        },
+        {
+          "type": "heading",
+          "text": "Dampstasjon"
+        },
+        {
+          "type": "paragraph",
+          "text": "Leverer mye damp over lang tid, som er poenget når det er mye å stryke. Krever plass og oppvarmingstid, og lønner seg først ved volum."
+        },
+        {
+          "type": "heading",
+          "text": "Materialet setter grensen"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Lin og bomull: tåler høy varme, trenger fukt",
+            "Ull: damp uten direkte trykk",
+            "Syntetisk: lav varme, smelter lett",
+            "Silke: lav varme, alltid med mellomlegg"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bruker du hovedsakelig strikk og jersey, er stryking sjelden nødvendig i det hele tatt, og en dampbørste dekker resten."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt dampmengde eller oppvarmingstid på konkrete apparater."
+        }
+      ],
+      "seo": {
+        "title": "Stryking og damp: strykejern, børste eller dampstasjon",
+        "description": "De tre verktøyene skiller seg i hvor mye damp de leverer over tid. Her er hva hvert av dem er godt til, og hvor materialet setter den reelle grensen."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "vask-og-toy",
+    "slug": "sortering-av-toy",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Sortering av tøy: hva som faktisk betyr noe",
+      "summary": "Farge er det folk sorterer etter. Fibertype og skittenhetsgrad betyr ofte mer for resultatet.",
+      "section": {
+        "id": "tre-akser",
+        "title": "Tre akser å sortere etter"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Sortering etter farge er innarbeidet, men det er bare én av tre akser som påvirker resultatet."
+        },
+        {
+          "type": "heading",
+          "text": "Farge"
+        },
+        {
+          "type": "paragraph",
+          "text": "Betyr mest ved nye plagg og ved høy temperatur. Et nytt, mørkt plagg avgir farge de første vaskene. Etter det er risikoen liten ved normal temperatur."
+        },
+        {
+          "type": "heading",
+          "text": "Fibertype"
+        },
+        {
+          "type": "paragraph",
+          "text": "Betyr mer enn folk tror. Tungt bomull sammen med lette syntetiske plagg gir mekanisk slitasje på det letteste. Borrelås og glidelåser river i strikk og finere stoffer uansett farge."
+        },
+        {
+          "type": "heading",
+          "text": "Skittenhetsgrad"
+        },
+        {
+          "type": "paragraph",
+          "text": "Svært skitne plagg forurenser vannet for resten av vasken. Dette merkes særlig ved lave temperaturer, der middelet har mindre å gå på."
+        },
+        {
+          "type": "heading",
+          "text": "Praktisk sortering"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Nytt og mørkt for seg de første gangene",
+            "Tungt bomull for seg",
+            "Finvask og strikk i pose eller for seg",
+            "Svært skittent for seg, uansett farge"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vasker du små mengder, koster streng sortering flere halvfulle maskiner, og det taper både miljømessig og økonomisk mot en litt mindre streng inndeling."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt fargeavgivelse eller slitasje ved ulike sorteringsregimer."
+        }
+      ],
+      "seo": {
+        "title": "Sortering av tøy: hva som faktisk påvirker resultatet",
+        "description": "Farge er det folk sorterer etter, men fibertype og skittenhetsgrad betyr ofte mer for resultatet. Her er de tre aksene og en praktisk inndeling."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "vask-og-toy",
+    "slug": "vedlikehold-av-vaskemaskin",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Vedlikehold av vaskemaskin: pakning, sil og lukt",
+      "summary": "Lukt fra maskinen kommer nesten alltid fra samme tre steder, og løses ikke av mer vaskemiddel.",
+      "section": {
+        "id": "hvor-lukten-kommer-fra",
+        "title": "Hvor lukten kommer fra"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "En maskin som lukter, får ofte mer vaskemiddel. Det gjør som regel problemet verre, fordi rester er en del av årsaken."
+        },
+        {
+          "type": "heading",
+          "text": "Pakningen i døren"
+        },
+        {
+          "type": "paragraph",
+          "text": "På frontmatede maskiner samler det seg vann, lo og såperester i folden nederst i gummipakningen. Dette er den vanligste kilden til lukt. Tørk den etter bruk og la døren stå på gløtt."
+        },
+        {
+          "type": "heading",
+          "text": "Silen"
+        },
+        {
+          "type": "paragraph",
+          "text": "Avløpssilen fanger opp det som ikke skal videre. Tettes den, blir vann stående. De fleste maskiner har en luke nederst foran, og silen bør sjekkes noen ganger i året."
+        },
+        {
+          "type": "heading",
+          "text": "Såperester"
+        },
+        {
+          "type": "paragraph",
+          "text": "Overdosering gir belegg i trommel og slanger, og belegget holder på fukt og bakterier. Riktig dosering etter vannets hardhet løser mer enn et rensemiddel gjør."
+        },
+        {
+          "type": "heading",
+          "text": "Lave temperaturer over tid"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vaskes det utelukkende kaldt, bygges det opp biofilm. En varm vask uten tøy med jevne mellomrom motvirker dette."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Toppmatede maskiner har ikke dørpakning på samme måte, og lukt der har oftere med silen eller doseringen å gjøre."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke testet maskinrensemidler, og tar ikke stilling til om de gjør noe utover det vedlikehold gjør."
+        }
+      ],
+      "seo": {
+        "title": "Vaskemaskin: pakning, sil og hvorfor maskinen lukter",
+        "description": "Lukt kommer nesten alltid fra dørpakningen, silen eller såperester. Her er de tre stedene å sjekke, og hvorfor mer vaskemiddel gjør det verre."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "vask-og-toy",
+    "slug": "levetid-paa-klaer",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Levetid på klær: hva vaskerutinen har å si",
+      "summary": "De fleste plagg slites mer av vask og tørk enn av bruk. Små endringer i rutinen gir merkbart lengre levetid.",
+      "section": {
+        "id": "hvor-slitasjen-skjer",
+        "title": "Hvor slitasjen skjer"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Et plagg som brukes en dag i uken vaskes kanskje femti ganger i året. For mange tekstiler er vaskingen den største påkjenningen, ikke bruken."
+        },
+        {
+          "type": "heading",
+          "text": "Mekanisk slitasje"
+        },
+        {
+          "type": "paragraph",
+          "text": "Trommelbevegelse, sentrifugering og tørketrommel sliter fibre. Lo i tørkefilteret er den synlige delen av dette. Lavere sentrifugering og lufttørking reduserer det direkte."
+        },
+        {
+          "type": "heading",
+          "text": "Kjemisk slitasje"
+        },
+        {
+          "type": "paragraph",
+          "text": "Blekemiddel og høy temperatur bryter ned farger og fibre over tid. Enzymbaserte midler er skånsommere, men brytes ned av varme og virker dårligere da."
+        },
+        {
+          "type": "heading",
+          "text": "Vask sjeldnere der det går an"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ull og ytterplagg trenger sjelden vask etter hver bruk. Lufting fjerner lukt fra ull effektivt, fordi fiberen i seg selv motvirker bakterievekst."
+        },
+        {
+          "type": "heading",
+          "text": "De enkle grepene"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vend plagg med trykk og mørk farge ut og inn",
+            "Lukk glidelås og borrelås før vask",
+            "Bruk vaskepose til strikk og undertøy",
+            "Unngå tørketrommel på det du vil beholde lenge"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Arbeidstøy og barneklær som blir skikkelig skitne, må vaskes ordentlig. Da er levetid en lavere prioritet enn å få tøyet rent."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt levetid på plagg under ulike rutiner."
+        }
+      ],
+      "seo": {
+        "title": "Levetid på klær: hva vaskerutinen faktisk har å si",
+        "description": "De fleste plagg slites mer av vask og tørk enn av bruk. Her er hvor slitasjen skjer, og hvilke enkle grep som gir merkbart lengre levetid på plaggene."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "vask-og-toy",
+    "slug": "vask-av-dyner-og-puter",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Vask av dyner og puter: kapasitet og tørking",
+      "summary": "Utfordringen er sjelden vasken, men om maskinen har plass og om fyllet blir helt tørt.",
+      "section": {
+        "id": "plass-og-torking",
+        "title": "Plass og tørking"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dyner og puter vaskes sjelden, og det går ofte galt av to grunner som begge handler om volum."
+        },
+        {
+          "type": "heading",
+          "text": "Maskinen må ha plass"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tøyet må kunne bevege seg for å bli rent. En dyne som fyller trommelen helt blir verken skikkelig vasket eller skikkelig skylt. Vaskeriets store maskiner finnes nettopp derfor."
+        },
+        {
+          "type": "heading",
+          "text": "Fyllet må bli helt tørt"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dun og fiberfyll holder på fukt lenge etter at utsiden kjennes tørr. Fukt igjen i fyllet gir lukt og muggvekst innvendig, og det merkes først etter uker."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tørketrommel med tørkeballer hjelper fyllet å løsne og tørke jevnt. Uten trommel må tørketiden være vesentlig lengre enn den virker nødvendig."
+        },
+        {
+          "type": "heading",
+          "text": "Sjekk vaskeanvisningen"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dun, fiber og ull har ulike krav, og enkelte puter tåler ikke maskinvask i det hele tatt. Dette står på etiketten og er ikke en detalj."
+        },
+        {
+          "type": "heading",
+          "text": "Hvor ofte"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dyne og pute vaskes sjeldnere enn sengetøy, men trekk og laken hyppig. Er sengetøyet skiftet regelmessig, er behovet lavere enn folk tror."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke testet vaskeresultat på dyner, og gir ingen anbefalt frekvens ut over det produsentene selv oppgir."
+        }
+      ],
+      "seo": {
+        "title": "Vask av dyner og puter: plass i maskinen og helt tørt fyll",
+        "description": "Utfordringen er sjelden vasken, men om maskinen har plass nok og om fyllet blir helt tørt. Her er hvorfor begge deler avgjør sluttresultatet."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  }
+]
