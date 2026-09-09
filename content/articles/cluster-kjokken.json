@@ -1,0 +1,875 @@
+[
+  {
+    "categorySlug": "kjokken",
+    "slug": "kjokkenkniver-staal-og-egg",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Kjøkkenkniver: hva som avgjør at eggen holder",
+      "summary": "Ståltype, hardhet og slipevinkel avgjør hvor lenge en kniv er skarp, og hvor lett den blir skarp igjen.",
+      "section": {
+        "id": "staal-og-hardhet",
+        "title": "Stål og hardhet"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "En kniv oppleves som god når den er skarp. Hvor lenge den forblir skarp, og hvor mye arbeid det er å gjøre den skarp igjen, avgjøres av stålet."
+        },
+        {
+          "type": "heading",
+          "text": "Hardhet er en avveining, ikke en kvalitet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hardhet oppgis i Rockwell-skalaen. Hardere stål holder eggen lenger fordi det slites langsommere, men det er også sprøere og tåler mindre sidebelastning. Mykere stål må slipes oftere, men lar seg slipe raskt med enkelt utstyr og tåler mer røff bruk."
+        },
+        {
+          "type": "paragraph",
+          "text": "Verken hardt eller mykt er riktig i seg selv. Sliper du selv og behandler kniven varsomt, gir hardt stål lengre intervaller. Sliper du sjelden eller lar andre bruke kniven, er mykere stål mindre skuffende."
+        },
+        {
+          "type": "heading",
+          "text": "Rustfritt mot karbonstål"
+        },
+        {
+          "type": "paragraph",
+          "text": "Karbonstål tar egg lettere og oppleves skarpere, men flekker og ruster ved kontakt med syre og fukt. Rustfritt stål krever mindre stell og tåler oppvaskkum, men er vanligvis vanskeligere å slipe hjemme."
+        },
+        {
+          "type": "heading",
+          "text": "Slipevinkel betyr mer enn folk tror"
+        },
+        {
+          "type": "paragraph",
+          "text": "Europeiske kniver slipes ofte rundt tjue grader per side, japanske gjerne skarpere. Skarpere vinkel skjærer lettere, men eggen er tynnere og tåler mindre. Bytter du kniv mellom to tradisjoner, bytter du også slipeutstyr eller vane."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Er kniven først og fremst et verktøy andre i husstanden også bruker, er den skarpeste løsningen ikke den beste. En kniv som tåler at noen skjærer på en tallerken, varer lenger enn en som ikke gjør det."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt eggholdbarhet på konkrete kniver. Oppgitt hardhet er et tall fra produsenten, ikke en måling vi har etterprøvd."
+        }
+      ],
+      "seo": {
+        "title": "Kjøkkenkniver: hva som avgjør at eggen holder seg skarp",
+        "description": "Ståltype, hardhet og slipevinkel avgjør hvor lenge en kniv er skarp og hvor lett den blir skarp igjen. Her er avveiningene, uten rangering av merker."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "kjokken",
+    "slug": "stekepanner-materialer",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Stekepanner: støpejern, karbonstål eller belegg",
+      "summary": "De tre vanligste pannetypene løser ulike oppgaver. Her er hva som skiller dem, og hva hver av dem er dårlig til.",
+      "section": {
+        "id": "tre-typer",
+        "title": "Tre typer, tre oppgaver"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Stekepanne er ikke én produktkategori. Materialet bestemmer hva pannen er god til, og alle tre hovedtypene er dårlige til noe."
+        },
+        {
+          "type": "heading",
+          "text": "Støpejern"
+        },
+        {
+          "type": "paragraph",
+          "text": "Holder mye varme og gir jevn bruning selv når kald mat legges i. Til gjengjeld er den tung, varmes langsomt opp, og krever innbrenning og tørking for ikke å ruste. Den tåler nær sagt ubegrenset bruk, og er den eneste av de tre som kan arves."
+        },
+        {
+          "type": "heading",
+          "text": "Karbonstål"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ligner støpejern kjemisk, men er tynnere og lettere. Varmes raskere og reagerer raskere på justering, som gjør den mer presis. Samme vedlikeholdsbehov som støpejern, og samme sårbarhet for rust."
+        },
+        {
+          "type": "heading",
+          "text": "Belagt panne"
+        },
+        {
+          "type": "paragraph",
+          "text": "Slipper maten uten fett og er enkel å rengjøre. Belegget er en slitedel som brytes ned av høy varme, metallredskap og oppvaskmaskin. Uansett merke og pris er dette en panne med begrenset levetid, og bør prises deretter."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem hva passer for"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Steker du kjøtt ofte og hardt: støpejern eller karbonstål",
+            "Lager du egg og fisk daglig: belagt, og regn den som forbruksvare",
+            "Har du induksjon: kontroller at bunnen er magnetisk",
+            "Løfter du tungt vanskelig: karbonstål framfor støpejern"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt varmefordeling eller belegglevetid. Levetid på belegg avhenger av bruk i en grad som gjør produsentens tall lite nyttige."
+        }
+      ],
+      "seo": {
+        "title": "Stekepanner: støpejern, karbonstål eller belagt panne",
+        "description": "De tre pannetypene løser ulike oppgaver, og alle er dårlige til noe. Her er forskjellene i varme, vedlikehold og levetid, uten rangering av merker."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "kjokken",
+    "slug": "gryter-bunn-og-induksjon",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Gryter: bunnen avgjør, ikke merket",
+      "summary": "Bunnkonstruksjon betyr mer for resultatet enn materialet i resten av gryta, og induksjon stiller egne krav.",
+      "section": {
+        "id": "bunnen-avgjor",
+        "title": "Bunnen avgjør"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Gryter selges på materiale og utseende, men det er bunnen som avgjør om maten svir seg i midten."
+        },
+        {
+          "type": "heading",
+          "text": "Sandwichbunn"
+        },
+        {
+          "type": "paragraph",
+          "text": "En sandwichbunn er lag av aluminium eller kobber mellom stål. Aluminium leder varme mange ganger bedre enn stål, og det er dette laget som fordeler varmen utover. Tykkelsen oppgis ofte i millimeter, og er et av få tall i denne kategorien som faktisk sier noe."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tynn bunn gir hotspots rett over varmekilden. Det merkes først på retter som står lenge, som grøt og saus, og som svidd lag i midten."
+        },
+        {
+          "type": "heading",
+          "text": "Induksjon stiller egne krav"
+        },
+        {
+          "type": "paragraph",
+          "text": "Induksjon virker bare mot magnetisk materiale. Rene aluminiumsgryter og enkelte rustfrie legeringer fungerer ikke uansett kvalitet. En magnet mot bunnen er en enkel og pålitelig test."
+        },
+        {
+          "type": "paragraph",
+          "text": "Induksjon varmer også svært raskt, som gjør tynn bunn mer merkbar enn på en tradisjonell plate."
+        },
+        {
+          "type": "heading",
+          "text": "Størrelse i forhold til plate"
+        },
+        {
+          "type": "paragraph",
+          "text": "En gryte som er vesentlig større enn platen varmes ujevnt uansett bunn. Dette overses ofte når man kjøper sett framfor enkeltgryter."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt varmefordeling. Bunntykkelse er en indikasjon vi kan lese av spesifikasjonen, ikke et resultat vi har etterprøvd."
+        }
+      ],
+      "seo": {
+        "title": "Gryter: bunnkonstruksjon og hva induksjon faktisk krever",
+        "description": "Bunnen avgjør om maten svir seg, ikke merket. Her er hva sandwichbunn betyr, hvorfor tykkelse er verdt å lese, og hva induksjon faktisk krever."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "kjokken",
+    "slug": "induksjon-mot-keramisk",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Induksjon mot keramisk: hva som skiller dem i praksis",
+      "summary": "Forskjellen merkes i responstid, rengjøring og hvilke gryter du kan bruke, ikke først og fremst i strømregningen.",
+      "section": {
+        "id": "praktisk-forskjell",
+        "title": "Den praktiske forskjellen"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Valget mellom induksjon og keramisk topp presenteres ofte som et energispørsmål. I praksis merkes forskjellen mest i hvordan platen oppfører seg."
+        },
+        {
+          "type": "heading",
+          "text": "Responstid"
+        },
+        {
+          "type": "paragraph",
+          "text": "Induksjon varmer kokekaret direkte og reagerer nær umiddelbart på justering. Keramisk varmer glasset, som varmer kokekaret, og har derfor treghet både opp og ned. For matlaging som krever presisjon merkes dette hver gang."
+        },
+        {
+          "type": "heading",
+          "text": "Kokekar"
+        },
+        {
+          "type": "paragraph",
+          "text": "Induksjon krever magnetisk bunn. Bytter du fra keramisk, kan deler av gryteparken bli ubrukelig. Dette er den vanligste uforutsette kostnaden ved bytte."
+        },
+        {
+          "type": "heading",
+          "text": "Rengjøring og varme flater"
+        },
+        {
+          "type": "paragraph",
+          "text": "Induksjonstoppen blir bare varm av restvarme fra gryta, som gjør at søl sjeldnere brenner seg fast. Keramisk topp blir svært varm og brenner fast søl raskt."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Har du pacemaker eller annet implantat, bør du undersøke avstandsanbefalinger for induksjon før du velger. Bruker du hovedsakelig gryter uten magnetisk bunn og ikke vil bytte dem, faller induksjon bort uansett øvrige fordeler."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt energibruk på konkrete topper. Oppgitt virkningsgrad måles under standardiserte forhold som ikke tilsvarer vanlig matlaging."
+        }
+      ],
+      "seo": {
+        "title": "Induksjon mot keramisk topp: forskjellene som merkes",
+        "description": "Forskjellen ligger i responstid, rengjøring og hvilke gryter du kan bruke. Her er hva som faktisk merkes i hverdagen, og hva som kan koste ved bytte."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "kjokken",
+    "slug": "planetmikser-mot-stavmikser",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Planetmikser eller stavmikser: hva som lønner seg",
+      "summary": "De to maskinene overlapper mindre enn folk tror. Her er oppgavene som skiller dem, og når den dyre maskinen blir stående.",
+      "section": {
+        "id": "hva-de-loser",
+        "title": "Hva de faktisk løser"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Planetmikser og stavmikser omtales som alternativer, men løser i stor grad ulike oppgaver. Feilkjøpet oppstår når man kjøper den ene til den andres jobb."
+        },
+        {
+          "type": "heading",
+          "text": "Planetmikser"
+        },
+        {
+          "type": "paragraph",
+          "text": "Er bygget for deig og lange arbeidsøkter. Vekten holder maskinen i ro, og gir tåler belastning over tid. Baker du brød jevnlig eller elter tunge deiger, gjør den arbeid du ellers gjør for hånd."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bakes det sjelden, blir den stående. Den er tung, tar plass på benken, og er upraktisk å hente fram."
+        },
+        {
+          "type": "heading",
+          "text": "Stavmikser"
+        },
+        {
+          "type": "paragraph",
+          "text": "Er bygget for korte oppgaver i en kjele eller bolle: supper, sauser, majones, smoothies. Den er rask å hente og rask å vaske, og det er dette som avgjør om et kjøkkenapparat faktisk brukes."
+        },
+        {
+          "type": "heading",
+          "text": "Slitedelen er sjelden motoren"
+        },
+        {
+          "type": "paragraph",
+          "text": "På begge typer ryker som regel festet mellom motor og redskap før motoren. Metallgir tåler mer enn plast, og tilgang på reservedeler sier mer om levetid enn effekt i watt."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Har du lite benkeplass, er en planetmikser feil uansett hvor mye du baker, med mindre du har plass til å la den stå framme."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke testet eltekapasitet eller levetid. Oppgitt watt sier lite om hvor mye deig en maskin faktisk tåler over år."
+        }
+      ],
+      "seo": {
+        "title": "Planetmikser eller stavmikser: hva som lønner seg hjemme",
+        "description": "Maskinene overlapper mindre enn folk tror. Her er oppgavene som skiller dem, hva som ryker først, og når den dyre maskinen bare blir stående."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "kjokken",
+    "slug": "oppvaskmaskin-kapasitet-og-program",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Oppvaskmaskin: kapasitet, program og reelt forbruk",
+      "summary": "Oppgitt kuvert og programtid sier lite alene. Her er hva som avgjør om maskinen faktisk passer husholdningen din.",
+      "section": {
+        "id": "hva-tallene-betyr",
+        "title": "Hva tallene betyr"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Oppvaskmaskiner sammenlignes på kuvert, energiklasse og programtid. Alle tre er målt under forhold som sjelden ligner din."
+        },
+        {
+          "type": "heading",
+          "text": "Kuvert er en standard, ikke et løfte"
+        },
+        {
+          "type": "paragraph",
+          "text": "Antall kuverter måles med en definert sammensetning av tallerkener og bestikk. Gryter, stekeplater og høye glass inngår ikke. Reell kapasitet for en vanlig middag er derfor lavere enn tallet antyder."
+        },
+        {
+          "type": "heading",
+          "text": "Energitall gjelder ett program"
+        },
+        {
+          "type": "paragraph",
+          "text": "Oppgitt forbruk måles på det mest sparsomme programmet, som ofte er det lengste. Kjører du hurtigprogram fordi du har det travelt, er forbruket et annet enn merkingen viser."
+        },
+        {
+          "type": "heading",
+          "text": "Lengre program bruker mindre, ikke mer"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dette overrasker mange. Lang tid lar vaskemiddelet virke ved lavere temperatur, og det er oppvarming som koster. Hurtigprogram sparer tid og bruker mer."
+        },
+        {
+          "type": "heading",
+          "text": "Støy betyr mer i åpen løsning"
+        },
+        {
+          "type": "paragraph",
+          "text": "I åpne kjøkkenløsninger er støynivå ofte det som avgjør om maskinen kan gå om kvelden. Desibel er logaritmisk, så noen få enheter er en større forskjell enn tallet ser ut som."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt vaskeresultat, forbruk eller støy. Vi forklarer hva merkingen bygger på, slik at du kan lese den riktig."
+        }
+      ],
+      "seo": {
+        "title": "Oppvaskmaskin: hva kuvert og energitall faktisk betyr",
+        "description": "Oppgitt kapasitet og forbruk måles under standardforhold som sjelden ligner din. Her er hva tallene bygger på og hva som avgjør om maskinen passer."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "kjokken",
+    "slug": "kaffe-hjemme-kvernen",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Kaffe hjemme: kvernen er flaskehalsen",
+      "summary": "Kvernens jevnhet betyr mer for koppen enn traktemetoden, og det er her de fleste hjemmeoppsett taper mest.",
+      "section": {
+        "id": "kvernen-forst",
+        "title": "Kvernen først"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Det vanligste rådet om kaffe hjemme er å oppgradere trakteren. For de fleste gir kvernen større utslag."
+        },
+        {
+          "type": "heading",
+          "text": "Jevnhet framfor finhet"
+        },
+        {
+          "type": "paragraph",
+          "text": "En kvern skal produsere partikler av mest mulig lik størrelse. Ujevn maling gir både for lite og for mye ekstraksjon i samme kopp, som oppleves som surt og bittert samtidig. Dette kan ingen traktemetode kompensere for."
+        },
+        {
+          "type": "paragraph",
+          "text": "Skivekverner maler jevnere enn knivkverner, som kutter tilfeldig. Forskjellen er tydeligst på lyse brenninger og på espresso."
+        },
+        {
+          "type": "heading",
+          "text": "Metoden bestemmer kravet"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Filter og presskanne: tolererer noe ujevnhet",
+            "Espresso: krever både jevnhet og fin justering",
+            "Kokekaffe: minst krevende av metodene",
+            "Ferdigmalt: kompromisset er tatt for deg"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Ferskhet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Malt kaffe taper aroma i løpet av minutter, ikke dager. Dette er grunnen til at hel bønne og egen kvern gir merkbar forskjell selv med enkelt utstyr ellers."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Drikker du kaffe med mye melk og sukker, forsvinner mye av forskjellen. Da er en enklere løsning en fullt forsvarlig prioritering."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt partikkelfordeling på konkrete kverner. Vi forklarer hvorfor jevnhet betyr noe, ikke hvilken kvern som er jevnest."
+        }
+      ],
+      "seo": {
+        "title": "Kaffe hjemme: derfor er kvernen den store flaskehalsen",
+        "description": "Kvernens jevnhet gir større utslag i koppen enn traktemetoden. Her er hvorfor, hvilke metoder som er mest krevende, og når det ikke er verdt det."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "kjokken",
+    "slug": "skjaerefjoler-tre-eller-plast",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Skjærefjøler: tre eller plast, og hva som faktisk er hygienisk",
+      "summary": "Materialvalget handler om vedlikehold og kniven din, ikke om at det ene er rent og det andre skittent.",
+      "section": {
+        "id": "materialvalget",
+        "title": "Materialvalget"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Diskusjonen om tre mot plast framstilles ofte som et hygienespørsmål med et fasitsvar. Den er mer et spørsmål om hvordan fjøla vedlikeholdes."
+        },
+        {
+          "type": "heading",
+          "text": "Tre"
+        },
+        {
+          "type": "paragraph",
+          "text": "Er skånsomt mot eggen og tåler mange år. Det tåler ikke oppvaskmaskin, og må tørkes stående etter vask. Sprekker og dype hakk er problemet, ikke materialet i seg selv."
+        },
+        {
+          "type": "heading",
+          "text": "Plast"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tåler oppvaskmaskin, som gjør den enkel å holde ren. Til gjengjeld sliter den mer på eggen, og dype riper etter mye bruk blir vanskelige å få rene. En oppskåret plastfjøl er ikke mer hygienisk enn en velholdt trefjøl."
+        },
+        {
+          "type": "heading",
+          "text": "Praktisk oppsett"
+        },
+        {
+          "type": "list",
+          "items": [
+            "En stor fjøl du faktisk gidder å hente fram",
+            "Egen fjøl til raa kjoett, uansett materiale",
+            "Bytt ut fjøler med dype hakk, ikke etter alder",
+            "Aldri skjær direkte på benkeplaten"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Har du ikke plass til å tørke en trefjøl stående, blir vedlikeholdet ikke gjort, og da er plast det ærlige valget."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke gjort mikrobiologiske tester. Vi gjengir det som er alminnelig kjent om vedlikehold, og unngår å ta stilling til påstander som krever laboratorium."
+        }
+      ],
+      "seo": {
+        "title": "Skjærefjøler: tre eller plast, og hva som holder rent",
+        "description": "Materialvalget handler om vedlikehold og om kniven din, ikke om at det ene er rent og det andre skittent. Her er avveiningene og når du bør bytte."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "kjokken",
+    "slug": "oppbevaring-av-mat",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Oppbevaring av mat: tetthet, materiale og holdbarhet",
+      "summary": "Hvor lenge maten holder avhenger mer av tetthet og temperatur enn av hvilken boks du bruker.",
+      "section": {
+        "id": "tetthet-og-temperatur",
+        "title": "Tetthet og temperatur"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Matoppbevaring selges på materiale og utseende. Det som faktisk avgjør holdbarhet er hvor tett boksen er og hvor kaldt det er rundt den."
+        },
+        {
+          "type": "heading",
+          "text": "Tetthet"
+        },
+        {
+          "type": "paragraph",
+          "text": "En pakning i lokket er forskjellen mellom en boks som holder luft ute og en som ikke gjør det. Uten pakning tørker mat ut i kjøleskap og trekker til seg lukt. Pakningen er også slitedelen, og bør kunne skiftes eller vaskes separat."
+        },
+        {
+          "type": "heading",
+          "text": "Materiale"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Glass: tar ikke smak eller farge, tåler varme, tungt og knuselig",
+            "Plast: lett og billig, kan misfarges og ta smak",
+            "Stål: holdbart, men du ser ikke innholdet",
+            "Silikon: fleksibelt, egner seg dårlig til stabling"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Frysing"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ved frysing er luft hovedproblemet. Fryseskade er uttørking, ikke kulde. Mindre luft i boksen og tettere emballasje gir bedre resultat enn kaldere fryser."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Har du lite plass i kjøleskapet, taper glass mot plast fordi vekt og volum betyr mer enn holdbarhet på materialet."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt holdbarhet i egne forsøk, og gir ikke tidsangivelser for hvor lenge konkret mat kan lagres."
+        }
+      ],
+      "seo": {
+        "title": "Oppbevaring av mat: tetthet, materiale og holdbarhet",
+        "description": "Hvor lenge maten holder avhenger mest av tetthet og temperatur. Her er hva pakningen betyr, hvordan materialene skiller seg, og hva som skjer ved frysing."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "kjokken",
+    "slug": "vekt-og-maal-paa-kjokkenet",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Vekt og mål: når presisjon faktisk betyr noe",
+      "summary": "I noen typer matlaging er en desiliter godt nok. I andre er avvik på få gram forskjellen på om det virker.",
+      "section": {
+        "id": "nar-presisjon-teller",
+        "title": "Når presisjon teller"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kjøkkenvekt presenteres som nødvendig utstyr. Det avhenger helt av hva du lager."
+        },
+        {
+          "type": "heading",
+          "text": "Der volum holder"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gryteretter, supper og de fleste hverdagsretter tåler betydelig slingringsmonn. Her er desilitermål raskere og fullt tilstrekkelig, og en vekt gir ingen bedre mat."
+        },
+        {
+          "type": "heading",
+          "text": "Der vekt er nødvendig"
+        },
+        {
+          "type": "paragraph",
+          "text": "Baking er kjemi. Mel målt i desiliter varierer med hvor hardt det er pakket, og avviket kan være tjue prosent mellom to målinger av samme mengde. Gjærbakst, kaker og alt med hevemiddel blir mer forutsigbart med vekt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Det samme gjelder salting av kjøtt etter vekt, og all baking der oppskriften er oppgitt i prosent."
+        },
+        {
+          "type": "heading",
+          "text": "Oppløsning framfor maksvekt"
+        },
+        {
+          "type": "paragraph",
+          "text": "For hjemmebruk betyr trinn på ett gram mer enn at vekten tåler ti kilo. Skal du veie gjær eller salt til små porsjoner, er en vekt med finere oppløsning nyttigere enn en større."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lager du sjelden bakverk, er en vekt et apparat som blir liggende. Da er gode desilitermål et ærligere valg."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke kontrollert nøyaktigheten på konkrete vekter mot kjente lodd."
+        }
+      ],
+      "seo": {
+        "title": "Vekt og mål på kjøkkenet: når presisjon faktisk betyr noe",
+        "description": "I hverdagsmat holder desilitermål. I baking kan avviket være tjue prosent. Her er skillet, og hvorfor oppløsning betyr mer enn maksvekt hjemme."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "kjokken",
+    "slug": "kjokkenventilator-avtrekk",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Kjøkkenventilator: avtrekk, resirkulering og støy",
+      "summary": "Om ventilatoren fører luften ut eller tilbake i rommet er den viktigste forskjellen, og den er ofte bestemt av boligen.",
+      "section": {
+        "id": "ut-eller-tilbake",
+        "title": "Ut eller tilbake i rommet"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kjøkkenventilatorer deles i to prinsipper som løser oppgaven svært ulikt, og valget er som regel begrenset av hva boligen tillater."
+        },
+        {
+          "type": "heading",
+          "text": "Avtrekk ut"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fører fuktighet, os og lukt ut av boligen. Dette er det eneste prinsippet som faktisk fjerner fukt, og fukt fra matlaging er en reell belastning på inneklimaet. Krever kanal ut, som ikke finnes i alle leiligheter."
+        },
+        {
+          "type": "heading",
+          "text": "Resirkulering"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fører luften gjennom kullfilter og tilbake i rommet. Fjerner en del lukt, men verken fukt eller varme. Kullfilteret er en slitedel som må byttes, og effekten faller gradvis uten at det merkes tydelig."
+        },
+        {
+          "type": "heading",
+          "text": "Kapasitet i forhold til rommet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kapasitet oppgis i kubikkmeter per time. Tallet er målt uten kanal og filter, og reell kapasitet i montert tilstand er lavere. Lange kanaler med bend reduserer den ytterligere."
+        },
+        {
+          "type": "heading",
+          "text": "Støy"
+        },
+        {
+          "type": "paragraph",
+          "text": "Støy er grunnen til at ventilatorer ikke brukes. En kraftig vifte på laveste trinn er ofte roligere enn en svak vifte på fullt, som gjør at overkapasitet kan være et poeng."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "I leilighet med felles ventilasjonsanlegg kan avtrekk ut være forbudt eller kreve godkjenning, fordi det påvirker balansen i hele anlegget."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt luftmengde eller støy. Oppgitte tall gjelder uten kanal, og sier lite om ferdig montert løsning."
+        }
+      ],
+      "seo": {
+        "title": "Kjøkkenventilator: avtrekk, resirkulering og støynivå",
+        "description": "Om luften føres ut eller tilbake i rommet er den avgjørende forskjellen. Her er hva hvert prinsipp løser, og hvorfor oppgitt kapasitet er misvisende."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "kjokken",
+    "slug": "smaa-kjokken",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Små kjøkken: hva du faktisk trenger",
+      "summary": "På få kvadratmeter er utstyr som gjør flere ting verdt mer enn utstyr som gjør én ting perfekt.",
+      "section": {
+        "id": "prioritering",
+        "title": "Prioritering på liten plass"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "På et lite kjøkken er plass den knappe ressursen, ikke penger. Det snur prioriteringen sammenlignet med råd skrevet for større kjøkken."
+        },
+        {
+          "type": "heading",
+          "text": "Færre ting som gjør mer"
+        },
+        {
+          "type": "paragraph",
+          "text": "En stor kjele erstatter to små. En god kokkekniv erstatter et knivsett. En stekepanne med lokk dekker flere oppgaver enn to uten. Hver gjenstand må forsvare plassen sin, ikke bare prisen."
+        },
+        {
+          "type": "heading",
+          "text": "Det som sjelden lønner seg"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Apparater med én funksjon som brukes noen ganger i året",
+            "Sett kjøpt samlet, der halvparten aldri brukes",
+            "Store maskiner som må hentes fram fra skap",
+            "Servise for flere enn du faktisk dekker til"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Vertikal plass"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vegg og innsiden av skapdører er ofte ubrukt. Magnetlist til kniver og kroker til redskap frigjør skuffeplass, som er den plassen det er mest kamp om."
+        },
+        {
+          "type": "heading",
+          "text": "Arbeidsflate er viktigere enn oppbevaring"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fylles benken med utstyr, blir det ikke plass til å lage mat. På små kjøkken er tom benkeplate en funksjon, ikke bortkastet plass."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lager du mat til mange jevnlig, holder ikke minimalisme. Da er spørsmålet heller hvilken plass som kan frigjøres andre steder."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke testet utstyr i små kjøkken. Rådene bygger på plassregnskap, ikke på målinger."
+        }
+      ],
+      "seo": {
+        "title": "Små kjøkken: hva du faktisk trenger på få kvadratmeter",
+        "description": "På liten plass er utstyr som gjør flere ting verdt mer enn utstyr som gjør én ting perfekt. Her er prioriteringen og hva som sjelden lønner seg."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  }
+]
