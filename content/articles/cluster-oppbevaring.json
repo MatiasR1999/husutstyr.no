@@ -1,0 +1,929 @@
+[
+  {
+    "categorySlug": "oppbevaring",
+    "slug": "maaling-for-du-kjoper",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Måling før du kjøper: tallene folk glemmer",
+      "summary": "De fleste oppbevaringsfeil begynner med at noe ble målt, men ikke alt. Her er målene som faktisk avgjør.",
+      "section": {
+        "id": "hva-du-maa-male",
+        "title": "Hva du må måle"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Å måle rommet er ikke nok. Det som avgjør om løsningen fungerer, er forholdet mellom tre sett med mål."
+        },
+        {
+          "type": "heading",
+          "text": "Rommet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Høyde, bredde og dybde, men også hvor dører og skuffer svinger ut. En hylle som passer i åpningen kan likevel blokkere en dør som slår innover."
+        },
+        {
+          "type": "heading",
+          "text": "Tingene"
+        },
+        {
+          "type": "paragraph",
+          "text": "Det oversette målet er hva som faktisk skal stå der. En hylle på trettifem centimeters dybde tar permer, men ikke ryddebokser på førti. Mål de største tingene før du velger dybde."
+        },
+        {
+          "type": "heading",
+          "text": "Adkomsten"
+        },
+        {
+          "type": "paragraph",
+          "text": "Møbler og kasser må inn i rommet. Trapper, svinger og dørkarmer har satt en stopper for mange leveranser som passet perfekt der de skulle stå."
+        },
+        {
+          "type": "heading",
+          "text": "Toleranse"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vegger er sjelden helt rette, og gulv er sjelden helt i vater. Et par centimeters klaring gjør monteringen mulig. Måler du helt eksakt, blir det ofte for trangt."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kjøper du standardmoduler, er det ofte enklere å tilpasse innholdet til modulen enn omvendt. Da er dybden gitt, og målingen handler bare om plass."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke testet konkrete systemer, og oppgitte mål fra produsenter varierer i om de gjelder ytterkant eller innvendig plass."
+        }
+      ],
+      "seo": {
+        "title": "Måling før du kjøper oppbevaring: tallene folk glemmer",
+        "description": "De fleste oppbevaringsfeil begynner med at rommet ble målt, men ikke tingene eller adkomsten. Her er de tre målesettene som avgjør om det fungerer."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "oppbevaring",
+    "slug": "hyllesystemer-baereevne",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Hyllesystemer: bæreevne handler om veggen",
+      "summary": "En hylle svikter nesten alltid i festet, ikke i hyllen. Veggtypen avgjør hva du trygt kan sette opp.",
+      "section": {
+        "id": "veggen-baerer",
+        "title": "Det er veggen som bærer"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Oppgitt bæreevne på en hylle forutsetter at festet holder. I praksis er det festet i veggen som setter grensen."
+        },
+        {
+          "type": "heading",
+          "text": "Gipsvegg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gips alene bærer svært lite. Treffer du en stender bak platen, endres bildet fullstendig. Uten stender må lasten fordeles med plugger laget for hulrom, og selv da er grensen lav for tunge ting."
+        },
+        {
+          "type": "heading",
+          "text": "Betong og tegl"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bærer mye, men krever slagbor og riktige plugger. Feil plugg i betong gir falsk trygghet, fordi den sitter godt til belastningen kommer."
+        },
+        {
+          "type": "heading",
+          "text": "Trepanel og bindingsverk"
+        },
+        {
+          "type": "paragraph",
+          "text": "Skru i stenderen, ikke i panelet. Panelet er kledning og er ikke ment å bære."
+        },
+        {
+          "type": "heading",
+          "text": "Regn med dynamisk last"
+        },
+        {
+          "type": "paragraph",
+          "text": "En hylle belastes ikke bare av vekten som står der. Å dra en tung eske ut fra en hylle gir et rykk som er større enn den statiske vekten. Regn konservativt."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Leier du bolig, er innfesting ofte begrenset av avtalen. Frittstående reoler som hviler på gulvet løser da oppgaven uten hull i veggen."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke belastningstestet hyller eller innfestinger. Ved tunge laster over hodehøyde bør fagfolk vurdere løsningen."
+        }
+      ],
+      "seo": {
+        "title": "Hyllesystemer: bæreevnen avgjøres av veggen, ikke hyllen",
+        "description": "En hylle svikter nesten alltid i festet. Her er hva gips, betong og bindingsverk faktisk bærer, og hvorfor dynamisk last er større enn vekten."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "oppbevaring",
+    "slug": "oppbevaring-i-bod",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Oppbevaring i bod: fukt er hovedfienden",
+      "summary": "Bod og kjeller har andre krav enn oppholdsrom, og materialvalget avgjør om tingene overlever lagringen.",
+      "section": {
+        "id": "fukt-styrer",
+        "title": "Fukt styrer alt"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I bod og kjeller er det ikke plassen som ødelegger tingene, det er fukten."
+        },
+        {
+          "type": "heading",
+          "text": "Materialer som ikke tåler det"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Papp, som kollapser og trekker fukt",
+            "Ubehandlet tre, som suger og kan mugne",
+            "Tekstilkasser, som holder på fukt",
+            "Papir og bøker, som bølger seg permanent"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Plast er ikke automatisk løsningen"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tett plastkasse holder fukt ute, men også inne. Pakkes noe fuktig ned i en tett kasse, kondenserer det på innsiden og blir liggende i det. Ting bør være helt tørre før de pakkes."
+        },
+        {
+          "type": "heading",
+          "text": "Løft fra gulvet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Betonggulv avgir fukt og er kaldt. Paller, lister eller en enkel reol som løfter kassene noen centimeter gjør stor forskjell, både for fukt og for luftsirkulasjon."
+        },
+        {
+          "type": "heading",
+          "text": "Luftsirkulasjon"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kasser tett inntil yttervegg får ikke luft bak seg. Det er der kondens og mugg oppstår først. Noen centimeter fra veggen er nok."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Er boden oppvarmet og ventilert, gjelder mange av disse forbeholdene ikke, og oppbevaringen kan behandles som i et vanlig rom."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt fuktnivå i boder. Vedvarende fuktproblemer er en bygningssak, ikke en oppbevaringssak."
+        }
+      ],
+      "seo": {
+        "title": "Oppbevaring i bod og kjeller: fukt er den store fienden",
+        "description": "I bod ødelegges tingene av fukt, ikke av plassmangel. Her er materialene som ikke tåler det, og hvorfor tett plast ikke alltid er løsningen."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "oppbevaring",
+    "slug": "garderobe-innredning",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Garderobe: innred etter plagg og bruksfrekvens",
+      "summary": "Standardgarderober er delt likt. Klesskapet ditt er det ikke, og det er der plassen går tapt.",
+      "section": {
+        "id": "etter-bruksfrekvens",
+        "title": "Innred etter bruksfrekvens"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "En garderobe fylles sjelden jevnt. Noen plagg brukes daglig, andre en gang i året, og de bør ikke ha samme plassering."
+        },
+        {
+          "type": "heading",
+          "text": "Sonene"
+        },
+        {
+          "type": "paragraph",
+          "text": "Det du bruker daglig hører i øyehøyde og innenfor rekkevidde. Sesongplagg hører øverst eller nederst. Denne inndelingen gir mer effekt enn å kjøpe flere kurver."
+        },
+        {
+          "type": "heading",
+          "text": "Hengende mot brettet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Skjorter, kjoler og dressjakker holder formen best hengende. Strikk strekkes ut av egen vekt og bør brettes. Hvor mye henging du faktisk trenger, avhenger derfor av garderoben din, ikke av standarden."
+        },
+        {
+          "type": "heading",
+          "text": "Dobbel stang"
+        },
+        {
+          "type": "paragraph",
+          "text": "Er hoveddelen av garderoben korte plagg, gir to stenger over hverandre nær dobbel kapasitet på samme bredde. Dette er det enkleste og billigste grepet i de fleste garderober."
+        },
+        {
+          "type": "heading",
+          "text": "Skuffer mot kurver"
+        },
+        {
+          "type": "paragraph",
+          "text": "Skuffer utnytter dybden bedre og holder ting på plass. Kurver er billigere og lettere å ta ut, men innholdet siger sammen."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Har du hovedsakelig lange plagg som kåper og kjoler, faller dobbel stang bort, og høyden må brukes til hyller i stedet."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke testet garderobesystemer, og oppgitt kapasitet fra produsenter forutsetter tettpakking som sjelden er praktisk."
+        }
+      ],
+      "seo": {
+        "title": "Garderobe: innred etter plagg og hvor ofte du bruker dem",
+        "description": "Standardgarderober er delt likt, men klesskapet ditt er ikke det. Her er soneinndelingen og hvorfor dobbel stang ofte er det billigste grepet."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "oppbevaring",
+    "slug": "oppbevaring-paa-kjokkenet",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Kjøkkenoppbevaring: skuffer eller skap",
+      "summary": "Skuffer utnytter dybden, skap utnytter høyden. Valget avgjør hvor mye du faktisk finner igjen.",
+      "section": {
+        "id": "skuffer-mot-skap",
+        "title": "Skuffer mot skap"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kjøkkenskap og skuffer koster ulikt og oppfører seg ulikt. Forskjellen merkes mest på hvor mye av innholdet du faktisk ser."
+        },
+        {
+          "type": "heading",
+          "text": "Skuffer"
+        },
+        {
+          "type": "paragraph",
+          "text": "Du ser hele innholdet ovenfra og når alt uten å bøye deg. Dette er avgjørende for underskap, der det bakerste i et vanlig skap i praksis er utilgjengelig. Skuffer koster mer og tåler mindre vekt per enhet."
+        },
+        {
+          "type": "heading",
+          "text": "Skap"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rimeligere og bedre til høye og lette ting. I overskap fungerer de godt fordi du ser inn i dem. I underskap taper de mot skuffer for alt annet enn store, sjeldne gjenstander."
+        },
+        {
+          "type": "heading",
+          "text": "Hyllehøyde"
+        },
+        {
+          "type": "paragraph",
+          "text": "Justerbare hyller utnyttes sjelden. Å bruke en time på å tilpasse hyllehøyden til det som faktisk står der, frigjør ofte en hel hylle."
+        },
+        {
+          "type": "heading",
+          "text": "Nærhet til bruk"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kjeler nær komfyren",
+            "Tallerkener nær oppvaskmaskinen",
+            "Redskaper i skuffe ved arbeidsflaten",
+            "Sjeldne ting høyt, ikke i førsteradene"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Skal du ikke bytte kjøkken, er ettermontering av skuffeinnsatser i eksisterende skap ofte det realistiske grepet."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke testet skuffemekanismer eller bæreevne på konkrete kjøkkenserier."
+        }
+      ],
+      "seo": {
+        "title": "Kjøkkenoppbevaring: skuffer eller skap i under- og overskap",
+        "description": "Skuffer viser hele innholdet, skap utnytter høyden. Her er hvorfor underskap taper uten skuffer, og hva nærhet til der du bruker tingene har å si."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "oppbevaring",
+    "slug": "kasser-og-bokser",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Kasser og bokser: plast, tre eller tekstil",
+      "summary": "Materialet bestemmer hvor kassen kan stå, hvor mye den tåler, og om du finner igjen innholdet.",
+      "section": {
+        "id": "materialvalg",
+        "title": "Materialvalg"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kasser velges ofte etter utseende. Materialet bestemmer imidlertid hvor de kan brukes."
+        },
+        {
+          "type": "heading",
+          "text": "Plast"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tåler fukt og stabling, og finnes gjennomsiktig, som er den enkleste måten å huske innhold på. Til gjengjeld sprekker billig plast i kulde, som gjør den dårlig i uoppvarmet bod om vinteren."
+        },
+        {
+          "type": "heading",
+          "text": "Tre"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tåler vekt og ser bedre ut i oppholdsrom. Tungt, og suger fukt hvis det er ubehandlet. Egner seg der kassen står framme og sjelden flyttes."
+        },
+        {
+          "type": "heading",
+          "text": "Tekstil"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lett og rimelig, og formen gir etter så den kan presses inn på trange steder. Tåler ikke fukt, tåler ikke vekt oppå, og kollapser når den tømmes delvis."
+        },
+        {
+          "type": "heading",
+          "text": "Stabling er et eget krav"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kasser som skal stables trenger flat topp og en kant som griper. Uten det blir stabelen ustabil, og du må uansett løfte alt over for å nå det nederste."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Skal innholdet hentes ofte, er kasser feil løsning uansett materiale. Da er åpne hyller eller skuffer riktigere."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke belastningstestet kasser, og oppgitt stablekapasitet forutsetter jevn last."
+        }
+      ],
+      "seo": {
+        "title": "Kasser og bokser: velg mellom plast, tre og tekstil",
+        "description": "Materialet bestemmer hvor kassen kan stå og hva den tåler. Her er styrkene og svakhetene ved hvert materiale, og hva stabling faktisk krever av kassen."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "oppbevaring",
+    "slug": "under-seng-og-i-tak",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Under seng og oppe under taket: hva som egner seg",
+      "summary": "De to glemte lagringssonene har hver sine begrensninger, og begge egner seg dårlig til det folk putter der.",
+      "section": {
+        "id": "to-glemte-soner",
+        "title": "To glemte soner"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Under sengen og oppe under taket er plass folk husker først når alt annet er fullt. Begge har begrensninger som gjør dem uegnet til mye av det som havner der."
+        },
+        {
+          "type": "heading",
+          "text": "Under sengen"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lav høyde, mye støv og dårlig luftsirkulasjon. Det egner seg til flate ting i lukkede kasser: sesongtekstiler, ekstra sengetøy, sko i bokser. Det egner seg dårlig til noe du trenger ofte, fordi alt må dras ut."
+        },
+        {
+          "type": "paragraph",
+          "text": "Er sengen på gulvvarme, blir det varmt og tørt der. Det er greit for tekstiler, dårlig for stearinlys og enkelte materialer."
+        },
+        {
+          "type": "heading",
+          "text": "Oppe under taket"
+        },
+        {
+          "type": "paragraph",
+          "text": "Varmen samler seg øverst i rommet. Det som står høyt får jevnt høyere temperatur enn resten, som betyr noe for elektronikk, batterier og alt som kan smelte."
+        },
+        {
+          "type": "paragraph",
+          "text": "Høy plassering krever også at du faktisk kan nå det trygt. Trenger du stige hver gang, blir det stående urørt."
+        },
+        {
+          "type": "heading",
+          "text": "Vekt over hodehøyde"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tunge ting over hodehøyde er en sikkerhetssak. Det som kan falle ned, bør ikke kunne skade noen, og innfestingen må tåle mer enn den statiske vekten."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Har du allergi, er lukkede kasser under seng bedre enn åpne, og i mange tilfeller er det bedre å la plassen stå tom."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt temperaturforskjell mellom gulv og tak i konkrete rom."
+        }
+      ],
+      "seo": {
+        "title": "Under sengen og oppe under taket: hva som faktisk egner seg",
+        "description": "Begge sonene har begrensninger som gjør dem uegnet til mye av det som havner der. Her er hva støv, varme og adkomst betyr for hva du kan lagre."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "oppbevaring",
+    "slug": "sesongoppbevaring",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Sesongoppbevaring: pakk for lagring, ikke for plass",
+      "summary": "Det meste som ødelegges under lagring, ødelegges av hvordan det ble pakket ned, ikke av hvor lenge det sto.",
+      "section": {
+        "id": "pakking-avgjor",
+        "title": "Pakkingen avgjør"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Sesongoppbevaring går som regel galt i det øyeblikket tingene pakkes ned, ikke i månedene de står."
+        },
+        {
+          "type": "heading",
+          "text": "Rent og tørt før nedpakking"
+        },
+        {
+          "type": "paragraph",
+          "text": "Flekker som ikke er vasket bort setter seg permanent over måneder. Svette og hudfett i tekstiler tiltrekker møll. Alt bør vaskes eller renses før lagring, ikke etterpå."
+        },
+        {
+          "type": "heading",
+          "text": "Fuktighet er tidsinnstilt"
+        },
+        {
+          "type": "paragraph",
+          "text": "Noe som pakkes ned litt fuktig, mugner i løpet av lagringstiden. Dette gjelder særlig i tette kasser, der fukten ikke kan slippe ut."
+        },
+        {
+          "type": "heading",
+          "text": "Møll og skadedyr"
+        },
+        {
+          "type": "paragraph",
+          "text": "Møll går på naturfiber, særlig ull. Tette kasser eller poser holder dem ute mekanisk. Lukt og midler er mindre pålitelige enn en tett beholder."
+        },
+        {
+          "type": "heading",
+          "text": "Merking"
+        },
+        {
+          "type": "paragraph",
+          "text": "Innholdet glemmes raskere enn folk tror. En merkelapp med hva og når koster ingenting, og er forskjellen på å finne fram og på å pakke opp alt."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Har du svært lite plass, kan det være riktigere å eie færre sesongting enn å lagre dem godt."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke testet lagringsmetoder over tid, og gir ingen anbefaling om møllmidler."
+        }
+      ],
+      "seo": {
+        "title": "Sesongoppbevaring: pakk for lagring, ikke bare for plassen",
+        "description": "Det meste som ødelegges under lagring, ødelegges ved nedpakkingen. Her er hva rent, tørt og tett faktisk betyr, og hvorfor merking lønner seg."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "oppbevaring",
+    "slug": "vakuumposer",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Vakuumposer: hva de løser og hva de ødelegger",
+      "summary": "Vakuumposer sparer mye plass, men enkelte materialer tar varig skade av å ligge presset i måneder.",
+      "section": {
+        "id": "hva-de-taaler",
+        "title": "Hva som tåler det"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Vakuumposer gir dramatisk plassbesparelse. Prisen betales av materialer som ikke tåler å ligge sammenpresset over tid."
+        },
+        {
+          "type": "heading",
+          "text": "Tåler godt"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bomull og lin, som uansett skal strykes",
+            "Syntetiske jakker med fiberfyll, med noe restitusjonstid",
+            "Sengetøy og laken",
+            "Håndklær"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Tåler dårlig"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dun mister loft når det presses lenge, og enkelte dundyner kommer aldri helt tilbake. Ull og kasjmir får varige brett i fibrene. Skinn og lær sprekker der brettene går."
+        },
+        {
+          "type": "heading",
+          "text": "Fukt låses inne"
+        },
+        {
+          "type": "paragraph",
+          "text": "En vakuumpose er tett begge veier. Er tekstilene ikke helt tørre når de pakkes, blir fukten værende i månedsvis, og resultatet er lukt eller mugg."
+        },
+        {
+          "type": "heading",
+          "text": "Posen er ikke evig"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ventilen og sveisen er svakhetene. En pose som mister vakuum over uker gjør ingen skade, men den sparer heller ingen plass, og det oppdages først ved opppakking."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Skal tingene lagres i flere år, er vakuum sjelden riktig for annet enn ren bomull. Da er luftig lagring tryggere selv om den tar mer plass."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt hvor mye loft dun mister over gitt tid i vakuum."
+        }
+      ],
+      "seo": {
+        "title": "Vakuumposer: hva de løser, og hva de faktisk ødelegger",
+        "description": "Vakuum sparer mye plass, men dun mister loft og ull får varige brett. Her er hva som tåler behandlingen, og hvorfor fukt låst inne i posen er verst av alt."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "oppbevaring",
+    "slug": "merking-og-systemer",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Merking: systemene som faktisk blir brukt",
+      "summary": "Et system som krever disiplin overlever ikke hverdagen. Her er hva som skiller merking som fungerer.",
+      "section": {
+        "id": "hva-som-overlever",
+        "title": "Hva som overlever hverdagen"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De fleste oppbevaringssystemer feiler ikke fordi de var dårlig planlagt, men fordi de krevde mer av brukeren enn hverdagen tåler."
+        },
+        {
+          "type": "heading",
+          "text": "Ett håndgrep"
+        },
+        {
+          "type": "paragraph",
+          "text": "Skal noe legges tilbake, må det gjøres i én bevegelse. Krever det at et lokk løftes, en kasse dras ut og noe flyttes til side, blir tingen liggende framme i stedet."
+        },
+        {
+          "type": "heading",
+          "text": "Se innholdet framfor å huske det"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gjennomsiktige kasser og åpne kurver fungerer bedre enn merking, fordi ingenting skal huskes. Merking er nødvendig først når innholdet ikke kan sees."
+        },
+        {
+          "type": "heading",
+          "text": "Merk grovt, ikke fint"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kategorier som verktøy eller vinterklær holder over år. Detaljerte lister blir feil så snart noe flyttes, og en feil merkelapp er verre enn ingen."
+        },
+        {
+          "type": "heading",
+          "text": "Systemet må tåle andre"
+        },
+        {
+          "type": "paragraph",
+          "text": "Deler du bolig, må systemet fungere for den som ikke lagde det. Da vinner enkelhet over presisjon hver gang."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "For arkiv og ting som må gjenfinnes eksakt, som papirer og dokumentasjon, er detaljert merking nødvendig, og da gjelder motsatt råd."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke gjort brukerstudier. Dette er praktiske observasjoner, ikke forskningsresultater."
+        }
+      ],
+      "seo": {
+        "title": "Merking og systemer: hva som faktisk blir brukt over tid",
+        "description": "Et system som krever disiplin overlever ikke hverdagen. Her er hvorfor ett håndgrep, synlig innhold og grov merking slår lange, detaljerte lister."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "oppbevaring",
+    "slug": "oppbevaring-i-smaa-leiligheter",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Små leiligheter: vertikal plass og dobbeltbruk",
+      "summary": "På liten flate er høyden den ubrukte ressursen, og møbler som gjør to ting er verdt mer enn de koster.",
+      "section": {
+        "id": "hoyden-er-ubrukt",
+        "title": "Høyden er ubrukt"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "I små leiligheter er gulvflaten oppbrukt lenge før veggene er det. Det meste av ledig lagringsplass er vertikal."
+        },
+        {
+          "type": "heading",
+          "text": "Opp langs veggen"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hyller som går helt til taket utnytter plass som ellers står tom. Øverste hylle er upraktisk til daglige ting, men perfekt til sesong og sjeldenheter."
+        },
+        {
+          "type": "heading",
+          "text": "Møbler som gjør to ting"
+        },
+        {
+          "type": "paragraph",
+          "text": "Seng med oppbevaring, sittebenk med kasse under, bord som kan felles ned. Disse koster mer per møbel, men frigjør plass som ellers ville krevd et eget møbel."
+        },
+        {
+          "type": "heading",
+          "text": "Dører og hjørner"
+        },
+        {
+          "type": "paragraph",
+          "text": "Innsiden av skapdører og hjørner bak dører er nesten alltid ubrukt. Kroker og grunne hyller der frigjør skuffeplass, som er den knappeste ressursen."
+        },
+        {
+          "type": "heading",
+          "text": "Grensen for oppbevaring"
+        },
+        {
+          "type": "paragraph",
+          "text": "På et punkt er svaret å eie mindre, ikke å oppbevare bedre. Når hver kvadratmeter lagring gjør leiligheten trangere å bo i, er den grensen nådd."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "I leid bolig kan innfesting i vegg være begrenset. Da er frittstående, høye reoler som hviler mot vegg det praktiske alternativet."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke testet plassbesparende møbler, og oppgitt lagringsvolum forutsetter tettpakking."
+        }
+      ],
+      "seo": {
+        "title": "Små leiligheter: vertikal plass og møbler som gjør to ting",
+        "description": "På liten flate er høyden den ubrukte ressursen. Her er hva vegger, dørinnsider og dobbeltbruk gir deg, og hvor grensen for mer oppbevaring går."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "oppbevaring",
+    "slug": "sikker-oppbevaring",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Sikker oppbevaring av kjemikalier og verktøy",
+      "summary": "Noe skal ikke lagres sammen, og noe skal ikke lagres der barn kommer til. Her er de faktiske skillelinjene.",
+      "section": {
+        "id": "hva-som-ikke-hoerer-sammen",
+        "title": "Hva som ikke hører sammen"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De fleste hjem har kjemikalier og verktøy lagret etter hvor det var plass, ikke etter hva som er trygt."
+        },
+        {
+          "type": "heading",
+          "text": "Aldri sammen"
+        },
+        {
+          "type": "paragraph",
+          "text": "Klorholdige midler og sure midler skal ikke stå slik at de kan lekke i hverandre. Blandingen avgir klorgass. Dette er den mest konkrete risikoen i et vanlig hjem, og den oppstår oftest under kjøkkenbenken eller på bad."
+        },
+        {
+          "type": "heading",
+          "text": "Barnesikring"
+        },
+        {
+          "type": "paragraph",
+          "text": "Barnesikret lokk er ikke det samme som utilgjengelig. Rengjøringsmidler, maling og løsemidler hører i låst skap eller høyt oppe, ikke i skap ved gulvet."
+        },
+        {
+          "type": "heading",
+          "text": "Brannfarlig"
+        },
+        {
+          "type": "paragraph",
+          "text": "Løsemidler, spraybokser og drivstoff avgir damp og skal ikke stå varmt eller nær tennkilder. Uoppvarmet bod med luftskifte er bedre enn oppvarmet innerom."
+        },
+        {
+          "type": "heading",
+          "text": "Verktøy"
+        },
+        {
+          "type": "paragraph",
+          "text": "Skarpt og tungt hører ikke oppe over hodehøyde. Batteridrevet verktøy bør lagres med batteriet av og ikke i sterk kulde eller varme."
+        },
+        {
+          "type": "heading",
+          "text": "Merking av det du har fylt om"
+        },
+        {
+          "type": "paragraph",
+          "text": "Middel fylt over på annen flaske uten merking er den vanligste årsaken til forveksling. Det bør ikke gjøres i det hele tatt."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi gir ikke råd om håndtering av spesialavfall eller større mengder brannfarlig væske. Det hører hjemme hos brannvesen og kommunens avfallsordning."
+        }
+      ],
+      "seo": {
+        "title": "Sikker oppbevaring av kjemikalier og verktøy i hjemmet",
+        "description": "Noe skal ikke stå sammen, og noe skal ikke stå der barn kommer til. Her er de konkrete skillelinjene, og hva omfylling på umerket flaske kan koste deg."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  }
+]
