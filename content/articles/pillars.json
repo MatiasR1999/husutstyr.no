@@ -64,6 +64,64 @@
         },
         {
           "type": "heading",
+          "text": "Hva de høyere prisklassene faktisk betaler for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Over et visst punkt betaler du sjelden for bedre matlaging. Du betaler for finish, for merkenavn og for materialer med marginal praktisk forskjell. Det er verdt å vite hvor det punktet ligger i hver kategori, fordi det ligger forskjellig."
+        },
+        {
+          "type": "paragraph",
+          "text": "På kniver ligger det relativt høyt: forskjellen mellom en billig og en middels kniv er stor, mellom middels og dyr mindre, og mellom dyr og svært dyr handler mest om håndverk og utseende. På belagte panner ligger punktet svært lavt, fordi belegget er en slitedel uansett. På gryter ligger det i bunnen, ikke i merket."
+        },
+        {
+          "type": "heading",
+          "text": "En praktisk rekkefølge når du bygger opp"
+        },
+        {
+          "type": "paragraph",
+          "text": "Skal du utstyre et kjøkken over tid framfor på én gang, er rekkefølgen viktigere enn budsjettet. Start med det som brukes hver dag og som er vanskelig å kompensere for."
+        },
+        {
+          "type": "list",
+          "items": [
+            "En kokkekniv i en størrelse som passer hånden din",
+            "En stor skjærefjøl, større enn du tror du trenger",
+            "En panne som tåler høy varme",
+            "To gryter i ulik størrelse med tykk bunn",
+            "Deretter alt annet, etter hvert som du savner det"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Det siste punktet er det viktigste. Utstyr kjøpt fordi du savnet det, blir brukt. Utstyr kjøpt fordi det inngikk i et sett, blir stående."
+        },
+        {
+          "type": "heading",
+          "text": "Feilene som koster mest"
+        },
+        {
+          "type": "paragraph",
+          "text": "Å kjøpe sett er den vanligste. Et knivsett med sju kniver koster mer enn to gode kniver, og de fem øvrige blir stort sett liggende. Det samme gjelder grytesett, der de minste og største størrelsene sjelden brukes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Å kjøpe etter effekt på maskiner er den nest vanligste. Watt sier noe om strømforbruk, lite om hvor mye maskinen tåler. Konstruksjonen rundt motoren avgjør levetiden, og den står sjelden i spesifikasjonen."
+        },
+        {
+          "type": "paragraph",
+          "text": "Å velge etter oppvaskmaskinvennlighet er den tredje. Mye godt utstyr tåler ikke maskin, og mye utstyr som tåler maskin er middelmådig. Er du ikke villig til å håndvaske noe, snevrer det inn utvalget betydelig, og det er en reell avveining å ta bevisst."
+        },
+        {
+          "type": "heading",
+          "text": "Vedlikehold forlenger mer enn kvalitet gjør"
+        },
+        {
+          "type": "paragraph",
+          "text": "En middels kniv som slipes, skjærer bedre enn en dyr kniv som ikke gjør det. En støpejernspanne som tørkes, varer i generasjoner; en som settes våt bort, ruster på en uke. For mye av kjøkkenutstyret er stell viktigere for levetiden enn kjøpsprisen var."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si noe om"
         },
         {
@@ -157,6 +215,59 @@
         },
         {
           "type": "heading",
+          "text": "Frekvens slår kraft"
+        },
+        {
+          "type": "paragraph",
+          "text": "Et jevnt renhold med enkelt utstyr gir renere hjem enn sjeldne, grundige runder med godt utstyr. Grus og sand er det som riper gulv, og de gjør skade hver dag de ligger der. Dette er grunnen til at terskelen for å ta en rask runde betyr mer enn maskinens spesifikasjoner."
+        },
+        {
+          "type": "paragraph",
+          "text": "Det praktiske utslaget er at en lettere maskin som står lett tilgjengelig ofte gir bedre resultat enn en kraftigere som må hentes fram. Vekt og oppbevaring er derfor reelle egenskaper, ikke bare bekvemmelighet."
+        },
+        {
+          "type": "heading",
+          "text": "Rekkefølge i rommet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rengjøring ovenfra og ned er ikke en regel av gammel vane. Støv som løsnes høyt oppe faller ned på flater du allerede har vasket, og da må de gjøres om igjen."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Løsne støv høyt: hyller, lister, lamper",
+            "Flater i arbeidshøyde",
+            "Gulv til slutt",
+            "Vått etter tørt, ikke omvendt"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Der folk bruker mest tid til ingen nytte"
+        },
+        {
+          "type": "paragraph",
+          "text": "Å skrubbe før middelet har virket er den vanligste. De fleste midler trenger minutter, ikke sekunder. Påfør, la stå, tørk av — det krever mindre arbeid og gir bedre resultat enn å gå rett på med kraft."
+        },
+        {
+          "type": "paragraph",
+          "text": "Å bruke for mye middel er den nest vanligste. Rester som ikke skylles bort blir klebrige og tiltrekker seg nytt smuss raskere. Et gulv som blir skittent uvanlig fort, har ofte såperester igjen."
+        },
+        {
+          "type": "heading",
+          "text": "Utstyr som faktisk sparer tid"
+        },
+        {
+          "type": "paragraph",
+          "text": "To ting gir mest igjen for pengene i et vanlig hjem: en støvsuger som er lett å ta fram, og nok mikrofiberkluter til at du aldri bruker en skitten. Begge senker terskelen, og terskelen er det som avgjør om renholdet faktisk blir gjort."
+        },
+        {
+          "type": "paragraph",
+          "text": "Spesialverktøy for enkeltoppgaver gir sjelden samme utslag. De løser en oppgave bedre, men oppgaven utføres ikke oftere av den grunn."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si noe om"
         },
         {
@@ -242,6 +353,56 @@
         },
         {
           "type": "heading",
+          "text": "Hvor mye tøy tåler egentlig"
+        },
+        {
+          "type": "paragraph",
+          "text": "De fleste plagg vaskes oftere enn de trenger. Ytterplagg, ull, jeans og strikk trenger sjelden vask etter hver bruk, og lufting fjerner lukt effektivt fra ull fordi fiberen i seg selv motvirker bakterievekst."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dette er ikke et sparetiltak i seg selv. Det er den enkeltfaktoren som forlenger levetiden mest på plagg du bryr deg om, fordi hver vask er en påkjenning."
+        },
+        {
+          "type": "heading",
+          "text": "Doseringen folk tar feil av"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vaskemiddel doseres etter vannets hardhet og hvor skittent tøyet er, ikke etter maskinens størrelse. I områder med bløtt vann er anbefalt dose på pakken ofte for høy, og overskuddet blir liggende i tøyet."
+        },
+        {
+          "type": "paragraph",
+          "text": "Symptomene på overdosering er stivt tøy, hvite rester på mørke plagg og lukt fra maskinen. Reaksjonen er som regel å bruke mer middel, som forverrer alt tre."
+        },
+        {
+          "type": "heading",
+          "text": "Skyllemiddel er ikke gratis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Skyllemiddel legger et lag på fibrene som gir mykhet og lukt. Det samme laget reduserer oppsugingsevnen på håndklær og ødelegger effekten på mikrofiber og teknisk sportstøy. På disse tekstilene bør det ikke brukes i det hele tatt."
+        },
+        {
+          "type": "heading",
+          "text": "En rutine som holder"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sorter grovt, ikke pinlig nøyaktig",
+            "Fyll maskinen, men ikke press den full",
+            "Doser etter vannhardhet i ditt område",
+            "La døren stå åpen mellom vaskene",
+            "Ta tøyet ut når det er ferdig, ikke timer etter"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Det siste punktet forklarer det meste av lukt i nyvasket tøy. Fuktig tøy i en lukket trommel utvikler lukt i løpet av få timer, og da må hele vasken gjøres om."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si noe om"
         },
         {
@@ -320,6 +481,50 @@
         {
           "type": "paragraph",
           "text": "Flytter du ofte, er innebygde løsninger feil investering. Deler du bolig med flere, må systemet tåle at andre enn du legger ting på plass, og da vinner enkelhet over presisjon. Har du svært lite plass, kan det være riktigere å eie mindre enn å oppbevare bedre."
+        },
+        {
+          "type": "heading",
+          "text": "Ryddingen som varer, og den som ikke gjør det"
+        },
+        {
+          "type": "paragraph",
+          "text": "En opprydding som ikke endrer hvor ting hører hjemme, holder sjelden mer enn noen uker. Det som avgjør er om hver ting har en plass som er lettere å bruke enn å la være."
+        },
+        {
+          "type": "paragraph",
+          "text": "Praktisk betyr det at du bør rydde etter hvor ting brukes, ikke etter hva de er. Sakser hører der du klipper, ikke samlet i en skuff med annet verktøy. Batterier hører der de skiftes."
+        },
+        {
+          "type": "heading",
+          "text": "Hvorfor det blir rot igjen"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rot samler seg på faste steder: ved inngangsdøren, på kjøkkenbenken, på et bord i gangen. Dette er ikke tilfeldig. Det er steder der ting settes fra seg fordi de ikke har en plass i nærheten."
+        },
+        {
+          "type": "paragraph",
+          "text": "Løsningen er sjelden mer disiplin. Den er å gi de tingene en plass akkurat der, i stedet for å flytte dem hver dag. En kurv ved døren løser mer enn en regel om å rydde."
+        },
+        {
+          "type": "heading",
+          "text": "Å eie mindre er en oppbevaringsstrategi"
+        },
+        {
+          "type": "paragraph",
+          "text": "På et punkt løses ikke plassproblemet av bedre systemer. Bruker du mer tid og penger på å lagre ting enn de gir deg tilbake, er regnestykket negativt uansett hvor godt systemet er."
+        },
+        {
+          "type": "paragraph",
+          "text": "Det gjelder særlig ting som lagres fordi de kan bli nyttige. De fleste av dem blir det ikke, og de tar plass fra ting som brukes."
+        },
+        {
+          "type": "heading",
+          "text": "Sesong og rullering"
+        },
+        {
+          "type": "paragraph",
+          "text": "Å bytte ut hva som står lett tilgjengelig etter årstid frigjør mer plass enn å utnytte hver kubikkcentimeter. Vinterklær og sommerklær trenger ikke samme tilgjengelighet samtidig, og det samme gjelder sportsutstyr og hageredskaper."
         },
         {
           "type": "heading",
@@ -417,6 +622,50 @@
         {
           "type": "paragraph",
           "text": "Alt som gjelder elektrisitet, bærende konstruksjoner, våtrom og tak har enten formelle krav eller konsekvenser som overstiger besparelsen. Vi skriver om hva som bør gjøres og hvorfor, ikke om hvordan du utfører arbeid som krever fagbrev."
+        },
+        {
+          "type": "heading",
+          "text": "Hva som faktisk koster når det utsettes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Det er verdt å være konkret om hvorfor rekkefølgen er som den er. Vannskader er den dyreste skadetypen i norske boliger, og de fleste starter som noe lite: en tett takrenne, en sprukket fuge, en dryppende kobling."
+        },
+        {
+          "type": "paragraph",
+          "text": "Poenget er ikke at alt haster. Poenget er at kostnaden ved å utsette varierer enormt mellom oppgaver. Å utsette innvendig maling koster ingenting. Å utsette rens av en takrenne kan koste en fasade."
+        },
+        {
+          "type": "heading",
+          "text": "Egen dokumentasjon lønner seg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Å notere hva som ble gjort og når, tar minutter og er verdt mye. Ved forsikringssak er dokumentert vedlikehold en fordel, og ved salg er det noe kjøper spør etter. Det gjør det også mulig å vite når noe sist ble sjekket, i stedet for å gjette."
+        },
+        {
+          "type": "paragraph",
+          "text": "Det trenger ikke være mer enn en enkel liste med dato og hva som ble gjort. Bilder før og etter er nyttig for arbeid som senere skjules."
+        },
+        {
+          "type": "heading",
+          "text": "Nye og gamle boliger har ulike lister"
+        },
+        {
+          "type": "paragraph",
+          "text": "I nye boliger er mange oppgaver dekket av reklamasjonsfrister, og det er verdt å bruke dem framfor å reparere selv. Feil meldt innen fristen er leverandørens ansvar; samme feil meldt etterpå er ditt."
+        },
+        {
+          "type": "paragraph",
+          "text": "I eldre boliger er utfordringen ofte det motsatte: konstruksjoner er tettet og etterisolert over tid uten at ventilasjonen er justert. Da flyttes problemet fra varmetap til fukt."
+        },
+        {
+          "type": "heading",
+          "text": "Sikkerhet er ikke en vedlikeholdsoppgave"
+        },
+        {
+          "type": "paragraph",
+          "text": "Røykvarslere, slokkeutstyr og elektrisk anlegg hører i en egen kategori. De har ikke en kostnad ved utsettelse, de har en risiko, og de bør derfor ikke konkurrere med de øvrige oppgavene om plass på lista."
         }
       ],
       "seo": {
@@ -502,6 +751,55 @@
         {
           "type": "paragraph",
           "text": "I nye boliger med balansert ventilasjon er de fleste tiltakene over unødvendige, og problemet er oftere et anlegg som er feiljustert enn manglende utstyr. I gamle hus med naturlig avtrekk er utfordringen omvendt, og da er tetting uten kompenserende ventilasjon direkte uheldig."
+        },
+        {
+          "type": "heading",
+          "text": "Rekkefølgen på tiltak"
+        },
+        {
+          "type": "paragraph",
+          "text": "Inneklimatiltak gjøres ofte i feil rekkefølge, med utstyr først og årsak sist. Det gir utgifter uten varig effekt."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Finn kilden til fukten før du kjøper noe",
+            "Fjern eller reduser kilden der det går an",
+            "Sørg for luftskifte i rommet det gjelder",
+            "Vurder utstyr først når de tre over er gjort"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Den vanligste rekkefølgefeilen er å kjøpe avfukter til et rom som mangler ventilasjon. Da må apparatet gå kontinuerlig for å holde et nivå ventilasjon ville gitt gratis."
+        },
+        {
+          "type": "heading",
+          "text": "De store fuktkildene i et hjem"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mennesker avgir fukt gjennom pust og hud hele døgnet. Dusjing, matlaging og tørking av tøy kommer i tillegg. Innendørs tørking av en full maskin med tøy er den enkeltoppgaven som tilfører mest, og den gjøres ofte i rommet med dårligst luftskifte."
+        },
+        {
+          "type": "heading",
+          "text": "Lufting som virker"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kort og kraftig lufting med gjennomtrekk skifter luften uten å kjøle ned konstruksjonen. Vindu på gløtt i timevis kjøler ned veggene rundt vinduet uten å gi tilsvarende luftskifte, og kalde flater er der kondens oppstår."
+        },
+        {
+          "type": "paragraph",
+          "text": "Om vinteren er dette særlig tydelig: uteluften er tørr, og noen få minutter med gjennomtrekk fjerner mye fukt raskt."
+        },
+        {
+          "type": "heading",
+          "text": "Når du bør måle framfor å gjette"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kondens på vinduer om morgenen, lukt som kommer og går, eller misfarging i et hjørne er tegn som er verdt å følge med et hygrometer over noen uker. Måling over tid skiller mellom et rom som har et problem og et rom som bare har en dårlig dag."
         },
         {
           "type": "heading",
