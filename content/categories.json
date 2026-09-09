@@ -18,6 +18,15 @@
     }
   },
   {
+    "slug": "vask-og-toy",
+    "name": "Vask og tøy",
+    "introduction": "Vaskemaskiner, tørk og stell av tekstiler. Vi ser på hva programvalg, temperatur og kapasitet betyr for både resultatet og levetiden på klærne.",
+    "seo": {
+      "title": "Vask og tøy – maskiner, programmer og stell av tekstiler",
+      "description": "Veiledninger til vask: hvordan kapasitet og programmer henger sammen med behovet ditt, hva temperatur gjør med tekstiler, og hva som forlenger levetiden."
+    }
+  },
+  {
     "slug": "oppbevaring",
     "name": "Oppbevaring",
     "introduction": "Systemer, kasser og løsninger som gir plass til det du eier. Vi ser på mål, materialer og hva som holder orden over tid i ulike rom.",
@@ -33,6 +42,15 @@
     "seo": {
       "title": "Vedlikehold av bolig – verktøy, rutiner og intervaller",
       "description": "Veiledninger til vedlikehold: hvilke oppgaver som hører til hver sesong, hvilket verktøy som trengs, og hvordan du unngår skader som blir dyre å utbedre."
+    }
+  },
+  {
+    "slug": "inneklima",
+    "name": "Inneklima",
+    "introduction": "Luftkvalitet, fukt og temperatur i boligen. Vi forklarer hva målingene betyr, og hvilket utstyr som faktisk påvirker forholdene innendørs.",
+    "seo": {
+      "title": "Inneklima – fukt, luftkvalitet og temperatur i boligen",
+      "description": "Veiledninger til inneklima: hva fuktnivå og luftkvalitet betyr i praksis, hvordan du måler det, og hvilket utstyr som gjør en reell forskjell hjemme."
     }
   }
 ]

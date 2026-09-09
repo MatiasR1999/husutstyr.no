@@ -1,0 +1,447 @@
+[
+  {
+    "version": 1,
+    "kind": "page",
+    "page": {
+      "slug": "om-oss"
+    },
+    "title": "Om oss",
+    "summary": "Husutstyr er et uavhengig norsk nettsted om utstyr til hjemmet, drevet av Matias Rædergård.",
+    "section": {
+      "id": "hvem-staar-bak",
+      "title": "Hvem står bak"
+    },
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Husutstyr er et norsk nettsted om utstyr til hjemmet. Nettstedet drives og utgis av Matias Rædergård, som privatperson og ikke gjennom et selskap. Matias Rædergård er også ansvarlig redaktør og eneste forfatter."
+      },
+      {
+        "type": "heading",
+        "text": "Hva vi publiserer"
+      },
+      {
+        "type": "paragraph",
+        "text": "Vi publiserer veiledninger og sammenligninger innenfor kjøkken, rengjøring, oppbevaring og vedlikehold. Målet er å forklare hva som faktisk skiller produkter fra hverandre, slik at du kan velge ut fra egne behov i stedet for etter rangeringer."
+      },
+      {
+        "type": "paragraph",
+        "text": "Vi skriver om produktkategorier og egenskaper, ikke om enkeltprodukter vi ikke har grunnlag for å uttale oss om. Der vi mangler grunnlag, sier vi det i teksten i stedet for å fylle plassen med anslag."
+      },
+      {
+        "type": "heading",
+        "text": "Uavhengighet"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nettstedet finansieres av annonselenker. Ingen leverandør betaler for omtale, plassering eller vinkling, og ingen får lese tekster før publisering. Se annonsørinformasjon for hvordan dette er merket."
+      },
+      {
+        "type": "heading",
+        "text": "Rettelser"
+      },
+      {
+        "type": "paragraph",
+        "text": "Finner du en feil, meld fra til TODO: Sett inn den offentlige kontakt-e-posten. Vi retter faktafeil så raskt vi kan, og oppdaterer datoen for siste endring på artikkelen."
+      }
+    ],
+    "seo": {
+      "title": "Om Husutstyr – hvem som står bak og hva vi publiserer",
+      "description": "Husutstyr er et uavhengig norsk nettsted om utstyr til hjemmet. Her står hvem som utgir det, hva vi skriver om, og hvordan vi holder oss uavhengige."
+    },
+    "sources": [],
+    "research": [],
+    "topicIds": []
+  },
+  {
+    "version": 1,
+    "kind": "page",
+    "page": {
+      "slug": "kontakt"
+    },
+    "title": "Kontakt",
+    "summary": "Slik tar du kontakt med redaksjonen i Husutstyr, og hva du kan forvente av svartid.",
+    "section": {
+      "id": "slik-kontakter-du-oss",
+      "title": "Slik kontakter du oss"
+    },
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Henvendelser til Husutstyr behandles av Matias Rædergård, som er utgiver og ansvarlig redaktør."
+      },
+      {
+        "type": "heading",
+        "text": "E-post"
+      },
+      {
+        "type": "paragraph",
+        "text": "Send e-post til TODO: Sett inn den offentlige kontakt-e-posten."
+      },
+      {
+        "type": "heading",
+        "text": "Hva du kan sende oss"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Faktafeil eller utdatert informasjon i en artikkel",
+          "Spørsmål om hvordan en vurdering er gjort",
+          "Spørsmål om annonselenker og kommersielle avtaler",
+          "Innsyn, retting eller sletting av personopplysninger"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Svartid"
+      },
+      {
+        "type": "paragraph",
+        "text": "Vi svarer normalt innen noen virkedager. Henvendelser om personopplysninger besvares innen fristene i personvernforordningen."
+      },
+      {
+        "type": "paragraph",
+        "text": "Vi tar ikke imot produkter til omtale, og betalt omtale selges ikke."
+      }
+    ],
+    "seo": {
+      "title": "Kontakt Husutstyr – meld fra om feil eller still spørsmål",
+      "description": "Ta kontakt med redaksjonen i Husutstyr. Her finner du e-postadressen vår, hva du kan sende oss, og hvor lang svartid du kan forvente på henvendelser."
+    },
+    "sources": [],
+    "research": [],
+    "topicIds": []
+  },
+  {
+    "version": 1,
+    "kind": "page",
+    "page": {
+      "slug": "redaksjonell-policy"
+    },
+    "title": "Redaksjonell policy",
+    "summary": "Hvordan artikler på Husutstyr blir til, kontrollert, godkjent og rettet.",
+    "section": {
+      "id": "slik-jobber-vi",
+      "title": "Slik jobber vi"
+    },
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Denne siden beskriver hvordan innholdet på Husutstyr blir til, og hva du kan holde oss til."
+      },
+      {
+        "type": "heading",
+        "text": "Kilder og kontroll"
+      },
+      {
+        "type": "paragraph",
+        "text": "Vi bygger på produsentenes egne spesifikasjoner, offentlige standarder, bransjedokumentasjon og etterprøvbare kilder. Kilder oppgis i artiklene der de er brukt. Påstander vi ikke kan underbygge, tas ut."
+      },
+      {
+        "type": "heading",
+        "text": "Godkjenning før publisering"
+      },
+      {
+        "type": "paragraph",
+        "text": "Hver versjon av en artikkel må godkjennes av en ansvarlig redaktør før den kan publiseres. Godkjenningen er knyttet til den eksakte teksten: endres teksten etterpå, faller godkjenningen bort og innholdet må vurderes på nytt. Dette håndheves i publiseringssystemet, ikke bare som rutine."
+      },
+      {
+        "type": "heading",
+        "text": "Rettelser og endringer"
+      },
+      {
+        "type": "paragraph",
+        "text": "Faktafeil rettes så raskt som mulig. Artikler viser når de sist ble oppdatert. Retter vi noe som endrer konklusjonen, skriver vi det i artikkelen i stedet for å endre den stille."
+      },
+      {
+        "type": "heading",
+        "text": "Skillet mot det kommersielle"
+      },
+      {
+        "type": "paragraph",
+        "text": "Annonselenker påvirker ikke hva vi skriver eller hvilke produkter vi omtaler. Ingen annonsør har innflytelse på redaksjonelt innhold, og ingen tekst selges."
+      },
+      {
+        "type": "heading",
+        "text": "Kunstig intelligens"
+      },
+      {
+        "type": "paragraph",
+        "text": "Verktøy kan brukes som hjelpemiddel i arbeidet, men ingen tekst publiseres uten at et menneske har lest, kontrollert og godkjent den."
+      }
+    ],
+    "seo": {
+      "title": "Redaksjonell policy for Husutstyr – kilder og godkjenning",
+      "description": "Slik blir artiklene på Husutstyr til: hvilke kilder vi bruker, hvordan hver versjon godkjennes før publisering, og hvordan vi retter feil når de oppstår."
+    },
+    "sources": [],
+    "research": [],
+    "topicIds": []
+  },
+  {
+    "version": 1,
+    "kind": "page",
+    "page": {
+      "slug": "slik-tester-vi"
+    },
+    "title": "Slik tester og vurderer vi",
+    "summary": "Hva vurderingene på Husutstyr bygger på, og hva de ikke bygger på.",
+    "section": {
+      "id": "grunnlaget",
+      "title": "Grunnlaget for vurderingene"
+    },
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Denne siden forklarer hva vurderingene våre bygger på. Vi mener det er viktigere at du vet hvor kunnskapen kommer fra enn at vi fremstår som mer omfattende enn vi er."
+      },
+      {
+        "type": "heading",
+        "text": "Vi tester ikke produkter fysisk"
+      },
+      {
+        "type": "paragraph",
+        "text": "Husutstyr driver i dag ikke egen fysisk produkttesting. Vi har ikke testlaboratorium, og vi måler ikke produkter selv. Det betyr at vi ikke gir terningkast eller poengscore til enkeltprodukter."
+      },
+      {
+        "type": "heading",
+        "text": "Hva vi gjør i stedet"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Sammenligner spesifikasjoner og dokumentasjon fra produsentene",
+          "Bruker offentlige standarder og bransjekrav der de finnes",
+          "Forklarer hvilke egenskaper som faktisk betyr noe for ulike behov",
+          "Peker på begrensninger og avveininger i stedet for å utpeke én vinner"
+        ]
+      },
+      {
+        "type": "heading",
+        "text": "Hvorfor vi sier dette tydelig"
+      },
+      {
+        "type": "paragraph",
+        "text": "Mange nettsteder omtaler sammenstilling av produsentdata som testing. Det gjør vi ikke. Skulle vi begynne med egen testing, vil metoden bli dokumentert her, og artikler som bygger på den vil si det eksplisitt."
+      },
+      {
+        "type": "heading",
+        "text": "Priser"
+      },
+      {
+        "type": "paragraph",
+        "text": "Vi oppgir ikke priser som om de var kontrollert av oss, med mindre de er registrert med kilde og tidspunkt. Priser endrer seg raskt, og en udatert pris er mer villedende enn nyttig."
+      }
+    ],
+    "seo": {
+      "title": "Slik vurderer Husutstyr utstyr – metode og begrensninger",
+      "description": "Vi tester ikke produkter fysisk. Her står hva vurderingene bygger på, hvilke kilder vi bruker, og hvorfor vi ikke gir terningkast til enkeltprodukter."
+    },
+    "sources": [],
+    "research": [],
+    "topicIds": []
+  },
+  {
+    "version": 1,
+    "kind": "page",
+    "page": {
+      "slug": "personvern"
+    },
+    "title": "Personvern",
+    "summary": "Hvilke personopplysninger Husutstyr behandler, hvorfor, og hvilke rettigheter du har.",
+    "section": {
+      "id": "behandlingsansvarlig",
+      "title": "Behandlingsansvarlig"
+    },
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Behandlingsansvarlig for personopplysninger på Husutstyr er Matias Rædergård, som privatperson. Henvendelser om personvern sendes til TODO: Sett inn den offentlige kontakt-e-posten."
+      },
+      {
+        "type": "heading",
+        "text": "Hva vi samler inn"
+      },
+      {
+        "type": "paragraph",
+        "text": "Vi krever ingen innlogging, og vi har verken brukerkontoer, kommentarfelt eller nyhetsbrev. Besøker du nettstedet uten å samtykke til analyse, lagrer vi ingen informasjonskapsler til analyse eller markedsføring."
+      },
+      {
+        "type": "heading",
+        "text": "Analyse, og bare med samtykke"
+      },
+      {
+        "type": "paragraph",
+        "text": "Godtar du analyse, bruker vi Vercel Web Analytics og Speed Insights til å måle sidevisninger, teknisk ytelse og klikk på annonselenker. Målingen starter ikke før du har samtykket, og stopper når du trekker samtykket tilbake."
+      },
+      {
+        "type": "paragraph",
+        "text": "Klikkmåling registrerer lenke-ID, artikkel-ID, plassering og butikkens domene. Full produktadresse og søkeparametre sendes ikke. Vi mottar ingen navn, e-postadresser eller andre opplysninger som identifiserer deg direkte."
+      },
+      {
+        "type": "heading",
+        "text": "Ditt valg lagres lokalt"
+      },
+      {
+        "type": "paragraph",
+        "text": "Valget ditt lagres i en informasjonskapsel som heter site_consent, i 180 dager. Den brukes bare til å huske valget og hvilken versjon av samtykkepolicyen du tok stilling til. Du kan endre valget når som helst via Personvernvalg nederst på siden."
+      },
+      {
+        "type": "heading",
+        "text": "Rettighetene dine"
+      },
+      {
+        "type": "paragraph",
+        "text": "Du har rett til innsyn, retting, sletting og til å protestere mot behandlingen. Du kan også klage til Datatilsynet. Ta kontakt på adressen over, så behandler vi henvendelsen innen fristene i personvernforordningen."
+      },
+      {
+        "type": "heading",
+        "text": "Behandling utenfor EØS"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nettstedet driftes hos Vercel og databasen hos Neon, begge i EU-regioner. Dersom leverandørene behandler data utenfor EØS, skjer det på grunnlag av EUs standardvilkår."
+      }
+    ],
+    "seo": {
+      "title": "Personvern på Husutstyr – hva vi samler inn og hvorfor",
+      "description": "Husutstyr måler ingenting før du har samtykket. Her står hvem som er behandlingsansvarlig, hva som registreres, hvor lenge, og hvilke rettigheter du har."
+    },
+    "sources": [],
+    "research": [],
+    "topicIds": []
+  },
+  {
+    "version": 1,
+    "kind": "page",
+    "page": {
+      "slug": "cookies"
+    },
+    "title": "Cookies",
+    "summary": "Hvilke informasjonskapsler Husutstyr bruker, og hvordan du styrer dem.",
+    "section": {
+      "id": "hvilke-kapsler",
+      "title": "Hvilke informasjonskapsler vi bruker"
+    },
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Husutstyr bruker så få informasjonskapsler som mulig. Ingenting settes til analyse eller markedsføring før du har sagt ja."
+      },
+      {
+        "type": "heading",
+        "text": "Nødvendig lagring"
+      },
+      {
+        "type": "paragraph",
+        "text": "Informasjonskapselen site_consent lagrer valget ditt om analyse og hvilken versjon av samtykkepolicyen valget gjelder. Den varer i 180 dager og brukes ikke til analyse eller markedsføring. Den settes uansett hva du velger, fordi vi ellers ikke kan huske at du sa nei."
+      },
+      {
+        "type": "heading",
+        "text": "Analyse, kun etter samtykke"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sier du ja til analyse, laster vi Vercel Web Analytics og Speed Insights. Disse måler sidevisninger, teknisk ytelse og klikk på annonselenker. Avviser du, lastes de ikke, og det sendes ingen forespørsler til dem."
+      },
+      {
+        "type": "heading",
+        "text": "Slik endrer du valget"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nederst på hver side finner du Personvernvalg. Der kan du når som helst endre eller trekke tilbake samtykket. Trekker du det tilbake, stopper videre måling."
+      },
+      {
+        "type": "heading",
+        "text": "Endringer i policyen"
+      },
+      {
+        "type": "paragraph",
+        "text": "Endrer vi hva som måles, øker vi versjonsnummeret på samtykkepolicyen. Da blir du bedt om å ta stilling på nytt i stedet for at vi viderefører et gammelt ja."
+      }
+    ],
+    "seo": {
+      "title": "Informasjonskapsler på Husutstyr – hva vi bruker og hvorfor",
+      "description": "Husutstyr setter ingen analysekapsler før du har samtykket. Her ser du hvilke informasjonskapsler som brukes, hvor lenge de varer, og hvordan du endrer valget."
+    },
+    "sources": [],
+    "research": [],
+    "topicIds": []
+  },
+  {
+    "version": 1,
+    "kind": "page",
+    "page": {
+      "slug": "annonsorinformasjon"
+    },
+    "title": "Annonsørinformasjon",
+    "summary": "Hvordan Husutstyr tjener penger, og hvordan kommersielle lenker er merket.",
+    "section": {
+      "id": "slik-tjener-vi-penger",
+      "title": "Slik tjener vi penger"
+    },
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Husutstyr finansieres av annonselenker. Denne siden forklarer hva det betyr for deg som leser."
+      },
+      {
+        "type": "heading",
+        "text": "Annonselenker"
+      },
+      {
+        "type": "paragraph",
+        "text": "Enkelte lenker til butikker er annonselenker. Handler du via en slik lenke, kan vi motta provisjon. Prisen din blir ikke høyere av det."
+      },
+      {
+        "type": "heading",
+        "text": "Slik er de merket"
+      },
+      {
+        "type": "paragraph",
+        "text": "Alle kommersielle lenker er synlig merket som annonselenke i teksten, både på mobil og på større skjermer. De er teknisk merket for søkemotorer, og de går via en egen adresse på husutstyr.no i stedet for direkte til butikken."
+      },
+      {
+        "type": "heading",
+        "text": "Hva provisjon ikke påvirker"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Hvilke produkter vi omtaler",
+          "Hva vi skriver om dem",
+          "Rekkefølgen de står i",
+          "Om vi anbefaler dem eller ikke"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Ingen annonsør betaler for omtale, plassering eller vinkling, og ingen får lese tekster før publisering."
+      },
+      {
+        "type": "heading",
+        "text": "Betalt omtale"
+      },
+      {
+        "type": "paragraph",
+        "text": "Vi selger ikke betalt omtale. Skulle det endre seg, vil slike artikler være merket som betalt, og de vil ikke inngå i vurderinger eller sammenligninger."
+      },
+      {
+        "type": "heading",
+        "text": "Egne butikker"
+      },
+      {
+        "type": "paragraph",
+        "text": "Vi eier ingen nettbutikk. Skulle vi lenke til en butikk utgiveren eier, vil det stå eksplisitt i merkingen på lenken."
+      }
+    ],
+    "seo": {
+      "title": "Annonsørinformasjon for Husutstyr – slik tjener vi penger",
+      "description": "Husutstyr finansieres av annonselenker. Her forklarer vi hvordan lenkene er merket, hva provisjon ikke påvirker, og hvorfor prisen din ikke blir høyere."
+    },
+    "sources": [],
+    "research": [],
+    "topicIds": []
+  }
+]
