@@ -1,0 +1,930 @@
+[
+  {
+    "categorySlug": "inneklima",
+    "slug": "luftfuktighet-gjennom-aret",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Luftfuktighet: hva som er normalt gjennom året",
+      "summary": "Inneluften er tørr om vinteren og fuktig om sommeren av fysiske grunner. Ett fasttall gjelder ikke hele året.",
+      "section": {
+        "id": "hvorfor-den-varierer",
+        "title": "Hvorfor den varierer"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Relativ luftfuktighet innendørs følger årstidene, og det er fysikk, ikke en feil ved boligen."
+        },
+        {
+          "type": "heading",
+          "text": "Vinter"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kald uteluft inneholder lite vann. Når den varmes opp inne, faller den relative fuktigheten kraftig, fordi varm luft kan holde langt mer vann enn kald. Tørr inneluft om vinteren er derfor normalt, ikke et tegn på dårlig ventilasjon."
+        },
+        {
+          "type": "heading",
+          "text": "Sommer"
+        },
+        {
+          "type": "paragraph",
+          "text": "Motsatt situasjon. Varm uteluft bringer med seg mye vann, og i kjølige rom som kjeller kan den kondensere på kalde flater. Lufting på en varm, fuktig dag kan derfor gjøre kjelleren fuktigere, ikke tørrere."
+        },
+        {
+          "type": "heading",
+          "text": "Relativ mot absolutt"
+        },
+        {
+          "type": "paragraph",
+          "text": "Relativ fuktighet sier hvor nær metning luften er ved den temperaturen den har. Det er derfor samme mengde vann gir helt ulik prosent i et kaldt og et varmt rom. Dette forklarer hvorfor kondens oppstår på kalde flater i et rom som ellers virker tørt."
+        },
+        {
+          "type": "heading",
+          "text": "Hva som faktisk er problemet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vedvarende høy fuktighet over tid gir muggvekst. Enkelttopper fra dusj eller matlaging betyr lite, forutsatt at luften skiftes ut i etterkant."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Har du balansert ventilasjon som fungerer, jevnes svingningene ut, og mange av tiltakene under blir unødvendige."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi oppgir ikke ett anbefalt tall for luftfuktighet, fordi riktig nivå avhenger av temperatur og årstid."
+        }
+      ],
+      "seo": {
+        "title": "Luftfuktighet inne: hva som er normalt gjennom hele året",
+        "description": "Inneluften er tørr om vinteren og fuktig om sommeren av rene fysiske grunner. Her er hvorfor ett fasttall ikke gjelder, og hva som faktisk er et problem."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "inneklima",
+    "slug": "hygrometer-og-maaling",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Hygrometer: hva tallene faktisk forteller deg",
+      "summary": "Et hygrometer er billig og nyttig, men målingen sier bare noe når du vet hvor og når den er tatt.",
+      "section": {
+        "id": "hvordan-lese-tallet",
+        "title": "Hvordan lese tallet"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Et hygrometer koster lite og gir tidlig varsel om fuktproblemer. Verdien ligger i hvordan det plasseres og leses."
+        },
+        {
+          "type": "heading",
+          "text": "Plassering avgjør"
+        },
+        {
+          "type": "paragraph",
+          "text": "Et hygrometer midt i stua måler stua. Problemet oppstår som regel et annet sted: bak et skap mot yttervegg, i et kaldt soverom, i kjeller eller bod. Måler du der det er varmt og luftig, finner du ikke noe."
+        },
+        {
+          "type": "heading",
+          "text": "Enkeltmåling sier lite"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fuktighet svinger gjennom døgnet med dusj, matlaging og lufting. Et tall lest én gang er nesten verdiløst. Utviklingen over dager er det som betyr noe."
+        },
+        {
+          "type": "heading",
+          "text": "Temperatur må leses samtidig"
+        },
+        {
+          "type": "paragraph",
+          "text": "Relativ fuktighet er meningsløs uten temperaturen den ble målt ved. De fleste hygrometre viser begge, og begge må noteres for at sammenligning mellom rom skal si noe."
+        },
+        {
+          "type": "heading",
+          "text": "Nøyaktighet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rimelige hygrometre har betydelig avvik, ofte flere prosentpoeng. Til å følge en utvikling i samme rom er det uproblematisk. Til å sammenligne mot en grenseverdi er det en reell usikkerhet."
+        },
+        {
+          "type": "heading",
+          "text": "Hva du ser etter"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vedvarende høye verdier over dager, ikke topper",
+            "Store forskjeller mellom rom",
+            "Kondens på vindu om morgenen",
+            "Verdier som ikke faller etter lufting"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke kontrollert nøyaktigheten på konkrete hygrometre mot referanseinstrument."
+        }
+      ],
+      "seo": {
+        "title": "Hygrometer: hva målingene faktisk forteller deg om boligen",
+        "description": "Et hygrometer er billig og nyttig, men bare når du vet hvor og når målingen er tatt. Her er plassering, avlesning og hvor stor usikkerheten er."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "inneklima",
+    "slug": "avfukter",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Avfukter: symptombehandling som noen ganger er riktig",
+      "summary": "En avfukter fjerner vann fra luften, men ikke kilden. Noen ganger er det likevel det riktige tiltaket.",
+      "section": {
+        "id": "hva-den-gjor",
+        "title": "Hva den faktisk gjør"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Avfuktere selges som løsning på fuktproblemer. De behandler symptomet, og av og til er det nettopp det som trengs."
+        },
+        {
+          "type": "heading",
+          "text": "Når den er riktig"
+        },
+        {
+          "type": "paragraph",
+          "text": "I rom som ikke kan ventileres, i kjeller om sommeren der lufting gjør vondt verre, og som midlertidig tiltak etter en vannskade. Der er avfukting det reelle alternativet."
+        },
+        {
+          "type": "heading",
+          "text": "Når den ikke er riktig"
+        },
+        {
+          "type": "paragraph",
+          "text": "Er fuktigheten høy fordi luften ikke skiftes ut, løser ventilasjon problemet permanent mens avfukteren løser det bare mens den går. Kommer vannet inn utenfra, hjelper ingen av delene før lekkasjen er tettet."
+        },
+        {
+          "type": "heading",
+          "text": "Kapasitet og temperatur"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kondensavfuktere mister effekt ved lave temperaturer, fordi kald luft holder lite vann. I uoppvarmet kjeller om vinteren yter de langt under oppgitt kapasitet. Sorpsjonsavfuktere fungerer bedre kaldt, men bruker mer strøm."
+        },
+        {
+          "type": "heading",
+          "text": "Oppgitt kapasitet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Liter per døgn måles ved gunstig temperatur og høy fuktighet. Reell ytelse i et normalt rom er vesentlig lavere, og forskjellen er ikke liten."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ved gjentakende fuktproblem er avfukter en utsettelse. Da er årsaken en bygningssak."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt kapasitet, støy eller strømforbruk på konkrete avfuktere."
+        }
+      ],
+      "seo": {
+        "title": "Avfukter: symptombehandling som noen ganger er riktig valg",
+        "description": "En avfukter fjerner vann fra luften, men aldri kilden. Her er når den likevel er riktig tiltak, og hvorfor oppgitt kapasitet ofte er misvisende."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "inneklima",
+    "slug": "luftrenser",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Luftrenser: hva den fjerner og hva den ikke fjerner",
+      "summary": "En luftrenser tar partikler i rommet den står i. Den erstatter ikke ventilasjon og fjerner ikke gasser.",
+      "section": {
+        "id": "partikler-ikke-gasser",
+        "title": "Partikler, ikke gasser"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Luftrensere markedsføres bredt. Det de gjør er avgrenset, og avgrensningen er verdt å kjenne før kjøp."
+        },
+        {
+          "type": "heading",
+          "text": "Det den gjør"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fører luft gjennom et filter og fanger partikler: støv, pollen, dyreflass og røykpartikler. Med et tett filter er dette effektivt for det som faktisk passerer gjennom apparatet."
+        },
+        {
+          "type": "heading",
+          "text": "Det den ikke gjør"
+        },
+        {
+          "type": "paragraph",
+          "text": "Den fjerner ikke karbondioksid, og den tilfører ikke frisk luft. Et rom med dårlig ventilasjon og en luftrenser har fortsatt dårlig ventilasjon. Gasser og lukt krever aktivt kullfilter, som er en slitedel med kortere levetid enn partikkelfilteret."
+        },
+        {
+          "type": "heading",
+          "text": "Luftmengde i forhold til rommet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Det avgjørende tallet er hvor mye luft apparatet behandler per time sammenlignet med rommets volum. Et lite apparat i et stort rom rekker ikke over luften, uansett hvor godt filteret er."
+        },
+        {
+          "type": "heading",
+          "text": "Støy setter grensen i praksis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Oppgitt kapasitet gjelder høyeste trinn, som ofte er for støyende til å stå på om natten. Reell kapasitet er den du faktisk bruker."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette betyr mest for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ved allergi og astma kan effekten være merkbar. For andre er gevinsten mindre enn markedsføringen antyder, og ventilasjon gir mer."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt partikkelreduksjon eller støy på konkrete modeller."
+        }
+      ],
+      "seo": {
+        "title": "Luftrenser: hva den fjerner, og hva den ikke gjør noe med",
+        "description": "En luftrenser tar partikler i rommet den står i, men erstatter ikke ventilasjon og fjerner ikke gasser. Her er hva som avgjør den reelle effekten i rommet."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "inneklima",
+    "slug": "ventilasjon",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Ventilasjon: balansert eller naturlig avtrekk",
+      "summary": "Ventilasjonstypen bestemmer hvilke fuktproblemer boligen kan få, og hvilke tiltak som gir mening.",
+      "section": {
+        "id": "to-prinsipper",
+        "title": "To prinsipper"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hvordan luften skiftes ut i boligen din avgjør mye av det som ellers framstår som tilfeldige fuktproblemer."
+        },
+        {
+          "type": "heading",
+          "text": "Naturlig avtrekk"
+        },
+        {
+          "type": "paragraph",
+          "text": "Eldre boliger har avtrekk gjennom kanaler drevet av temperaturforskjell og vind, med tilluft gjennom utettheter og ventiler. Det virker best når det er kaldt ute, og dårligst om sommeren når du kanskje trenger det mest."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tettes en slik bolig uten at tilluft erstattes, stopper luftskiftet. Dette er den vanligste utilsiktede konsekvensen av etterisolering og vindusbytte."
+        },
+        {
+          "type": "heading",
+          "text": "Balansert ventilasjon"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mekanisk til- og fraluft med varmegjenvinning. Gir jevnt luftskifte uavhengig av vær, og er grunnen til at nye boliger sjelden har de klassiske fuktproblemene. Krever filterbytte og justering for å fungere som forutsatt."
+        },
+        {
+          "type": "heading",
+          "text": "Når anlegget er feiljustert"
+        },
+        {
+          "type": "paragraph",
+          "text": "Et balansert anlegg i ubalanse kan gi undertrykk eller overtrykk i boligen. Symptomene ligner andre problemer: trekk, lukt fra avløp, tunge dører. Dette er en innreguleringssak, ikke et utstyrsbehov."
+        },
+        {
+          "type": "heading",
+          "text": "Kjøkken og bad"
+        },
+        {
+          "type": "paragraph",
+          "text": "Punktavtrekk der fukten oppstår er mer effektivt enn å øke luftskiftet i hele boligen. Det er derfor kjøkken og bad har egne avtrekk uansett system."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi kan ikke vurdere om et konkret anlegg er riktig dimensjonert. Det krever måling på stedet."
+        }
+      ],
+      "seo": {
+        "title": "Ventilasjon: balansert anlegg eller naturlig avtrekk hjemme",
+        "description": "Ventilasjonstypen bestemmer hvilke fuktproblemer boligen kan få. Her er forskjellen, og hva som skjer når en gammel bolig tettes uten tilluft."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "inneklima",
+    "slug": "muggsopp",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Muggsopp: årsak, tegn og hva som må utbedres",
+      "summary": "Mugg er et symptom på fukt. Fjerner du bare soppen, kommer den tilbake på samme sted.",
+      "section": {
+        "id": "symptom-ikke-aarsak",
+        "title": "Symptom, ikke årsak"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Muggvekst krever fukt, næring og tid. Fjernes soppen uten at fukten fjernes, er den tilbake innen kort tid."
+        },
+        {
+          "type": "heading",
+          "text": "Hvor den oppstår"
+        },
+        {
+          "type": "paragraph",
+          "text": "På kalde flater med høy fuktighet: yttervegger bak møbler, vinduskarmer, kalde soverom, kjeller og bod. Også der vann har lekket, ofte skjult i konstruksjonen."
+        },
+        {
+          "type": "heading",
+          "text": "Tegn"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mørke flekker som brer seg langsomt",
+            "Jordaktig eller kjellerlukt",
+            "Kondens på vindu om morgenen",
+            "Misfarging i fuger som kommer tilbake etter vask"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Overflate mot konstruksjon"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mugg på en malt flate kan vaskes bort når årsaken er fjernet. Er veksten i porøst materiale som gips eller trevirke, sitter den i materialet, og da er utskifting den reelle løsningen."
+        },
+        {
+          "type": "heading",
+          "text": "Hva som må gjøres først"
+        },
+        {
+          "type": "paragraph",
+          "text": "Finn fuktkilden. Er det kondens, er svaret ventilasjon og eventuelt isolasjon. Er det lekkasje, må den tettes. Rengjøring før dette er bortkastet arbeid."
+        },
+        {
+          "type": "heading",
+          "text": "Når det er en fagsak"
+        },
+        {
+          "type": "paragraph",
+          "text": "Store flater, gjentakende vekst, eller mistanke om vekst inne i konstruksjonen bør vurderes av noen med måleutstyr. Helsesymptomer hos beboere er også en grunn til å hente hjelp."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi gir ingen helsevurdering og anbefaler ingen midler mot mugg. Sanering av større omfang er fagarbeid."
+        }
+      ],
+      "seo": {
+        "title": "Muggsopp: årsaken, tegnene og hva som faktisk må utbedres",
+        "description": "Mugg er et symptom på fukt, og kommer tilbake hvis bare soppen fjernes. Her er hvor den oppstår, tegnene å se etter, og hva som må gjøres aller først."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "inneklima",
+    "slug": "varmepumpe-dimensjonering",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Varmepumpe: dimensjonering betyr mer enn merket",
+      "summary": "En varmepumpe som er feil dimensjonert eller feil plassert yter langt under det oppgitte tallet.",
+      "section": {
+        "id": "dimensjonering",
+        "title": "Dimensjonering først"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Varmepumper sammenlignes på oppgitt effekt og virkningsgrad. Begge tallene forutsetter forhold som sjelden er dine."
+        },
+        {
+          "type": "heading",
+          "text": "Oppgitt virkningsgrad gjelder gitte temperaturer"
+        },
+        {
+          "type": "paragraph",
+          "text": "Effektfaktoren måles ved en bestemt utetemperatur. Ytelsen faller når det blir kaldere, og faller mest akkurat når behovet er størst. Tall målt ved milde forhold sier lite om en kald vinterdag."
+        },
+        {
+          "type": "heading",
+          "text": "For stor er også feil"
+        },
+        {
+          "type": "paragraph",
+          "text": "En overdimensjonert pumpe starter og stopper hyppig i stedet for å gå jevnt. Det gir dårligere effektivitet og mer slitasje enn en riktig dimensjonert som går kontinuerlig."
+        },
+        {
+          "type": "heading",
+          "text": "Plassering avgjør fordelingen"
+        },
+        {
+          "type": "paragraph",
+          "text": "En luft-til-luft-pumpe varmer det rommet den står i. Er boligen oppdelt med lukkede dører, når varmen ikke fram, og resultatet er et varmt rom og resten uendret. Åpne planløsninger utnytter den langt bedre."
+        },
+        {
+          "type": "heading",
+          "text": "Utedelen"
+        },
+        {
+          "type": "paragraph",
+          "text": "Plassering i le for vind og fri for snø betyr noe for avriming. Utedel som fryser igjen bruker energi på å tine seg selv i stedet for å varme."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "I små, godt isolerte leiligheter kan varmebehovet være så lavt at investeringen ikke forsvarer seg, uansett effektivitet."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt ytelse eller besparelse. Dimensjonering for en konkret bolig krever befaring."
+        }
+      ],
+      "seo": {
+        "title": "Varmepumpe: derfor betyr dimensjonering mer enn merkenavnet",
+        "description": "Oppgitt virkningsgrad gjelder milde forhold, og for stor pumpe er også feil. Her er hva dimensjonering og plassering faktisk gjør med ytelsen."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "inneklima",
+    "slug": "radon",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Radon: måling, grenseverdier og tiltak",
+      "summary": "Radon kan verken luktes eller sees, og eneste måten å vite noe på er å måle over tid i vinterhalvåret.",
+      "section": {
+        "id": "maaling",
+        "title": "Måling er eneste vei"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Radon er en radioaktiv gass som siver inn fra grunnen. Den har verken lukt eller farge, og ingen symptomer varsler om den."
+        },
+        {
+          "type": "heading",
+          "text": "Hvorfor måling må gå over tid"
+        },
+        {
+          "type": "paragraph",
+          "text": "Radonnivået svinger kraftig med vær, ventilasjon og årstid. En korttidsmåling gir et øyeblikksbilde som kan være langt fra årsgjennomsnittet. Sporfilmmåling over minst to måneder i vinterhalvåret er den anerkjente metoden."
+        },
+        {
+          "type": "heading",
+          "text": "Hvor det er aktuelt"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alle rom i kontakt med grunnen, og etasjen over. Kjeller og første etasje er der nivåene er høyest. Leiligheter i høyere etasjer har normalt lav risiko."
+        },
+        {
+          "type": "heading",
+          "text": "Hva tiltak går ut på"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tiltak handler om å hindre innsig og å ventilere. Tetting mot grunnen, og i mange tilfeller radonbrønn eller økt ventilasjon under gulvet. Omfanget avhenger av nivå og av byggets konstruksjon."
+        },
+        {
+          "type": "heading",
+          "text": "Ved kjøp og utleie"
+        },
+        {
+          "type": "paragraph",
+          "text": "Utleiere har krav til radonnivå i utleieboliger. Ved boligkjøp er måleresultat noe som kan etterspørres, og fravær av måling er ikke det samme som lave verdier."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bor du i en høyere etasje uten kontakt med grunnen, er dette normalt ikke aktuelt."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi oppgir ikke grenseverdier eller tiltaksgrenser fra hukommelsen. Gjeldende verdier og krav finnes hos Direktoratet for strålevern og atomsikkerhet."
+        }
+      ],
+      "seo": {
+        "title": "Radon: hvorfor målingen må gå over tid, og hva tiltak er",
+        "description": "Radon kan verken luktes eller sees, og nivået svinger kraftig. Her er hvorfor korttidsmåling ikke holder, og hvor i boligen dette er aktuelt å undersøke."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "inneklima",
+    "slug": "stov-og-allergener",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Støv og allergener: kilder og hva som reduserer dem",
+      "summary": "Mesteparten av støvet kommer inn med oss. Det avgjør hvilke tiltak som faktisk virker.",
+      "section": {
+        "id": "hvor-stovet-kommer-fra",
+        "title": "Hvor støvet kommer fra"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Husstøv er ikke én ting. Sammensetningen avgjør hvilke tiltak som gir effekt."
+        },
+        {
+          "type": "heading",
+          "text": "Kildene"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tekstilfibre fra klær og møbler, hudceller, partikler som bæres inn på sko og klær, og pollen som kommer inn med luft. Utendørs partikler er en større andel enn folk regner med, særlig i by."
+        },
+        {
+          "type": "heading",
+          "text": "Det som virker"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sko av ved døren, som stopper en stor andel ved kilden",
+            "Regelmessig støvsuging med tett maskin",
+            "Vasking av sengetøy varmt, der husstøvmidd er et problem",
+            "Færre tekstiloverflater i rom der det er aktuelt"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Det som virker mindre enn ventet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tørrmopping og tørking med tørr klut flytter støv i stedet for å fjerne det. En fuktig klut binder partiklene, og forskjellen er merkbar."
+        },
+        {
+          "type": "heading",
+          "text": "Husstøvmidd"
+        },
+        {
+          "type": "paragraph",
+          "text": "Midd lever av hudceller og trenger fuktighet. Den trives dårlig ved lav luftfuktighet, som er en av grunnene til at problemet ofte er mindre om vinteren i norske hjem."
+        },
+        {
+          "type": "heading",
+          "text": "Luftrenser som supplement"
+        },
+        {
+          "type": "paragraph",
+          "text": "En luftrenser tar partikler som er i luften, ikke de som ligger på flater. Den erstatter ikke renhold, men kan være et nyttig tillegg ved allergi."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt partikkelnivåer eller allergenkonsentrasjon, og gir ingen medisinske råd."
+        }
+      ],
+      "seo": {
+        "title": "Støv og allergener: kildene og hva som faktisk reduserer dem",
+        "description": "Mesteparten av støvet kommer inn med oss og med uteluften. Det avgjør hvilke tiltak som virker, og hvilke som bare flytter partiklene rundt."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "inneklima",
+    "slug": "temperatur-og-sovn",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Temperatur på soverommet: hva som faktisk betyr noe",
+      "summary": "Opplevd temperatur avhenger av trekk og fuktighet, ikke bare av gradtallet på termostaten.",
+      "section": {
+        "id": "opplevd-temperatur",
+        "title": "Opplevd temperatur"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Temperatur oppleves ulikt ved samme gradtall, og forskjellen forklarer mye av det folk opplever som dårlig soverom."
+        },
+        {
+          "type": "heading",
+          "text": "Trekk"
+        },
+        {
+          "type": "paragraph",
+          "text": "Luft i bevegelse fjerner varme fra huden raskere. Et rom med trekk fra utett vindu føles kaldere enn termometeret viser. Tetting gir derfor ofte bedre komfort enn å skru opp varmen."
+        },
+        {
+          "type": "heading",
+          "text": "Kalde flater"
+        },
+        {
+          "type": "paragraph",
+          "text": "Du avgir varme som stråling til kalde overflater. En seng inntil en kald yttervegg føles kaldere selv om luften er varm. Dette er også der kondens og mugg oppstår først."
+        },
+        {
+          "type": "heading",
+          "text": "Fuktighet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tørr luft føles kaldere, og svært fuktig luft føles varmere og tyngre. Samme temperatur oppleves derfor forskjellig gjennom året."
+        },
+        {
+          "type": "heading",
+          "text": "Luftskifte om natten"
+        },
+        {
+          "type": "paragraph",
+          "text": "Et lukket soverom med to personer får merkbart høyere fuktighet og karbondioksid gjennom natten. Ventil på gløtt eller åpen dør endrer opplevelsen mer enn temperaturen gjør."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Har du barn eller eldre i husstanden, gjelder andre hensyn til temperatur enn ren komfort, og de bør veie tyngst."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi gir ingen anbefalt soveromstemperatur og ingen helseråd. Vi beskriver hvorfor opplevd temperatur avviker fra målt."
+        }
+      ],
+      "seo": {
+        "title": "Temperatur på soverommet: hvorfor gradtallet ikke sier alt",
+        "description": "Trekk, kalde flater og fuktighet endrer hvordan samme temperatur oppleves. Her er hvorfor tetting ofte gir mer komfort enn å skru opp varmen."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "inneklima",
+    "slug": "luftkvalitet-paa-soverom",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Luftkvalitet på soverom og barnerom",
+      "summary": "Lukkede rom med lite luftskifte får høyere fuktighet og karbondioksid gjennom natten enn folk regner med.",
+      "section": {
+        "id": "natt-i-lukket-rom",
+        "title": "En natt i et lukket rom"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Soverom er rommet vi tilbringer flest sammenhengende timer i, og ofte det med minst luftskifte."
+        },
+        {
+          "type": "heading",
+          "text": "Hva som skjer gjennom natten"
+        },
+        {
+          "type": "paragraph",
+          "text": "En sovende person avgir både fuktighet og karbondioksid. I et lukket rom uten tilluft stiger begge jevnt gjennom natten. Det merkes som tung luft om morgenen, og som kondens på vinduet."
+        },
+        {
+          "type": "heading",
+          "text": "Fuktigheten er det som gir skade"
+        },
+        {
+          "type": "paragraph",
+          "text": "Karbondioksid gir ubehag, men fukten er det som gir bygningsskade. Kondens på kalde flater i soverom er en vanlig start på muggvekst, særlig bak møbler mot yttervegg."
+        },
+        {
+          "type": "heading",
+          "text": "Enkle tiltak"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ventil åpen, også om vinteren",
+            "Dør på gløtt der det er mulig",
+            "Møbler noen centimeter fra yttervegg",
+            "Lufte kort og kraftig om morgenen framfor lenge på gløtt"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Barnerom"
+        },
+        {
+          "type": "paragraph",
+          "text": "Små rom med lukket dør og ett eller to barn har de samme mekanismene på mindre volum, og når høyere verdier raskere."
+        },
+        {
+          "type": "heading",
+          "text": "Tørking av tøy"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tørking av klesvask på soverom er den enkeltfaktoren som oftest gir fuktproblemer der. Det tilfører flere liter vann til et rom med lite luftskifte."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi oppgir ingen grenseverdier for karbondioksid, og gir ingen helsevurdering."
+        }
+      ],
+      "seo": {
+        "title": "Luftkvalitet på soverom: hva som skjer i et lukket rom",
+        "description": "Fuktighet og karbondioksid stiger jevnt gjennom natten i et rom uten luftskifte. Her er hva det gir, og hvilke enkle tiltak som faktisk hjelper."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "inneklima",
+    "slug": "inneklima-i-kjeller",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Inneklima i kjeller og bod: lufting kan gjøre det verre",
+      "summary": "Om sommeren tilfører lufting fukt i stedet for å fjerne den. Det er motsatt av intuisjonen.",
+      "section": {
+        "id": "sommerparadokset",
+        "title": "Sommerparadokset"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Rådet om å lufte for å bli kvitt fukt gjelder ikke i en kald kjeller om sommeren. Der virker det motsatt."
+        },
+        {
+          "type": "heading",
+          "text": "Hvorfor lufting kan gi mer fukt"
+        },
+        {
+          "type": "paragraph",
+          "text": "Varm sommerluft inneholder mye vann. Slippes den inn i en kjeller som holder femten grader, kjøles den ned, og da felles vannet ut som kondens på gulv og vegger. Kjelleren blir fuktigere av luftingen."
+        },
+        {
+          "type": "heading",
+          "text": "Når lufting virker"
+        },
+        {
+          "type": "paragraph",
+          "text": "Om vinteren, når uteluften er kald og tørr. Da tar den opp fukt innendørs og fører den ut. Dette er den perioden kjelleren faktisk tørkes ved lufting."
+        },
+        {
+          "type": "heading",
+          "text": "Kalde flater"
+        },
+        {
+          "type": "paragraph",
+          "text": "Betong mot grunn holder lav temperatur hele året. Det er der kondensen oppstår først, og det er derfor ting bør løftes fra gulvet og stå litt fra veggen."
+        },
+        {
+          "type": "heading",
+          "text": "Avfukter i kjeller"
+        },
+        {
+          "type": "paragraph",
+          "text": "Her er avfukter ofte riktig tiltak nettopp fordi lufting ikke kan brukes. Kondensavfuktere yter dårlig ved lave temperaturer, som er verdt å vite før kjøp."
+        },
+        {
+          "type": "heading",
+          "text": "Fukt nedenfra"
+        },
+        {
+          "type": "paragraph",
+          "text": "Er det fukt i selve konstruksjonen fra grunnen, hjelper verken lufting eller avfukting varig. Da er drenering og fuktsikring den reelle saken."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi kan ikke avgjøre om fukt i en kjeller kommer fra kondens eller fra grunnen. Det krever måling på stedet."
+        }
+      ],
+      "seo": {
+        "title": "Inneklima i kjeller: derfor kan lufting gjøre fukten verre",
+        "description": "Varm sommerluft kondenserer på kalde kjellerflater og tilfører fukt. Her er når lufting virker, og når avfukter faktisk er det riktige tiltaket."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  }
+]

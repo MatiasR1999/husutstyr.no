@@ -4,7 +4,8 @@ Struktur: en pillar per kategori, cluster-emner lenker til pillar og tilbake.
 Maksimalt tre klikk fra forside til enhver artikkel.
 Emnene er kjoepshjelp og forklaring, ikke produkttester.
 Ingen emne forutsetter egne maalinger vi ikke har utfoert.
-Status: ingen av disse er skrevet eller publisert enda.
+Status 2026-09-09: alle 78 er skrevet som utkast under content/articles/ og validert mot contentSchema.
+Status publisering: ingen er publisert. Innfoering krever redaktoeridentitet og utgivers godkjenning.
 
 KATEGORI: kjokken
 NAVN: Kjoekken
