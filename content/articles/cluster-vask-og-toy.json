@@ -59,6 +59,30 @@
         },
         {
           "type": "heading",
+          "text": "Plassering og vibrasjon"
+        },
+        {
+          "type": "paragraph",
+          "text": "En maskin som ikke står i vater vandrer under sentrifugering og bråker. Justerbare føtter finnes på alle maskiner og brukes sjelden. Transportsikringene bak må dessuten fjernes før første bruk, og glemmes de, skades lagrene."
+        },
+        {
+          "type": "heading",
+          "text": "Vanntilkobling"
+        },
+        {
+          "type": "paragraph",
+          "text": "Aquastop-slange stenger vannet ved lekkasje og er billig forsikring mot den dyreste feilen en vaskemaskin kan gi. Stoppekran som lukkes når maskinen ikke er i bruk gir samme beskyttelse, men krever at du husker det."
+        },
+        {
+          "type": "heading",
+          "text": "Levetid og reparasjon"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vanlige feil er pumpe, lager og elektronikk. Pumpe er rimelig, lager er ofte ikke lønnsomt å bytte. Tilgang på reservedeler varierer mye mellom merker og sier mer om reell levetid enn oppgitt antall vaskesykluser."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -132,6 +156,35 @@
         {
           "type": "paragraph",
           "text": "Trenger du tøyet raskt tilbake i sirkulasjon, er den lange syklusen på varmepumpe en reell ulempe, ikke bare et tall."
+        },
+        {
+          "type": "heading",
+          "text": "Filter og kondensator"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lofilteret må renses etter hver tørk. Varmepumpetromler har i tillegg en kondensator eller et finfilter som må rengjøres jevnlig, og som er den vanligste årsaken til at tørketiden gradvis øker."
+        },
+        {
+          "type": "heading",
+          "text": "Tørkegrad"
+        },
+        {
+          "type": "paragraph",
+          "text": "Programmene skiller mellom skaptørt og stryketørt. Å tørke mer enn nødvendig sliter tekstilene uten å gi noe tilbake. Plagg som skal strykes, bør tas ut mens de er litt fuktige."
+        },
+        {
+          "type": "heading",
+          "text": "Hva som ikke hører i trommel"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ull, som filtrer seg",
+            "Plagg med trykk, som sprekker",
+            "Teknisk sportstøy med membran",
+            "Alt med skum eller gummi"
+          ]
         },
         {
           "type": "heading",
@@ -216,6 +269,30 @@
         },
         {
           "type": "heading",
+          "text": "Tid kan erstatte temperatur"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lange program ved lav temperatur gir ofte samme resultat som korte ved høy, fordi vaskemiddelet får virke lenger. Det er grunnen til at eco-programmer tar time etter time og likevel bruker mindre strøm."
+        },
+        {
+          "type": "heading",
+          "text": "Når du bør vaske varmt likevel"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ved sykdom i husstanden, på kluter og håndklær, og ved vask av tekstiler som har ligget fuktig. Da er hensikten hygiene, ikke rent tøy, og temperaturen er selve virkemiddelet."
+        },
+        {
+          "type": "heading",
+          "text": "Krymping"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bomull krymper mest første gang, og mest ved høy temperatur. Et plagg som allerede har vært vasket varmt, krymper lite mer. Nye bomullsplagg bør derfor vaskes etter anvisningen første gang."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -289,6 +366,30 @@
         {
           "type": "paragraph",
           "text": "Har du små barn i huset, er kapsler et sikkerhetsspørsmål, ikke bare et praktisk valg."
+        },
+        {
+          "type": "heading",
+          "text": "Vannets hardhet avgjør doseringen"
+        },
+        {
+          "type": "paragraph",
+          "text": "I områder med hardt vann binder kalk seg til vaskemiddelet, og en del av dosen går med til det før noe rengjøring skjer. I bløtt vann er anbefalt dose ofte for høy. Vannverket i kommunen oppgir hardheten."
+        },
+        {
+          "type": "heading",
+          "text": "Enzymer"
+        },
+        {
+          "type": "paragraph",
+          "text": "Moderne midler inneholder enzymer som bryter ned protein, fett og stivelse. De virker best ved moderate temperaturer og ødelegges av høy varme. Det er derfor et enzymbasert middel kan gi dårligere resultat på blodflekker ved nitti grader enn ved førti."
+        },
+        {
+          "type": "heading",
+          "text": "Blekemiddel"
+        },
+        {
+          "type": "paragraph",
+          "text": "Oksygenbasert blekemiddel finnes i de fleste pulvere og virker først over rundt førti grader. Vasker du alltid kaldere, får du ikke effekten, og da er et flytende middel like godt."
         },
         {
           "type": "heading",
@@ -368,6 +469,30 @@
         },
         {
           "type": "heading",
+          "text": "Håndvask i praksis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fyll vasken med lunkent vann, løs opp middelet før plagget legges i, og la det ligge uten å gni. Klem vannet ut i stedet for å vri. Skyll i vann med samme temperatur som vasken."
+        },
+        {
+          "type": "heading",
+          "text": "Tørking av ull"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rull plagget i et håndkle og press ut vann, legg det så flatt i opprinnelig fasong. Henging strekker plagget permanent, og det er den vanligste måten ull ødelegges på etter vask."
+        },
+        {
+          "type": "heading",
+          "text": "Nupper"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nupper er løse fibre som har filtret seg, ikke tegn på dårlig kvalitet. De fjernes med en nuppefjerner. Å vaske ull mildere og sjeldnere reduserer hvor raskt de dannes."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -444,6 +569,30 @@
         },
         {
           "type": "heading",
+          "text": "Test alltid først"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prøv middelet på en skjult del av plagget, som en innvendig søm. Enkelte farger tåler ikke oksygenbleking, og skaden er permanent og synlig."
+        },
+        {
+          "type": "heading",
+          "text": "Gni ikke, dupp"
+        },
+        {
+          "type": "paragraph",
+          "text": "Å gni sprer flekken og river i fibrene. Dupp med en ren, lys klut som tar opp flekken, og skift til et rent område av kluten mellom hver dupp."
+        },
+        {
+          "type": "heading",
+          "text": "Flekker som krever fagfolk"
+        },
+        {
+          "type": "paragraph",
+          "text": "Maling, lim, blekk på ømfintlige stoffer, og alt på plagg merket kun rens. Der er hjemmeforsøk ofte det som gjør flekken permanent."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -517,6 +666,30 @@
         {
           "type": "paragraph",
           "text": "Har du balansert ventilasjon som fungerer, håndteres dette av anlegget, og innendørs tørking er langt mindre problematisk."
+        },
+        {
+          "type": "heading",
+          "text": "Hvor du henger det betyr noe"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tørkestativ i et rom med luftskifte tørker raskere og gir mindre fuktproblem enn i et lukket rom med varme. Bad med vifte er ofte bedre enn soverom, selv om soverommet er varmere."
+        },
+        {
+          "type": "heading",
+          "text": "Avstand mellom plaggene"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tett hengt tøy tørker vesentlig langsommere, fordi luften ikke kommer til. Halvparten så mange plagg med dobbel avstand tørker ofte raskere enn alt på én gang."
+        },
+        {
+          "type": "heading",
+          "text": "Sentrifuger mer når du tørker inne"
+        },
+        {
+          "type": "paragraph",
+          "text": "Høyere sentrifugering fjerner mer vann i maskinen, som er der det hører hjemme. Det reduserer både tørketid og fuktbelastningen på boligen."
         },
         {
           "type": "heading",
@@ -601,6 +774,30 @@
         },
         {
           "type": "heading",
+          "text": "Fuktig tøy stryker lettere"
+        },
+        {
+          "type": "paragraph",
+          "text": "Plagg som er litt fuktige lar seg glatte med langt mindre varme og arbeid. Tas de ut av maskinen og strykes med en gang, eller fuktes lett med vann, går jobben raskere."
+        },
+        {
+          "type": "heading",
+          "text": "Sålen på jernet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Belegg på sålen fra smeltet syntetisk eller stivelse gir striper og kan misfarge lyse plagg. Sålen rengjøres kaldt, og det finnes egne rensemidler for formålet."
+        },
+        {
+          "type": "heading",
+          "text": "Vann i jernet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hardt vann gir kalk som tetter dampdysene. Enkelte jern tåler ikke destillert vann alene, og bruksanvisningen sier hva den enkelte modellen forutsetter."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -682,6 +879,30 @@
         },
         {
           "type": "heading",
+          "text": "Vaskeposer løser mye"
+        },
+        {
+          "type": "paragraph",
+          "text": "En pose skiller små og ømfintlige plagg fra resten uten at du må kjøre egen maskin. Undertøy, strømper og strikk tåler vesentlig mer når de ikke tvinnes sammen med tunge plagg."
+        },
+        {
+          "type": "heading",
+          "text": "Nytt tøy"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nye plagg avgir både farge og overskuddskjemi fra produksjonen. Første vask alene, eller sammen med lignende farger, er en fornuftig regel selv om plagget ikke er dypt farget."
+        },
+        {
+          "type": "heading",
+          "text": "Håndklær og mikrofiber"
+        },
+        {
+          "type": "paragraph",
+          "text": "Håndklær bør ikke vaskes med skyllemiddel, som reduserer oppsugingen. Mikrofiber bør ikke vaskes sammen med bomull, fordi den trekker til seg lo som setter seg i fibrene."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -755,6 +976,30 @@
         {
           "type": "paragraph",
           "text": "Toppmatede maskiner har ikke dørpakning på samme måte, og lukt der har oftere med silen eller doseringen å gjøre."
+        },
+        {
+          "type": "heading",
+          "text": "Såpeskuffen"
+        },
+        {
+          "type": "paragraph",
+          "text": "Skuffen samler rester og fukt, og er ofte kilden til lukt sammen med pakningen. De fleste kan tas helt ut og skylles. Kanalen bak skuffen tettes også, og bør rengjøres når du først er i gang."
+        },
+        {
+          "type": "heading",
+          "text": "Vaskemiddelrester i tøyet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hvite eller grå merker på mørke plagg etter vask er som regel middelrester, ikke skitt. Årsaken er overdosering, for kald vask eller overfylt maskin, og løsningen er ikke ekstra skylling."
+        },
+        {
+          "type": "heading",
+          "text": "Hvor ofte varmvask"
+        },
+        {
+          "type": "paragraph",
+          "text": "En vask på nitti grader uten tøy, eller på det høyeste programmet maskinen har, en gang i måneden motvirker biofilm i maskiner som ellers bare kjører kaldt."
         },
         {
           "type": "heading",
@@ -839,6 +1084,30 @@
         },
         {
           "type": "heading",
+          "text": "Reparasjon slår utskifting"
+        },
+        {
+          "type": "paragraph",
+          "text": "Løse sømmer, manglende knapper og små hull tar minutter å utbedre og forlenger levetiden med år. Dette er det enkleste tiltaket som finnes, og det er også det som oftest ikke blir gjort."
+        },
+        {
+          "type": "heading",
+          "text": "Oppbevaring"
+        },
+        {
+          "type": "paragraph",
+          "text": "Strikk som henger, strekkes av egen vekt. Brett det i stedet. Ull bør lagres rent og tett om sommeren på grunn av møll, og aldri lagres skittent."
+        },
+        {
+          "type": "heading",
+          "text": "Fibervalg ved kjøp"
+        },
+        {
+          "type": "paragraph",
+          "text": "Naturfiber som ull og bomull tåler mange vask og lar seg reparere. Blandinger med mye elastan mister spenst og kan ikke repareres på samme måte. Dette er verdt å vite før kjøp, ikke etter."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -908,6 +1177,30 @@
         {
           "type": "paragraph",
           "text": "Dyne og pute vaskes sjeldnere enn sengetøy, men trekk og laken hyppig. Er sengetøyet skiftet regelmessig, er behovet lavere enn folk tror."
+        },
+        {
+          "type": "heading",
+          "text": "Balanse i trommelen"
+        },
+        {
+          "type": "paragraph",
+          "text": "En dyne suger mye vann og blir svært tung på én side. Maskinen kan avbryte sentrifugeringen eller vandre. To tørkeballer eller å vaske én dyne av gangen reduserer problemet."
+        },
+        {
+          "type": "heading",
+          "text": "Dobbel skylling"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fyllet holder på vaskemiddel, og en ekstra skylling er ofte nødvendig for å få det ut. Middelrester i fyllet gir stivhet og lukt som ikke forsvinner."
+        },
+        {
+          "type": "heading",
+          "text": "Puter oftere enn dyner"
+        },
+        {
+          "type": "paragraph",
+          "text": "Puter er nærmere ansiktet og tar imot mer fukt og hudceller. De vaskes derfor oftere enn dyner, og de er også lettere å håndtere i en vanlig maskin."
         },
         {
           "type": "heading",

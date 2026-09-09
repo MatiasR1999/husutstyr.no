@@ -59,6 +59,30 @@
         },
         {
           "type": "heading",
+          "text": "Munnstykket er den billige oppgraderingen"
+        },
+        {
+          "type": "paragraph",
+          "text": "Et bytte av munnstykke koster en brøkdel av en ny maskin og endrer resultatet mer. På harde gulv gir et bredt munnstykke med myk bust både bedre opptak og mindre riper. På teppe er en motorisert børstevalse forskjellen på å suge opp og å suge over."
+        },
+        {
+          "type": "heading",
+          "text": "Fugemunnstykke og kanter"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mye av støvet i et rom ligger langs lister og i hjørner, der luftstrømmen samler det. Et smalt fugemunnstykke brukt langs kantene et par ganger i måneden fjerner mer enn en ekstra runde over gulvet."
+        },
+        {
+          "type": "heading",
+          "text": "Tepper krever annen teknikk"
+        },
+        {
+          "type": "paragraph",
+          "text": "På teppe har retningen betydning. Å gå både på langs og på tvers reiser luggen og løsner mer. På harde gulv gir det ingen gevinst, og der er dekningsgrad viktigere enn retning."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -124,6 +148,30 @@
         {
           "type": "paragraph",
           "text": "Har du stor bolig med mye teppe, er batteridrift ofte utilstrekkelig i praksis. Bor du lite og rydder ofte, er ledning en terskel som gjør at det ikke blir gjort."
+        },
+        {
+          "type": "heading",
+          "text": "Hvordan batteriet bør behandles"
+        },
+        {
+          "type": "paragraph",
+          "text": "Litiumbatterier lever lengst mellom moderat ladning, og de misliker både full utlading og å stå fulladet i varme. Praktisk betyr det å lade når det er behov framfor å la maskinen stå i lader konstant, og å unngå lagring i kald bod om vinteren."
+        },
+        {
+          "type": "heading",
+          "text": "To batterier endrer regnestykket"
+        },
+        {
+          "type": "paragraph",
+          "text": "Er batteriet byttbart og du har to, faller den viktigste ulempen bort. Da er batteridrift jevnbyrdig med ledning for de fleste boliger, og bekvemmeligheten avgjør."
+        },
+        {
+          "type": "heading",
+          "text": "Effekt oppgis ulikt"
+        },
+        {
+          "type": "paragraph",
+          "text": "Watt beskriver hvor mye strøm maskinen bruker, ikke hvor godt den suger. Sugekraft oppgis i luftvatt eller i pascal, og produsenter oppgir ikke alltid det samme målet. Sammenligning på tvers av merker er derfor vanskeligere enn tallene får det til å virke."
         },
         {
           "type": "heading",
@@ -208,6 +256,30 @@
         },
         {
           "type": "heading",
+          "text": "Kartlegging og soner"
+        },
+        {
+          "type": "paragraph",
+          "text": "Modeller som lager kart og lar deg definere soner er merkbart mer nyttige enn de som kjører tilfeldig, fordi du kan stenge av rom og kjøre bare kjøkkenet etter middag. Uten kart blir roboten et alt-eller-ingenting-verktøy."
+        },
+        {
+          "type": "heading",
+          "text": "Tømming og vedlikehold"
+        },
+        {
+          "type": "paragraph",
+          "text": "Beholderen er liten og må tømmes ofte. Modeller med tømmestasjon løser det, men stasjonen tar plass og bruker poser. Børster må renses for hår, og hjul og sensorer for støv, ellers faller navigasjonen sammen over tid."
+        },
+        {
+          "type": "heading",
+          "text": "Vaskefunksjon"
+        },
+        {
+          "type": "paragraph",
+          "text": "Roboter med moppefunksjon fukter en klut og drar den etter seg. Det tar bort lette merker, men erstatter ikke gulvvask, og på gulv som tåler lite fukt bør funksjonen brukes med forsiktighet."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -273,6 +345,30 @@
         {
           "type": "paragraph",
           "text": "For husstander med allergi eller astma er dette ikke en detalj. For andre er forskjellen mindre merkbar enn markedsføringen antyder."
+        },
+        {
+          "type": "heading",
+          "text": "Hvordan du vet at filteret er tett"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tegnene kommer gradvis: maskinen låter lysere, den blir varmere, og sugeeffekten faller uten at noe er blokkert. Mange oppdager det først når filteret byttes og forskjellen er tydelig."
+        },
+        {
+          "type": "heading",
+          "text": "Vaskbart mot bytte"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vaskbare filtre sparer penger, men må være helt tørre før de settes tilbake. Et fuktig filter gir lukt og kan skade motoren. Tørketid er ofte et døgn, som betyr at du trenger to filtre eller en dag uten støvsuger."
+        },
+        {
+          "type": "heading",
+          "text": "Poser er ikke bare oppsamling"
+        },
+        {
+          "type": "paragraph",
+          "text": "I posemaskiner er posen selv et filtertrinn. Uoriginale poser med grovere materiale slipper gjennom mer finstøv, og det merkes for allergikere selv om maskinen har HEPA lenger ut."
         },
         {
           "type": "heading",
@@ -352,6 +448,30 @@
         },
         {
           "type": "heading",
+          "text": "To bøtter eller to kluter"
+        },
+        {
+          "type": "paragraph",
+          "text": "Å skylle en skitten mopp i den samme bøtta gjør vannet gradvis skittent, og til slutt fordeles smuss i stedet for å fjernes. To bøtter, en med rent vann og en til utvasking, løser dette. Alternativt bytter du klut ofte nok til at det ikke rekker å bli et problem."
+        },
+        {
+          "type": "heading",
+          "text": "Hvor mye vann er riktig"
+        },
+        {
+          "type": "paragraph",
+          "text": "Moppen skal være fuktig, ikke våt. Gulvet bør være tørt igjen etter et minutt eller to. Står det synlig vann etter moppen, er den for våt for de fleste gulvtyper."
+        },
+        {
+          "type": "heading",
+          "text": "Vask av selve moppen"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mikrofibermopper vaskes uten skyllemiddel, som legger seg i fibrene og ødelegger opptaket. De tåler høy temperatur, men ikke tørketrommel på høy varme, der fibrene smelter og mister struktur."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -425,6 +545,30 @@
         {
           "type": "paragraph",
           "text": "De fleste midler trenger tid for å virke. Å la middelet stå i noen minutter gir bedre resultat enn å skrubbe hardere med et middel som nettopp er påført."
+        },
+        {
+          "type": "heading",
+          "text": "Les etiketten for advarsler, ikke for løfter"
+        },
+        {
+          "type": "paragraph",
+          "text": "Den nyttige informasjonen på et rengjøringsmiddel er advarslene og bruksområdet, ikke markedsføringsteksten. Der står hvilke overflater middelet ikke skal brukes på, og det er den setningen som forhindrer skade."
+        },
+        {
+          "type": "heading",
+          "text": "Fortynning"
+        },
+        {
+          "type": "paragraph",
+          "text": "Konsentrat som ikke fortynnes riktig gir enten dårlig effekt eller skade. Doseringen står oppgitt, og den er ikke en anbefaling produsenten har gjettet på. Sterkere blanding gir sjelden bedre resultat, men ofte mer rester."
+        },
+        {
+          "type": "heading",
+          "text": "Oppbevaring"
+        },
+        {
+          "type": "paragraph",
+          "text": "Midler skal stå i originalemballasje med etikett. Omfylling på umerket flaske er den vanligste årsaken til forveksling i hjemmet, og enkelte midler bryter ned feil plasttype over tid."
         },
         {
           "type": "heading",
@@ -504,6 +648,39 @@
         },
         {
           "type": "heading",
+          "text": "Rekkefølge og retning"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vask innsiden med vannrette drag og utsiden med loddrette, eller motsatt. Da ser du hvilken side en gjenværende stripe er på, uten å måtte gjette."
+        },
+        {
+          "type": "heading",
+          "text": "Karmer først"
+        },
+        {
+          "type": "paragraph",
+          "text": "Skitt i karmen renner ned på ferdig vasket glass med en gang det blir fuktig. Karm og list bør derfor tørkes før glasset, ikke etter."
+        },
+        {
+          "type": "heading",
+          "text": "Utstyret som faktisk trengs"
+        },
+        {
+          "type": "list",
+          "items": [
+            "En nal i riktig bredde for vinduet",
+            "En bøtte med lunkent vann og litt oppvaskmiddel",
+            "En mikrofiberklut til kanter",
+            "En tørr klut til å tørke nalen mellom drag"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ferdigblandede midler på sprayflaske er praktiske på små ruter og lite effektive på store, fordi de tørker før du rekker over flaten."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -577,6 +754,30 @@
         {
           "type": "paragraph",
           "text": "Gjentagende muggvekst er et fuktproblem, ikke et renholdsproblem. Da hører saken hjemme under inneklima og eventuelt hos fagfolk."
+        },
+        {
+          "type": "heading",
+          "text": "Ventilasjon er halve renholdet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Et bad som tørker raskt etter dusj får langt mindre kalk, mugg og lukt. Vifte som går noen minutter etter dusjing, eller vindu på gløtt, reduserer arbeidet mer enn noe middel gjør."
+        },
+        {
+          "type": "heading",
+          "text": "Nal på dusjveggen"
+        },
+        {
+          "type": "paragraph",
+          "text": "Å dra vann av dusjveggen etter bruk tar ti sekunder og fjerner kilden til kalkbelegg. Dette er det enkeltgrepet som sparer mest arbeid på et bad over tid."
+        },
+        {
+          "type": "heading",
+          "text": "Avløp og hår"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hår i sluket er hovedårsaken til treg avrenning. En enkel sil koster lite og forhindrer det meste, forutsatt at den tømmes. Kjemisk rens er sjelden nødvendig når dette gjøres."
         },
         {
           "type": "heading",
@@ -666,6 +867,30 @@
         },
         {
           "type": "heading",
+          "text": "Test på et skjult sted"
+        },
+        {
+          "type": "paragraph",
+          "text": "Før damp brukes på en flate du ikke har testet, prøv på et lite område som ikke synes. Skade fra damp er ofte irreversibel, og et minutts test sparer en gulvplanke."
+        },
+        {
+          "type": "heading",
+          "text": "Vann i apparatet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hardt vann gir kalk i dampapparatet, og kalk tetter dyser og reduserer damptrykket. Destillert vann forlenger levetiden merkbart der vannet er hardt."
+        },
+        {
+          "type": "heading",
+          "text": "Damp som fukter for mye"
+        },
+        {
+          "type": "paragraph",
+          "text": "Et apparat som slipper ut vanndråper i stedet for tørr damp, legger igjen for mye fukt. Det skjer når apparatet ikke er varmt nok ennå, eller når dysen er delvis tett."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -742,6 +967,30 @@
         },
         {
           "type": "heading",
+          "text": "Fargekoding"
+        },
+        {
+          "type": "paragraph",
+          "text": "Å bruke ulike farger til bad, kjøkken og øvrige flater er standard i profesjonelt renhold av en grunn. Det hindrer at en klut brukt på toalettet havner på kjøkkenbenken, og det krever ingen hukommelse."
+        },
+        {
+          "type": "heading",
+          "text": "Vask av kluter"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kluter bør vaskes på minst seksti grader for å bli hygienisk rene, og uten skyllemiddel. Å henge dem til tørk mellom bruk hindrer bakterievekst mer enn å skylle dem i vasken."
+        },
+        {
+          "type": "heading",
+          "text": "Skuresvamper og alternativer"
+        },
+        {
+          "type": "paragraph",
+          "text": "En myk børste er ofte bedre enn en skuresvamp: den når inn i riller, riper mindre og tørker raskere. Svamper holder på fukt og er derfor det redskapet på kjøkkenet som blir skittent først."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -815,6 +1064,30 @@
         {
           "type": "paragraph",
           "text": "Har du naturstein, kobber eller aluminium i boligen, er flere av disse midlene uaktuelle uansett hvor skånsomme de framstilles som."
+        },
+        {
+          "type": "heading",
+          "text": "Sitronsyre som alternativ til eddik"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sitronsyre i pulverform er sur som eddik, men uten lukt, og den doseres enklere. Den fungerer på kalk i vannkoker, kaffetrakter og på dusjvegger. Samme forbehold gjelder: ikke på naturstein."
+        },
+        {
+          "type": "heading",
+          "text": "Mekanikk er undervurdert"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mye av det som tilskrives middelet, kommer fra skrubbingen. En myk børste og litt tid løser overraskende mye uten kjemi, og den kombinasjonen er trygg på nesten alle overflater."
+        },
+        {
+          "type": "heading",
+          "text": "Grønnsåpe og allrengjøring"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mild såpe er nøytral til svakt alkalisk og fungerer på daglig smuss på de fleste flater. Det er ofte alt som trengs, og de spesialiserte midlene hører til oppgavene de faktisk er laget for."
         },
         {
           "type": "heading",
@@ -896,6 +1169,35 @@
             "Vask eller bytt filter",
             "Kontroller at lokk og pakninger sitter tett"
           ]
+        },
+        {
+          "type": "heading",
+          "text": "Intervaller som fungerer"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Beholder eller pose: når den er to tredeler full",
+            "Børstevalse: rens for hår hver måned",
+            "Filter: vask eller bytt hver tredje måned",
+            "Slange: sjekk ved plutselig effekttap"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Lukt fra maskinen"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lukt kommer som regel fra fuktighet i filteret eller fra organisk materiale i beholderen. Å suge opp noe fuktig, som søl eller jord fra planter, er den vanligste årsaken. Filteret må da vaskes og tørkes helt."
+        },
+        {
+          "type": "heading",
+          "text": "Når det faktisk er motoren"
+        },
+        {
+          "type": "paragraph",
+          "text": "Motorslitasje gir høyere lyd og redusert effekt selv med rent filter og fri slange. Da er spørsmålet om reservedeler finnes, og om reparasjon koster mindre enn maskinen er verdt."
         },
         {
           "type": "heading",
