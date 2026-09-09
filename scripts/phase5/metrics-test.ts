@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import {neon} from '@neondatabase/serverless';
+import '../neon-retry';
 import {createHash,randomUUID} from 'node:crypto';
 import {readFile,writeFile} from 'node:fs/promises';
 import {z} from 'zod';

@@ -1,4 +1,5 @@
 import {neon} from '@neondatabase/serverless';
+import './neon-retry';
 import {drizzle} from 'drizzle-orm/neon-http';
 import {sql} from 'drizzle-orm';
 import {z} from 'zod';

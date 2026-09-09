@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import { randomBytes,createHash,randomUUID } from 'node:crypto';
 import { readFile,writeFile } from 'node:fs/promises';
 import { Pool,neonConfig,neon } from '@neondatabase/serverless';
+import '../neon-retry';
 import site from '../../site.config';
 import { qaConnection } from './guard';
 import { parseContent } from '../../src/lib/domain/content';

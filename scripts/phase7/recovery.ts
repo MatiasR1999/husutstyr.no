@@ -3,6 +3,7 @@ import {execFile} from 'node:child_process';
 import {promisify} from 'node:util';
 import {readFile,writeFile,mkdir,copyFile} from 'node:fs/promises';
 import {neon,Pool,neonConfig} from '@neondatabase/serverless';
+import '../neon-retry';
 import {drizzle} from 'drizzle-orm/neon-serverless';
 import {migrate} from 'drizzle-orm/neon-serverless/migrator';
 import {qaConnection} from '../phase2/guard';

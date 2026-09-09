@@ -1,4 +1,5 @@
 import {neon} from '@neondatabase/serverless';
+import '../neon-retry';
 import {randomBytes,createHash,randomUUID} from 'node:crypto';
 import {readFile} from 'node:fs/promises';
 import {parseEnv} from 'node:util';

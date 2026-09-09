@@ -5,6 +5,7 @@ import {promisify} from 'node:util';
 import {randomUUID,createHash} from 'node:crypto';
 import {setTimeout as delay} from 'node:timers/promises';
 import {neon} from '@neondatabase/serverless';
+import '../neon-retry';
 import {load} from 'cheerio';
 import {startIssuer} from '../phase2/oidc-issuer';
 import {qaConnection} from '../phase2/guard';

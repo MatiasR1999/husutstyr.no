@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import {writeFile,readFile} from 'node:fs/promises';
 import {neon} from '@neondatabase/serverless';
+import '../neon-retry';
 import {randomBytes,createHash} from 'node:crypto';
 import {parseEnv} from 'node:util';
 import site from '../../site.config';

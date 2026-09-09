@@ -1,6 +1,7 @@
 import {parseEnv} from 'node:util';
 import assert from 'node:assert/strict';
 import {neon} from '@neondatabase/serverless';
+import '../neon-retry';
 import {randomBytes,createHash,randomUUID} from 'node:crypto';
 import {readFile,writeFile} from 'node:fs/promises';
 import {setTimeout as delay} from 'node:timers/promises';
