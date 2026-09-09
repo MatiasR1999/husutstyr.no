@@ -879,3 +879,17 @@ Kontrollert: npm run ci:phase7 under Node 20 stopper naa umiddelbart med en linj
 Tester: Fire nye tester daekker retry ved retryable compute-feil, ingen retry uten flagget, ingen retry ved ugyldig JSON, bevart kropp etter oppgitt retry og ingen retry ved avbrutt signal.
 Tester: Antall tester oekte fra 86 til 90.
 Kontroll PASS: npm run typecheck, npm run lint og npm test returnerte 0.
+
+VERCEL: PREVIEW-MILJOE SATT OPP, 2026-09-09
+Bestilling: Brukeren ba om at Vercel preview settes opp.
+Krav fra kloneinstruksen: Preview skal ikke peke paa produksjonens skrivetilgang.
+Utfoert: Neon-gren preview med id br-rough-lab-b14zdgj8 er opprettet i prosjekt summer-surf-00665520.
+Utfoert: Grenen er provisjonert med egne tilfeldige rollepassord, 19 migrasjoner, seks kategorier og forfatterraden.
+Kontrollert: DATABASE_URL og EDITOR_DATABASE_URL for preview har annen vert og annet passord enn produksjon.
+Kontrollert: Produksjonens miljoefil er uendret; en sikkerhetskopi ble tatt foer provisjoneringen.
+Utfoert: Aatte miljoevariabler er satt paa Vercel Preview med egne secrets, ikke gjenbruk fra produksjon.
+Merknad SITE_URL: Preview setter SITE_URL til https://husutstyr.no fordi lanseringsporten krever likhet med site.identity.url.
+Merknad SITE_URL: Canonical paa preview peker derfor til produksjonsdomenet, som er riktig siden preview leveres noindex.
+Gjenstaar OIDC: OIDC_CLIENT_ID og OIDC_CLIENT_SECRET mangler i begge miljoer og krever brukerens Google Cloud-klient.
+Gjenstaar innhold: Preview-bygget naar ikke innholdskontrollen foer OIDC er paa plass.
+Avgrensning: Ingen deploy er godkjent som lansering, og domenet er fortsatt ikke koblet.
