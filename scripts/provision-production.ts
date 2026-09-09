@@ -21,16 +21,27 @@ if(!owner) throw new Error('DATABASE_URL_UNPOOLED must hold the production migra
 if(process.env.SEO_QA_MODE==='true') throw new Error('Refusing to provision production while SEO_QA_MODE is true');
 if(new URL(owner).hostname.startsWith(site.qa.database.hostPrefix)) throw new Error('Refusing to provision production against the configured QA database');
 
+const output=process.env.PROVISION_OUTPUT??'.env.production.local';
+let rotated:{reader:string;editor:string}|null=null;
 const pool=new Pool({connectionString:owner,connectionTimeoutMillis:20000});
 try {
  await migrate(drizzle(pool),{migrationsFolder:'drizzle'});
  const journal=JSON.parse(await readFile('drizzle/meta/_journal.json','utf8')) as {entries:unknown[]};
  const applied=await pool.query('select count(*)::int as count from drizzle.__drizzle_migrations');
  if(applied.rows[0]?.count!==journal.entries.length) throw new Error('Applied migration count does not match the journal');
- // Passwords are generated hex values; the role identifiers are fixed and never taken from input.
- const readerPassword=randomBytes(32).toString('hex'),editorPassword=randomBytes(32).toString('hex');
- await pool.query(`ALTER ROLE seo_public_reader LOGIN PASSWORD '${readerPassword}'`);
- await pool.query(`ALTER ROLE seo_editor_service LOGIN PASSWORD '${editorPassword}'`);
+ // Rotation is opt-in. Re-running provisioning to add content must not silently invalidate credentials already deployed to a hosting environment.
+ const rotate=process.argv.includes('--rotate-credentials');
+ const existing=await readFile(output,'utf8').then(text=>Object.fromEntries(text.split('\n').filter(Boolean).map(line=>[line.slice(0,line.indexOf('=')),line.slice(line.indexOf('=')+1)])),()=>({} as Record<string,string>));
+ const reuse=(name:string,role:string)=>{const value=existing[name];if(!value)return null;try{return new URL(value).username===role?value:null;}catch{return null;}};
+ const keptReader=rotate?null:reuse('DATABASE_URL','seo_public_reader'),keptEditor=rotate?null:reuse('EDITOR_DATABASE_URL','seo_editor_service');
+ if(!keptReader||!keptEditor){
+  if(!rotate&&(keptReader||keptEditor)) throw new Error(`Only one stored connection is reusable. Re-run with --rotate-credentials and redeploy both environments.`);
+  // Passwords are generated hex values; the role identifiers are fixed and never taken from input.
+  const readerPassword=randomBytes(32).toString('hex'),editorPassword=randomBytes(32).toString('hex');
+  await pool.query(`ALTER ROLE seo_public_reader LOGIN PASSWORD '${readerPassword}'`);
+  await pool.query(`ALTER ROLE seo_editor_service LOGIN PASSWORD '${editorPassword}'`);
+  rotated={reader:readerPassword,editor:editorPassword};
+ }
  const db=neon(owner);
  await db`insert into editorial.sites(id,reserved_routes) values(${site.id},${[...site.routes.reserved]}) on conflict(id) do update set reserved_routes=excluded.reserved_routes`;
  await db`insert into editorial.locales values(${site.id},${site.locale}) on conflict do nothing`;
@@ -52,12 +63,14 @@ try {
  const pending=[!author.image?'portrait':null,author.sameAs.length?null:'sameAs'].filter(Boolean);
  if(pending.length) console.log(`PENDING: Author ${author.slug} is registered but still missing ${pending.join(' and ')}; publishing stays blocked until the publisher supplies them.`);
  const connection=(role:string,password:string)=>{const url=new URL(owner);url.username=role;url.password=password;url.search='';return url.href;};
- const env={DATABASE_URL:connection('seo_public_reader',readerPassword),EDITOR_DATABASE_URL:connection('seo_editor_service',editorPassword)};
- await writeFile('.env.production.local',Object.entries(env).map(([key,value])=>`${key}=${value}`).join('\n')+'\n',{mode:0o600});
- await chmod('.env.production.local',0o600);
+ const env=rotated?{DATABASE_URL:connection('seo_public_reader',rotated.reader),EDITOR_DATABASE_URL:connection('seo_editor_service',rotated.editor)}
+                  :{DATABASE_URL:keptReader!,EDITOR_DATABASE_URL:keptEditor!};
+ await writeFile(output,Object.entries(env).map(([key,value])=>`${key}=${value}`).join('\n')+'\n',{mode:0o600});
+ await chmod(output,0o600);
  // Each restricted role must reach the public contract without the owner connection.
  await neon(env.DATABASE_URL)`select 1 from editorial.published_articles limit 1`;
  await neon(env.EDITOR_DATABASE_URL)`select 1 from editorial.principals limit 1`;
  console.log(`PASS: Provisioned ${journal.entries.length} migrations, both restricted roles, the site row, ${categories.length} categories and the author record on ${new URL(owner).hostname}.`);
- console.log('PASS: Connection strings written to .env.production.local with owner-only permissions; they are never printed.');
+ console.log(`PASS: Connection strings written to ${output} with owner-only permissions; they are never printed.`);
+ console.log(rotated?'PASS: Role passwords were rotated; redeploy every environment that stores them.':'PASS: Existing role passwords were reused, so deployed environments stay valid.');
 } finally { await pool.end(); }
