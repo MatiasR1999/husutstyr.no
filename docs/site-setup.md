@@ -36,6 +36,8 @@ Per i dag finnes ingen egne tester, og siden sier det rett ut.
 
 KATEGORIER
 Seks kategorier er definert i content/categories.json og provisjonert.
+Merk: viewet published_categories teller bare kategorier som har minst en publisert artikkel.
+Lanseringsporten melder derfor missing-categories til den foerste artikkelen er publisert.
 kjokken, rengjoring, vask-og-toy, oppbevaring, vedlikehold, inneklima.
 
 KOMMERSIELT
