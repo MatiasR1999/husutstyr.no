@@ -859,3 +859,23 @@ Deploy: Produksjonsbygget fra main returnerer naa bare BLOCKED missing-secret OI
 Gjenstaar: Google OIDC-klient, deretter innholdskontrollen som krever minst en kategori, en publisert artikkel med fullstendig ekte forfatter og alle sju tillitssidene.
 Avgrensning: Ingen forfatter, tillitsside eller artikkel er diktet opp; disse krever faktiske eier-, kontakt- og personopplysninger fra brukeren.
 Avgrensning: Ingen DNS-endring, domenekobling eller offentlig publisering er utfoert; nettstedet serverer fortsatt ingen trafikk.
+
+ROBUSTHET: RETRY MOT NEON OG HAANDHEVET NODE-VERSJON, 2026-09-09
+Bakgrunn: En kjoering feilet paa recovery med ReferenceError WebSocket is not defined fordi prosessen kjoerte Node 20 i stedet for 24.
+Bakgrunn: package.json krever node >=24.20.0 <25, men npm behandler avviket som en advarsel og bygger videre.
+Bakgrunn: En senere kjoering feilet paa HTTP 500 Couldn't connect to compute node, som Neon selv merker med neon:retryable true.
+Vurdering: Ingen av de to var kodefeil, men begge gjorde en triviell aarsak vanskelig aa se og ville rammet produksjon ulikt.
+Implementert: src/lib/db/transport.ts proever paa nytt en gang naar Neon svarer 500 med neon:retryable true.
+Begrunnelse: Flagget settes naar proxyen ikke naadde compute-noden, saa setningen provbart ikke ble kjoert.
+Begrunnelse: Dette foelger samme sikkerhetsregel som den eksisterende connect timeout-regelen og utvider den ikke til ukjent skriveutfall.
+Implementert: Responsen klones foer kroppen leses, slik at kalleren beholder original kropp naar feilen ikke er retryable.
+Implementert: Et kort opphold paa 250 ms foer nytt forsoek, fordi en suspendert compute trenger tid paa aa starte.
+Implementert: Avbrutt signal stopper nytt forsoek, som foer.
+Implementert: scripts/check-node.mjs sammenligner kjoerende Node mot .nvmrc og stopper med en linje.
+Implementert: scripts/ci-phase7.mjs kaller kontrollen foerst, foer alle grupper.
+Avgrensning: Kontrollen er bevisst ikke lagt i npm run build, fordi Vercel kjoerer 24.19.0 og et slikt krav ville brutt deploy.
+Kontrollert: Node 24.20.0 gir exit 0. Node 20.19.5 og 22.17.0 gir exit 1 med forklarende melding.
+Kontrollert: npm run ci:phase7 under Node 20 stopper naa umiddelbart med en linje i stedet for en feil tre grupper uti.
+Tester: Fire nye tester daekker retry ved retryable compute-feil, ingen retry uten flagget, ingen retry ved ugyldig JSON, bevart kropp etter oppgitt retry og ingen retry ved avbrutt signal.
+Tester: Antall tester oekte fra 86 til 90.
+Kontroll PASS: npm run typecheck, npm run lint og npm test returnerte 0.

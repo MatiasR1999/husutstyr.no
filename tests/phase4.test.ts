@@ -55,4 +55,30 @@ describe('safe Neon connection retry',()=>{
   const http=vi.fn<typeof fetch>().mockResolvedValue(new Response(null,{status:503}));expect((await fetchWithConnectionRetry(site.qa.markers.source,{},http)).status).toBe(503);expect(http).toHaveBeenCalledTimes(1);
   const timeout=vi.fn<typeof fetch>().mockRejectedValue(new TypeError('fetch failed',{cause:{code:'UND_ERR_CONNECT_TIMEOUT'}}));await expect(fetchWithConnectionRetry(site.qa.markers.source,{},timeout)).rejects.toThrow();expect(timeout).toHaveBeenCalledTimes(2);
  });
+ const unreachableCompute=()=>new Response(JSON.stringify({message:"Couldn't connect to compute node",'neon:retryable':true}),{status:500,headers:{'content-type':'application/json'}});
+ it('retries a compute error Neon marks retryable, because that statement never ran',async()=>{
+  const {fetchWithConnectionRetry}=await import('../src/lib/db/transport');
+  const transport=vi.fn<typeof fetch>().mockResolvedValueOnce(unreachableCompute()).mockResolvedValue(new Response('ok'));
+  expect((await fetchWithConnectionRetry(site.qa.markers.source,{method:'POST',body:'query'},transport,0)).status).toBe(200);expect(transport).toHaveBeenCalledTimes(2);
+ });
+ it('gives up after one retry and keeps the original body readable',async()=>{
+  const {fetchWithConnectionRetry}=await import('../src/lib/db/transport');
+  const transport=vi.fn<typeof fetch>().mockImplementation(async()=>unreachableCompute());
+  const response=await fetchWithConnectionRetry(site.qa.markers.source,{},transport,0);
+  expect(response.status).toBe(500);expect(transport).toHaveBeenCalledTimes(2);
+  expect(JSON.parse(await response.text())['neon:retryable']).toBe(true);
+ });
+ it('leaves a server error without the retryable flag untouched',async()=>{
+  const {fetchWithConnectionRetry}=await import('../src/lib/db/transport');
+  const plain=vi.fn<typeof fetch>().mockResolvedValue(new Response(JSON.stringify({message:'syntax error'}),{status:500,headers:{'content-type':'application/json'}}));
+  expect((await fetchWithConnectionRetry(site.qa.markers.source,{},plain,0)).status).toBe(500);expect(plain).toHaveBeenCalledTimes(1);
+  const text=vi.fn<typeof fetch>().mockResolvedValue(new Response('not json',{status:500}));
+  expect((await fetchWithConnectionRetry(site.qa.markers.source,{},text,0)).status).toBe(500);expect(text).toHaveBeenCalledTimes(1);
+ });
+ it('does not retry a retryable compute error once the caller aborted',async()=>{
+  const {fetchWithConnectionRetry}=await import('../src/lib/db/transport');
+  const controller=new AbortController();controller.abort();
+  const transport=vi.fn<typeof fetch>().mockResolvedValue(unreachableCompute());
+  expect((await fetchWithConnectionRetry(site.qa.markers.source,{signal:controller.signal},transport,0)).status).toBe(500);expect(transport).toHaveBeenCalledTimes(1);
+ });
 });

@@ -1,6 +1,8 @@
 import {spawn} from 'node:child_process';
 import {readFile,mkdir,writeFile} from 'node:fs/promises';
 import {parseEnv} from 'node:util';
+// Fail fast on a wrong local runtime instead of surfacing it as an unrelated error deep inside a later group.
+await import('./check-node.mjs');
 if(process.argv.includes('--budget-only')) {
  const child=spawn(process.execPath,['--import','tsx','scripts/phase7/budget-test.ts'],{env:process.env,stdio:'inherit'});
  const code=await new Promise((resolve,reject)=>{child.on('error',reject);child.on('close',resolve);});
