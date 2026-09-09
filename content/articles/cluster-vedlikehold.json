@@ -1,0 +1,946 @@
+[
+  {
+    "categorySlug": "vedlikehold",
+    "slug": "aarshjul-for-vedlikehold",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Årshjul for boligvedlikehold: hva som hører til når",
+      "summary": "Oppgavene fordeler seg naturlig etter årstid, og rekkefølgen bestemmes av vær, ikke av hva som er lettest.",
+      "section": {
+        "id": "aarstidene",
+        "title": "Årstidene bestemmer"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Boligvedlikehold lar seg fordele over året fordi oppgavene er avhengige av vær og temperatur. Å gjøre riktig ting i feil årstid er ofte bortkastet."
+        },
+        {
+          "type": "heading",
+          "text": "Vår"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kontroll etter vinteren. Takrenner tømmes for det som har samlet seg, sluk og avløp sjekkes før vårregnet, og fasaden gjennomgås for skader fra frost og snølast."
+        },
+        {
+          "type": "heading",
+          "text": "Sommer"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alt som krever tørt og varmt vær. Utvendig maling og beis trenger tørt underlag og temperatur over produsentens minimum. Dette vinduet er kortere i Norge enn folk planlegger for."
+        },
+        {
+          "type": "heading",
+          "text": "Høst"
+        },
+        {
+          "type": "paragraph",
+          "text": "Klargjøring for frost. Tetting rundt vindu og dør, tømming av takrenner etter løvfall, og avstenging av utvendige vannkraner før første frost."
+        },
+        {
+          "type": "heading",
+          "text": "Vinter"
+        },
+        {
+          "type": "paragraph",
+          "text": "Innvendige oppgaver, kontroll av fukt og kondens, og funksjonstest av røykvarslere. Vinteren er også når fuktproblemer viser seg tydeligst, fordi temperaturforskjellen er størst."
+        },
+        {
+          "type": "heading",
+          "text": "Det som ikke kan vente på sesong"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vannlekkasjer, løse takstein og feil på elektrisk anlegg hører ikke i et årshjul. De håndteres når de oppdages."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke satt opp intervaller for konkrete bygningsdeler. Klima varierer mye i Norge, og lokale forhold styrer hyppigheten."
+        }
+      ],
+      "seo": {
+        "title": "Årshjul for boligvedlikehold: hvilke oppgaver hører til når",
+        "description": "Oppgavene fordeler seg etter vær og temperatur, ikke etter hva som er lettest. Her er inndelingen på fire årstider og hva som ikke kan vente."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "vedlikehold",
+    "slug": "verktoykasse",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Verktøykasse: hva du faktisk trenger hjemme",
+      "summary": "De fleste hjemmeoppgaver løses av et lite antall verktøy. Resten kjøpes best når oppgaven faktisk dukker opp.",
+      "section": {
+        "id": "grunnutstyret",
+        "title": "Grunnutstyret"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Verktøysett selges samlet og inneholder mye som aldri brukes. Et lite utvalg dekker de aller fleste oppgavene i et hjem."
+        },
+        {
+          "type": "heading",
+          "text": "Det som brukes nesten hver gang"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Skrutrekkere eller bits i vanlige størrelser",
+            "Hammer",
+            "Målebånd og blyant",
+            "Vater",
+            "Tang og avbitertang",
+            "Kniv med brytbart blad"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Drill før alt annet elektrisk"
+        },
+        {
+          "type": "paragraph",
+          "text": "En batteridrill dekker både boring og skruing, og er det ene elektriske verktøyet som lønner seg for alle. Slagfunksjon trengs først når du skal bore i betong eller tegl."
+        },
+        {
+          "type": "heading",
+          "text": "Fester er viktigere enn verktøy"
+        },
+        {
+          "type": "paragraph",
+          "text": "Riktig plugg og skrue til veggtypen avgjør om noe holder. Et sortiment av plugger for gips, betong og tre koster lite og løser mer enn et dyrere verktøy gjør."
+        },
+        {
+          "type": "heading",
+          "text": "Det som kjøpes ved behov"
+        },
+        {
+          "type": "paragraph",
+          "text": "Spesialverktøy for én oppgave lønner seg sjelden å eie. Utleie finnes for det meste, og for engangsoppgaver er det både billigere og bedre utstyr."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pusser du opp jevnlig, endres regnestykket, og det som var utleie blir noe det lønner seg å eie."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke testet verktøy, og gir ingen vurdering av merker eller holdbarhet."
+        }
+      ],
+      "seo": {
+        "title": "Verktøykasse: hva du faktisk trenger å eie som huseier",
+        "description": "De fleste oppgaver hjemme løses av et lite antall verktøy. Her er grunnutstyret, hvorfor fester betyr mer enn verktøyet, og hva som bør leies."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "vedlikehold",
+    "slug": "skruer-og-fester",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Skruer og fester: velg etter materiale og belastning",
+      "summary": "Feil plugg i feil vegg er den vanligste årsaken til at noe faller ned. Materialet bestemmer, ikke skruens lengde.",
+      "section": {
+        "id": "materialet-bestemmer",
+        "title": "Materialet bestemmer"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Skruen holder sjelden dårlig. Det som svikter er festet mellom skruen og veggen."
+        },
+        {
+          "type": "heading",
+          "text": "Gips"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gips har svært lav bæreevne alene. Treffer du en stender bak, kan du skru rett i den og forholde deg til trevirket. Ellers kreves plugger laget for hulrom, som fordeler lasten bak platen."
+        },
+        {
+          "type": "heading",
+          "text": "Betong og tegl"
+        },
+        {
+          "type": "paragraph",
+          "text": "Krever slagbor og plugg tilpasset materialet. Betongplugg i tegl kan smuldre opp hullet, og en for stor plugg i et for lite hull sitter ikke, uansett hvor hardt den slås inn."
+        },
+        {
+          "type": "heading",
+          "text": "Tre"
+        },
+        {
+          "type": "paragraph",
+          "text": "Skru direkte, men forbor i hardt tre for å unngå sprekker. Skruens gjenger må ha nok materiale å gripe i, som betyr at lengden skal stå i forhold til dybden, ikke til vekten."
+        },
+        {
+          "type": "heading",
+          "text": "Belastningsretning"
+        },
+        {
+          "type": "paragraph",
+          "text": "En skrue som belastes rett ut fra veggen tåler mindre enn en som belastes nedover langs veggen. Hyller og TV-fester har ulik belastningsretning og krever ulikt feste."
+        },
+        {
+          "type": "heading",
+          "text": "Regn med rykk"
+        },
+        {
+          "type": "paragraph",
+          "text": "Å ta ned noe tungt gir en kortvarig belastning større enn vekten. Dimensjoner for det, ikke for den rolige vekten."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke testet festemidler. Tunge laster, særlig over hodehøyde, bør vurderes av fagfolk."
+        }
+      ],
+      "seo": {
+        "title": "Skruer og fester: velg etter veggmateriale og belastning",
+        "description": "Feil plugg i feil vegg er hovedårsaken til at ting faller ned. Her er hva gips, betong og tre krever, og hvorfor belastningsretningen betyr noe."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "vedlikehold",
+    "slug": "maling-innendors",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Maling innendørs: underlaget avgjør resultatet",
+      "summary": "Forarbeidet bestemmer hvordan det ser ut om to år. Selve malingen er den minste delen av jobben.",
+      "section": {
+        "id": "forarbeidet",
+        "title": "Forarbeidet avgjør"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Malejobber som ser dårlige ut etter kort tid, feiler nesten alltid i forarbeidet, ikke i malingen."
+        },
+        {
+          "type": "heading",
+          "text": "Rent og tørt"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fett, støv og såperester hindrer heft. Kjøkken og bad trenger vask med et affettende middel før maling, ellers slipper malingen selv om den ser fin ut første uken."
+        },
+        {
+          "type": "heading",
+          "text": "Grunning"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nytt gips, sparklet flate og skarpe fargeskift trenger grunning. Uten den suger underlaget ulikt, og resultatet blir flekkete uansett hvor mange strøk du legger."
+        },
+        {
+          "type": "heading",
+          "text": "To tynne strøk slår ett tykt"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tykke strøk renner, tørker ujevnt og gir dårligere dekk. To tynne strøk med anbefalt tørketid mellom gir jevnere flate og mer holdbart resultat."
+        },
+        {
+          "type": "heading",
+          "text": "Temperatur og fukt"
+        },
+        {
+          "type": "paragraph",
+          "text": "Maling har et arbeidsområde for temperatur og luftfuktighet. Males det for kaldt eller for fuktig, herder den ikke som den skal, og skaden vises som dårlig slitestyrke senere."
+        },
+        {
+          "type": "heading",
+          "text": "Rekkefølge i rommet"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Tak først",
+            "Vegger deretter",
+            "Lister og karmer til slutt",
+            "Gulvlister aller sist"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke testet malingstyper mot hverandre, og dekkevne oppgitt av produsent gjelder ideelt underlag."
+        }
+      ],
+      "seo": {
+        "title": "Maling innendørs: derfor avgjør underlaget sluttresultatet",
+        "description": "Malejobber feiler nesten alltid i forarbeidet. Her er hva rent, tørt og grunnet underlag betyr, og hvorfor to tynne strøk slår ett tykt hver gang."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "vedlikehold",
+    "slug": "fuktkontroll",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Fuktkontroll: hvor skader oppstår først",
+      "summary": "Fuktskader begynner nesten alltid på de samme stedene, og de er synlige lenge før de blir dyre.",
+      "section": {
+        "id": "hvor-det-begynner",
+        "title": "Hvor det begynner"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Vann er den dyreste skadetypen i norske boliger, og den utvikler seg langsomt nok til at den overses. Den begynner de samme stedene i nesten alle hus."
+        },
+        {
+          "type": "heading",
+          "text": "Der vann føres bort"
+        },
+        {
+          "type": "paragraph",
+          "text": "Takrenner, nedløp og sluk. Renner over kanten fordi de er tette, og vann som ikke ledes bort havner mot grunnmur. Dette er den vanligste enkeltårsaken."
+        },
+        {
+          "type": "heading",
+          "text": "Overganger"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rundt vindu, dør, pipe og ved takgjennomføringer. Overganger mellom materialer beveger seg ulikt gjennom året, og tetting sprekker over tid."
+        },
+        {
+          "type": "heading",
+          "text": "Rom med vann"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bad og vaskerom. Under oppvaskmaskin og kjøleskap med isbitmaskin. Lekkasjer her er små og langvarige, og oppdages ofte først når gulvet gir etter."
+        },
+        {
+          "type": "heading",
+          "text": "Kalde flater"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kondens oppstår der varm fuktig luft møter kald flate: yttervegger bak møbler, kalde rom med dårlig luftskifte, vinduskarmer. Dette er inneklima, ikke lekkasje, men skaden ser lik ut."
+        },
+        {
+          "type": "heading",
+          "text": "Tegn å se etter"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Misfarging som brer seg langsomt",
+            "Lukt som kommer og går med været",
+            "Maling eller tapet som slipper i kanter",
+            "Gulv som gir etter eller knirker nytt"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi kan ikke fjerndiagnostisere fuktskader. Mistanke om skjult fukt i konstruksjonen hører hjemme hos fagfolk med måleutstyr."
+        }
+      ],
+      "seo": {
+        "title": "Fuktkontroll: hvor i boligen skadene oppstår aller først",
+        "description": "Fuktskader begynner de samme stedene i nesten alle hus, og er synlige før de blir dyre. Her er stedene å se etter, tegnene, og skillet mot kondens."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "vedlikehold",
+    "slug": "avlop-og-sluk",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Avløp og sluk: forebygging slår rens",
+      "summary": "Det som tetter avløp bygger seg opp langsomt. Enkle vaner gjør kjemisk rens nesten unødvendig.",
+      "section": {
+        "id": "hva-som-tetter",
+        "title": "Hva som faktisk tetter"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tette avløp skyldes sjelden én hendelse. De bygger seg opp av det samme materialet over måneder."
+        },
+        {
+          "type": "heading",
+          "text": "Kjøkken"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fett er hovedårsaken. Flytende fett stivner når det treffer kaldt rør og fanger opp matrester. Fett hører i søpla, ikke i vasken, og det er det enkleste forebyggende grepet som finnes."
+        },
+        {
+          "type": "heading",
+          "text": "Bad"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hår og såperester. Hår danner nett som fanger alt annet. En enkel sil i sluket og i vasken fjerner det meste av problemet, forutsatt at den tømmes."
+        },
+        {
+          "type": "heading",
+          "text": "Sluk trenger vann"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vannlåsen i et sluk som ikke brukes tørker ut, og da kommer lukt fra avløpet inn i rommet. Sluk i lite brukte rom bør fylles med vann jevnlig."
+        },
+        {
+          "type": "heading",
+          "text": "Kjemisk rens er siste utvei"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sterke avløpsåpnere er etsende og kan skade rør og pakninger, særlig i eldre anlegg. Mekanisk fjerning med spiral eller vakuum er skånsommere og ofte mer effektivt."
+        },
+        {
+          "type": "heading",
+          "text": "Når det er noe annet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tetting som gjentar seg, eller som rammer flere avløp samtidig, peker mot noe lenger ute i anlegget. Da er det ikke en rensejobb."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke testet avløpsmidler, og gir ingen anbefaling om produkter mot tette rør."
+        }
+      ],
+      "seo": {
+        "title": "Avløp og sluk: forebygging slår kjemisk rens hver gang",
+        "description": "Fett og hår tetter avløp over måneder, ikke på en dag. Her er hva som faktisk bygger seg opp, og hvorfor sterke midler bør være siste utvei."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "vedlikehold",
+    "slug": "vinduer-og-dorer",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Vinduer og dører: justering, tetting og listverk",
+      "summary": "Trekk og treghet skyldes som regel justering eller tetting, ikke at vinduet er utslitt.",
+      "section": {
+        "id": "juster-for-du-bytter",
+        "title": "Juster før du bytter"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Vinduer og dører som trekker eller er tunge å lukke, oppfattes ofte som modne for utskifting. Som regel er det hengsler eller tetting."
+        },
+        {
+          "type": "heading",
+          "text": "Justering"
+        },
+        {
+          "type": "paragraph",
+          "text": "Moderne vindushengsler kan justeres i flere retninger. En dør eller et vindu som ikke slutter tett i ett hjørne, presser ikke pakningen jevnt, og da trekker det uansett hvor god pakningen er."
+        },
+        {
+          "type": "heading",
+          "text": "Pakninger"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gummipakninger stivner og krymper over år. De er en slitedel og kan byttes separat på de fleste vinduer. Dette er langt rimeligere enn nytt vindu og løser trekkproblemet i mange tilfeller."
+        },
+        {
+          "type": "heading",
+          "text": "Kondens sier hvor problemet er"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kondens på innsiden av innerste glass er inneklima, ikke vindusfeil. Kondens mellom glassene betyr at ruten har mistet tettheten, og da er selve glasset defekt. Kondens utvendig er normalt og et tegn på god isolasjon."
+        },
+        {
+          "type": "heading",
+          "text": "Listverk"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sprekker mellom karm og vegg er hovedsakelig et estetisk problem, men de kan også slippe luft. Fugemasse mellom bevegelige materialer sprekker over tid og er ment å fornyes."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Er rammen råtten eller glasset punktert i flere vinduer, er utskifting den reelle løsningen, og justering utsetter bare beslutningen."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt varmetap eller lufttetthet på konkrete vinduer."
+        }
+      ],
+      "seo": {
+        "title": "Vinduer og dører: juster og tett før du vurderer å bytte",
+        "description": "Trekk og treghet skyldes som regel hengsler eller pakninger, ikke slitte vinduer. Her er hva kondens forteller om hvor problemet egentlig sitter."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "vedlikehold",
+    "slug": "terrasse-og-utvendig-tre",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Terrasse og utvendig tre: behandling og intervaller",
+      "summary": "Utvendig tre brytes ned av vann og sol. Behandlingen er beskyttelse, ikke pynt, og den har utløpsdato.",
+      "section": {
+        "id": "hvorfor-behandle",
+        "title": "Hvorfor behandling er beskyttelse"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Overflatebehandling på utvendig tre er ikke først og fremst estetikk. Det er laget som hindrer vann i å trenge inn i fibrene."
+        },
+        {
+          "type": "heading",
+          "text": "Hva som bryter ned"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vann får treet til å svelle og krympe, som gir sprekker. Sol bryter ned lignin i overflaten og gjør den grå. Sammen gir de sprekker som slipper inn mer vann, og prosessen akselererer."
+        },
+        {
+          "type": "heading",
+          "text": "Olje mot beis mot maling"
+        },
+        {
+          "type": "paragraph",
+          "text": "Olje trenger inn og må fornyes ofte, men flasser ikke. Beis gir mer beskyttelse og noe farge. Maling gir mest beskyttelse, men når den slipper, skjer nedbrytningen skjult under filmen."
+        },
+        {
+          "type": "heading",
+          "text": "Underlaget må være tørt"
+        },
+        {
+          "type": "paragraph",
+          "text": "Behandling på fuktig tre låser fukten inne. Dette er den vanligste feilen, og resultatet er at behandlingen slipper i løpet av en sesong."
+        },
+        {
+          "type": "heading",
+          "text": "Intervaller varierer med eksponering"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sørvendte flater og horisontale flater som terrassebord slites langt raskere enn en nordvegg under takutstikk. Å behandle alt etter samme intervall er derfor både for ofte og for sjelden."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Trykkimpregnert tre og moderne kompositt har egne krav, og enkelte skal ikke behandles med produkter beregnet på vanlig tre."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke testet produkter eller målt holdbarhet, og oppgitte intervaller fra produsent forutsetter ideelle forhold."
+        }
+      ],
+      "seo": {
+        "title": "Terrasse og utvendig tre: behandling, intervaller og feilene",
+        "description": "Behandling er beskyttelse mot vann og sol, ikke pynt. Her er forskjellen på olje, beis og maling, og hvorfor fuktig underlag ødelegger jobben."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "vedlikehold",
+    "slug": "takrenner-og-nedlop",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Takrenner og nedløp: den billigste forsikringen",
+      "summary": "Renner som ikke fører vann bort er en av de hyppigste årsakene til fuktskade på grunnmur.",
+      "section": {
+        "id": "hvorfor-de-betyr-mye",
+        "title": "Hvorfor de betyr så mye"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Takrenner er blant de rimeligste bygningsdelene, og blant dem som gjør mest skade når de svikter."
+        },
+        {
+          "type": "heading",
+          "text": "Vann som ikke ledes bort"
+        },
+        {
+          "type": "paragraph",
+          "text": "Et tak samler nedbør fra en stor flate og konsentrerer den i noen få punkter. Fungerer ikke rennene, treffer alt dette bakken langs grunnmuren, og der havner det i konstruksjonen."
+        },
+        {
+          "type": "heading",
+          "text": "Når de tettes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Løv om høsten er den åpenbare årsaken. Mindre åpenbart er mose fra taket, sand fra takstein og fugler som bygger i nedløp. Kontroll to ganger i året dekker de fleste tilfeller."
+        },
+        {
+          "type": "heading",
+          "text": "Nedløpet må ende et sted"
+        },
+        {
+          "type": "paragraph",
+          "text": "Et nedløp som ender rett ved veggen flytter problemet noen centimeter. Vann bør ledes minst en meter fra grunnmuren, eller til drenering."
+        },
+        {
+          "type": "heading",
+          "text": "Fall og innfesting"
+        },
+        {
+          "type": "paragraph",
+          "text": "Renner uten riktig fall står med vann, som fryser og utvider seg om vinteren. Løse festebraketter gir samme resultat, og begge oppdages lettest når det faktisk regner."
+        },
+        {
+          "type": "heading",
+          "text": "Sikkerhet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Arbeid i stige langs tak er den vanligste ulykkesårsaken i boligvedlikehold. Er taket høyt eller underlaget ustabilt, hører jobben hos noen med riktig utstyr."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi kan ikke vurdere om et konkret dreneringssystem er tilstrekkelig. Gjentakende vann i kjeller er en fagsak."
+        }
+      ],
+      "seo": {
+        "title": "Takrenner og nedløp: den billigste forsikringen du har",
+        "description": "Renner som ikke fører vann bort er blant de vanligste årsakene til fukt i grunnmur. Her er hva som tetter dem gjennom året, og hvor nedløpet faktisk må ende."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "vedlikehold",
+    "slug": "roykvarsler-og-brannsikkerhet",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Røykvarsler og brannsikkerhet: krav og intervaller",
+      "summary": "Kravene er enkle, og konsekvensen av å la være er ikke en kostnad, men en risiko av en annen art.",
+      "section": {
+        "id": "krav-og-plassering",
+        "title": "Krav og plassering"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dette er den delen av boligvedlikehold der utsettelse ikke koster penger, men noe annet."
+        },
+        {
+          "type": "heading",
+          "text": "Kravet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alle boliger i Norge skal ha minst én røykvarsler per etasje, og den skal kunne høres tydelig fra soverom med lukket dør. Slokkeutstyr i form av husbrannslange eller apparat er også påbudt."
+        },
+        {
+          "type": "heading",
+          "text": "Plassering"
+        },
+        {
+          "type": "paragraph",
+          "text": "Røykvarslere hører i tak, ikke på vegg, og ikke rett ved ventil eller vindu der luftstrøm kan føre røyk forbi. Kjøkken gir lett falske alarmer, og varsleren bør plasseres i tilstøtende rom framfor rett over komfyren."
+        },
+        {
+          "type": "heading",
+          "text": "Test og batteri"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Test funksjonen med testknappen jevnlig",
+            "Bytt batteri før det piper, ikke etter",
+            "Varsleren selv har begrenset levetid, ofte omkring ti år",
+            "Støv reduserer følsomheten og bør fjernes"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Sammenkoblede varslere"
+        },
+        {
+          "type": "paragraph",
+          "text": "I bolig over flere plan gir sammenkoblede varslere at alle går samtidig. Det er forskjellen på å høre alarmen der brannen er, og å høre den der du sover."
+        },
+        {
+          "type": "heading",
+          "text": "Slokkeutstyr"
+        },
+        {
+          "type": "paragraph",
+          "text": "Apparater har trykk som skal kontrolleres, og husbrannslange skal nå alle rom. Utstyr som ikke virker den dagen det trengs, teller ikke som utstyr."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi gir ingen produktanbefaling og erstatter ikke informasjon fra brannvesenet eller produsentens anvisning."
+        }
+      ],
+      "seo": {
+        "title": "Røykvarsler og brannsikkerhet: krav og riktig plassering",
+        "description": "Kravene er enkle, men konsekvensen av å la være er av en annen art. Her er riktig plassering, testrutine og hvorfor varsleren selv har en utløpsdato."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "vedlikehold",
+    "slug": "smaareparasjoner",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Småreparasjoner som utsetter større kostnader",
+      "summary": "Noen få oppgaver har uforholdsmessig stor effekt fordi de stopper en prosess som ellers akselererer.",
+      "section": {
+        "id": "hva-som-stopper-prosesser",
+        "title": "Hva som stopper en prosess"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ikke alle vedlikeholdsoppgaver er like mye verdt. De som lønner seg mest, er de som stopper noe som ellers forverrer seg av seg selv."
+        },
+        {
+          "type": "heading",
+          "text": "Tetting av sprekker i utvendig maling"
+        },
+        {
+          "type": "paragraph",
+          "text": "En sprekk slipper vann inn under filmen. Der blir det stående, og nedbrytningen skjer skjult til malingen slipper i et større felt. Å tette tidlig koster en time og utsetter en full oppmaling."
+        },
+        {
+          "type": "heading",
+          "text": "Fuging rundt vindu"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sprukket fugemasse slipper vann inn i overgangen mellom karm og vegg. Skaden skjer i konstruksjonen, ikke på overflaten, og synes ikke før den er betydelig."
+        },
+        {
+          "type": "heading",
+          "text": "Dryppende kran og løs pakning"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ikke bare vannforbruk. Vedvarende fukt under en vask gir råte i skapbunn og i verste fall i gulvet under."
+        },
+        {
+          "type": "heading",
+          "text": "Løs takstein og beslag"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ett løst beslag slipper inn vann ved ett punkt. Effekten er lokal til den ikke er det lenger, og loft er et sted skader kan pågå lenge usett."
+        },
+        {
+          "type": "heading",
+          "text": "Prioriteringen"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Alt som slipper vann inn i konstruksjonen",
+            "Alt som beskytter en flate mot vann",
+            "Alt som gjelder sikkerhet",
+            "Deretter det som bare irriterer"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi kan ikke vurdere omfanget av en skade fra beskrivelse. Ved tvil om noe er overflate eller konstruksjon, bør det undersøkes."
+        }
+      ],
+      "seo": {
+        "title": "Småreparasjoner som utsetter langt større kostnader senere",
+        "description": "Noen få oppgaver stopper en prosess som ellers akselererer. Her er de som lønner seg mest, og hvorfor skaden ofte skjer der du ikke ser den."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "vedlikehold",
+    "slug": "nar-du-bor-hente-fagfolk",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Når du bør hente fagfolk i stedet for å gjøre det selv",
+      "summary": "Noen arbeider har formelle krav, andre har konsekvenser som overstiger besparelsen. Skillet er ikke alltid åpenbart.",
+      "section": {
+        "id": "hvor-grensen-gaar",
+        "title": "Hvor grensen går"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Grensen mellom gjør-det-selv og fagarbeid går ikke etter vanskelighetsgrad, men etter krav og konsekvens."
+        },
+        {
+          "type": "heading",
+          "text": "Formelle krav"
+        },
+        {
+          "type": "paragraph",
+          "text": "Elektrisk arbeid utover det aller enkleste skal utføres av registrert virksomhet. Arbeid på våtrom har krav til utførelse som får betydning ved forsikringssak og ved salg. Dette er ikke et spørsmål om ferdigheter."
+        },
+        {
+          "type": "heading",
+          "text": "Konsekvens overstiger besparelsen"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bærende konstruksjoner, tak og alt som kan gi vannskade i konstruksjonen. En feil her koster mer enn all besparelsen på arbeidet, og feilen oppdages ofte lenge etterpå."
+        },
+        {
+          "type": "heading",
+          "text": "Fallhøyde"
+        },
+        {
+          "type": "paragraph",
+          "text": "Arbeid på tak og i stige er den vanligste ulykkesårsaken i boligvedlikehold. Dette er ikke et fagkrav, men det er en reell grunn til å la andre gjøre det."
+        },
+        {
+          "type": "heading",
+          "text": "Dokumentasjon"
+        },
+        {
+          "type": "paragraph",
+          "text": "Arbeid som skal dokumenteres ved salg eller ved forsikringsoppgjør, må utføres av noen som kan utstede den dokumentasjonen. Egeninnsats uten papirer kan bli en belastning senere."
+        },
+        {
+          "type": "heading",
+          "text": "Der egeninnsats er fornuftig"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Overflatebehandling innvendig og utvendig",
+            "Bytte av pakninger og enkle deler",
+            "Rens av renner, sluk og filtre",
+            "Montering som ikke er bærende"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi gir ikke veiledning i utførelse av arbeid som krever fagbrev, og denne artikkelen erstatter ikke gjeldende regelverk."
+        }
+      ],
+      "seo": {
+        "title": "Når du bør hente fagfolk i stedet for å gjøre jobben selv",
+        "description": "Grensen går etter krav og konsekvens, ikke etter vanskelighetsgrad. Her er hva som har formelle krav, og hvor egeninnsats fortsatt er fornuftig."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  }
+]
