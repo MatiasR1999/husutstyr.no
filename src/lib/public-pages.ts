@@ -35,7 +35,7 @@ export const resolvePage=cache(async(path:string,search='')=>{
   type='category';title=category?.name??site.labels.reviews;intro=category?.introduction??'';baseCopy=category?.seo;
  } else if(parts.length===2&&parts[0]==='emne') {
   const topic=topics.find(topic=>topic.slug===parts[1]);if(!topic) return null;
-  articles=articles.filter(article=>article.payload.topicIds.includes(topic.id));
+  articles=articles.filter(article=>article.topicIds.includes(topic.id));
   type='topic';title=topic.name;count=articles.length;
  } else if(parts.length===2&&parts[0]==='forfatter') {
   articles=articles.filter(article=>article.author.slug===parts[1]);
@@ -43,7 +43,7 @@ export const resolvePage=cache(async(path:string,search='')=>{
   author=articles.toSorted((a,b)=>b.modifiedAt.localeCompare(a.modifiedAt))[0]?.author;
   if(!author) return null;type='author';title=author.name;
  } else return null;
- if(query.topic){const topic=topics.find(topic=>topic.slug===query.topic);if(!topic) return null;articles=articles.filter(article=>article.payload.topicIds.includes(topic.id));}
+ if(query.topic){const topic=topics.find(topic=>topic.slug===query.topic);if(!topic) return null;articles=articles.filter(article=>article.topicIds.includes(topic.id));}
  if(query.sort==='oldest') articles=articles.toReversed();
  const slice=listingSlice(articles,query.page);if(!slice) return null;
  const seo=await getPageCopy(path,query.page)??(query.page===1?baseCopy:null);

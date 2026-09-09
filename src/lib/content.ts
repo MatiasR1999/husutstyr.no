@@ -13,6 +13,14 @@ import type { QaArticle } from './site-types';
 import type { ContentBlock } from './domain/content';
 
 export type PublishedArticle=QaArticle & {readonly author:z.infer<typeof authorSnapshotSchema>;readonly revisionId:string;readonly contentHash:string;readonly blocks:readonly ContentBlock[];readonly categoryName:string;readonly kind:'article'|'news'|'review'|'page';readonly pillarSlug:string;readonly payload:import('./domain/content').ArticleContent;readonly reviewSnapshot:import('./domain/content').ReviewSnapshot|null};
+// Listings never render the body, so they select a projection without it. Fetching every block for every article does not scale with the archive.
+export type ArticleSummary=Pick<PublishedArticle,'id'|'slug'|'categorySlug'|'categoryName'|'pillarSlug'|'kind'|'title'|'summary'|'seo'|'author'|'revisionId'|'contentHash'|'publishedAt'|'modifiedAt'>&{readonly topicIds:readonly string[]};
+const summaryRow=z.object({id:z.uuid(),namespace:z.string(),slug:z.string(),kind:z.enum(['article','news','review','page']),revision_id:z.uuid(),content_hash:z.string(),category_name:z.string(),pillar_slug:z.string(),author_snapshot:authorSnapshotSchema,title:z.string(),summary:z.string(),seo:z.object({title:z.string(),description:z.string()}),topic_ids:z.array(z.uuid()),published_at:z.coerce.date(),modified_at:z.coerce.date()});
+function summaryFromRow(value:unknown):ArticleSummary {
+  const row=summaryRow.parse(value);
+  return {id:row.id,slug:row.slug,categorySlug:row.namespace,categoryName:row.category_name,pillarSlug:row.pillar_slug,kind:row.kind,title:row.title,summary:row.summary,seo:row.seo,author:row.author_snapshot,revisionId:row.revision_id,contentHash:row.content_hash,topicIds:row.topic_ids,publishedAt:row.published_at.toISOString(),modifiedAt:row.modified_at.toISOString()};
+}
+const summaryColumns=sql`id,namespace,slug,kind,revision_id,content_hash,category_name,pillar_slug,author_snapshot,payload->>'title' as title,payload->>'summary' as summary,payload->'seo' as seo,coalesce(payload->'topicIds','[]'::jsonb) as topic_ids,published_at,modified_at`;
 const publicRow=z.object({id:z.uuid(),namespace:z.string(),slug:z.string(),revision_id:z.uuid(),content_hash:z.string(),category_name:z.string(),pillar_slug:z.string(),review_snapshot:reviewSnapshotSchema.nullable(),payload:contentSchema,author_snapshot:authorSnapshotSchema,published_at:z.coerce.date(),modified_at:z.coerce.date()});
 function articleFromRow(value:unknown):PublishedArticle {
   const row=publicRow.parse(value),content=row.payload;
@@ -25,9 +33,9 @@ export const getArticle=cache(async(category:string,slug:string):Promise<Publish
   const rows=await publicDatabase().execute(sql`select * from editorial.published_articles where site_id=${site.id} and locale=${site.locale} and is_test=${readRuntimeConfig(process.env).qa} and namespace=${category} and slug=${slug} limit 1`);
   return rows.rows[0]?articleFromRow(rows.rows[0]):null;
 },[...contentScope(),'article',category,slug],{revalidate:3600,tags:[cacheTag('article',path),cacheTag('og',path)]})();});
-export const getArticles=cache(async(category:string):Promise<readonly PublishedArticle[]>=>unstable_cache(async()=>{
-  const rows=await publicDatabase().execute(sql`select * from editorial.published_articles where site_id=${site.id} and locale=${site.locale} and is_test=${readRuntimeConfig(process.env).qa} and kind<>'page' and (pillar_slug=${category} or namespace=${category}) order by published_at desc,id`);
-  return rows.rows.map(articleFromRow);
+export const getArticles=cache(async(category:string):Promise<readonly ArticleSummary[]>=>unstable_cache(async()=>{
+  const rows=await publicDatabase().execute(sql`select ${summaryColumns} from editorial.published_articles where site_id=${site.id} and locale=${site.locale} and is_test=${readRuntimeConfig(process.env).qa} and kind<>'page' and (pillar_slug=${category} or namespace=${category}) order by published_at desc,id`);
+  return rows.rows.map(summaryFromRow);
 },[...contentScope(),'category',category],{revalidate:600,tags:[cacheTag('category',category),cacheTag('rss',category),cacheTag('home')]})());
 const categorySchema=z.object({id:z.uuid(),slug:z.string(),name:z.string(),introduction:z.string(),seo:z.object({title:z.string(),description:z.string()})});
 const chromeSchema=z.object({categories:z.array(categorySchema),topics:z.array(z.object({id:z.uuid(),slug:z.string(),name:z.string()})),trustPages:z.array(z.object({slug:z.string(),title:z.string()}))});
@@ -43,9 +51,9 @@ const siteChrome=cache(async()=>unstable_cache(async()=>{
 export const getCategories=cache(async()=>(await siteChrome()).categories);
 export const getCategory=cache(async(slug:string)=>{const category=(await getCategories()).find(category=>category.slug===slug);if(category)return category;if(slug==='anmeldelser'){const seo=await getPageCopy('/anmeldelser',1);if(seo)return {id:slug,slug,name:site.labels.reviews,introduction:'',seo};}return null;});
 
-export const getAllArticles=cache(async():Promise<readonly PublishedArticle[]>=>unstable_cache(async()=>{
- const rows=await publicDatabase().execute(sql`select * from editorial.published_articles where site_id=${site.id} and locale=${site.locale} and is_test=${readRuntimeConfig(process.env).qa} and kind<>'page' order by published_at desc,id`);
- return rows.rows.map(articleFromRow);
+export const getAllArticles=cache(async():Promise<readonly ArticleSummary[]>=>unstable_cache(async()=>{
+ const rows=await publicDatabase().execute(sql`select ${summaryColumns} from editorial.published_articles where site_id=${site.id} and locale=${site.locale} and is_test=${readRuntimeConfig(process.env).qa} and kind<>'page' order by published_at desc,id`);
+ return rows.rows.map(summaryFromRow);
 },[...contentScope(),'all-articles'],{revalidate:600,tags:[cacheTag('home'),cacheTag('sitemap')]})());
 export const getTopics=cache(async()=>(await siteChrome()).topics);
 export const getPageCopy=cache(async(path:string,page:number)=>unstable_cache(async()=>{
