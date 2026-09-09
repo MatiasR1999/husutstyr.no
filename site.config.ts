@@ -41,13 +41,13 @@ const site = {
     issuer: 'https://accounts.google.com', provider: 'Google', priceValidityHours: 24, ratingMin: 1, ratingMax: 5,
     ui: { section: 'Innhold', title: 'Redaksjon', login: 'Logg inn med Google', logout: 'Logg ut', unavailable: 'Innlogging er ikke konfigurert.', forbidden: 'Du har ikke tilgang til denne handlingen.', invalid: 'Kontroller feltene eller last inn nyeste revisjon.', saved: 'Revisjonen er lagret.', save: 'Lagre nytt utkast', submit: 'Send til vurdering', approve: 'Godkjenn denne revisjonen', create: 'Opprett artikkel', titleField: 'Tittel', summary: 'Ingress', body: 'Broedtekst med tom linje mellom avsnitt', seoTitle: 'Tittel i soekeresultater', description: 'Beskrivelse i soekeresultater', drafts: 'Artikler og revisjoner', preview: 'Privat forhandsvisning', revision: 'Revisjon', state: 'Status', notificationPending: 'Varsling til soeketjenesten gjenstaar.', notificationRejected: 'Soeketjenesten avviste varslingen. Kontroller oppsettet foer nytt forsoek.', publish: 'Publiser godkjent revisjon', withdraw: 'Trekk tilbake artikkelen', retry: 'Kontroller publiseringen pa nytt', pending: 'Publiseringen kontrolleres. Last siden pa nytt for status.', confirmed: 'Publiseringen er kontrollert.', superseded: 'Erstattet av en nyere publiseringsjobb.', publishingLater: 'Publisering krever en godkjent revisjon.', empty: 'Ingen artikler tilgjengelig.', category: 'Kategori' },
   },
-  home: { title: 'TODO: Skriv unik SEO-tittel for forsiden.', description: 'TODO: Skriv unik meta-beskrivelse for forsiden.' },
-  id: 'seo-site-template',
-  identity: { name: 'TODO: Skriv eget nettstedsnavn', url: '' },
+  home: { title: 'Husutstyr – guider og sammenligninger for hele hjemmet', description: 'Vi samler guider, sammenligninger og praktiske råd om utstyr til kjøkken, rengjøring, oppbevaring og vedlikehold, slik at du finner det som passer hjemmet.' },
+  id: 'husutstyr',
+  identity: { name: 'Husutstyr', url: 'https://husutstyr.no' },
   locale: 'nb',
   formattingLocale: 'nb-NO',
-  niche: 'TODO: Velg bolig, hus eller bil',
-  toneOfVoice: 'TODO: Beskriv nettstedets egen redaksjonelle stemme',
+  niche: 'hus',
+  toneOfVoice: 'Nøktern og konkret bruksveiledning på norsk. Vi beskriver hva utstyret gjør og hvem det passer for, oppgir hva vurderingen bygger på, og unngår superlativer og salgsspråk.',
   tokens: {
     '--color-page': '#ffffff', '--color-ink': '#182332', '--color-muted': '#495667',
     '--color-accent': '#164ac6', '--color-surface': '#eef3ff', '--color-border': '#c5cedd',
@@ -61,7 +61,7 @@ const site = {
   },
   routes: { reserved: ['anmeldelser', 'api', 'go', 'om-oss', 'kontakt', 'forfatter', 'personvern', 'cookies', 'redaksjon', 'redaksjonell-policy', 'slik-tester-vi', 'annonsorinformasjon', 'emne', 'og', 'visninger', 'sider'], maxSlugLength: 100 },
   ui: { skip: 'Til innholdet', menu: 'Meny', home: 'Forside', category: 'Kategori', read: 'Les artikkelen', contents: 'Til kontrollpunktet', published: 'Publisert', modified: 'Sist oppdatert', author: 'Forfatter', notFound: 'Siden finnes ikke', back: 'Tilbake til forsiden', breadcrumb: 'Broedsmuler' },
-  content: { home: 'TODO: Skriv en unik introduksjon for dette nettstedet.', category: 'TODO: Skriv kategoriens egen pillar-introduksjon.', footer: 'TODO: Skriv nettstedets egen footer med reelt eierskap.' },
+  content: { home: 'Guider og sammenligninger av utstyr til hjemmet, fra kjøkken og rengjøring til oppbevaring og vedlikehold.', category: 'Her samler vi guidene, sammenligningene og rådene som hører til dette området.', footer: 'Husutstyr. Redaksjonelle vilkår, personvern og annonsørinformasjon finner du i lenkene under.' },
   qa: {
     database: { projectId:'raspy-leaf-06859059', branchId:'br-rough-cake-b22qbr27', branchName:'phase-2-qa', hostPrefix:'ep-plain-forest-b21b1t8k.' },
     phase7: {
@@ -70,7 +70,7 @@ const site = {
       imageUrl: 'http://127.0.0.1:3104/qa-image.jpg', imageAlt: 'QA: Syntetisk bildeflate for lastetest',
       imageRights: 'QA: Lokalt generert testbilde uten produktpåstander.',
     },
-    network: {version:1,sites:[{id:'qa-first',origin:'https://qa-sister-one.invalid',niche:'qa-household',topics:['qa-network-topic']},{id:'qa-second',origin:'https://qa-sister-two.invalid',niche:'qa-household',topics:['qa-network-topic']}]},
+    network: {version:2,sites:[{id:'qa-first',origin:'https://qa-sister-one.invalid',niche:'qa-household',topics:['qa-network-topic']},{id:'qa-second',origin:'https://qa-sister-two.invalid',niche:'qa-household',topics:['qa-network-topic']}]},
     phase6: {
       niche: 'qa-household', origin: 'https://qa-sister-one.invalid', secondOrigin: 'https://qa-sister-two.invalid',
       topic: 'qa-network-topic', topicName: 'QA: Teknisk relevansemne',
@@ -90,7 +90,7 @@ const site = {
     },
     oidc: { issuer: 'http://127.0.0.1:3101', clientId: 'local-phase-2-qa' },
     markers: { publicationTitle: 'QA: Teknisk publiseringskontroll', publicationBody: 'QA-PUBLISH-001: Teknisk tekst for kontroll av publisert cache.', publicationUpdate: 'QA-PUBLISH-002: Endret teknisk tekst som krever ny godkjenning.', draft: 'QA-PRIVATE-DRAFT-NEVER-PUBLIC', changed: 'QA-CHANGED-REVISION-REQUIRES-APPROVAL', writer: 'qa-writer', editor: 'qa-editor', viewer: 'qa-viewer', outsider: 'qa-unregistered', bio: 'Merket teknisk QA-identitet for lokale integrasjonstester; ikke en ekte forfatter.', expertise: 'Teknisk QA-fixture', research: 'QA-metode: Kontroll av revisjonsbundet dokumentasjon i den isolerte testdatabasen.', evidence: 'Merket QA-dokumentasjon for en teknisk kontroll.', source: 'https://example.com/qa-evidence' },
-    identity: { name: 'SEO-mal QA', url: 'http://127.0.0.1:3100' },
+    identity: { name: 'Husutstyr QA', url: 'http://127.0.0.1:3140' },
     banner: 'LOKAL QA-FIXTURE - Teknisk testinnhold, ikke publisert redaksjonelt innhold.',
     home: {
       title: 'Lokal kontroll av serverrendret innhold | SEO-mal QA',
