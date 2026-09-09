@@ -59,6 +59,22 @@
         },
         {
           "type": "heading",
+          "text": "Noter det du gjør"
+        },
+        {
+          "type": "paragraph",
+          "text": "En enkel liste med dato og oppgave gjør at du vet når noe sist ble sjekket i stedet for å gjette. Ved forsikringssak og ved salg er dokumentert vedlikehold en fordel, og det tar minutter."
+        },
+        {
+          "type": "heading",
+          "text": "Sett av en helg, ikke en time"
+        },
+        {
+          "type": "paragraph",
+          "text": "De fleste utvendige oppgaver henger sammen: renner, beslag og maling inspiseres best samtidig, fordi du uansett må opp i stigen. Samlet gjennomgang to ganger i året er mer realistisk enn en løpende liste."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -142,6 +158,22 @@
         },
         {
           "type": "heading",
+          "text": "Oppbevaring av verktøy"
+        },
+        {
+          "type": "paragraph",
+          "text": "Verktøy som ligger i en haug blir ikke brukt, fordi du ikke finner det. En enkel kasse med inndeling eller en vegg med kroker gjør at oppgaven starter med å gjøre jobben, ikke med å lete."
+        },
+        {
+          "type": "heading",
+          "text": "Batteriverktøy og systemvalg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Batterier passer sjelden mellom merker. Velger du et system, binder du deg til det for videre kjøp. Det er verdt å vite før første drill, ikke etter tredje."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -215,6 +247,22 @@
         {
           "type": "paragraph",
           "text": "Å ta ned noe tungt gir en kortvarig belastning større enn vekten. Dimensjoner for det, ikke for den rolige vekten."
+        },
+        {
+          "type": "heading",
+          "text": "Forbor riktig"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hullet skal passe pluggen, ikke skruen. For stort hull gir ingen feste, for lite gjør at pluggen ikke går inn eller sprekker materialet. Boret som skal brukes står som regel på pakken."
+        },
+        {
+          "type": "heading",
+          "text": "Sjekk hva som ligger i veggen"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rør og elektriske kabler ligger ofte i faste soner rundt brytere og kontakter. En enkel søker koster lite mot å bore hull i et vannrør."
         },
         {
           "type": "heading",
@@ -299,6 +347,22 @@
         },
         {
           "type": "heading",
+          "text": "Beregn mengde"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dekkevne oppgis i kvadratmeter per liter og forutsetter jevnt underlag. På sugende eller ubehandlet flate går det vesentlig mer. Kjøp heller litt for mye enn å måtte etterkjøpe en annen batch, som kan avvike i farge."
+        },
+        {
+          "type": "heading",
+          "text": "Verktøy avgjør flaten"
+        },
+        {
+          "type": "paragraph",
+          "text": "En billig rull legger igjen lo og gir ujevn struktur. Rull, pensel og maskeringstape er de tre stedene der bedre verktøy gir synlig bedre resultat."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -380,6 +444,22 @@
         },
         {
           "type": "heading",
+          "text": "Kontroller etter uvær"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kraftig regn med vind avdekker svakheter som ikke synes ellers. En runde inne og ute etter en storm finner ofte lekkasjer mens de er små."
+        },
+        {
+          "type": "heading",
+          "text": "Bruk luktesansen"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kjellerlukt og jordaktig lukt er ofte det første tegnet på fuktproblem, før noe er synlig. Lukt som kommer og går med været er verdt å undersøke."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -453,6 +533,27 @@
         {
           "type": "paragraph",
           "text": "Tetting som gjentar seg, eller som rammer flere avløp samtidig, peker mot noe lenger ute i anlegget. Da er det ikke en rensejobb."
+        },
+        {
+          "type": "heading",
+          "text": "Enkel forebygging"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sil i alle sluk og vasker",
+            "Fett i søpla, ikke i vasken",
+            "Spyl med varmt vann jevnlig",
+            "Rens silen før den er full"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Mekanisk framfor kjemisk"
+        },
+        {
+          "type": "paragraph",
+          "text": "En enkel avløpsspiral eller en sugekopp løser de fleste tettinger uten kjemi, og de skader verken rør eller pakninger."
         },
         {
           "type": "heading",
@@ -532,6 +633,22 @@
         },
         {
           "type": "heading",
+          "text": "Vedlikehold av beslag"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hengsler og låsekasser trenger smøring. Tørre beslag går tungt, slites raskere og gjør at vinduet ikke lukker helt tett. Dette gjøres på minutter en gang i året."
+        },
+        {
+          "type": "heading",
+          "text": "Utvendig treverk rundt vindu"
+        },
+        {
+          "type": "paragraph",
+          "text": "Karm og bunnstykke er blant de mest utsatte flatene på et hus, fordi vann samler seg der. Sprekker i malingen der bør utbedres før neste vinter."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -608,6 +725,22 @@
         },
         {
           "type": "heading",
+          "text": "Vask før behandling"
+        },
+        {
+          "type": "paragraph",
+          "text": "Grønske og skitt hindrer at behandlingen fester. Vask, la tørke helt, og behandle deretter. Å hoppe over vasken er den vanligste årsaken til at ny behandling slipper etter en sesong."
+        },
+        {
+          "type": "heading",
+          "text": "Skruer framfor spiker"
+        },
+        {
+          "type": "paragraph",
+          "text": "Terrassebord festet med skruer kan tas opp og byttes enkeltvis. Med spiker må ofte flere bord ofres for å bytte ett."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -681,6 +814,22 @@
         {
           "type": "paragraph",
           "text": "Arbeid i stige langs tak er den vanligste ulykkesårsaken i boligvedlikehold. Er taket høyt eller underlaget ustabilt, hører jobben hos noen med riktig utstyr."
+        },
+        {
+          "type": "heading",
+          "text": "Løvfanger"
+        },
+        {
+          "type": "paragraph",
+          "text": "En enkel rist eller kurv i nedløpet fanger det groveste og gjør rensen raskere. Den må selv renses, men den hindrer tetting nede i røret der det er vanskelig å komme til."
+        },
+        {
+          "type": "heading",
+          "text": "Se etter under regn"
+        },
+        {
+          "type": "paragraph",
+          "text": "Feil på renner er lettest å se mens det regner. Da ser du hvor det renner over, hvor det drypper og hvor fallet er feil."
         },
         {
           "type": "heading",
@@ -765,6 +914,22 @@
         },
         {
           "type": "heading",
+          "text": "Rømningsvei"
+        },
+        {
+          "type": "paragraph",
+          "text": "Utstyret er halve saken. Å vite hvordan alle kommer ut, særlig fra soverom i andre etasje, er den andre halvparten. Rømningsvindu må kunne åpnes og være stort nok."
+        },
+        {
+          "type": "heading",
+          "text": "Test sammen med husstanden"
+        },
+        {
+          "type": "paragraph",
+          "text": "En test der alle vet hva alarmen betyr og hvor man møtes, tar fem minutter. Den gjør mer enn et ekstra apparat i skapet."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -846,6 +1011,22 @@
         },
         {
           "type": "heading",
+          "text": "Ha materialene tilgjengelig"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fugemasse, et par pensler og litt maling i riktig farge gjør at småting utbedres når du ser dem. Må du på butikken først, blir det ikke gjort."
+        },
+        {
+          "type": "heading",
+          "text": "Ta bilde før du skjuler noe"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alt som males over eller bygges inn, bør fotograferes først. Det er nyttig ved senere arbeid og ved salg."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -924,6 +1105,22 @@
             "Rens av renner, sluk og filtre",
             "Montering som ikke er bærende"
           ]
+        },
+        {
+          "type": "heading",
+          "text": "Be om dokumentasjon"
+        },
+        {
+          "type": "paragraph",
+          "text": "Samsvarserklæring på elektrisk arbeid og dokumentasjon på våtrom er papirer du trenger ved salg og ved forsikringssak. Be om dem når arbeidet er ferdig, ikke år etterpå."
+        },
+        {
+          "type": "heading",
+          "text": "Flere tilbud"
+        },
+        {
+          "type": "paragraph",
+          "text": "På arbeid av noe omfang varierer pris betydelig. Skriftlig tilbud med beskrevet omfang gjør det mulig å sammenligne, og reduserer uenighet underveis."
         },
         {
           "type": "heading",

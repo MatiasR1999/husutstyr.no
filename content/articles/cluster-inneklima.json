@@ -59,6 +59,22 @@
         },
         {
           "type": "heading",
+          "text": "Kondens forteller hvor det er kaldest"
+        },
+        {
+          "type": "paragraph",
+          "text": "Der kondens først oppstår, er den kaldeste flaten i rommet. Det er nyttig informasjon: det peker på hvor isolasjonen er svakest eller hvor luften ikke sirkulerer."
+        },
+        {
+          "type": "heading",
+          "text": "Ikke jag et tall"
+        },
+        {
+          "type": "paragraph",
+          "text": "Å forsøke å holde en fast prosent hele året er verken mulig eller nødvendig. Det som betyr noe er å unngå vedvarende høye verdier og synlig kondens over tid."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -140,6 +156,22 @@
         },
         {
           "type": "heading",
+          "text": "Flere billige slår ett dyrt"
+        },
+        {
+          "type": "paragraph",
+          "text": "Til å finne hvor problemet er, er tre rimelige hygrometre i tre rom mer nyttig enn ett nøyaktig i stua. Det er forskjellen mellom rom du er ute etter."
+        },
+        {
+          "type": "heading",
+          "text": "Noter, ikke bare les av"
+        },
+        {
+          "type": "paragraph",
+          "text": "Skriv ned verdi, rom og dato. Etter to uker har du en utvikling, og det er utviklingen som forteller om noe er galt."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -213,6 +245,22 @@
         {
           "type": "paragraph",
           "text": "Ved gjentakende fuktproblem er avfukter en utsettelse. Da er årsaken en bygningssak."
+        },
+        {
+          "type": "heading",
+          "text": "Plassering"
+        },
+        {
+          "type": "paragraph",
+          "text": "En avfukter trenger luftsirkulasjon rundt seg og bør stå fritt, ikke inntil vegg. I et rom med lukket dør vil den tørke det rommet, ikke boligen."
+        },
+        {
+          "type": "heading",
+          "text": "Tømming eller slange"
+        },
+        {
+          "type": "paragraph",
+          "text": "En full beholder stopper apparatet. Har rommet et sluk, gjør en fast slange at den går kontinuerlig uten tilsyn, og det er ofte forskjellen på om den brukes."
         },
         {
           "type": "heading",
@@ -292,6 +340,22 @@
         },
         {
           "type": "heading",
+          "text": "Filterkostnad over tid"
+        },
+        {
+          "type": "paragraph",
+          "text": "Filtrene er forbruksvare, og over noen år kan de koste mer enn apparatet. Sjekk pris og tilgjengelighet på filter før kjøp, ikke etter."
+        },
+        {
+          "type": "heading",
+          "text": "Plassering i rommet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Apparatet må ha fri luft inn og ut. Bak et møbel eller i et hjørne behandler den samme luften om igjen, og effekten faller kraftig."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -361,6 +425,22 @@
         {
           "type": "paragraph",
           "text": "Punktavtrekk der fukten oppstår er mer effektivt enn å øke luftskiftet i hele boligen. Det er derfor kjøkken og bad har egne avtrekk uansett system."
+        },
+        {
+          "type": "heading",
+          "text": "Ventiler som er tapet igjen"
+        },
+        {
+          "type": "paragraph",
+          "text": "I mange eldre boliger er friskluftsventiler tettet fordi det trekker. Da stopper luftskiftet, og fuktproblemer følger. Løsningen er ventiler som kan justeres, ikke ventiler som fjernes."
+        },
+        {
+          "type": "heading",
+          "text": "Filterbytte i balansert anlegg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Filtre i balansert ventilasjon skal byttes to ganger i året. Tette filtre gir dårligere luftskifte og høyere strømforbruk, og det merkes ikke før luften kjennes tung."
         },
         {
           "type": "heading",
@@ -445,6 +525,22 @@
         },
         {
           "type": "heading",
+          "text": "Ikke mal over"
+        },
+        {
+          "type": "paragraph",
+          "text": "Maling over muggvekst skjuler den i noen måneder og løser ingenting. Veksten fortsetter under, og skaden blir større før den oppdages på nytt."
+        },
+        {
+          "type": "heading",
+          "text": "Møbler fra vegg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Noen centimeter luft bak møbler mot yttervegg er ofte alt som skal til for å hindre kondens der. Det er det billigste tiltaket mot mugg som finnes."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -521,6 +617,22 @@
         },
         {
           "type": "heading",
+          "text": "Rens filtrene"
+        },
+        {
+          "type": "paragraph",
+          "text": "Filtrene i innedelen skal rengjøres jevnlig, ofte hver måned i fyringssesongen. Tette filtre reduserer både effekt og luftmengde, og det er den vanligste årsaken til at en pumpe oppleves som dårligere med årene."
+        },
+        {
+          "type": "heading",
+          "text": "Ikke slå av og på"
+        },
+        {
+          "type": "paragraph",
+          "text": "En varmepumpe er mest effektiv når den holder jevn temperatur. Å skru den av om dagen og opp om kvelden gir mer forbruk, ikke mindre."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -594,6 +706,22 @@
         {
           "type": "paragraph",
           "text": "Bor du i en høyere etasje uten kontakt med grunnen, er dette normalt ikke aktuelt."
+        },
+        {
+          "type": "heading",
+          "text": "Måling er rimelig"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sporfilm til en boligmåling koster lite og bestilles fra flere leverandører. Det er en engangsutgift for informasjon du ellers ikke kan skaffe deg."
+        },
+        {
+          "type": "heading",
+          "text": "Etter tiltak må det måles på nytt"
+        },
+        {
+          "type": "paragraph",
+          "text": "Effekten av tiltak kan ikke antas. En ny måling etter utbedring er det eneste som viser om nivået faktisk er kommet ned."
         },
         {
           "type": "heading",
@@ -678,6 +806,22 @@
         },
         {
           "type": "heading",
+          "text": "Sengetøy og temperatur"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sengetøy vasket varmt reduserer husstøvmidd. Er allergi et problem, er dette et av få tiltak med dokumentert effekt i hjemmet."
+        },
+        {
+          "type": "heading",
+          "text": "Tekstiler samler mest"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tepper, gardiner og stoppede møbler holder på partikler. Færre av dem i soverommet gir mer effekt enn ekstra utstyr."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -751,6 +895,22 @@
         {
           "type": "paragraph",
           "text": "Har du barn eller eldre i husstanden, gjelder andre hensyn til temperatur enn ren komfort, og de bør veie tyngst."
+        },
+        {
+          "type": "heading",
+          "text": "Sengetøy framfor termostat"
+        },
+        {
+          "type": "paragraph",
+          "text": "Å justere dyne og sengetøy etter årstid gir bedre komfort enn å endre romtemperaturen, og det påvirker verken strømforbruk eller fuktighet i rommet."
+        },
+        {
+          "type": "heading",
+          "text": "Trekk fra gulv"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kald luft renner langs gulvet fra utette vinduer og dører. En tetningslist under døren merkes ofte mer enn en grad ekstra på varmen."
         },
         {
           "type": "heading",
@@ -835,6 +995,22 @@
         },
         {
           "type": "heading",
+          "text": "Luft ut om morgenen"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kort gjennomtrekk når du står opp fjerner nattens fuktighet raskt. Det er mer effektivt enn vindu på gløtt gjennom natten, og det kjøler ikke ned veggene."
+        },
+        {
+          "type": "heading",
+          "text": "Planter og luft"
+        },
+        {
+          "type": "paragraph",
+          "text": "Planter forbedrer ikke luftkvaliteten merkbart i et vanlig rom, og de tilfører fukt. I et soverom med fuktproblem er de en liten del av årsaken, ikke løsningen."
+        },
+        {
+          "type": "heading",
           "text": "Hva vi ikke kan si"
         },
         {
@@ -908,6 +1084,22 @@
         {
           "type": "paragraph",
           "text": "Er det fukt i selve konstruksjonen fra grunnen, hjelper verken lufting eller avfukting varig. Da er drenering og fuktsikring den reelle saken."
+        },
+        {
+          "type": "heading",
+          "text": "Sjekk før du lufter"
+        },
+        {
+          "type": "paragraph",
+          "text": "Er det varmere og fuktigere ute enn inne, vil lufting tilføre fukt. Et hygrometer ute og ett inne gjør at du vet det i stedet for å gjette."
+        },
+        {
+          "type": "heading",
+          "text": "Ikke lagre rett på gulvet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Betong avgir fukt og er kald. Paller eller lister som løfter noen centimeter gir luft under og hindrer at kasser trekker fukt nedenfra."
         },
         {
           "type": "heading",
