@@ -73,5 +73,5 @@ De sju tillitssidene publisert som godkjente revisjoner.
 
 IKKE UTFOERT
 Ingen DNS-endring, domenekobling eller offentlig publisering.
-Ingen artikler er skrevet.
+78 artikler er skrevet som utkast, men ingen er innfoert i databasen eller publisert.
 Ingen Google-identitet er registrert.
