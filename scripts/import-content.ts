@@ -21,7 +21,11 @@ const principalId=z.uuid().parse(writer.id);
 const files=(await readdir('content/articles')).filter(name=>name.endsWith('.json'));
 const entries=[];
 for(const file of files) entries.push(...z.array(z.object({categorySlug:z.string(),slug:z.string(),content:z.unknown()})).parse(JSON.parse(await readFile(`content/articles/${file}`,'utf8'))));
-if(!entries.length) throw new Error('No article files found under content/articles');
+// Trust pages are page-kind articles. The database derives the _pages namespace itself, so any real category satisfies the foreign key.
+const [firstCategory]=await db`select slug from editorial.categories where site_id=${site.id} and locale=${site.locale} order by slug limit 1`;
+const trust=z.array(z.object({page:z.object({slug:z.string()})}).passthrough()).parse(JSON.parse(await readFile('content/trust-pages.json','utf8')));
+for(const page of trust) entries.push({categorySlug:z.string().parse(firstCategory?.slug),slug:page.page.slug,content:page});
+if(!entries.length) throw new Error('No content files found under content/');
 
 const token=createHash('sha256').update(randomUUID()).digest('hex');
 await db`insert into editorial.sessions(token_hash,principal_id,expires_at) values(${token},${principalId},now()+interval '30 minutes')`;

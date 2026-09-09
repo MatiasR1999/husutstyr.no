@@ -43,7 +43,8 @@ try {
   rotated={reader:readerPassword,editor:editorPassword};
  }
  const db=neon(owner);
- await db`insert into editorial.sites(id,reserved_routes) values(${site.id},${[...site.routes.reserved]}) on conflict(id) do update set reserved_routes=excluded.reserved_routes`;
+ // trust_routes must list every trust page slug, or the database refuses to create a page article at all.
+ await db`insert into editorial.sites(id,reserved_routes,trust_routes) values(${site.id},${[...site.routes.reserved]},${site.trustPages.map(page=>page.slug)}) on conflict(id) do update set reserved_routes=excluded.reserved_routes,trust_routes=excluded.trust_routes`;
  await db`insert into editorial.locales values(${site.id},${site.locale}) on conflict do nothing`;
  // Categories are editorial data, so they are provisioned from a reviewable file and held to the same SEO contract as every rendered page.
  const categories=z.array(categorySchema).parse(JSON.parse(await readFile('content/categories.json','utf8')));
