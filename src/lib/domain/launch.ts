@@ -19,6 +19,8 @@ export function launchConfigIssues(site:SiteDefinition,env:Environment):string[]
  if(env.NETWORK_LINKS_ENABLED!==undefined&&env.NETWORK_LINKS_ENABLED!=='false')issues.push('network-must-start-disabled');
  return issues;
 }
+// A portrait is optional: the publisher may choose not to have one, and Google does not require it for authorship.
+// When one is present it must still carry a rights note, because publishing an image without documented rights is the actual risk.
 export function launchContentIssues(site:SiteDefinition,inventory:LaunchInventory):string[] {
  const issues:string[]=[],trust=new Set<string>();let articles=0;
  if(!inventory.categories.length)issues.push('missing-categories');
@@ -28,7 +30,7 @@ export function launchContentIssues(site:SiteDefinition,inventory:LaunchInventor
   if(row.is_test||unfinished(row.payload)||unfinished(row.author_snapshot)){issues.push(`${key}:test-or-todo`);continue;}
   try {
    const content=parseContent(row.payload),author=authorSnapshotSchema.parse(row.author_snapshot);
-   if(author.is_test||!author.name.trim()||!author.bio.trim()||!author.image||!author.image.rights.trim()||!author.expertise?.length||!author.sameAs?.length)issues.push(`${key}:incomplete-author`);
+   if(author.is_test||!author.name.trim()||!author.bio.trim()||(author.image?!author.image.rights.trim():false)||!author.expertise?.length||!author.sameAs?.length)issues.push(`${key}:incomplete-author`);
    if(content.kind==='page')trust.add(content.page.slug);else articles++;
   }catch{issues.push(`${key}:invalid-published-revision`);}
  }
