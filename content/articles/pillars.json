@@ -1,0 +1,524 @@
+[
+  {
+    "categorySlug": "kjokken",
+    "slug": "kjokkenutstyr-som-varer",
+    "pillar": true,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Kjøkkenutstyr som varer: hva som avgjør levetiden",
+      "summary": "Hva som faktisk skiller kjøkkenutstyr som holder i tiår fra utstyr som byttes hvert femte år, og hvordan du prioriterer når du ikke kan kjøpe alt på én gang.",
+      "section": {
+        "id": "hva-avgjor-levetiden",
+        "title": "Hva som avgjør levetiden"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kjøkkenutstyr spenner fra redskaper du bruker daglig i tjue år til ting som ligger ubrukt i en skuff. Forskjellen handler sjelden om pris alene, men om materialvalg, konstruksjon og om utstyret passer måten du faktisk lager mat på."
+        },
+        {
+          "type": "heading",
+          "text": "Materialet setter rammen"
+        },
+        {
+          "type": "paragraph",
+          "text": "De fleste avveininger på kjøkkenet er materialavveininger. Støpejern holder på varmen og tåler nær sagt evig bruk, men er tungt og krever vedlikehold. Karbonstål varmes raskere og veier mindre, men ruster like lett. Belegg gir enkel matlaging og enkelt renhold, men er en slitedel med begrenset levetid uansett merke."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rustfritt stål i gryter sier lite alene. Det som betyr noe er bunnen: en tykk sandwichbunn fordeler varmen jevnt, en tynn bunn gir hotspots og svidd mat i midten. Dette står sjelden tydelig i produktbeskrivelsen, men bunntykkelsen oppgis ofte i millimeter."
+        },
+        {
+          "type": "heading",
+          "text": "Konstruksjon slår merkenavn"
+        },
+        {
+          "type": "paragraph",
+          "text": "På kniver avgjør stålets herdegrad hvor lenge eggen holder, og hvor lett den kan slipes opp igjen. Hardt stål holder eggen lenger, men er sprøere og vanskeligere å slipe hjemme. Mykere stål må slipes oftere, men tilgir mer. Ingen av delene er bedre; de passer ulike folk."
+        },
+        {
+          "type": "paragraph",
+          "text": "På maskiner er det ofte festet mellom motor og redskap som ryker først, ikke motoren. Metallgir tåler mer enn plastgir. Dette oppgis nesten aldri, og er en av grunnene til at vi anbefaler å lete etter reservedelstilgang før du ser på wattforbruk."
+        },
+        {
+          "type": "heading",
+          "text": "Prioriter etter hvor ofte du bruker det"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Daglig bruk tåler at du bruker mer: kniv, skjærefjøl, én god panne",
+            "Ukentlig bruk klarer seg med middels: gryter, ovnsformer, sil",
+            "Sjelden bruk bør koste lite: spesialredskaper til én rett i året",
+            "Slitedeler bør være billige å erstatte, ikke dyre å eie"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rådene over passer ikke alle. Bor du trangt, er tungt støpejern upraktisk uansett hvor lenge det varer. Lager du sjelden mat fra bunnen, er en dyr kniv bortkastet, og et rimelig sett med skarpe knivblad et bedre valg. Har du induksjonstopp, faller flere materialer bort uansett kvalitet."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si noe om"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke testet enkeltprodukter, og gir derfor ingen rangering av merker. Vi kan forklare hva som skiller konstruksjoner fra hverandre, og hva du bør se etter i spesifikasjonene. Vurderingen av om et konkret produkt holder det det lover, må du gjøre selv eller finne i uavhengige tester."
+        },
+        {
+          "type": "heading",
+          "text": "Slik leser du en produktbeskrivelse"
+        },
+        {
+          "type": "paragraph",
+          "text": "Se etter tall som kan etterprøves: bunntykkelse i millimeter, vekt, mål, materialbetegnelse og garantitid. Se bort fra ord uten innhold, som profesjonell kvalitet eller restaurantstandard. Mangler tallene helt, er det i seg selv informasjon."
+        }
+      ],
+      "seo": {
+        "title": "Kjøkkenutstyr som varer: materialer og prioritering",
+        "description": "Hva skiller kjøkkenutstyr som holder i tiår fra utstyr som byttes ofte? Vi ser på materialer, konstruksjon og hvordan du prioriterer med begrenset budsjett."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "rengjoring",
+    "slug": "rengjoringsutstyr-etter-gulvtype",
+    "pillar": true,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Rengjøringsutstyr: velg etter gulvet ditt, ikke etter effekt",
+      "summary": "Gulvtypen din avgjør mer for resultatet enn sugeeffekt og pris. Her er sammenhengen mellom gulv, børstetype og fuktighet, og hvor de vanligste feilene oppstår.",
+      "section": {
+        "id": "gulvet-styrer-valget",
+        "title": "Gulvet styrer valget"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Det vanligste feilkjøpet innen renhold er å velge utstyr etter sugeeffekt eller pris, når det er gulvtypen som avgjør om resultatet blir bra. Et utstyr som er utmerket på teppe kan være direkte skadelig på parkett."
+        },
+        {
+          "type": "heading",
+          "text": "Harde gulv"
+        },
+        {
+          "type": "paragraph",
+          "text": "På parkett og laminat er hovedproblemet riper og fukt. Roterende børster med stive bust river med seg grus og drar den over overflaten. Myke børstevalser eller rene sugemunnstykker er tryggere. Fukt er den andre risikoen: laminat tåler lite vann i skjøtene, og en for våt mopp gir svelling som ikke kan repareres."
+        },
+        {
+          "type": "paragraph",
+          "text": "På fliser er fugene problemet, ikke flatene. Fugemasse er porøs og holder på smuss. Her hjelper det mer med riktig middel og virketid enn med mekanisk kraft."
+        },
+        {
+          "type": "heading",
+          "text": "Myke gulv"
+        },
+        {
+          "type": "paragraph",
+          "text": "På teppe er mekanisk bearbeiding poenget. En roterende børste løsner smuss som ligger nede i luggen, og her gjør sugeeffekt faktisk en forskjell. Uten børste sitter det meste igjen uansett hvor sterk motoren er."
+        },
+        {
+          "type": "heading",
+          "text": "Fuktighet er den store skillelinjen"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Tørr rengjøring: trygt på alt, men når ikke fastsittende smuss",
+            "Fuktig mopp: godt på fliser og forseglet tre, risikabelt på laminat",
+            "Damp: effektivt, men ikke på uforseglet tre eller slitt laminat",
+            "Vått vask: hører hjemme på fliser og betong, sjelden andre steder"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Midler: pH betyr mer enn merke"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sure midler løser kalk og fungerer på bad, men angriper naturstein som marmor og kalkstein. Alkaliske midler løser fett og fungerer på kjøkken, men matter ned enkelte overflater ved gjentatt bruk. Nøytrale midler er trygge nesten overalt, og tilsvarende svakere. Ett universalmiddel finnes ikke, uansett hva etiketten sier."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Har du allergi i husstanden, endres prioriteringen. Da betyr filtrering og tetthet i selve maskinen mer enn børstetype, fordi en utett maskin blåser finstøvet tilbake i rommet. Har du store flater med samme gulvtype, kan et enkelt spesialisert oppsett slå et fleksibelt kompromiss."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si noe om"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt sugeeffekt, filtrering eller støy i egne tester, og rangerer derfor ikke maskiner mot hverandre. Vi forklarer hvilke egenskaper som betyr noe for ditt gulv, slik at du kan lese en spesifikasjon med et klarere blikk."
+        }
+      ],
+      "seo": {
+        "title": "Rengjøringsutstyr: velg etter gulvtype, ikke etter pris",
+        "description": "Gulvtypen avgjør mer enn sugeeffekt. Her er sammenhengen mellom gulv, børstetype, fuktighet og valg av middel, og hvor de vanligste feilkjøpene skjer."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "vask-og-toy",
+    "slug": "vask-fra-maskin-til-skap",
+    "pillar": true,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Vask og tekstilstell: fra maskinvalg til ferdig i skapet",
+      "summary": "Hvordan kapasitet, temperatur og programvalg henger sammen, og hva som faktisk avgjør hvor lenge klærne dine varer.",
+      "section": {
+        "id": "hele-kjeden",
+        "title": "Hele kjeden fra maskin til skap"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Vask handler om en kjede: maskinen, programmet, middelet, tørkingen og oppbevaringen. Svikter ett ledd, hjelper det lite at de andre er gode. De fleste problemer folk opplever med vask, oppstår i et annet ledd enn det de mistenker."
+        },
+        {
+          "type": "heading",
+          "text": "Kapasitet er ikke det samme som nytte"
+        },
+        {
+          "type": "paragraph",
+          "text": "Oppgitt kapasitet i kilo gjelder bomull på et fullt program. For ull, syntetisk og finvask er den reelle kapasiteten vesentlig lavere, ofte under halvparten. En stor maskin som alltid kjøres halvfull bruker mer vann og strøm per plagg enn en mindre maskin som fylles."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sentrifugeringshastighet påvirker hvor mye vann som er igjen når vasken er ferdig. Høyere hastighet betyr kortere tørketid, men også mer mekanisk belastning på fibrene. For plagg du vil beholde lenge, er lavere sentrifugering og lengre tørketid det skånsomste."
+        },
+        {
+          "type": "heading",
+          "text": "Temperatur gjør to ting samtidig"
+        },
+        {
+          "type": "paragraph",
+          "text": "Høy temperatur løser fett og dreper mikroorganismer, men krymper enkelte fibre og bleker farger raskere. Moderne vaskemidler er utviklet for å virke ved lavere temperatur, og for de fleste plagg er 30 til 40 grader tilstrekkelig. Unntakene er reelle: håndklær, sengetøy og undertøy ved sykdom hører hjemme varmere."
+        },
+        {
+          "type": "heading",
+          "text": "Middel etter oppgave"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pulver: best på hvitt og flekker, dårligere i kaldt vann",
+            "Flytende: løser fett godt, bleker ikke, trygt på farget tøy",
+            "Kapsler: doserer likt hver gang, altså feil når vasken er liten",
+            "Ullmiddel: nøytral pH, nødvendig for dyrehår som filter seg"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Tørking avgjør mer enn folk tror"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tørketrommel sliter på fibrene, og lo i filteret er tekstil som ikke lenger er i plagget. Varmepumpetrommel tørker ved lavere temperatur og er skånsommere enn kondens, men bruker lengre tid. Lufttørking er skånsomst, men innendørs tørking uten ventilasjon flytter fukten inn i boligen."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bor du i leilighet uten balkong, er lufttørking sjelden realistisk uten at inneklimaet blir dårligere. Har du småbarn og mange vasker i uken, veier tidsbruk tyngre enn maksimal skånsomhet. Vasker du sjelden og lite, er en stor maskin feil investering uansett pris."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si noe om"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt vaskeresultat, energiforbruk eller programtid selv. Tallene som oppgis av produsentene er målt på standardiserte program som sjelden tilsvarer måten folk faktisk vasker på. Vi forklarer sammenhengene, ikke hvilken maskin som vinner."
+        }
+      ],
+      "seo": {
+        "title": "Vask og tekstilstell: fra maskinvalg til ferdig i skapet",
+        "description": "Kapasitet, temperatur, middel og tørking henger sammen. Her forklarer vi hva som faktisk avgjør vaskeresultatet og hvor lenge tekstilene dine holder."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "oppbevaring",
+    "slug": "oppbevaring-som-holder-orden",
+    "pillar": true,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Oppbevaring som fortsatt holder orden om et halvt år",
+      "summary": "Hvorfor de fleste oppbevaringssystemer kollapser etter noen måneder, og hva som skiller løsningene som faktisk blir brukt.",
+      "section": {
+        "id": "hvorfor-systemer-kollapser",
+        "title": "Hvorfor systemer kollapser"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "De fleste oppbevaringsløsninger fungerer den dagen de settes opp. Spørsmålet er om de fungerer et halvt år senere. Systemer kollapser sjelden fordi de var dårlige, men fordi de krevde mer disiplin enn hverdagen har plass til."
+        },
+        {
+          "type": "heading",
+          "text": "Mål før du kjøper, ikke etter"
+        },
+        {
+          "type": "paragraph",
+          "text": "Den vanligste feilen er å kjøpe kasser og hyller før man har målt. Dybden på en hylle bestemmer hva som får plass stående, og en hylle som er femten centimeter for dyp fylles med ting som forsvinner bakover. Mål høyde, bredde og dybde, og mål også hva som skal oppbevares."
+        },
+        {
+          "type": "heading",
+          "text": "Materialet må passe rommet"
+        },
+        {
+          "type": "paragraph",
+          "text": "I bod og kjeller er fukt hovedproblemet. Papp kollapser, ubehandlet tre trekker fukt, og tekstilkasser mugner. Plast med tett lokk tåler dette, men kan gi kondens innvendig hvis innholdet var fuktig da det ble pakket. I tørre rom er materialvalget først og fremst et spørsmål om vekt og utseende."
+        },
+        {
+          "type": "heading",
+          "text": "Bæreevne og innfesting"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hyller feiler ikke i hyllen, men i festet. Gipsvegg uten stender bærer lite uansett hvilken skrue som følger med. Betong og teglstein krever egne plugger. Vekten av det du planlegger å sette opp, bør regnes ut før du velger festemetode, ikke etter at hyllen har løsnet."
+        },
+        {
+          "type": "heading",
+          "text": "Prinsipper som overlever hverdagen"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ting du bruker daglig skal nås uten å flytte noe annet",
+            "Ett håndgrep for å legge tilbake, ellers blir det liggende fremme",
+            "Gjennomsiktig eller merket, ellers glemmes innholdet",
+            "Tomrom er en del av systemet, ikke bortkastet plass"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Flytter du ofte, er innebygde løsninger feil investering. Deler du bolig med flere, må systemet tåle at andre enn du legger ting på plass, og da vinner enkelhet over presisjon. Har du svært lite plass, kan det være riktigere å eie mindre enn å oppbevare bedre."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si noe om"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke belastningstestet hyller eller kasser. Bæreevne oppgitt av produsenten gjelder ideelle forhold og riktig montering, og sier lite om hva som skjer i en gipsvegg fra åttitallet. Ved tvil om tunge laster bør du regne konservativt."
+        }
+      ],
+      "seo": {
+        "title": "Oppbevaring som fortsatt holder orden om et halvt år",
+        "description": "De fleste oppbevaringssystemer kollapser fordi de krever for mye disiplin. Her er hva som skiller løsningene som faktisk blir brukt over tid."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "vedlikehold",
+    "slug": "boligvedlikehold-gjennom-aret",
+    "pillar": true,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Boligvedlikehold gjennom året: hva som haster og hva som ikke gjør det",
+      "summary": "En rekkefølge for boligvedlikehold basert på hva som koster mest å utsette, ikke på hva som er lettest å komme i gang med.",
+      "section": {
+        "id": "hva-koster-a-utsette",
+        "title": "Hva det koster å utsette"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Boligvedlikehold blir sjelden gjort fordi det haster, men fordi noe har gått galt. Det meste av det som blir dyrt, begynte som noe billig man ikke rakk. Rekkefølgen under er sortert etter hva utsettelse faktisk koster."
+        },
+        {
+          "type": "heading",
+          "text": "Vann først, alltid"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vann er den klart dyreste skadetypen i norske boliger, og den utvikler seg langsomt nok til at den overses. Takrenner som renner over, sluk som går tregt, og tetninger rundt vindu og dør er små oppgaver som forhindrer store kostnader. De bør sjekkes minst årlig, og etter kraftig vær."
+        },
+        {
+          "type": "heading",
+          "text": "Så det som beskytter mot vann"
+        },
+        {
+          "type": "paragraph",
+          "text": "Utvendig treverk, maling og listverk er ikke kosmetikk. Overflatebehandling er det som hindrer at vann trekker inn i materialet. Når malingen slipper, begynner nedbrytningen under, og da er reparasjonen vesentlig større enn et strøk maling ville vært."
+        },
+        {
+          "type": "heading",
+          "text": "Så sikkerhet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Røykvarslere og slokkeutstyr har intervaller det er verdt å følge. Batteribytte og funksjonstest er raskt gjort, og konsekvensen av å la være er ikke en kostnad, men en risiko av en helt annen art."
+        },
+        {
+          "type": "heading",
+          "text": "Til slutt det synlige"
+        },
+        {
+          "type": "paragraph",
+          "text": "Innvendig maling, justering av dører og skuffer og alt som irriterer daglig, hører hjemme sist i prioriteringen selv om det er dette man har mest lyst til å gjøre. Det koster ingenting å utsette."
+        },
+        {
+          "type": "heading",
+          "text": "En enkel årsrytme"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vår: takrenner, utvendig kontroll etter vinteren, sluk og avløp",
+            "Sommer: utvendig treverk, maling, terrasse og fasade",
+            "Høst: tetting rundt vindu og dør, løv i renner, klargjøring for frost",
+            "Vinter: innvendige oppgaver, kontroll av fukt og røykvarslere"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bor du i leilighet, hører det meste utvendige inn under sameiet, og listen krymper til det som er innenfor din dør. Er boligen ny, er mange oppgaver dekket av reklamasjonsfrister det er verdt å bruke framfor å reparere selv."
+        },
+        {
+          "type": "heading",
+          "text": "Når du bør hente fagfolk"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alt som gjelder elektrisitet, bærende konstruksjoner, våtrom og tak har enten formelle krav eller konsekvenser som overstiger besparelsen. Vi skriver om hva som bør gjøres og hvorfor, ikke om hvordan du utfører arbeid som krever fagbrev."
+        }
+      ],
+      "seo": {
+        "title": "Boligvedlikehold: hva som haster og hva som kan vente",
+        "description": "En rekkefølge for vedlikehold basert på hva utsettelse faktisk koster. Vann først, så det som beskytter mot vann, så sikkerhet, og til slutt det synlige."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "inneklima",
+    "slug": "inneklima-fukt-luft-temperatur",
+    "pillar": true,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Inneklima: slik henger fukt, luft og temperatur sammen",
+      "summary": "Hva målingene faktisk betyr, hvilke tall som er verdt å bry seg om, og hvilket utstyr som gjør en reell forskjell innendørs.",
+      "section": {
+        "id": "hva-tallene-betyr",
+        "title": "Hva tallene betyr"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Inneklima diskuteres ofte med tall folk ikke vet hvordan skal tolkes. Denne artikkelen forklarer hva de vanligste målingene betyr i praksis, og hvilke tiltak som følger av dem."
+        },
+        {
+          "type": "heading",
+          "text": "Luftfuktighet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Relativ luftfuktighet varierer naturlig gjennom året i norske boliger. Om vinteren blir inneluften tørr fordi kald uteluft inneholder lite vann og tørkes ytterligere ved oppvarming. Om sommeren er problemet ofte det motsatte. Det finnes ikke ett riktig tall som gjelder hele året."
+        },
+        {
+          "type": "paragraph",
+          "text": "Høy fuktighet over tid er det som gir problemer, ikke enkelttopper. En dusj hever fuktigheten kraftig i tjue minutter uten at det betyr noe, forutsatt at luften skiftes ut. Vedvarende høy fuktighet i et rom uten ventilasjon er derimot en reell risiko for muggvekst."
+        },
+        {
+          "type": "heading",
+          "text": "Ventilasjon er årsaken, avfukting er symptombehandling"
+        },
+        {
+          "type": "paragraph",
+          "text": "En avfukter fjerner vann fra luften, men fjerner ikke kilden. Er fuktigheten høy fordi luften ikke skiftes ut, løser ventilasjon problemet permanent mens avfukteren løser det så lenge den står på. Er fuktigheten høy fordi vann trenger inn utenfra, hjelper ingen av delene før lekkasjen er tettet."
+        },
+        {
+          "type": "heading",
+          "text": "Luftkvalitet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Luftrensere fjerner partikler fra luften i rommet de står i. De fjerner ikke gasser, de erstatter ikke ventilasjon, og effekten avhenger av at luftmengden de klarer å behandle står i forhold til rommets størrelse. En liten renser i et stort rom gjør lite uansett hvor godt filteret er."
+        },
+        {
+          "type": "heading",
+          "text": "Temperatur"
+        },
+        {
+          "type": "paragraph",
+          "text": "Temperatur oppleves ulikt avhengig av luftfuktighet og trekk. Det samme gradtallet føles kaldere i tørr luft med trekk enn i stillestående luft. Dette er grunnen til at tetting rundt vindu ofte gir bedre opplevd komfort enn å skru opp varmen."
+        },
+        {
+          "type": "heading",
+          "text": "Hva som er verdt å måle"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Relativ luftfuktighet: enkelt å måle, gir tidlig varsel om fuktproblemer",
+            "Temperatur per rom: avdekker at ett rom oppfører seg annerledes",
+            "Radon: kan ikke merkes, og måles over tid i vinterhalvåret",
+            "Synlige tegn: kondens på vindu og lukt sier ofte mer enn et instrument"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "I nye boliger med balansert ventilasjon er de fleste tiltakene over unødvendige, og problemet er oftere et anlegg som er feiljustert enn manglende utstyr. I gamle hus med naturlig avtrekk er utfordringen omvendt, og da er tetting uten kompenserende ventilasjon direkte uheldig."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si noe om"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt kapasitet, støy eller filtereffekt på konkrete apparater. Vi forklarer sammenhengene og hva spesifikasjonene betyr. Mistanke om muggsopp, radon over tiltaksgrensen eller fuktskader i konstruksjonen bør vurderes av fagfolk, ikke av en artikkel."
+        }
+      ],
+      "seo": {
+        "title": "Inneklima: slik henger fukt, luft og temperatur sammen",
+        "description": "Hva betyr tallene for luftfuktighet, og når hjelper avfukter, ventilasjon eller luftrenser? Her forklarer vi sammenhengene og hva som er verdt å måle."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  }
+]
