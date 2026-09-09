@@ -1,0 +1,18 @@
+{
+  "name": "Matias Rædergård",
+  "slug": "matias-raedergard",
+  "bio": "Matias Rædergård jobber med forretningsutvikling og programvareutvikling, og har bachelorgrad i IT i tillegg til utdanning innen entreprenørskap og økonomi. Han er særlig opptatt av teknologi, digitale produkter og av å sammenligne produkter strukturert. På Husutstyr.no skriver han for å gjøre produktvalg enklere gjennom konkrete sammenligninger og tydelig informasjon.",
+  "expertise": [
+    "Teknologi og forbrukerelektronikk",
+    "Produktsammenligning og produktresearch",
+    "Programvare og digitale produkter",
+    "E-handel"
+  ],
+  "image": null,
+  "sameAs": [],
+  "_krav": {
+    "image": "Leveres av utgiver. Ingen bildefil skal registreres uten dokumenterte rettigheter.",
+    "sameAs": "LinkedIn-URL leveres av utgiver. Ingen antatt eller konstruert URL skal legges inn.",
+    "avgrensning": "Fagomraadene er bevisst avgrenset til teknologi, research og e-handel. Nettstedet skal ikke fremstille forfatteren som fagperson innen elektro, bygg eller haandverksfag."
+  }
+}

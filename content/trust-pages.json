@@ -6,7 +6,7 @@
       "slug": "om-oss"
     },
     "title": "Om oss",
-    "summary": "Husutstyr er et uavhengig norsk nettsted om utstyr til hjemmet, drevet av Matias Rædergård.",
+    "summary": "Husutstyr.no er et uavhengig norsk nettsted om utstyr til hjemmet, drevet av Matias Rædergård.",
     "section": {
       "id": "hvem-staar-bak",
       "title": "Hvem står bak"
@@ -14,7 +14,7 @@
     "blocks": [
       {
         "type": "paragraph",
-        "text": "Husutstyr er et norsk nettsted om utstyr til hjemmet. Nettstedet drives og utgis av Matias Rædergård, som privatperson og ikke gjennom et selskap. Matias Rædergård er også ansvarlig redaktør og eneste forfatter."
+        "text": "Husutstyr.no er et norsk nettsted om utstyr til hjemmet. Nettstedet drives og utgis av Matias Rædergård, som privatperson og ikke gjennom et selskap. Matias Rædergård er også ansvarlig redaktør og eneste forfatter."
       },
       {
         "type": "heading",
@@ -42,12 +42,12 @@
       },
       {
         "type": "paragraph",
-        "text": "Finner du en feil, meld fra til TODO: Sett inn den offentlige kontakt-e-posten. Vi retter faktafeil så raskt vi kan, og oppdaterer datoen for siste endring på artikkelen."
+        "text": "Finner du en feil, meld fra til contact@nordenmediagroup.com. Vi retter faktafeil så raskt vi kan, og oppdaterer datoen for siste endring på artikkelen."
       }
     ],
     "seo": {
       "title": "Om Husutstyr – hvem som står bak og hva vi publiserer",
-      "description": "Husutstyr er et uavhengig norsk nettsted om utstyr til hjemmet. Her står hvem som utgir det, hva vi skriver om, og hvordan vi holder oss uavhengige."
+      "description": "Husutstyr.no er et uavhengig norsk nettsted om utstyr til hjemmet. Her står hvem som utgir det, hva vi skriver om, og hvordan vi holder oss uavhengige."
     },
     "sources": [],
     "research": [],
@@ -68,7 +68,7 @@
     "blocks": [
       {
         "type": "paragraph",
-        "text": "Henvendelser til Husutstyr behandles av Matias Rædergård, som er utgiver og ansvarlig redaktør."
+        "text": "Henvendelser til Husutstyr.no behandles av Matias Rædergård, som er utgiver og ansvarlig redaktør."
       },
       {
         "type": "heading",
@@ -76,7 +76,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Send e-post til TODO: Sett inn den offentlige kontakt-e-posten."
+        "text": "Send e-post til contact@nordenmediagroup.com."
       },
       {
         "type": "heading",
@@ -119,7 +119,7 @@
       "slug": "redaksjonell-policy"
     },
     "title": "Redaksjonell policy",
-    "summary": "Hvordan artikler på Husutstyr blir til, kontrollert, godkjent og rettet.",
+    "summary": "Hvordan artikler på Husutstyr.no blir til, kontrollert, godkjent og rettet.",
     "section": {
       "id": "slik-jobber-vi",
       "title": "Slik jobber vi"
@@ -127,7 +127,7 @@
     "blocks": [
       {
         "type": "paragraph",
-        "text": "Denne siden beskriver hvordan innholdet på Husutstyr blir til, og hva du kan holde oss til."
+        "text": "Denne siden beskriver hvordan innholdet på Husutstyr.no blir til, og hva du kan holde oss til."
       },
       {
         "type": "heading",
@@ -172,7 +172,7 @@
     ],
     "seo": {
       "title": "Redaksjonell policy for Husutstyr – kilder og godkjenning",
-      "description": "Slik blir artiklene på Husutstyr til: hvilke kilder vi bruker, hvordan hver versjon godkjennes før publisering, og hvordan vi retter feil når de oppstår."
+      "description": "Slik blir artiklene på Husutstyr.no til: hvilke kilder vi bruker, hvordan hver versjon godkjennes før publisering, og hvordan vi retter feil når de oppstår."
     },
     "sources": [],
     "research": [],
@@ -185,44 +185,60 @@
       "slug": "slik-tester-vi"
     },
     "title": "Slik tester og vurderer vi",
-    "summary": "Hva vurderingene på Husutstyr bygger på, og hva de ikke bygger på.",
+    "summary": "Forskjellen mellom artikler vi har testet selv og artikler som bygger på research, og hvordan hver av dem er merket.",
     "section": {
-      "id": "grunnlaget",
-      "title": "Grunnlaget for vurderingene"
+      "id": "research-og-egne-tester",
+      "title": "Research og egne tester"
     },
     "blocks": [
       {
         "type": "paragraph",
-        "text": "Denne siden forklarer hva vurderingene våre bygger på. Vi mener det er viktigere at du vet hvor kunnskapen kommer fra enn at vi fremstår som mer omfattende enn vi er."
+        "text": "Denne siden forklarer hva vurderingene våre bygger på. Vi skiller tydelig mellom to slags artikler, fordi forskjellen betyr noe for hvor mye du bør vektlegge det vi skriver."
       },
       {
         "type": "heading",
-        "text": "Vi tester ikke produkter fysisk"
+        "text": "Research: det aller meste vi publiserer i dag"
       },
       {
         "type": "paragraph",
-        "text": "Husutstyr driver i dag ikke egen fysisk produkttesting. Vi har ikke testlaboratorium, og vi måler ikke produkter selv. Det betyr at vi ikke gir terningkast eller poengscore til enkeltprodukter."
+        "text": "De fleste artiklene bygger på grundig gjennomgang av produktdata, produsentenes dokumentasjon, offentlige standarder og andre etterprøvbare kilder. Vi sammenligner spesifikasjoner og forklarer hvilke egenskaper som faktisk betyr noe for ulike behov."
+      },
+      {
+        "type": "paragraph",
+        "text": "Slike artikler sier ikke at vi har hatt produktet i hendene, fordi vi ikke har hatt det. Vi gir dem verken terningkast eller poengscore. Kildene oppgis i artikkelen."
       },
       {
         "type": "heading",
-        "text": "Hva vi gjør i stedet"
+        "text": "Egne tester: merkes eksplisitt når de finnes"
+      },
+      {
+        "type": "paragraph",
+        "text": "Vi kan komme til å teste utvalgte produkter selv, med egne målinger og egne bilder. Når vi gjør det, vil artikkelen si det uttrykkelig, beskrive hva vi målte og hvordan, og vise bildene vi tok."
+      },
+      {
+        "type": "paragraph",
+        "text": "Per i dag har vi ikke publisert noen egne tester. Står det ikke eksplisitt i artikkelen at vi har testet produktet, har vi ikke gjort det."
+      },
+      {
+        "type": "heading",
+        "text": "Hvorfor vi er så tydelige på dette"
+      },
+      {
+        "type": "paragraph",
+        "text": "Mange nettsteder omtaler sammenstilling av produsentdata som testing. Det er villedende, og det gjør det umulig for deg å vite hva som er kontrollert og hva som er lest. Vi bruker ordet testet bare når vi faktisk har testet."
+      },
+      {
+        "type": "heading",
+        "text": "Hva vi alltid sier noe om"
       },
       {
         "type": "list",
         "items": [
-          "Sammenligner spesifikasjoner og dokumentasjon fra produsentene",
-          "Bruker offentlige standarder og bransjekrav der de finnes",
-          "Forklarer hvilke egenskaper som faktisk betyr noe for ulike behov",
-          "Peker på begrensninger og avveininger i stedet for å utpeke én vinner"
+          "Hvilke egenskaper som skiller produktene reelt fra hverandre",
+          "Hvem produktet passer for, og like viktig: hvem det ikke passer for",
+          "Kjente svakheter og avveininger, ikke bare fordeler",
+          "Hva vi ikke vet, når kildene ikke rekker lenger"
         ]
-      },
-      {
-        "type": "heading",
-        "text": "Hvorfor vi sier dette tydelig"
-      },
-      {
-        "type": "paragraph",
-        "text": "Mange nettsteder omtaler sammenstilling av produsentdata som testing. Det gjør vi ikke. Skulle vi begynne med egen testing, vil metoden bli dokumentert her, og artikler som bygger på den vil si det eksplisitt."
       },
       {
         "type": "heading",
@@ -234,8 +250,8 @@
       }
     ],
     "seo": {
-      "title": "Slik vurderer Husutstyr utstyr – metode og begrensninger",
-      "description": "Vi tester ikke produkter fysisk. Her står hva vurderingene bygger på, hvilke kilder vi bruker, og hvorfor vi ikke gir terningkast til enkeltprodukter."
+      "title": "Slik tester og vurderer vi – metode og kildegrunnlag",
+      "description": "Vi skiller tydelig mellom produkter vi har testet selv og artikler som bygger på research. Her står hva hver kategori betyr og hvordan artiklene merkes."
     },
     "sources": [],
     "research": [],
@@ -256,7 +272,7 @@
     "blocks": [
       {
         "type": "paragraph",
-        "text": "Behandlingsansvarlig for personopplysninger på Husutstyr er Matias Rædergård, som privatperson. Henvendelser om personvern sendes til TODO: Sett inn den offentlige kontakt-e-posten."
+        "text": "Behandlingsansvarlig for personopplysninger på Husutstyr.no er Matias Rædergård, som privatperson. Henvendelser om personvern sendes til contact@nordenmediagroup.com."
       },
       {
         "type": "heading",
@@ -304,8 +320,8 @@
       }
     ],
     "seo": {
-      "title": "Personvern på Husutstyr – hva vi samler inn og hvorfor",
-      "description": "Husutstyr måler ingenting før du har samtykket. Her står hvem som er behandlingsansvarlig, hva som registreres, hvor lenge, og hvilke rettigheter du har."
+      "title": "Personvern på Husutstyr.no – hva vi samler inn og hvorfor",
+      "description": "Husutstyr.no måler ingenting før du har samtykket. Her står hvem som er behandlingsansvarlig, hva som registreres, hvor lenge, og hvilke rettigheter du har."
     },
     "sources": [],
     "research": [],
@@ -318,7 +334,7 @@
       "slug": "cookies"
     },
     "title": "Cookies",
-    "summary": "Hvilke informasjonskapsler Husutstyr bruker, og hvordan du styrer dem.",
+    "summary": "Hvilke informasjonskapsler Husutstyr.no bruker, og hvordan du styrer dem.",
     "section": {
       "id": "hvilke-kapsler",
       "title": "Hvilke informasjonskapsler vi bruker"
@@ -326,7 +342,7 @@
     "blocks": [
       {
         "type": "paragraph",
-        "text": "Husutstyr bruker så få informasjonskapsler som mulig. Ingenting settes til analyse eller markedsføring før du har sagt ja."
+        "text": "Husutstyr.no bruker så få informasjonskapsler som mulig. Ingenting settes til analyse eller markedsføring før du har sagt ja."
       },
       {
         "type": "heading",
@@ -362,8 +378,8 @@
       }
     ],
     "seo": {
-      "title": "Informasjonskapsler på Husutstyr – hva vi bruker og hvorfor",
-      "description": "Husutstyr setter ingen analysekapsler før du har samtykket. Her ser du hvilke informasjonskapsler som brukes, hvor lenge de varer, og hvordan du endrer valget."
+      "title": "Informasjonskapsler på Husutstyr.no – hva vi bruker",
+      "description": "Vi setter ingen analysekapsler før du har samtykket. Her ser du hvilke informasjonskapsler som brukes, hvor lenge de varer, og hvordan du endrer valget."
     },
     "sources": [],
     "research": [],
@@ -384,7 +400,7 @@
     "blocks": [
       {
         "type": "paragraph",
-        "text": "Husutstyr finansieres av annonselenker. Denne siden forklarer hva det betyr for deg som leser."
+        "text": "Husutstyr.no finansieres av annonselenker. Denne siden forklarer hva det betyr for deg som leser."
       },
       {
         "type": "heading",
@@ -438,7 +454,7 @@
     ],
     "seo": {
       "title": "Annonsørinformasjon for Husutstyr – slik tjener vi penger",
-      "description": "Husutstyr finansieres av annonselenker. Her forklarer vi hvordan lenkene er merket, hva provisjon ikke påvirker, og hvorfor prisen din ikke blir høyere."
+      "description": "Husutstyr.no finansieres av annonselenker. Her forklarer vi hvordan lenkene er merket, hva provisjon ikke påvirker, og hvorfor prisen din ikke blir høyere."
     },
     "sources": [],
     "research": [],

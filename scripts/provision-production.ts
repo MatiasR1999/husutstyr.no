@@ -9,6 +9,9 @@ import { isPublicSlug } from '../src/lib/slug';
 import { z } from 'zod';
 
 const categorySchema=z.object({slug:z.string(),name:z.string().min(1),introduction:z.string().min(1),seo:z.object({title:z.string(),description:z.string()})});
+const authorSchema=z.object({name:z.string().min(1),slug:z.string(),bio:z.string().min(1),expertise:z.array(z.string().min(1)).min(1),
+ image:z.object({url:z.url(),alt:z.string().min(1),rights:z.string().min(1),width:z.number().int().positive(),height:z.number().int().positive()}).nullable(),
+ sameAs:z.array(z.url())});
 neonConfig.webSocketConstructor=WebSocket;
 
 // Runs only with the migration owner connection, and never against the isolated QA database or in QA mode.
@@ -40,6 +43,13 @@ try {
   validateSeoCopy(category.seo);
   await db`insert into editorial.categories(site_id,locale,slug,name,introduction,seo) values(${site.id},${site.locale},${category.slug},${category.name},${category.introduction},${JSON.stringify(category.seo)}::jsonb) on conflict(site_id,locale,slug) do update set name=excluded.name,introduction=excluded.introduction,seo=excluded.seo`;
  }
+ // The author is registered even while the portrait and profile link are missing, so the launch gate reports the real gap instead of a missing record.
+ const author=authorSchema.parse(JSON.parse(await readFile('content/author.json','utf8')));
+ if(!isPublicSlug(author.slug)) throw new Error(`Invalid author slug: ${author.slug}`);
+ if(/TODO:|\bQA:/.test(JSON.stringify(author))) throw new Error('Author record still holds placeholder text');
+ await db`insert into editorial.authors(site_id,slug,name,bio,image,expertise,same_as,is_test) values(${site.id},${author.slug},${author.name},${author.bio},${author.image?JSON.stringify(author.image):null}::jsonb,${author.expertise},${author.sameAs},false) on conflict(site_id,slug) do update set name=excluded.name,bio=excluded.bio,image=excluded.image,expertise=excluded.expertise,same_as=excluded.same_as`;
+ const pending=[!author.image?'portrait':null,author.sameAs.length?null:'sameAs'].filter(Boolean);
+ if(pending.length) console.log(`PENDING: Author ${author.slug} is registered but still missing ${pending.join(' and ')}; publishing stays blocked until the publisher supplies them.`);
  const connection=(role:string,password:string)=>{const url=new URL(owner);url.username=role;url.password=password;url.search='';return url.href;};
  const env={DATABASE_URL:connection('seo_public_reader',readerPassword),EDITOR_DATABASE_URL:connection('seo_editor_service',editorPassword)};
  await writeFile('.env.production.local',Object.entries(env).map(([key,value])=>`${key}=${value}`).join('\n')+'\n',{mode:0o600});
@@ -47,6 +57,6 @@ try {
  // Each restricted role must reach the public contract without the owner connection.
  await neon(env.DATABASE_URL)`select 1 from editorial.published_articles limit 1`;
  await neon(env.EDITOR_DATABASE_URL)`select 1 from editorial.principals limit 1`;
- console.log(`PASS: Provisioned ${journal.entries.length} migrations, both restricted roles, the site row and ${categories.length} categories on ${new URL(owner).hostname}.`);
+ console.log(`PASS: Provisioned ${journal.entries.length} migrations, both restricted roles, the site row, ${categories.length} categories and the author record on ${new URL(owner).hostname}.`);
  console.log('PASS: Connection strings written to .env.production.local with owner-only permissions; they are never printed.');
 } finally { await pool.end(); }
