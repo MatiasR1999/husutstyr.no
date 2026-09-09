@@ -1,11 +1,11 @@
 /* Generated from site.config.ts. Do not edit. */
 :root {
-  --color-page: #ffffff;
-  --color-ink: #182332;
-  --color-muted: #495667;
-  --color-accent: #164ac6;
-  --color-surface: #eef3ff;
-  --color-border: #c5cedd;
+  --color-page: #fdfcfa;
+  --color-ink: #1c1a17;
+  --color-muted: #5d574e;
+  --color-accent: #2f5d3f;
+  --color-surface: #f4f1ea;
+  --color-border: #c2b8a3;
   --font-body: var(--loaded-body), sans-serif;
   --font-heading: var(--loaded-heading), serif;
   --text-body: 1rem;
@@ -25,7 +25,7 @@
   --card-min: 18rem;
   --sidebar-width: 16rem;
   --text-display: 3rem;
-  --radius: 0.25rem;
+  --radius: 0;
   --shadow: none;
   --reading-width: 46rem;
   --page-width: 68rem;
