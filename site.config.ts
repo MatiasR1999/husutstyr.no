@@ -63,7 +63,7 @@ const site = {
   ui: { skip: 'Til innholdet', menu: 'Meny', home: 'Forside', category: 'Kategori', read: 'Les artikkelen', contents: 'Til kontrollpunktet', published: 'Publisert', modified: 'Sist oppdatert', author: 'Forfatter', notFound: 'Siden finnes ikke', back: 'Tilbake til forsiden', breadcrumb: 'Broedsmuler' },
   content: { home: 'TODO: Skriv en unik introduksjon for dette nettstedet.', category: 'TODO: Skriv kategoriens egen pillar-introduksjon.', footer: 'TODO: Skriv nettstedets egen footer med reelt eierskap.' },
   qa: {
-    database: { projectId:'snowy-moon-44342419', branchId:'br-rapid-moon-aywxumhf', branchName:'phase-2-qa', hostPrefix:'ep-polished-hat-ayxt6k6g.' },
+    database: { projectId:'raspy-leaf-06859059', branchId:'br-rough-cake-b22qbr27', branchName:'phase-2-qa', hostPrefix:'ep-plain-forest-b21b1t8k.' },
     phase7: {
       slug: 'qa-phase7-long', title: 'QA: Lang teknisk artikkel med bilder',
       paragraph: 'QA: Syntetisk måleavsnitt for tekstbredde, linjebryting, leserekkefølge og lasting i mobilnett. Teksten er kun teknisk testmateriale og beskriver ingen faktiske produkter, egne tester eller anbefalinger.',

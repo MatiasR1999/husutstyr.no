@@ -746,3 +746,84 @@ Git-plan: Opprett foerste commit og vanlig push med upstream til origin/main ett
 Git-utvalg PASS: 214 filer paa omtrent 1.96 MB er kontrollert direkte fra Git-indeksen uten treff paa konfigurerte private verdier eller credential-moennstre.
 Regresjonsgrunnlag PASS: Staget appkode, scripts, tester, migrasjoner og pakkefiler har samme SHA-256 som den siste rene testkjoeringen.
 Formatmerknad: Git sin whitespace-kontroll melder en eksisterende ekstra sluttlinje i 0012-migrasjonen; den allerede testede migrasjonsfilen er beholdt uendret.
+
+FASE 7: ROTAARSAK FOR KALD RESPONSTID OG REDUSERTE DATABASERUNDTURER, 2026-09-09
+Status: Fase 7 er fortsatt BLOKKERT; B05 og B08 er ikke lukket og kravene er uendret.
+Bestilling: Brukeren ba om at ytelsesblokkeringen loeses foer nettstedsspesifikk konfigurasjon.
+Maalt geografi: QA-databasen kjoerer i us-east-2 mens maaleprofilen kjoeres fra en maskin i Norge.
+Maalt tilkobling: curl mot databasevertens HTTPS-endepunkt gir TCP-connect 139-245 ms og fullfoert TLS 271-377 ms.
+Maalt rundtur: Et lesende probeskript maalte 1128 ms for foerste spoerring, 410 ms for enkeltspoerring paa ny tilkobling og 130 ms naar fire spoerringer sendes i samme forespoersel.
+Maalt samtidighet: Fire samtidige spoerringer tok 502 ms fordi bare en gjenbruker den varme tilkoblingen mens de oevrige betaler ny TLS-handshake.
+Rotaarsak: Kald TTFB domineres av avstand og TLS-oppsett mot databasen, ikke av rendringsarbeid eller antall spoerringer.
+Konsekvens: Med maalt kald tilkobling paa 410-1128 ms overskrides TTFB-grensen paa 600 ms foer rendring starter; ingen kodeendring alene kan lukke B08 i denne topologien.
+Implementert: getCategories, getTopics og getTrustPages henter naa samme data i en spoerring gjennom en felles siteChrome-cache.
+Begrunnelse: De tre kildene hadde allerede sammenfallende revalidate og ble alltid invalidert samtidig, saa cache-taggene er en union uten tapt granularitet.
+Beholdt: getArticle og getAllArticles er uendret, slik at en publisering ikke invaliderer datacachen for alle artikler.
+Maalt effekt: Databaserundturer per kald forespoersel falt fra 5 til 3 for artikkel og lang artikkel, og fra 4 til 3 for forsiden.
+Maalt effekt: Kald TTFB er uendret innenfor stoey; p75 foer var 1660/1196/1374 ms og etter 1638/1227/1410 ms for forside, artikkel og lang artikkel.
+Vurdering: Endringen reduserer databasebelastning, men den loeser ikke B05 eller B08 og er ikke rapportert som en ytelsesforbedring.
+Kontroll PASS: npm run lint, npm run typecheck og npm test returnerte 0 med 85 tester og 92 kontrollerte kildefiler.
+Kontroll PASS: Rendret markup er byte-identisk foer og etter for forside, artikkel, lang artikkel, kategori, tillitsside, sitemap og RSS.
+Kontrollgrense: Eneste forskjell i responsene er bygg-ID og en 43 byte forskjell i RSC-flushgrense paa artikkelruten med samme innhold.
+Metode: Maalingene er kalde curl-forespoersler med samme nullstilling som fase 7 og egen port, ikke den godkjente nettleserprofilen.
+Metodegrense: Disse tallene erstatter ikke de 90 godkjente nettleserbesoekene og er ikke ny p75-dokumentasjon for kravmatrisen.
+Avgrensning: Bilrapport-prosjektets server holdt port 3100, saa maalingen brukte port 3110 og ingen fremmed prosess ble stoppet.
+Sikkerhet: Ingen skriveoperasjon er kjoert mot databasen; probeskriptet leser bare select-uttrykk uten parametere.
+Avvik: Under en env-innlasting tolket skallet et og-tegn i tilkoblingsstrengene, slik at QA-legitimasjonen ble skrevet til terminalloggen i denne oekten.
+Tiltak: Senere kommandoer bruker en parseEnv-basert kjoerer uten skalltolkning; QA-legitimasjonen boer roteres av brukeren.
+Gjenstaar B05 og B08: Databasen maa ligge naer applikasjonen, eller maaleprofilen maa kjoeres i et miljoe der de er samlokalisert.
+Gjenstaar F7.04 og G10: Faktisk Vercel-preview er fortsatt ikke opprettet eller testet.
+Gjenstaar: Ingen regionflytting, ny database, Vercel-prosjekt, utrulling eller DNS-endring er utfoert; dette krever brukerens beslutning.
+Git: Ingen add, commit eller push er kjoert i denne oekten.
+
+FASE 7: SAMLOKALISERT QA-DATABASE I EU, 2026-09-09
+Godkjenning: Brukeren valgte aa flytte QA-databasen til EU foer eventuelt Vercel-arbeid.
+Bakgrunn: Maalt rundtur var 123 ms til aws-us-east-2 og 34 ms til aws-eu-central-1 fra maalemaskinen.
+Regionvalg: aws-eu-central-1 er eneste EU-region Neon CLI tilbyr for nye prosjekter paa denne kontoen.
+Utfoert: Nytt Neon-prosjekt husutstyr-qa-eu med id raspy-leaf-06859059 er opprettet i aws-eu-central-1 med Postgres 18.
+Utfoert: Isolert gren phase-2-qa med id br-rough-cake-b22qbr27 er opprettet; standardgrenen main er ikke brukt til QA.
+Beholdt: Det opprinnelige prosjektet snowy-moon-44342419 i aws-us-east-2 er urort; ingen data er slettet eller flyttet derfra.
+Oppdatert QA_SETUP: site.config.ts qa.database peker naa paa nytt projectId, branchId og hostPrefix etter kloneinstruksens prosedyre.
+Migrasjon PASS: Alle 19 migrasjoner kjoerte fra tom baseline med bevart sentinel og idempotent ny kjoering.
+Provisjonering PASS: seo_public_reader og seo_editor_service fikk nye tilfeldige passord og verifiserte begrensede tilkoblinger.
+Fixtures PASS: Fase 2-fixturen og fase 7 sin lange artikkel med 65 avsnitt og to bildeblokker er publisert i den nye grenen.
+Miljoe: .env.phase2.local, .env.phase3.local og .env.test.local peker paa EU-grenen; forrige us-east-2-versjon ligger i work/env-backup.
+Maalt kald TTFB med curl, p75 av fem kalde besoek per rute:
+Maalt forside: 1660 ms mot us-east-2 og 473 ms mot eu-central-1.
+Maalt artikkel: 1196 ms mot us-east-2 og 403 ms mot eu-central-1.
+Maalt lang artikkel: 1374 ms mot us-east-2 og 352 ms mot eu-central-1.
+Vurdering: Alle tre rutene ligger naa under TTFB-grensen paa 600 ms i denne diagnostiske maalingen.
+Maalegrense: Dette er curl uten nettleserthrottling og er ikke den godkjente labprofilen; B05 og B08 er fortsatt ikke lukket.
+Gjenstaar: npm run ci:phase7 maa kjoeres for aa produsere gyldig p75-bevis for LCP, CLS, TTFB, interaksjon og JS paa alle tre layoutvarianter.
+Blokkering: Den godkjente profilen krever port 3100, som holdes av en server fra et annet prosjekt paa maalemaskinen.
+Kontroll PASS: npm run lint, npm run typecheck og npm test returnerte 0 etter konfigurasjonsendringen.
+Git: Ingen add, commit eller push er kjoert.
+Produksjon: Ingen Vercel-prosjekt, deploy, DNS-endring eller produksjonsdatabase er opprettet.
+
+FASE 7: FULLSTENDIG LABKJOERING MOT EU-DATABASE, 2026-09-09
+Status: npm run ci:phase7 fullfoerte 28 grupper med completeRun true og status PASS; ingen gruppe returnerte annet enn 0.
+Kravmatrise: 225 krav har eksplisitt status; 207 PASS, 0 BLOCKED og 18 NOT_RUN.
+B05 PASS: Hoeyeste kalde gruppe-p75 for LCP er 1300 ms mot grensen 2000 ms; hoeyeste varme er 1032 ms.
+B08 PASS: Hoeyeste kalde gruppe-p75 for TTFB er 465.8 ms mot grensen 600 ms; hoeyeste varme er 123.0 ms.
+I05 PASS: De delte ytelseskontraktene bestaar naa paa alle tre layoutvarianter.
+Maalt CLS: Hoeyeste gruppe-p75 er 0.02211809 mot grensen 0.1.
+Maalt interaksjon: Hoeyeste gruppe-p75 er 40 ms mot labgrensen 200 ms; dette er ikke felt-INP.
+Maalt JavaScript: Maksimum er 157962 initiale gzip-bytes mot den godkjente grensen 165000.
+Sammenligning: Forrige blokkerte kjoering maalte kald LCP 2816 ms og kald TTFB 2306.4 ms mot samme grenser.
+Aarsak til endringen: QA-databasen ligger naa i aws-eu-central-1 i stedet for aws-us-east-2; applikasjonskoden er uendret bortsett fra den sammenslaatte listespoerringen.
+Avvik funnet: Foerste forsoek feilet paa http-1 fordi den nye databasen bare hadde fase 2- og fase 7-fixturene.
+Tiltak: scripts/phase4/seed.ts, phase5/seed.ts og phase6/seed.ts ble kjoert, som ga 37 publiserte artikler og all registrert sidemetadata.
+Avvik funnet: Andre forsoek feilet fordi .next/cache/fetch-cache gjenbrukte et getAllArticles-resultat fra da EU-basen hadde to artikler, slik at kategorisiden manglet paginering.
+Tiltak: .next ble fjernet foer bygg, og kontrollen ble kjoert paa et rent bygg.
+Avvik funnet: qa:html feilet fordi scripts/verify-html.ts bygget forventet Article-graf uten forfatterens expertise, mens scripts/phase2/seed.ts registrerer den.
+Vurdering: Den rendrede grafen var korrekt; knowsAbout skal foelge registrert expertise. Testen passerte tidligere bare fordi den gamle QA-databasen hadde en forfatterrad opprettet foer feltet ble sadd.
+Tiltak: Forventningen i verify-html.ts speiler naa fixturen som faktisk sass; ingen produksjonskode er endret for aa faa testen til aa passere.
+Maalt variansmerknad: I den foerste fullstendige kjoeringen maalte variant 1 forside kald TTFB p75 744 ms, mens variant 2 og 3 maalte 454 og 452 ms paa samme side og data.
+Maalt variansmerknad: Ved ny kjoering maalte variant 1 forside kald TTFB p75 459.4 ms; utslaget var maalestoey tidlig i kjoeringen og ikke en egenskap ved layouten.
+Bevis: Begge kjoeringene ligger i docs/qa/phase7/; requirements.md og performance-summary.txt er oppdatert fra den fullstendige kjoeringen.
+Observasjon uten tiltak: getAllArticles henter hele payloaden for alle artikler og overfoerte 98.2 KB paa 189 ms mot 27.5 KB paa 68 ms for en ren listeprojeksjon.
+Vurdering: Dette er en skaleringsrisiko for et nettsted med mange artikler, men ingen endring er gjort naa siden alle grenser bestaar.
+Gjenstaar F7.04, G10 og L05: Faktisk Vercel-preview krever ferdig nettstedskonfigurasjon og ekte redaksjonsinnhold foer bygget passerer lanseringsporten.
+Gjenstaar: Felt-CWV og felt-INP krever trafikk og forblir NOT_RUN.
+Git: Ingen add, commit eller push er kjoert.
+Produksjon: Ingen Vercel-prosjekt, deploy, DNS-endring eller produksjonsdatabase er opprettet.

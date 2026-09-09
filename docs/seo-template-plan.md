@@ -9,13 +9,13 @@ Status fase 3: F3.A01-F3.A07 er verifisert 2026-09-07 mot separat Neon QA og fak
 Status fase 4: F4.A01-F4.A09 er verifisert; fasen er ferdig 2026-09-08 med godkjent JS-grense paa 145000 gzip-bytes og maalt maksimum paa 142965.
 Status fase 5: F5.A01-F5.A07 er verifisert 2026-09-08; samtykke, tilbakekalling og Vercel-/klikk-integrasjoner er ferdige mot isolert QA.
 Status fase 6: F6.A01-F6.A05 er verifisert 2026-09-08; funksjonen leveres false med tom produksjonskonfigurasjon.
-Status fase 7: Samlet lokal QA er kjoert 2026-09-08; fasen er BLOKKERT og ikke ferdig.
-Status fase 7 kravmatrise: 225 krav har eksplisitt status; 204 PASS, 3 BLOCKED og 18 NOT_RUN med avgrenset bevisgrunnlag.
+Status fase 7: Samlet lokal QA er kjoert paa nytt 2026-09-09; fasen er ikke lenger blokkert, men heller ikke ferdig fordi hosting- og feltbevis gjenstaar.
+Status fase 7 kravmatrise: 225 krav har eksplisitt status; 207 PASS, 0 BLOCKED og 18 NOT_RUN med avgrenset bevisgrunnlag.
 Status sluttbudsjett B09: Brukeren godkjente 165000 gzip-bytes 2026-09-08; opprinnelig maalt maksimum paa 157993 bestaar ny budsjettvurdering.
 Status budsjettbevis: docs/qa/phase7/budget.json skiller opprinnelige maaltidspunkter fra ny vurdering; maalingene er ikke omskrevet.
-Status fase 7 ytelse: Kald cache overskrider TTFB og enkelte LCP-grenser; CLS og maalte labinteraksjoner bestaar.
-Status fase 7 drift: Faktisk Vercel-preview er ikke testet; lokal simulering teller ikke som Vercel-bevis.
-Status fase 7 bevis: docs/qa/phase7/requirements.md, performance-summary.txt og checks.json beskriver resultatene.
+Status fase 7 ytelse: Alle 18 grupper bestaar etter at QA-databasen ble flyttet til aws-eu-central-1; hoeyeste kalde p75 er TTFB 465.8 ms og LCP 1300 ms.
+Status fase 7 drift: Faktisk Vercel-preview er fortsatt ikke testet; lokal simulering teller ikke som Vercel-bevis.
+Status fase 7 bevis: docs/qa/phase7/requirements.md, performance-summary.txt og checks.json beskriver resultatene fra den fullstendige kjoeringen 2026-09-09.
 Status drift: IndexNow-noekkel, beskyttet periodisk jobbkjoering og Search Console DNS skal konfigureres og verifiseres foer offentlig launch.
 Godkjenningsregel: Aapne beslutninger er forslag inntil brukeren eksplisitt har avklart dem.
 Stoppregel: En bestilling av fase 1 gir ikke fullmakt til aa implementere fase 2 eller senere.
@@ -164,7 +164,7 @@ F7.A04: Produksjonsbyggets HTML, JSON-LD, redirects, feeds og OG-bilder er verif
 F7.A05: Alle ytelsesbudsjett bestaar den avklarte labprofilen; felt-CWV rapporteres som utestet til tilstrekkelig trafikk finnes.
 F7.A06: NETWORK_LINKS_ENABLED leveres false og ingen maalescript aktiveres i strid med samtykkepolicy.
 F7.STOPP: Malen overleveres for selvstendig kloning; ingen automatisk utrulling av 50 nettsteder.
-F7.STATUS: Ikke ferdig; F7.A05 er blokkert og den faktiske Vercel-delen av F7.04 er ikke utfoert.
+F7.STATUS: Ikke ferdig; F7.A05 bestaar naa, men den faktiske Vercel-delen av F7.04 er fortsatt ikke utfoert.
 F7.STATUS: F7.A01-F7.A04 og F7.A06 har lokale bevis i docs/qa/phase7/; dette er ingen offentlig launch-godkjenning.
 
 ## EKSPLISITT UTENFOR MAL 1

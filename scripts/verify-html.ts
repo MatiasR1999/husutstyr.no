@@ -42,7 +42,7 @@ try {
     for (const paragraph of site.qa.article.body) assert.ok(article.find('p').toArray().some(element => $(element).text() === paragraph));
     assert.equal($('script[type="application/ld+json"]').length, 1);
     const graph = graphSchema.parse(JSON.parse($('script[type="application/ld+json"]').text()));
-    assert.deepEqual(graph, buildArticleGraph(runtime, {...site.qa.article,author:{...site.qa.article.author,bio:site.qa.markers.bio}}));
+    assert.deepEqual(graph, buildArticleGraph(runtime, {...site.qa.article,author:{...site.qa.article.author,bio:site.qa.markers.bio,expertise:[site.qa.markers.expertise]}}));
     assert.ok($('meta[name="robots"]').attr('content')?.includes('noindex'));
     assert.match(response.headers, /x-robots-tag: noindex/i);
     report.push(`PASS: ${label} body is visible server HTML, not script-only data.`);
