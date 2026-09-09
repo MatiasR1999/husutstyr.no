@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "kjokken",
+    "name": "Kjøkken",
+    "introduction": "Redskaper, maskiner og oppbevaring som brukes hver dag. Vi ser på hva slitasje, plass og vanlige matlagingsvaner betyr for hva som lønner seg å velge.",
+    "seo": {
+      "title": "Kjøkkenutstyr – slik velger du redskaper som varer",
+      "description": "Veiledninger til kjøkkenutstyr: hva som skiller holdbare redskaper fra kortlevde, hvordan maskiner passer plassen din, og hva som faktisk trengs på et kjøkken."
+    }
+  },
+  {
+    "slug": "rengjoring",
+    "name": "Rengjøring",
+    "introduction": "Støvsugere, vaskemidler og redskaper til daglig renhold. Vi forklarer hva som virker på ulike gulv og flater, og hva som skiller utstyr fra hverandre.",
+    "seo": {
+      "title": "Rengjøring – utstyr og metoder som faktisk virker hjemme",
+      "description": "Veiledninger til rengjøring: hvordan gulvtype styrer valg av støvsuger, hva ulike midler egner seg til, og hvilket utstyr som gjør renholdet raskere hjemme."
+    }
+  },
+  {
+    "slug": "oppbevaring",
+    "name": "Oppbevaring",
+    "introduction": "Systemer, kasser og løsninger som gir plass til det du eier. Vi ser på mål, materialer og hva som holder orden over tid i ulike rom.",
+    "seo": {
+      "title": "Oppbevaring – systemer som gir plass og holder orden",
+      "description": "Veiledninger til oppbevaring: hvordan du måler opp riktig, hvilke materialer som tåler fukt og vekt, og hva som holder orden i bod, kjøkken og garderobe."
+    }
+  },
+  {
+    "slug": "vedlikehold",
+    "name": "Vedlikehold",
+    "introduction": "Verktøy og rutiner som holder boligen i stand. Vi tar for oss hva som bør gjøres når, og hvilket utstyr som trengs for de vanligste oppgavene.",
+    "seo": {
+      "title": "Vedlikehold av bolig – verktøy, rutiner og intervaller",
+      "description": "Veiledninger til vedlikehold: hvilke oppgaver som hører til hver sesong, hvilket verktøy som trengs, og hvordan du unngår skader som blir dyre å utbedre."
+    }
+  }
+]
