@@ -1,0 +1,918 @@
+[
+  {
+    "categorySlug": "rengjoring",
+    "slug": "stovsuger-etter-gulvtype",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Støvsuger etter gulvtype: parkett, fliser og teppe",
+      "summary": "Samme maskin oppfører seg helt ulikt på tre vanlige gulvtyper. Her er hva som avgjør på hver av dem.",
+      "section": {
+        "id": "tre-gulvtyper",
+        "title": "Tre gulvtyper, tre krav"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Sugeeffekt er det som markedsføres, men munnstykket og børsten avgjør mer for resultatet på et gitt gulv."
+        },
+        {
+          "type": "heading",
+          "text": "Parkett og tregulv"
+        },
+        {
+          "type": "paragraph",
+          "text": "Her er riper hovedrisikoen. Stive bust drar grus over overflaten. Myke børstevalser eller et rent sugemunnstykke er tryggere, og forskjellen synes først etter måneder med daglig bruk."
+        },
+        {
+          "type": "heading",
+          "text": "Fliser"
+        },
+        {
+          "type": "paragraph",
+          "text": "Flatene er enkle, fugene er ikke. Fugemasse er porøs og slipper ikke smuss lett. Suging alene kommer sjelden helt til bunns, og her hjelper riktig middel og virketid mer enn kraft."
+        },
+        {
+          "type": "heading",
+          "text": "Teppe"
+        },
+        {
+          "type": "paragraph",
+          "text": "Motsatt situasjon: her trengs mekanisk bearbeiding. En roterende børste løsner smuss nede i luggen, og først da har sugeeffekt noe å hente. Uten børste blir det meste liggende uansett motor."
+        },
+        {
+          "type": "heading",
+          "text": "Kombinasjonsboliger"
+        },
+        {
+          "type": "paragraph",
+          "text": "Har du flere gulvtyper, avgjør bytte av munnstykke om maskinen faktisk brukes riktig. Er byttet tungvint, blir det ikke gjort, og da er én god allround-løsning bedre enn to spesialiserte."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Med allergi i husstanden veier tetthet i maskinen tyngre enn børstevalg, fordi en utett maskin blåser finstøvet ut igjen."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt sugeeffekt eller børstevirkning. Vi forklarer hvilke egenskaper som betyr noe for ditt gulv."
+        }
+      ],
+      "seo": {
+        "title": "Støvsuger etter gulvtype: parkett, fliser eller teppe",
+        "description": "Samme maskin oppfører seg ulikt på tre vanlige gulvtyper. Her er hva som avgjør på hver av dem, og hvorfor munnstykket betyr mer enn motoren."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "rengjoring",
+    "slug": "ledning-mot-batteri",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Ledning eller batteri: hva du gir opp med hver av dem",
+      "summary": "Batteridrevet er blitt godt nok for de fleste, men de to løsningene taper på ulike punkter.",
+      "section": {
+        "id": "hva-du-gir-opp",
+        "title": "Hva du gir opp"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Diskusjonen framstilles ofte som at batteri har tatt igjen ledning. Det stemmer delvis, men de gir opp ulike ting."
+        },
+        {
+          "type": "heading",
+          "text": "Batteri"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vinner på at maskinen faktisk blir brukt. Terskelen for å ta en rask runde er lavere når ingenting skal plugges i. Taper på driftstid, på at effekten faller mot slutten av ladingen, og på at batteriet er en slitedel med begrenset levetid."
+        },
+        {
+          "type": "heading",
+          "text": "Ledning"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vinner på jevn effekt uansett hvor lenge du holder på, og på at det ikke finnes et batteri som degraderer. Taper på at store flater krever bytte av stikkontakt, og på at maskinen ofte er tyngre å manøvrere."
+        },
+        {
+          "type": "heading",
+          "text": "Batteriet er den skjulte kostnaden"
+        },
+        {
+          "type": "paragraph",
+          "text": "Et batteri mister kapasitet over år uavhengig av bruk. Om det kan byttes, og om reservebatteri finnes å kjøpe, sier mer om maskinens levetid enn oppgitt driftstid gjør."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Har du stor bolig med mye teppe, er batteridrift ofte utilstrekkelig i praksis. Bor du lite og rydder ofte, er ledning en terskel som gjør at det ikke blir gjort."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt driftstid eller effektfall. Oppgitt driftstid gjelder som regel laveste trinn uten motorisert børste."
+        }
+      ],
+      "seo": {
+        "title": "Ledning eller batteri: hva du gir opp med hvert valg",
+        "description": "Batteri vinner på at maskinen faktisk blir brukt, ledning på jevn effekt. Her er hva hver løsning taper på, og hvorfor batteriet er den skjulte kostnaden."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "rengjoring",
+    "slug": "robotstovsuger",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Robotstøvsuger: hva den løser og hva den ikke løser",
+      "summary": "En robot holder jevnt vedlike, men erstatter sjelden grundig renhold. Forskjellen er verdt å vite før kjøp.",
+      "section": {
+        "id": "hva-den-loser",
+        "title": "Hva den løser"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Robotstøvsugere selges som en erstatning for støvsuging. De er bedre forstått som vedlikehold mellom grundige runder."
+        },
+        {
+          "type": "heading",
+          "text": "Det den er god til"
+        },
+        {
+          "type": "paragraph",
+          "text": "Å holde åpne flater jevnt fri for løst støv, hver dag, uten at noen må gjøre noe. Det er en reell forskjell i hvordan et hjem oppleves, og den kommer av frekvens, ikke av kraft."
+        },
+        {
+          "type": "heading",
+          "text": "Det den ikke gjør"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kanter og hjørner, der mye av støvet faktisk samler seg",
+            "Trapper",
+            "Dyprens av teppe",
+            "Flater under lave møbler den ikke kommer inn under"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Forberedelsen avgjør"
+        },
+        {
+          "type": "paragraph",
+          "text": "En robot fungerer i den grad gulvet er ryddet. Ledninger, leker og løse tepper stopper den. Boliger der dette ikke er realistisk daglig, får vesentlig mindre ut av den."
+        },
+        {
+          "type": "heading",
+          "text": "Terskler og gulvbytte"
+        },
+        {
+          "type": "paragraph",
+          "text": "Overgang mellom gulvtyper og terskler er der de fleste roboter setter seg fast. Oppgitt terskelhøyde er en maksverdi under ideelle forhold."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bor du på flere plan uten en robot per plan, forsvinner mye av poenget, fordi den ikke flytter seg selv mellom etasjer."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke testet navigasjon, kantrens eller batterilevetid på konkrete modeller."
+        }
+      ],
+      "seo": {
+        "title": "Robotstøvsuger: hva den løser og hva den ikke løser",
+        "description": "En robot holder åpne flater jevnt rene, men tar verken kanter, trapper eller dyprens. Her er hva den faktisk gjør, og hva som må ligge til rette."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "rengjoring",
+    "slug": "filtre-og-hepa",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Filtre og HEPA: hva klassifiseringen faktisk betyr",
+      "summary": "Et HEPA-filter i en utett maskin gir lite. Her er hvorfor helheten betyr mer enn filterklassen.",
+      "section": {
+        "id": "filter-og-tetthet",
+        "title": "Filter og tetthet"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "HEPA brukes som et kvalitetsstempel. Klassifiseringen sier noe presist om filteret, men lite om maskinen det sitter i."
+        },
+        {
+          "type": "heading",
+          "text": "Hva klassen beskriver"
+        },
+        {
+          "type": "paragraph",
+          "text": "En HEPA-klasse angir hvor stor andel partikler av en gitt størrelse filteret holder tilbake når luften går gjennom det. Det er en egenskap ved filteret, målt isolert."
+        },
+        {
+          "type": "heading",
+          "text": "Luft som går utenom"
+        },
+        {
+          "type": "paragraph",
+          "text": "Er maskinen utett, går en del av luften rundt filteret i stedet for gjennom det. Da slipper finstøv ut igjen uansett hvor godt filteret er. Dette er grunnen til at helheten, ikke filterklassen, avgjør hva som kommer ut av maskinen."
+        },
+        {
+          "type": "heading",
+          "text": "Vedlikehold"
+        },
+        {
+          "type": "paragraph",
+          "text": "Et tettet filter reduserer luftmengden og øker belastningen på motoren. Filtre som ikke kan vaskes må byttes, og om de er tilgjengelige å kjøpe om noen år er et reelt spørsmål."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette betyr mest for"
+        },
+        {
+          "type": "paragraph",
+          "text": "For husstander med allergi eller astma er dette ikke en detalj. For andre er forskjellen mindre merkbar enn markedsføringen antyder."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt partikkelutslipp fra maskiner. Vi kan forklare hva klassifiseringen dekker og hva den ikke dekker."
+        }
+      ],
+      "seo": {
+        "title": "Filtre og HEPA: hva klassifiseringen faktisk dekker",
+        "description": "HEPA beskriver filteret, ikke maskinen. Er den utett, går luften utenom filteret. Her er hvorfor helheten avgjør, og når dette faktisk betyr noe."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "rengjoring",
+    "slug": "moppesystemer",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Moppesystemer: mikrofiber, damp og når hver egner seg",
+      "summary": "Fuktighet er den avgjørende variabelen, og den bestemmes av gulvet, ikke av hva som er mest effektivt.",
+      "section": {
+        "id": "fuktighet-avgjor",
+        "title": "Fuktighet avgjør"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Moppevalg handler først om hvor mye fukt gulvet tåler, og deretter om hvor effektivt systemet er."
+        },
+        {
+          "type": "heading",
+          "text": "Mikrofiber"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tar opp smuss mekanisk med lite vann. Egner seg på de fleste gulv, inkludert laminat som tåler dårlig fukt. Krever ren klut; en tilsmusset mikrofibermopp flytter smuss i stedet for å ta det opp."
+        },
+        {
+          "type": "heading",
+          "text": "Damp"
+        },
+        {
+          "type": "paragraph",
+          "text": "Effektivt mot fastsittende smuss på fliser og betong. På tregulv og laminat er damp risikabelt, fordi varme og fukt sammen trenger inn i skjøter. Skaden er ikke synlig med en gang."
+        },
+        {
+          "type": "heading",
+          "text": "Vanlig våtmopp"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hører hjemme på gulv som tåler vann. På alt annet er hovedproblemet at moppen er for våt, ikke at metoden er feil."
+        },
+        {
+          "type": "heading",
+          "text": "Vridning betyr mer enn systemet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hvor godt moppen kan vris opp avgjør hvor mye vann som havner på gulvet. Dette er den praktiske forskjellen mellom systemer, mer enn materialet i selve moppen."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Har du uforseglet tregulv, faller både damp og våtmopp bort, og oppgaven løses tørt eller så vidt fuktig."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt smussopptak eller fuktavgivelse på konkrete systemer."
+        }
+      ],
+      "seo": {
+        "title": "Moppesystemer: mikrofiber, damp og hva gulvet tåler",
+        "description": "Fuktighet er den avgjørende variabelen, og gulvet bestemmer den. Her er når mikrofiber, damp eller våtmopp hører hjemme, og hvor skaden oppstår."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "rengjoring",
+    "slug": "vaskemidler-ph",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Vaskemidler: pH avgjør hva du kan bruke hvor",
+      "summary": "Surt løser kalk, alkalisk løser fett, og begge kan skade overflater de ikke hører hjemme på.",
+      "section": {
+        "id": "ph-og-overflater",
+        "title": "pH og overflater"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Rengjøringsmidler markedsføres etter rom. Kjemien følger ikke rominndelingen, den følger pH."
+        },
+        {
+          "type": "heading",
+          "text": "Sure midler"
+        },
+        {
+          "type": "paragraph",
+          "text": "Løser kalk og såperester, og hører hjemme på bad og i vannkokere. De angriper naturstein som marmor og kalkstein, der skaden er permanent matting av overflaten."
+        },
+        {
+          "type": "heading",
+          "text": "Alkaliske midler"
+        },
+        {
+          "type": "paragraph",
+          "text": "Løser fett og organisk smuss, og hører hjemme på kjøkken og i ovn. Sterkt alkaliske midler matter ned aluminium og enkelte lakkerte flater ved gjentatt bruk."
+        },
+        {
+          "type": "heading",
+          "text": "Nøytrale midler"
+        },
+        {
+          "type": "paragraph",
+          "text": "Trygge på nesten alt, og tilsvarende svakere. På daglig renhold er dette som regel nok, og spesialmidlene hører hjemme på oppgaver de faktisk er laget for."
+        },
+        {
+          "type": "heading",
+          "text": "Aldri bland"
+        },
+        {
+          "type": "paragraph",
+          "text": "Klorholdige midler blandet med sure midler avgir klorgass. Dette er en reell risiko på bad, der begge typer ofte står side om side."
+        },
+        {
+          "type": "heading",
+          "text": "Virketid slår kraft"
+        },
+        {
+          "type": "paragraph",
+          "text": "De fleste midler trenger tid for å virke. Å la middelet stå i noen minutter gir bedre resultat enn å skrubbe hardere med et middel som nettopp er påført."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke testet rengjøringseffekt. Vi beskriver kjemiske sammenhenger som er alminnelig kjent, ikke resultater vi har målt."
+        }
+      ],
+      "seo": {
+        "title": "Vaskemidler: pH avgjør hva du kan bruke hvor i boligen",
+        "description": "Surt løser kalk, alkalisk løser fett, og begge skader overflater de ikke hører hjemme på. Her er inndelingen som følger kjemien, ikke rommet."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "rengjoring",
+    "slug": "vindusvask",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Vindusvask: hvorfor det blir striper",
+      "summary": "Striper skyldes nesten alltid rester eller feil timing, ikke feil verktøy.",
+      "section": {
+        "id": "hvorfor-striper",
+        "title": "Hvorfor det blir striper"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Striper på vinduer tilskrives ofte dårlig utstyr. Årsaken er som regel en av tre andre ting."
+        },
+        {
+          "type": "heading",
+          "text": "For mye middel"
+        },
+        {
+          "type": "paragraph",
+          "text": "Såperester som ikke fjernes tørker til striper. Mindre middel og mer vann gir bedre resultat enn det motsatte, og rent vann alene er ofte nok på lite skitne vinduer."
+        },
+        {
+          "type": "heading",
+          "text": "Sol og varme"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vaskes vinduet i direkte sol, tørker væsken før den er dratt av. Da er striper uunngåelig uansett teknikk. Vask på overskyet dag eller på skyggesiden."
+        },
+        {
+          "type": "heading",
+          "text": "Skitten nal eller klut"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gummien på en nal blir sløv og får hakk. En slitt nal legger igjen en stripe i samme spor hver gang. Gummi er en slitedel og bør kunne byttes."
+        },
+        {
+          "type": "heading",
+          "text": "Teknikk"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tørk av nalen for hvert drag, og dra i overlappende baner. Avslutt kantene med en tørr klut. Dette er mer avgjørende enn hvilket middel som brukes."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vinduer som ikke kan nås trygt fra innsiden, hører ikke hjemme i en gjør-det-selv-oppgave. Fallhøyde er ikke et sted å spare penger."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke sammenlignet vindusmidler i kontrollerte forsøk."
+        }
+      ],
+      "seo": {
+        "title": "Vindusvask: derfor blir det striper, og hva som hjelper",
+        "description": "Striper skyldes nesten alltid såperester, sol eller en slitt nal, ikke feil middel. Her er de tre årsakene og hva som faktisk endrer resultatet."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "rengjoring",
+    "slug": "rengjoring-av-bad",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Bad: kalk, fuger og hva materialene tåler",
+      "summary": "På bad er problemet som regel kalk og fuger, og løsningen begrenses av hvilke overflater som står der.",
+      "section": {
+        "id": "kalk-og-fuger",
+        "title": "Kalk og fuger"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Bad er rommet der feil middel gjør mest skade, fordi materialene er mer sårbare enn de ser ut."
+        },
+        {
+          "type": "heading",
+          "text": "Kalk"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kalk løses av syre. Det er derfor sure midler dominerer i denne kategorien. Kalk som får bygge seg opp over tid krever lengre virketid, ikke sterkere middel."
+        },
+        {
+          "type": "heading",
+          "text": "Naturstein tåler ikke syre"
+        },
+        {
+          "type": "paragraph",
+          "text": "Marmor, kalkstein og travertin matter permanent av sure midler. Dette er den vanligste alvorlige feilen på bad, og den kan ikke rettes med rengjøring i etterkant. Er du usikker på steintypen, bruk nøytralt middel."
+        },
+        {
+          "type": "heading",
+          "text": "Fuger"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fugemasse er porøs og holder på både smuss og fukt. Misfarging er ofte begynnende muggvekst, ikke skitt. Da er problemet ventilasjon, og rengjøring alene løser det ikke."
+        },
+        {
+          "type": "heading",
+          "text": "Silikon"
+        },
+        {
+          "type": "paragraph",
+          "text": "Svarte prikker i silikon sitter i materialet, ikke på det. Når det først har skjedd, er utskifting den reelle løsningen."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gjentagende muggvekst er et fuktproblem, ikke et renholdsproblem. Da hører saken hjemme under inneklima og eventuelt hos fagfolk."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke testet midler mot mugg, og gir ingen vurdering av produkter som markedsføres mot det."
+        }
+      ],
+      "seo": {
+        "title": "Bad: kalk, fuger og hva overflatene dine faktisk tåler",
+        "description": "Sure midler løser kalk, men matter naturstein permanent. Her er hva som gjelder for fuger, silikon og stein, og når problemet egentlig er fukt."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "rengjoring",
+    "slug": "damprengjoring",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Damprengjøring: hvilke flater tåler det",
+      "summary": "Damp er effektivt og risikabelt i omtrent samme grad, og forskjellen ligger i underlaget.",
+      "section": {
+        "id": "hva-taler-damp",
+        "title": "Hva som tåler damp"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Damp løser fastsittende smuss uten kjemi. Det er også varme og fukt samtidig, og det er ikke alle materialer som tåler den kombinasjonen."
+        },
+        {
+          "type": "heading",
+          "text": "Tåler godt"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Fliser og fuger",
+            "Betong og støpte gulv",
+            "Rustfritt stål",
+            "Glass, med forsiktighet ved kulde"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Tåler dårlig"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Laminat, der fukt trenger inn i skjøtene",
+            "Uforseglet tre",
+            "Limte belegg, der varmen løser limet",
+            "Naturstein som er ømfintlig for varme"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Skaden kommer senere"
+        },
+        {
+          "type": "paragraph",
+          "text": "Det som gjør damp lumsk er at skaden sjelden vises samme dag. Fukt i en laminatskjøt sveller over uker, og da er årsaken glemt."
+        },
+        {
+          "type": "heading",
+          "text": "Damp desinfiserer ikke automatisk"
+        },
+        {
+          "type": "paragraph",
+          "text": "Effekt mot mikroorganismer avhenger av temperatur på overflaten og hvor lenge den holdes. En rask bevegelse over gulvet gir ikke den eksponeringen, uansett hva apparatet oppgir."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Har du overveiende tregulv eller laminat, er damp feil hovedverktøy uansett hvor effektivt det er på badet."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt overflatetemperatur eller desinfiserende effekt."
+        }
+      ],
+      "seo": {
+        "title": "Damprengjøring: hvilke flater tåler det, og hvilke ikke",
+        "description": "Damp er varme og fukt samtidig. Her er hva som tåler det, hva som skades, og hvorfor skaden sjelden viser seg samme dag som feilen faktisk gjøres."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "rengjoring",
+    "slug": "kluter-og-svamper",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Kluter og svamper: materialet avgjør hva de tar",
+      "summary": "En klut som ikke tar opp smuss flytter det. Her er hva som skiller materialene og når de bør byttes.",
+      "section": {
+        "id": "hva-de-tar",
+        "title": "Hva de faktisk tar"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kluter og svamper er billige nok til at de sjelden vurderes. Likevel avgjør de om smuss fjernes eller fordeles."
+        },
+        {
+          "type": "heading",
+          "text": "Mikrofiber"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fibrene er tynne nok til å ta opp smuss mekanisk, ofte uten middel. Til gjengjeld mister de effekt når de vaskes med skyllemiddel, som legger seg i fibrene. Dette er den vanligste grunnen til at mikrofiber slutter å virke."
+        },
+        {
+          "type": "heading",
+          "text": "Bomull"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tar opp mye væske og tåler høy vasketemperatur. Mindre effektiv på støv enn mikrofiber, men bedre til å tørke opp."
+        },
+        {
+          "type": "heading",
+          "text": "Svamper"
+        },
+        {
+          "type": "paragraph",
+          "text": "Skureflaten er den viktige delen. Grov skureflate riper myke overflater, inkludert belagte panner og enkelte oppvaskkummer. En svamp med feil skureside gjør varig skade på kort tid."
+        },
+        {
+          "type": "heading",
+          "text": "Når de bør byttes"
+        },
+        {
+          "type": "paragraph",
+          "text": "En svamp som lukter, er kolonisert. Det kan ikke vaskes bort, og den bør byttes. Kluter bør vaskes varmt og tørkes helt mellom bruk."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Er du sensitiv for lo, kan mikrofiber være ubehagelig å ta på. Det er en reell grunn til å velge annet materiale."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke gjort mikrobiologiske undersøkelser av kluter eller svamper."
+        }
+      ],
+      "seo": {
+        "title": "Kluter og svamper: materialet avgjør hva de faktisk tar",
+        "description": "En klut som ikke tar opp smuss, flytter det. Her er forskjellen på mikrofiber og bomull, hvorfor skyllemiddel ødelegger, og når svampen bør byttes."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "rengjoring",
+    "slug": "rengjoring-uten-sterke-midler",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Rengjøring uten sterke midler: hva som faktisk fungerer",
+      "summary": "Noen enkle midler har reell effekt på bestemte oppgaver. Andre husråd har ingen, og noen er direkte skadelige.",
+      "section": {
+        "id": "hva-som-virker",
+        "title": "Hva som virker"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Enkle midler har fått et rykte som spenner fra mirakelkur til overtro. Sannheten er avgrenset: noen virker på bestemte oppgaver, av kjemiske grunner."
+        },
+        {
+          "type": "heading",
+          "text": "Eddik"
+        },
+        {
+          "type": "paragraph",
+          "text": "Er surt og løser kalk. Fungerer i vannkoker, på dusjvegger og på kraner. Skal aldri brukes på naturstein, og aldri blandes med klorholdige midler."
+        },
+        {
+          "type": "heading",
+          "text": "Natron"
+        },
+        {
+          "type": "paragraph",
+          "text": "Er svakt alkalisk og mildt slipende. Fungerer på fettflekker og på lukt i kjøleskap. Den slipende effekten er nok til å ripe blanke overflater ved hardt trykk."
+        },
+        {
+          "type": "heading",
+          "text": "Det som ikke virker"
+        },
+        {
+          "type": "paragraph",
+          "text": "Blanding av eddik og natron nøytraliserer hverandre og gir hovedsakelig bobler. Effekten som oppleves kommer fra mekanisk skrubbing, ikke fra reaksjonen."
+        },
+        {
+          "type": "heading",
+          "text": "Grensen"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mot fett i ovn, mot mugg og mot innbrent smuss er enkle midler som regel utilstrekkelige. Da er valget mellom mer tid eller et middel laget for oppgaven."
+        },
+        {
+          "type": "heading",
+          "text": "Hvem dette ikke passer for"
+        },
+        {
+          "type": "paragraph",
+          "text": "Har du naturstein, kobber eller aluminium i boligen, er flere av disse midlene uaktuelle uansett hvor skånsomme de framstilles som."
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke sammenlignet effekt mot kommersielle midler i egne forsøk."
+        }
+      ],
+      "seo": {
+        "title": "Rengjøring uten sterke midler: hva som fungerer og ikke",
+        "description": "Eddik løser kalk, natron løser fett. Blandet gir de bobler og lite annet. Her er hva enkle husholdningsmidler faktisk klarer, og hvor grensen går."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  },
+  {
+    "categorySlug": "rengjoring",
+    "slug": "vedlikehold-av-stovsugeren",
+    "pillar": false,
+    "content": {
+      "version": 1,
+      "kind": "article",
+      "title": "Vedlikehold av støvsugeren: derfor faller sugeeffekten",
+      "summary": "Tapt sugeeffekt skyldes nesten alltid vedlikehold, ikke at motoren er slitt.",
+      "section": {
+        "id": "hvorfor-den-suger-darlig",
+        "title": "Hvorfor den suger dårligere"
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "En støvsuger som ikke suger som før, oppfattes som utslitt. I de fleste tilfeller er noe tett."
+        },
+        {
+          "type": "heading",
+          "text": "Filteret først"
+        },
+        {
+          "type": "paragraph",
+          "text": "Et tettet filter reduserer luftmengden gjennom maskinen. Effekten faller gradvis, som gjør at det sjelden merkes før den er betydelig. Vaskbare filtre må være helt tørre før de settes tilbake."
+        },
+        {
+          "type": "heading",
+          "text": "Beholder og pose"
+        },
+        {
+          "type": "paragraph",
+          "text": "En pose trenger ikke være full for å slippe dårlig luft gjennom. På posefrie modeller reduserer støv på sylinderfilteret effekten på samme måte."
+        },
+        {
+          "type": "heading",
+          "text": "Slange og munnstykke"
+        },
+        {
+          "type": "paragraph",
+          "text": "Blokkeringer i slangen er vanlige og lette å overse. Hår rundt børstevalsen bremser den, og en børste som ikke roterer fritt gjør ingen nytte på teppe."
+        },
+        {
+          "type": "heading",
+          "text": "Tetninger"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pakninger rundt lokk og beholder tørker ut over år. En utett maskin taper sug og slipper finstøv ut igjen, uten at noe ser galt ut."
+        },
+        {
+          "type": "heading",
+          "text": "Enkel rekkefølge"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sjekk slange og munnstykke for blokkering",
+            "Rens børstevalsen for hår",
+            "Vask eller bytt filter",
+            "Kontroller at lokk og pakninger sitter tett"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Hva vi ikke kan si"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vi har ikke målt effekttap over tid på konkrete maskiner."
+        }
+      ],
+      "seo": {
+        "title": "Vedlikehold av støvsugeren: derfor faller sugeeffekten",
+        "description": "Tapt sug skyldes nesten alltid tette filtre, blokkeringer eller slitte pakninger, ikke motoren. Her er rekkefølgen som finner årsaken raskest."
+      },
+      "sources": [],
+      "research": [],
+      "topicIds": []
+    }
+  }
+]
