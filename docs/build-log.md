@@ -893,3 +893,16 @@ Merknad SITE_URL: Canonical paa preview peker derfor til produksjonsdomenet, som
 Gjenstaar OIDC: OIDC_CLIENT_ID og OIDC_CLIENT_SECRET mangler i begge miljoer og krever brukerens Google Cloud-klient.
 Gjenstaar innhold: Preview-bygget naar ikke innholdskontrollen foer OIDC er paa plass.
 Avgrensning: Ingen deploy er godkjent som lansering, og domenet er fortsatt ikke koblet.
+
+VERCEL: KORREKSJON AV REGIONPAASTAND, 2026-09-09
+Feil paastand: Bygge-loggen for vercel.json ble beskrevet som at funksjonene kjoerer i fra1, samlokalisert med databasen.
+Faktisk tilstand: Prosjektets Function Region sto paa iad1, altsaa Washington, mens databasen ligger i aws-eu-central-1.
+Aarsak til feilen: Paastanden bygde paa at konfigurasjonen var skrevet, ikke paa at effekten var kontrollert.
+Kontrollert i Next-dokumentasjonen for installert versjon: preferredRegion er deprecated i Next 16 og skal fjernes.
+Kontrollert: Next-dokumentasjonen henviser til plattformen for regionvalg, saa dette er en prosjektinnstilling og ikke kode.
+Kontrollert: Vercel CLI har ingen kommando for funksjonsregion; --sandbox-region gjelder Sandboxes og er en annen innstilling.
+Utfoert av bruker: Function Region er satt til fra1 i prosjektinnstillingene.
+Beholdt: regions fra1 staar fortsatt i vercel.json, men effekten er ikke bekreftet.
+Bevis for at vercel.json overstyrer: Prosjektet har Framework Preset Other, mens byggeloggen melder Detected Next.js version 16.3.4.
+Gjenstaar verifisering: Faktisk funksjonsregion kan foerst leses av en deploy som fullfoerer, og alle bygg stopper enna paa OIDC.
+Betydning: Uten samlokalisering ville funksjonen kjoert i Washington mot en database i Frankfurt, som er samme transatlantiske split som ble fjernet tidligere paa dagen.
