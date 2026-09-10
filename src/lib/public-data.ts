@@ -23,7 +23,11 @@ export async function sitemapEntries() {
  select editorial.article_path(namespace,slug) as path,modified_at as lastmod from live
  union all select l.path||case when l.n=1 then '' else '?page='||l.n::text end,greatest(l.lastmod,m.created_at) from listings l left join editorial.public_page_metadata m on m.site_id=${site.id} and m.locale=${site.locale} and m.is_test=${readRuntimeConfig(process.env).qa} and m.path=l.path and m.page=l.n where m.id is not null or (l.n=1 and exists(select 1 from editorial.published_categories c where '/'||c.slug=l.path and c.site_id=${site.id} and c.locale=${site.locale}))
  union all select '/',max(modified_at) from live having count(*)>0`);
- return z.array(z.object({path:z.string(),lastmod:z.coerce.date().transform(value=>value.toISOString())})).parse(rows.rows);
+ const entries=z.array(z.object({path:z.string(),lastmod:z.coerce.date().transform(value=>value.toISOString())})).parse(rows.rows);
+ // The own-sites page is a static route rather than published content, so it is appended here. Its
+ // lastmod tracks the newest article, which keeps the sitemap hash stable between unrelated requests.
+ const newest=entries.reduce((latest,entry)=>entry.lastmod>latest?entry.lastmod:latest,'');
+ return entries.length?[...entries,{path:site.ownedSites.path,lastmod:newest}]:entries;
 }
 
 export async function routeDisposition(path:string) {

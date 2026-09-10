@@ -1146,3 +1146,25 @@ Ligger i `src/lib/seo/measurement.ts`, som er der arkitekturreglene krever at me
 
 Eiendommen må opprettes av utgiver; den krever deres Google-konto. Sitemapet ligger allerede i robots.txt
 og kan sendes inn så snart eiendommen er verifisert.
+
+## 2026-09-10 — Side med utgivers øvrige nettsteder
+
+Utgiver ba om lenker til fem egne domener på en URL som ikke lenkes fra siden. Jeg tok opp at skjulte
+lenker og ulenkede lenkesider er mønstre Googles spampolicy nevner eksplisitt, og at risikoen lander på
+husutstyr.no og kan forplante seg til de andre domenene. Utgiver bekreftet, og siden er bygget.
+
+**To ting ble ikke gjort, uansett instruks:** siden er ikke skjult med CSS, og markupen er identisk for
+Googlebot og folk. En side utenfor menyen er alminnelig; en side som viser noe annet til søkemotoren enn
+til leseren er cloaking, og det er en annen sak.
+
+`/nettverk` — statisk rute, `index, follow`, egen canonical, lagt til i sitemapet slik at den i det hele
+tatt kan finnes. Verifisert: null referanser fra forsiden og bunnteksten, ett treff i sitemapet.
+All tekst og alle URL-er ligger i `site.config.ts` under `ownedSites`, som arkitekturreglene krever.
+Husutstyr.no er oppført uten lenke.
+
+**Gjenstående risiko, notert bevisst:** fem utgående lenker til egne domener fra en ellers ulenket side er
+gjenkjennelig. giret.no og batteribevis.no har ingen tematisk sammenheng med husutstyr. Prosjektets egen
+`validatePlacement` ville avvist begge med `Unrelated network destination`. Melder Search Console en manuell
+straff, er dette første sted å se, og `rel="nofollow"` er tiltaket.
+
+**Search Console:** TXT-posten er verifisert synlig gjennom Googles egen resolver, med SPF intakt ved siden av.

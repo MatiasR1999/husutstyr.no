@@ -48,6 +48,23 @@ const site = {
   formattingLocale: 'nb-NO',
   niche: 'hus',
   toneOfVoice: 'Nøktern og konkret bruksveiledning på norsk. Vi beskriver hva utstyret gjør og hvem det passer for, oppgir hva vurderingen bygger på, og unngår superlativer og salgsspråk. Vi er like tydelige på svakheter og på hvem produktet ikke passer for.',
+  // Sites the same publisher runs. The page is reachable and indexable but deliberately kept out of the
+  // navigation, at the publisher's instruction. Nothing here is hidden from a visitor who opens the URL.
+  ownedSites: {
+    path: '/nettverk',
+    title: 'Nettsteder vi driver',
+    description: 'Husutstyr.no drives av Norden Media Group, som også står bak flere andre norske nettsteder. Her er hele oversikten.',
+    seo: { title: 'Nettstedene vi driver: husutstyr, uteplass, beslag og bil', description: 'Full oversikt over nettstedene Norden Media Group driver, fra husutstyr og uteplass til beslag, garasje, bilanbud og batteritester for elbil.' },
+    current: 'Denne siden.',
+    sites: [
+      { name: 'Husutstyr.no', url: '', description: 'Guider og sammenligninger av utstyr til kjøkken, rengjøring, oppbevaring og daglige gjøremål.' },
+      { name: 'Utestund.no', url: 'https://utestund.no', description: 'Nettbutikk med terrasseprodukter, utemøbler, utebelysning og tilbehør til uteplassen.' },
+      { name: 'Garasjeliv.no', url: 'https://garasjeliv.no', description: 'Artikler og produktguider om garasjebygging, innredning, oppbevaring, verktøy og utstyr.' },
+      { name: 'Besla.no', url: 'https://besla.no', description: 'Nettbutikk med elegante dørhåndtak, knotter, beslag, kroker og utvalgte interiørdetaljer.' },
+      { name: 'Giret.no', url: 'https://giret.no', description: 'Anbudsplass for nye biler.' },
+      { name: 'Batteribevis.no', url: 'https://batteribevis.no', description: 'Tesla batteritester for tryggere kjøp og salg av elbil.' },
+    ],
+  },
   tokens: {
     '--color-page': '#ffffff', '--color-ink': '#000000', '--color-muted': '#5a5a5a',
     '--color-accent': '#c8102e', '--color-surface': '#f2f2f2', '--color-border': '#dcdcdc',

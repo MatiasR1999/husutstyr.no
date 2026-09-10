@@ -59,6 +59,11 @@ export interface SiteDefinition {
   readonly formattingLocale: 'nb-NO';
   readonly niche: string;
   readonly toneOfVoice: string;
+  readonly ownedSites: {
+    readonly path: string; readonly title: string; readonly description: string;
+    readonly seo: SeoCopy; readonly current: string;
+    readonly sites: readonly {readonly name:string; readonly url:string; readonly description:string}[];
+  };
   readonly tokens: Readonly<Record<`--${string}`, string>>;
   readonly routes: { readonly reserved: readonly string[]; readonly maxSlugLength: number };
   readonly ui: { readonly skip: string; readonly menu: string; readonly home: string; readonly category: string; readonly read: string; readonly contents: string; readonly published: string; readonly modified: string; readonly author: string; readonly notFound: string; readonly back: string; readonly breadcrumb: string ; readonly photo: string; readonly photoSource: string};
