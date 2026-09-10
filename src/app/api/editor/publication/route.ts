@@ -1,7 +1,7 @@
 import {z} from 'zod';
 import {NextResponse} from 'next/server';
 import {currentSession} from '@/lib/auth/session';
-import {checkOrigin,privateError,privateRedirect} from '@/lib/auth/http';
+import {checkOrigin,privateError,editorialError,privateRedirect} from '@/lib/auth/http';
 import {privateHeaders} from '@/lib/seo/private';
 import {changePublication,publicationStatus,retryPublication} from '@/lib/editorial/publication';
 import {queueDelivery} from '@/lib/editorial/delivery';
@@ -14,5 +14,5 @@ export async function POST(request:Request) {
   const id=input.operation==='retry'?input.eventId:await changePublication(session.hash,input);
   const status=await publicationStatus(session.hash,id);if(status.snapshot.articleId!==input.articleId) return privateError();if(input.operation==='retry') await retryPublication(session.hash,id);await queueDelivery(id);
   return json?NextResponse.json({eventId:id,state:status.cache_state},{status:202,headers:privateHeaders}):privateRedirect(`/redaksjon/artikler/${input.articleId}`);
- } catch {return privateError();}
+ } catch(error) {return editorialError(error);}
 }

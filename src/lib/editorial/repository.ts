@@ -17,7 +17,7 @@ export async function principalForSession(hash: string) {
   const rows = await editorDb().select({ principal: principals }).from(sessions).innerJoin(principals, eq(sessions.principalId, principals.id)).where(and(eq(sessions.tokenHash, hash),gt(sessions.expiresAt, new Date().toISOString()),eq(principals.enabled,true),eq(principals.siteId,site.id),eq(principals.isTest,readRuntimeConfig(process.env).qa))).limit(1);
   return rows[0]?.principal ?? null;
 }
-export const documentSchema = z.object({ id:z.uuid(),slug:z.string(),namespace:z.string(),revisionId:z.uuid(),publishedRevisionId:z.uuid().nullable(),publicationEventId:z.uuid().nullable(),payload:contentSchema,status:z.enum(['draft','in_review','published']),approved:z.boolean() });
+export const documentSchema = z.object({ id:z.uuid(),slug:z.string(),namespace:z.string(),revisionId:z.uuid(),publishedRevisionId:z.uuid().nullable(),publicationEventId:z.uuid().nullable(),payload:contentSchema,status:z.enum(['draft','in_review','published']),approved:z.boolean(),submitted:z.boolean().default(false) });
 export async function documents(hash:string) {
   const rows = await editorDb().execute<{ data:unknown }>(sql`select editorial.documents(${hash}) as data`);
   return z.array(documentSchema).parse(rows.rows[0]?.data);

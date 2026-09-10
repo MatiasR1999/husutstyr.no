@@ -58,6 +58,8 @@ export interface SiteDefinition {
   readonly niche: string;
   readonly toneOfVoice: string;
   readonly tokens: Readonly<Record<`--${string}`, string>>;
+  /** Overrides applied under prefers-color-scheme: dark. Each key must already exist in `tokens`. */
+  readonly tokensDark?: Readonly<Record<`--${string}`, string>>;
   readonly routes: { readonly reserved: readonly string[]; readonly maxSlugLength: number };
   readonly ui: { readonly skip: string; readonly menu: string; readonly home: string; readonly category: string; readonly read: string; readonly contents: string; readonly published: string; readonly modified: string; readonly author: string; readonly notFound: string; readonly back: string; readonly breadcrumb: string };
   readonly content: { readonly home: string; readonly category: string; readonly footer: string };

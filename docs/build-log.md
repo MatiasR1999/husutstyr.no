@@ -906,3 +906,75 @@ Beholdt: regions fra1 staar fortsatt i vercel.json, men effekten er ikke bekreft
 Bevis for at vercel.json overstyrer: Prosjektet har Framework Preset Other, mens byggeloggen melder Detected Next.js version 16.3.4.
 Gjenstaar verifisering: Faktisk funksjonsregion kan foerst leses av en deploy som fullfoerer, og alle bygg stopper enna paa OIDC.
 Betydning: Uten samlokalisering ville funksjonen kjoert i Washington mot en database i Frankfurt, som er samme transatlantiske split som ble fjernet tidligere paa dagen.
+
+## 2026-09-10 — DNS-omlegging, husutstyr.no er live
+
+Domenet peker nå på Vercel og siden svarer over HTTPS.
+
+**Sonen hos Webhuset (DNS beholdt der, A-alternativet — ikke navnetjenerbytte):**
+
+| Type | Navn | Verdi | Endring |
+|---|---|---|---|
+| A | husutstyr.no | 216.150.1.1 | lagt til |
+| A | husutstyr.no | 216.150.16.1 | lagt til |
+| A | husutstyr.no | 46.226.10.76 | slettet |
+| A | www.husutstyr.no | 46.226.10.76 | slettet |
+| CNAME | www.husutstyr.no | 7116a2e8a8dd3298.vercel-dns-016.com. | lagt til |
+| A | *.husutstyr.no | 46.226.10.76 | slettet (valgfritt) |
+| A | ftp, NS ×2, TXT ×2 | — | urørt |
+
+Adressene ble hentet fra `/v6/domains/husutstyr.no/config` (`recommendedIPv4` rank 1).
+Vercel CLI 59.9.1 oppgir fortsatt `76.76.21.21`, som API-et rangerer som nummer to. CLI-verdien er utdatert.
+
+**Vercel:** `www.husutstyr.no` lagt til prosjektet som 308-omdirigering til apex.
+Automatisk sertifikatutstedelse skjedde ikke av seg selv; måtte utløses eksplisitt med
+`POST /v4/certs {"cns":["husutstyr.no","www.husutstyr.no"]}`. Let's Encrypt, gyldig 2026-09-10 → 2026-12-09.
+
+**Verifisert i produksjon:**
+- apex 200 over HTTPS, TLS verifiserer rent (`ssl_verify_result=0`), 245–340 ms på alle testede ruter
+- www → 308 → `https://husutstyr.no/`; http → 308 → https
+- `X-Vercel-Id: arn1::fra1::…` — fra1-innstillingen har faktisk effekt (tidligere påstått uten belegg, nå målt)
+- robots.txt, sitemap (20 URL-er), canonical, `index, follow` som forventet
+- `/redaksjon` gir kun innlogging, `noindex, nofollow`, ingen lekkasje av utkast
+- `/api/auth/login` sender nå `redirect_uri=https://husutstyr.no/api/auth/callback` — innlogging er mulig for første gang
+
+**Merk:** wildcard `*.husutstyr.no` er borte. Ingenting var avhengig av den, men udefinerte subdomener gir nå NXDOMAIN i stedet for Webhuset-parkering.
+
+**Utestående:** 72 artikler ligger som utkast (6 av 78 publisert). Google Client Secret er fortsatt ikke rotert.
+
+## 2026-09-10 — Redaksjons-UI og typografi på hele siden
+
+**Redaksjons-UI, to feil rettet.**
+
+1. *Godkjenning feilet uten forklaring.* `approval_guard` krever at revisjonen finnes i `review_requests`,
+   altså at den er sendt til vurdering først. Artikkelsiden viste «Send til vurdering» og «Godkjenn» som to
+   likestilte knapper i samme skjema, så det var mulig — og naturlig — å klikke feil rekkefølge.
+   Målt i basen: 72 utkast, 0 sendt til vurdering. Nå vises bare det steget som faktisk er gyldig, med en
+   statuslinje som sier hva neste steg er. Krevde `submitted` i `editorial.documents()` — migrasjon 0019.
+2. *Enhver feil ble til «Du har ikke tilgang».* Rutene hadde `catch { return privateError(); }` rundt alt.
+   Ny `editorialError()` i `src/lib/auth/http.ts` oversetter prosedyrenes egne feilnavn til presise meldinger
+   (`invalid_approval` → 409, `stale_revision` → 409, `unauthorized` → 401) uten å røpe interne detaljer.
+
+**Typografi og tema på hele siden.**
+
+- **`h3` og `h4` hadde ingen CSS-regel.** Tailwinds preflight nullstiller alle overskrifter til
+  `font-size: inherit; font-weight: inherit`, og bare `h1, h2` fikk sitt tilbake. Artikkeltekst bruker `<h3>`,
+  så samtlige 596 mellomtitler i de 78 artiklene rendret som brødtekst. Verifisert i utsendt CSS før og etter.
+  Nå: 18px/650 i overskriftsfonten mot 16px/400 for avsnitt, med mer luft over enn under.
+- **`figcaption` var ustylet** — bildekreditering så ut som et vanlig avsnitt. Nå liten og dempet.
+- **Mørkt tema fantes ikke.** `tokensDark` i site.config, generatoren utvidet med et
+  `prefers-color-scheme: dark`-blokk, og `color-scheme: light dark` så nettleseren temaer egne kontroller.
+  Alle forgrunn/bakgrunn-par i begge palettene er regnet ut og klarer WCAG AA (laveste 6.34:1).
+  Generatoren avviser nå et mørkt token som ikke overstyrer et eksisterende.
+- **Annonsemerkingen skilte seg kun med bakgrunnsfarge — 1.10:1 mot siden**, i begge temaer. Lovpålagt
+  merking kan ikke hvile på det. Fikk kantlinje i aksentfargen, og lenkeetiketten fikk halvfet vekt.
+- **Ti translittererte strenger rettet** («Broedtekst», «soekeresultater», «gjenstaar» …). Fila inneholdt
+  allerede `å`, `ø` og `é`, så det var inkonsistens, ikke en regel — og det vistes bokstavelig for brukeren.
+- Sveve- og aktiv-tilstand på knapper og lenker, som manglet helt.
+
+**Vurdert og bevisst ikke endret:** navigasjonen ligger bak `<details>` også på brede skjermer.
+`scripts/phase4/http-test.ts:80` verifiserer at menyen kan åpnes med tastatur uten JavaScript, på både
+390 og 1440 px. Å skjule `summary` på desktop ville brutt den testen. Mønsteret står til det eventuelt
+avgjøres bevisst.
+
+**Kontrollert:** typecheck og lint grønt, bygg grønt, beregnede stiler målt i nettleser i begge temaer.

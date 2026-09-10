@@ -32,4 +32,16 @@
   --rule-width: 1px;
   --focus-width: 3px;
   --weight-heading: 650;
+  --text-minorheading: 1.125rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-page: #14130f;
+    --color-ink: #eae5d9;
+    --color-muted: #a99f8d;
+    --color-accent: #8cc39b;
+    --color-surface: #1f1d16;
+    --color-border: #3d382b;
+  }
 }

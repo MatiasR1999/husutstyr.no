@@ -39,7 +39,7 @@ const site = {
   delivery: { robotsDisallow: ['/go/', '/api/', '/redaksjon/'], sitemapMaxUrls: 45000, sitemapMaxBytes: 52428800, indexNowEndpoint: 'https://api.indexnow.org/indexnow', indexNowKeyPath: '/indexnow-key.txt', searchConsole: { status: 'TODO: Verifiser domenet med DNS i Search Console.', checkedAt: null } },
   editorial: {
     issuer: 'https://accounts.google.com', provider: 'Google', priceValidityHours: 24, ratingMin: 1, ratingMax: 5,
-    ui: { section: 'Innhold', title: 'Redaksjon', login: 'Logg inn med Google', logout: 'Logg ut', unavailable: 'Innlogging er ikke konfigurert.', forbidden: 'Du har ikke tilgang til denne handlingen.', invalid: 'Kontroller feltene eller last inn nyeste revisjon.', saved: 'Revisjonen er lagret.', save: 'Lagre nytt utkast', submit: 'Send til vurdering', approve: 'Godkjenn denne revisjonen', create: 'Opprett artikkel', titleField: 'Tittel', summary: 'Ingress', body: 'Broedtekst med tom linje mellom avsnitt', seoTitle: 'Tittel i soekeresultater', description: 'Beskrivelse i soekeresultater', drafts: 'Artikler og revisjoner', preview: 'Privat forhandsvisning', revision: 'Revisjon', state: 'Status', notificationPending: 'Varsling til soeketjenesten gjenstaar.', notificationRejected: 'Soeketjenesten avviste varslingen. Kontroller oppsettet foer nytt forsoek.', publish: 'Publiser godkjent revisjon', withdraw: 'Trekk tilbake artikkelen', retry: 'Kontroller publiseringen pa nytt', pending: 'Publiseringen kontrolleres. Last siden pa nytt for status.', confirmed: 'Publiseringen er kontrollert.', superseded: 'Erstattet av en nyere publiseringsjobb.', publishingLater: 'Publisering krever en godkjent revisjon.', empty: 'Ingen artikler tilgjengelig.', category: 'Kategori' },
+    ui: { section: 'Innhold', title: 'Redaksjon', login: 'Logg inn med Google', logout: 'Logg ut', unavailable: 'Innlogging er ikke konfigurert.', forbidden: 'Du har ikke tilgang til denne handlingen.', submitFirst: 'Send revisjonen til vurdering før du godkjenner den.', stale: 'Innholdet er endret siden siden ble lastet. Last inn på nytt og prøv igjen.', unauthenticated: 'Økten er utløpt. Logg inn på nytt.', flowDraft: 'Utkast. Neste steg: send til vurdering.', flowReview: 'Til vurdering. Neste steg: godkjenn revisjonen.', flowApproved: 'Godkjent. Neste steg: publiser revisjonen.', flowPublished: 'Publisert.', invalid: 'Kontroller feltene eller last inn nyeste revisjon.', saved: 'Revisjonen er lagret.', save: 'Lagre nytt utkast', submit: 'Send til vurdering', approve: 'Godkjenn denne revisjonen', create: 'Opprett artikkel', titleField: 'Tittel', summary: 'Ingress', body: 'Brødtekst med tom linje mellom avsnitt', seoTitle: 'Tittel i søkeresultater', description: 'Beskrivelse i søkeresultater', drafts: 'Artikler og revisjoner', preview: 'Privat forhandsvisning', revision: 'Revisjon', state: 'Status', notificationPending: 'Varsling til søketjenesten gjenstår.', notificationRejected: 'Søketjenesten avviste varslingen. Kontroller oppsettet før nytt forsøk.', publish: 'Publiser godkjent revisjon', withdraw: 'Trekk tilbake artikkelen', retry: 'Kontroller publiseringen pa nytt', pending: 'Publiseringen kontrolleres. Last siden pa nytt for status.', confirmed: 'Publiseringen er kontrollert.', superseded: 'Erstattet av en nyere publiseringsjobb.', publishingLater: 'Publisering krever en godkjent revisjon.', empty: 'Ingen artikler tilgjengelig.', category: 'Kategori' },
   },
   home: { title: 'Husutstyr.no – guider og sammenligninger for hele hjemmet', description: 'Vi samler guider, sammenligninger og praktiske råd om utstyr til kjøkken, rengjøring, oppbevaring og vedlikehold, slik at du finner det som passer hjemmet.' },
   id: 'husutstyr',
@@ -58,9 +58,16 @@ const site = {
     '--space-6': '1.5rem', '--space-8': '2rem', '--space-12': '3rem',
     '--card-min': '18rem', '--sidebar-width': '16rem', '--text-display': '3rem', '--radius': '0', '--shadow': 'none', '--reading-width': '46rem', '--page-width': '68rem',
     '--rule-width': '1px', '--focus-width': '3px', '--weight-heading': '650',
+    '--text-minorheading': '1.125rem',
+  },
+  // Applied under prefers-color-scheme: dark. Every foreground/background pair here clears WCAG AA (>=4.5:1),
+  // mirroring the light palette's contrast profile so the same rules hold in both themes.
+  tokensDark: {
+    '--color-page': '#14130f', '--color-ink': '#eae5d9', '--color-muted': '#a99f8d',
+    '--color-accent': '#8cc39b', '--color-surface': '#1f1d16', '--color-border': '#3d382b',
   },
   routes: { reserved: ['anmeldelser', 'api', 'go', 'om-oss', 'kontakt', 'forfatter', 'personvern', 'cookies', 'redaksjon', 'redaksjonell-policy', 'slik-tester-vi', 'annonsorinformasjon', 'emne', 'og', 'visninger', 'sider'], maxSlugLength: 100 },
-  ui: { skip: 'Til innholdet', menu: 'Meny', home: 'Forside', category: 'Kategori', read: 'Les artikkelen', contents: 'Til kontrollpunktet', published: 'Publisert', modified: 'Sist oppdatert', author: 'Forfatter', notFound: 'Siden finnes ikke', back: 'Tilbake til forsiden', breadcrumb: 'Broedsmuler' },
+  ui: { skip: 'Til innholdet', menu: 'Meny', home: 'Forside', category: 'Kategori', read: 'Les artikkelen', contents: 'Til kontrollpunktet', published: 'Publisert', modified: 'Sist oppdatert', author: 'Forfatter', notFound: 'Siden finnes ikke', back: 'Tilbake til forsiden', breadcrumb: 'Brødsmuler' },
   content: { home: 'Guider og sammenligninger av utstyr til hjemmet, fra kjøkken og rengjøring til oppbevaring og vedlikehold.', category: 'Her samler vi guidene, sammenligningene og rådene som hører til dette området.', footer: 'Husutstyr.no. Redaksjonelle vilkår, personvern og annonsørinformasjon finner du i lenkene under.' },
   qa: {
     database: { projectId:'raspy-leaf-06859059', branchId:'br-rough-cake-b22qbr27', branchName:'phase-2-qa', hostPrefix:'ep-plain-forest-b21b1t8k.' },
@@ -115,7 +122,7 @@ const site = {
       publishedAt: '2026-09-07T00:00:00.000Z', modifiedAt: '2026-09-07T00:00:00.000Z',
       seo: {
         title: 'Serverrendret artikkel med kontrollert SEO | SEO-mal QA',
-        description: 'Teknisk testartikkel for aa kontrollere synlig HTML, en absolutt canonical, unik metadata og gyldig Article-data. Kun en lokal QA-fixture uten publisering.',
+        description: 'Teknisk testartikkel for å kontrollere synlig HTML, en absolutt canonical, unik metadata og gyldig Article-data. Kun en lokal QA-fixture uten publisering.',
       },
     },
   },

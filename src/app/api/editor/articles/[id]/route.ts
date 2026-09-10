@@ -1,6 +1,6 @@
 import { z } from 'zod';
 import { currentSession } from '@/lib/auth/session';
-import { checkOrigin,privateError,privateRedirect } from '@/lib/auth/http';
+import { checkOrigin,privateError,editorialError,privateRedirect } from '@/lib/auth/http';
 import { documents,saveRevision,reviewRevision } from '@/lib/editorial/repository';
 import { contentSchema } from '@/lib/domain/content';
 const command=z.discriminatedUnion('action',[z.strictObject({action:z.literal('save'),revisionId:z.uuid(),content:contentSchema}),z.strictObject({action:z.enum(['submit','approve']),revisionId:z.uuid()})]);
@@ -21,5 +21,5 @@ export async function POST(request:Request,{params}:{params:Promise<{id:string}>
   if(input.action==='save') await saveRevision(session.hash,id,input.revisionId,input.content);
   else await reviewRevision(session.hash,id,input.revisionId,input.action);
   return privateRedirect(`/redaksjon/artikler/${id}`);
- } catch {return privateError();}
+ } catch(error) {return editorialError(error);}
 }
