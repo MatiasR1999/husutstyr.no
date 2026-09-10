@@ -1003,3 +1003,35 @@ vilkårlig til det publiseres mer.
 
 **Ikke løst:** bilder. Ingen av de 78 artiklene har bildeblokker, og jeg har ingen filer med klarerte
 rettigheter. Krever en beslutning fra utgiver om kilde.
+
+## 2026-09-10 — Diagrammer
+
+Utgiver ba om bilder og foreslo å hente materiale under ikke-kommersielle lisenser. **Husutstyr.no er
+kommersiell** — den har annonselenker og provisjon, og det står i sidens egen merking. CC BY-NC og
+liknende gjelder derfor ikke her. Ingenting ble hentet; diagrammene er tegnet fra bunnen, så rettighetene
+er rene.
+
+**Innebygd SVG, ikke bildefiler.** Bilder i innholdsmodellen krever `assetId`, absolutt URL og en vert i
+`remotePatterns` — i dag kun Vercel Blob, som ikke er satt opp (ingen `BLOB_READ_WRITE_TOKEN`). Men den
+avgjørende grunnen er mørkt tema: et raster må ha én palett bakt inn, og ingen enkelt gråtone klarer 4.5:1
+mot både `#fbfbfa` og `#121416`. Innebygd SVG arver sidens variabler og virker i begge temaer, er skarp i
+alle størrelser og koster ingen forespørsel.
+
+Ny blokktype `diagram` med nøkler validert mot `src/lib/domain/diagrams.ts`, så en revisjon ikke kan peke
+på et diagram som ikke finnes. `scripts/add-diagram.ts` legger dem inn gjennom vanlig
+`save_revision → submit → approve → publish`, så godkjenningen bindes til den nye innholdshashen.
+
+| Diagram | Artikkel |
+|---|---|
+| `luftfuktighet-arsgang` | Luftfuktighet gjennom året |
+| `induksjon-mot-keramisk` | Induksjon mot keramisk topp |
+| `panne-varmefordeling` | Stekepanner: materialer |
+
+**Rettet under arbeidet, funnet ved å faktisk se på dem:**
+- Alle tre lå klistret mot venstre kant; viewBox fikk negativ origo som innrykk.
+- Fuktighetsdiagrammet kodet relativ fuktighet som søylehøyde, slik at vinterluft ute (90 %) så ut til å
+  inneholde mer vann enn sommerluft inne (66 %) — stikk i strid med det artikkelen forklarer. Løst med en
+  egen vannsøyle på felles skala, som viser at vinterluft har omtrent en tredjedel av sommerens vann.
+- Induksjonsdiagrammets to forklaringslinjer kolliderte, og høyre kolonne rant utenfor viewBox.
+
+Verifisert i begge temaer med axe (`wcag2a`, `wcag2aa`, `wcag21aa`) på artikkelen som inneholder diagram.

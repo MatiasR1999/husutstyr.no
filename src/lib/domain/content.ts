@@ -1,6 +1,7 @@
 import { z } from 'zod';
 import site from '@site';
 import { validateSeoCopy } from '@/lib/seo/metadata';
+import { diagramKeys } from './diagrams';
 
 export const webUrl = z.url().refine(value => ['https:', 'http:'].includes(new URL(value).protocol));
 export const sourceSchema = z.strictObject({ url: webUrl, title: z.string().trim().min(1), checkedAt: z.iso.datetime() });
@@ -12,6 +13,7 @@ export const blockSchema = z.discriminatedUnion('type', [
   z.strictObject({ type: z.literal('list'), items: z.array(z.string().trim().min(1)).min(1).max(100) }),
   z.strictObject({ type: z.literal('image'), image: imageSchema, preload: z.boolean().optional() }),
   z.strictObject({ type: z.literal('affiliate'), linkId:z.uuid(), label:z.string().trim().min(1).max(200) }),
+  z.strictObject({ type: z.literal('diagram'), key: z.enum(diagramKeys), caption: z.string().trim().min(1).max(300) }),
 ]);
 const common = {
   version: z.literal(1), title: z.string().trim().min(1).max(200), summary: z.string().trim().min(1).max(1000),
