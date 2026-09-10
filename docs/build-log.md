@@ -1058,3 +1058,31 @@ CC-arkiver treffer feil oftere enn det treffer riktig, og prøvene var:
 Det første ville vært bruk av et virkelig menneskes bilde i kommersiell sammenheng uten samtykke.
 Automatisk henting er derfor lagt bort. Kortoppsettet har bildeplass, men rendrer rent tekstlig uten bilde,
 så forsiden fungerer i dag og forbedres når bilder med klarerte rettigheter finnes.
+
+## 2026-09-10 — Seks diagrammer til
+
+Ni diagrammer totalt. Hvert er lest opp mot artikkelteksten først, slik at tegningen forklarer det samme
+som teksten i stedet for å innføre et nytt poeng.
+
+| Diagram | Artikkel | Hva det viser |
+|---|---|---|
+| `ventilasjonstyper` | Ventilasjon | Hvor luften kommer fra, og at tetting stopper luftskiftet |
+| `vaskemiddel-ph` | Vaskemidler: pH | pH-skala med bruksområde og skade per sone, pluss klorgass-advarselen |
+| `filter-forbigang` | Filtre og HEPA | Luft som går rundt filteret i stedet for gjennom |
+| `vasketemperatur-avveining` | Vasketemperatur | To kurver som stiger sammen, med flekktyper plassert på aksen |
+| `hylle-innfesting` | Hyllesystemer | Hva hver veggtype faktisk bærer |
+| `trommel-varmevei` | Tørketrommel | Hvor varmen tar veien, kondens mot varmepumpe |
+
+**Fargebruk lagt om.** Aksenten er nå rød. Å fylle datasøyler med rødt leser som en advarsel på alt, så
+data ligger i nøytral blekkfarge og rødt markerer bare det diagrammet faktisk argumenterer for — lekkasjen
+forbi filteret, slitasjekurven, veggtypene som ikke bærer. De tre første diagrammene er lagt om likt.
+
+**Fire av seks måtte rettes etter at jeg så på dem:**
+- `vaskemiddel-ph`: akseetikettene lå oppå beskrivelsene, og den smale nøytralsonen dyttet tekst inn i
+  nabokolonnen. Lagt om til tre like kolonner under skalaen.
+- `vasketemperatur-avveining`: «20 °C» ble klippet av venstre kant og leste som «0 °C» — feil tall.
+  Etiketten for slitasjekurven lå oppå kurven.
+- `hylle-innfesting`: notatene til høyre var kuttet.
+- `trommel-varmevei`: etiketten lå først utenfor rammen, deretter oppå sløyfen.
+
+Ingen av disse ville blitt fanget av en test. De ble funnet ved å rendre hvert diagram og se på det.
