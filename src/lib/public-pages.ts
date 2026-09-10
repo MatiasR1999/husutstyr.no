@@ -19,9 +19,11 @@ export const resolvePage=cache(async(path:string,search='')=>{
  if(path==='/') {
   if(query.page!==1||query.facet) return null;
   const [categories,articles]=await Promise.all([getCategories(),getAllArticles()]);
+  // The front page is chronological: getAllArticles already orders by published_at desc. Categories stay
+  // for browsing, but they no longer decide the reading order.
   const groups=categories.map(category=>({category,articles:articles.filter(article=>article.pillarSlug===category.slug||article.categorySlug===category.slug)}));
   const runtime=readRuntimeConfig(process.env);
-  return {type:'home' as const,path,query,groups,title:runtime.qa?site.qa.home.title:site.home.title,seo:runtime.qa?site.qa.home:site.home};
+  return {type:'home' as const,path,query,groups,articles,categories,title:runtime.qa?site.qa.home.title:site.home.title,seo:runtime.qa?site.qa.home:site.home};
  }
  const [allArticles,topics]=await Promise.all([getAllArticles(),getTopics()]);
  let articles=allArticles;

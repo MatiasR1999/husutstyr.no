@@ -29,7 +29,18 @@ h2 { font-size: var(--text-subheading); }
 .breadcrumbs { gap: var(--space-2); font-size: var(--text-small); }
 .breadcrumbs li + li::before { content: '/'; margin-right: var(--space-2); color: var(--color-muted); }
 .article-body { scroll-margin-top: var(--space-8); }
-.article-list { padding-left: var(--space-6); list-style-type: disc; }
+/* In a listing the article is the content and the category is a label, so the title carries the weight.
+   Colour is reserved for what the reader is about to act on: titles sit in ink and pick up the accent on
+   hover, instead of every line arriving pre-coloured and underlined. */
+.article-list { padding-left: 0; list-style: none; }
+.article-list > li + li { margin-top: var(--space-6); padding-top: var(--space-6); border-top: var(--rule-width) solid var(--color-border); }
+.article-list > li > a { display: block; font-family: var(--font-heading); font-size: var(--text-lead); font-weight: var(--weight-heading); line-height: var(--line-heading); color: var(--color-ink); text-decoration: none; text-wrap: balance; }
+.article-list > li > a:hover, .article-list > li > a:focus-visible { color: var(--color-accent); text-decoration: underline; }
+.article-list > li > p { margin-top: var(--space-2); color: var(--color-muted); font-size: var(--text-small); }
+/* The category is a label above its list, never larger than the titles it introduces. */
+.category-group > h2 { font-family: var(--font-body); font-size: var(--text-small); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+.category-group > h2 > a { color: var(--color-muted); text-decoration: none; }
+.category-group > h2 > a:hover, .category-group > h2 > a:focus-visible { color: var(--color-accent); }
 .footer { border-top: var(--rule-width) solid var(--color-border); padding-block: var(--space-8); color: var(--color-muted); font-size: var(--text-small); }
 .skip { position: absolute; transform: translateY(-200%); padding: var(--space-3); background: var(--color-page); }
 .skip:focus { transform: translateY(0); }
@@ -76,6 +87,25 @@ a:hover { color: var(--color-ink); }
 button:hover { background: var(--color-ink); border-color: var(--color-ink); }
 button:active { translate: 0 1px; }
 .actions { display: flex; flex-wrap: wrap; gap: var(--space-4); }
+
+/* The disclosure is the narrow-screen navigation. From 48rem the category links show inline instead, and
+   the control moves off-screen until focused -- the same technique as .skip above -- so it stays focusable
+   and operable by keyboard. scripts/phase4/http-test.ts opens the menu at 390 and 1440, and both still work:
+   one summary, one details, closed on load, Enter still toggles it.
+   Chrome hides a closed details through ::details-content; engines without that pseudo-element set
+   display:none on the children instead, so both mechanisms are overridden. */
+@media (min-width: 48rem) {
+  .header summary { position: absolute; transform: translateY(-200%); padding: var(--space-3); background: var(--color-page); }
+  .header summary:focus { transform: translateY(0); }
+  .header details::details-content { content-visibility: visible; }
+  .header details > .navigation { display: flex; padding-inline: 0; }
+}
+
+/* Front page: one chronological column at reading width. The category rides along as a quiet label. */
+.home-feed { max-width: var(--reading-width); }
+.article-list > li > .entry-meta { margin: 0 0 var(--space-2); font-size: var(--text-small); letter-spacing: 0.08em; text-transform: uppercase; }
+.article-list > li > .entry-meta a { color: var(--color-muted); text-decoration: none; }
+.article-list > li > .entry-meta a:hover, .article-list > li > .entry-meta a:focus-visible { color: var(--color-accent); }
 
 #cc-main {
   --cc-font-family: var(--font-body);

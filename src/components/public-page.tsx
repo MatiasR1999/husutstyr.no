@@ -17,10 +17,12 @@ export function PublicPageView({page}:{page:PublicPage}) {
  if(page.type==='article') return <ArticleView article={page.article} now={page.evaluatedAt} />;
  if(page.type==='home') {
   const variant=layoutVariants().home;
-  const categoryLinks=<nav className="category-links" aria-label={site.labels.explore}>{page.groups.map(({category})=><a key={category.id} href={`/${category.slug}`}>{category.name}</a>)}</nav>;
+  const categoryLinks=<nav className="category-links" aria-label={site.labels.explore}>{page.categories.map(category=><a key={category.id} href={`/${category.slug}`}>{category.name}</a>)}</nav>;
+  // Newest first across the whole site; the category is a label on each entry, not the ordering principle.
+  const feed=<ul className="article-list home-feed">{page.articles.slice(0,site.pageSize).map(article=><li key={article.id}><p className="entry-meta"><a href={`/${article.categorySlug}`}>{article.categoryName}</a></p><a href={articlePath(article.categorySlug,article.slug)}>{article.title}</a><p>{article.summary}</p></li>)}</ul>;
   const groups=page.groups.map(({category,articles})=><section className="category-group stack" key={category.id}><h2><a href={`/${category.slug}`}>{category.name}</a></h2><ul className="article-list">{articles.slice(0,site.pageSize).map(article=><li key={article.id}><a href={articlePath(article.categorySlug,article.slug)}>{article.title}</a>{variant==='magazine'&&<p>{article.summary}</p>}</li>)}</ul></section>);
   return <div className={`stack home-${variant}`} data-layout={variant}><header className="home-intro stack"><h1>{page.title}</h1><p className="lead">{site.content.home}</p></header>
-   {variant==='index'?<>{categoryLinks}{groups}</>:variant==='magazine'?<>{categoryLinks}<div className="magazine-grid">{groups}</div></>:<div className="directory-grid"><aside>{categoryLinks}</aside><div className="stack">{groups}</div></div>}
+   {variant==='index'?<>{categoryLinks}{groups}</>:variant==='magazine'?<>{categoryLinks}{feed}</>:<div className="directory-grid"><aside>{categoryLinks}</aside><div className="stack">{groups}</div></div>}
    <JsonLd graph={siteGraph(runtime)} /></div>;
  }
  const crumbs=[{name:site.ui.home,path:'/'},{name:page.title,path:page.path},...(page.query.page>1?[{name:`${site.labels.page} ${page.query.page}`,path:queryHref(page.path,page.query.params)}]:[])];

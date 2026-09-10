@@ -978,3 +978,28 @@ Automatisk sertifikatutstedelse skjedde ikke av seg selv; måtte utløses ekspli
 avgjøres bevisst.
 
 **Kontrollert:** typecheck og lint grønt, bygg grønt, beregnede stiler målt i nettleser i begge temaer.
+
+## 2026-09-10 — Desktop-navigasjon, listehierarki, palett og kronologisk forside
+
+**Navigasjon på brede skjermer.** Kategoriene lå bak «Meny» også på 1440 px. Løsningen måtte klare
+`scripts/phase4/http-test.ts:80`, som fokuserer `summary` og forventer at Enter setter `open` — på både 390
+og 1440. Fra 48rem vises lenkene inline, og selve kontrollen flyttes utenfor skjermen til den får fokus,
+samme teknikk som `.skip`. Chrome skjuler en lukket `details` gjennom `::details-content`; andre motorer
+setter `display:none` på barna, så begge overstyres. Verifisert: én `details`, én `summary`, lukket ved last,
+Enter åpner fortsatt, ingen vannrett overflyt, axe rent — i begge bredder.
+
+**Listehierarkiet var snudd.** Kategorien var `h2` på 22 px i grønt med understrek; artikkeltittelen var en
+vanlig lenke på 16 px. Kategorien dominerte innholdet den introduserte. Nå: kategori 14 px dempet som
+etikett, tittel 18 px i blekkfarge, skillelinje og luft mellom oppføringene. Farge er reservert for det
+leseren er i ferd med å klikke, i stedet for at hver linje kommer ferdig grønn og understreket.
+
+**Palett.** Varm beige med mørkegrønn aksent byttet til nøytrale gråtoner med dempet skiferblå.
+Alle par i begge temaer regnet ut på nytt; laveste 5.59:1.
+
+**Forsiden er kronologisk.** `getAllArticles()` sorterte allerede `published_at desc`, men forsiden grupperte
+etter kategori. Nå én spalte i lesebredde, nyeste først, med kategorien som etikett per oppføring.
+Merk: alle 78 artiklene har bare to ulike publiseringstidspunkt, så rekkefølgen innenfor de 72 er i praksis
+vilkårlig til det publiseres mer.
+
+**Ikke løst:** bilder. Ingen av de 78 artiklene har bildeblokker, og jeg har ingen filer med klarerte
+rettigheter. Krever en beslutning fra utgiver om kilde.

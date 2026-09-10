@@ -49,8 +49,8 @@ const site = {
   niche: 'hus',
   toneOfVoice: 'Nøktern og konkret bruksveiledning på norsk. Vi beskriver hva utstyret gjør og hvem det passer for, oppgir hva vurderingen bygger på, og unngår superlativer og salgsspråk. Vi er like tydelige på svakheter og på hvem produktet ikke passer for.',
   tokens: {
-    '--color-page': '#fdfcfa', '--color-ink': '#1c1a17', '--color-muted': '#5d574e',
-    '--color-accent': '#2f5d3f', '--color-surface': '#f4f1ea', '--color-border': '#c2b8a3',
+    '--color-page': '#fbfbfa', '--color-ink': '#1a1c1e', '--color-muted': '#5b6167',
+    '--color-accent': '#2c4a63', '--color-surface': '#f1f2f2', '--color-border': '#d7d9da',
     '--font-body': 'var(--loaded-body), sans-serif', '--font-heading': 'var(--loaded-heading), serif',
     '--text-body': '1rem', '--text-small': '0.875rem', '--text-lead': '1.125rem',
     '--text-heading': '2rem', '--text-subheading': '1.375rem', '--line-body': '1.65', '--line-heading': '1.2',
@@ -63,8 +63,8 @@ const site = {
   // Applied under prefers-color-scheme: dark. Every foreground/background pair here clears WCAG AA (>=4.5:1),
   // mirroring the light palette's contrast profile so the same rules hold in both themes.
   tokensDark: {
-    '--color-page': '#14130f', '--color-ink': '#eae5d9', '--color-muted': '#a99f8d',
-    '--color-accent': '#8cc39b', '--color-surface': '#1f1d16', '--color-border': '#3d382b',
+    '--color-page': '#121416', '--color-ink': '#e7e9ea', '--color-muted': '#9aa1a7',
+    '--color-accent': '#9dbdd6', '--color-surface': '#1a1d20', '--color-border': '#2f3438',
   },
   routes: { reserved: ['anmeldelser', 'api', 'go', 'om-oss', 'kontakt', 'forfatter', 'personvern', 'cookies', 'redaksjon', 'redaksjonell-policy', 'slik-tester-vi', 'annonsorinformasjon', 'emne', 'og', 'visninger', 'sider'], maxSlugLength: 100 },
   ui: { skip: 'Til innholdet', menu: 'Meny', home: 'Forside', category: 'Kategori', read: 'Les artikkelen', contents: 'Til kontrollpunktet', published: 'Publisert', modified: 'Sist oppdatert', author: 'Forfatter', notFound: 'Siden finnes ikke', back: 'Tilbake til forsiden', breadcrumb: 'Brødsmuler' },
