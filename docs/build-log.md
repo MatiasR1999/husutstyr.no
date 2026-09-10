@@ -1134,3 +1134,15 @@ diagram-blokktypen i innholdsskjemaet, renderingen i `article-body.tsx`, CSS-reg
 **Én kjent konsekvens:** ni historiske revisjoner inneholder fortsatt diagramblokker. De er uforanderlige
 og rendres aldri — `documents()` og `getArticle` leser bare gjeldende og publisert revisjon. Men blir en av
 dem republisert direkte mot databasen, vil den ikke validere. Ingen vei i grensesnittet gjør det.
+
+## 2026-09-10 — Search Console forberedt
+
+Verifiseringstaggen kommer fra `GOOGLE_SITE_VERIFICATION` i miljøet, ikke fra kode eller innhold, siden
+den er et utrullingsfaktum. Uten variabelen rendres ingen tagg. Verdien valideres før den når dokumentet:
+Google utsteder URL-trygg base64, og alt annet får bygget til å feile i stedet for å bli sendt ut.
+Testet begge veier — gyldig verdi gir taggen, `"><script>x` stopper bygget.
+
+Ligger i `src/lib/seo/measurement.ts`, som er der arkitekturreglene krever at metatagger bor.
+
+Eiendommen må opprettes av utgiver; den krever deres Google-konto. Sitemapet ligger allerede i robots.txt
+og kan sendes inn så snart eiendommen er verifisert.
