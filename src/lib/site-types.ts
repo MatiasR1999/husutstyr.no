@@ -59,9 +59,14 @@ export interface SiteDefinition {
   readonly formattingLocale: 'nb-NO';
   readonly niche: string;
   readonly toneOfVoice: string;
+  readonly diagrams: Readonly<Record<string, {
+    readonly navn: string; readonly beskrivelse: string;
+    readonly tekst: Readonly<Record<string, string>>;
+    readonly linjer: readonly (readonly string[])[];
+  }>>;
   readonly tokens: Readonly<Record<`--${string}`, string>>;
   readonly routes: { readonly reserved: readonly string[]; readonly maxSlugLength: number };
-  readonly ui: { readonly skip: string; readonly menu: string; readonly home: string; readonly category: string; readonly read: string; readonly contents: string; readonly published: string; readonly modified: string; readonly author: string; readonly notFound: string; readonly back: string; readonly breadcrumb: string };
+  readonly ui: { readonly skip: string; readonly menu: string; readonly home: string; readonly category: string; readonly read: string; readonly contents: string; readonly published: string; readonly modified: string; readonly author: string; readonly notFound: string; readonly back: string; readonly breadcrumb: string ; readonly photo: string; readonly photoSource: string};
   readonly content: { readonly home: string; readonly category: string; readonly footer: string };
   readonly qa: { readonly database: {readonly projectId:string;readonly branchId:string;readonly branchName:string;readonly hostPrefix:string}; readonly phase7: Readonly<Record<string,string>>; readonly network:NetworkRegistry; readonly phase6: Readonly<Record<string,string>>; readonly phase5: Readonly<Record<string,string>>; readonly phase4: Readonly<Record<string,string>>; readonly oidc: { readonly issuer: string; readonly clientId: string }; readonly markers: Readonly<Record<string, string>>; readonly identity: SiteIdentity; readonly banner: string; readonly home: SeoCopy; readonly category: SeoCopy & { readonly slug: string; readonly name: string }; readonly article: QaArticle };
 }

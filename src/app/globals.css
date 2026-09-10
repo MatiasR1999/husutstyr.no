@@ -34,9 +34,9 @@ h2 { font-size: var(--text-subheading); }
    hover, instead of every line arriving pre-coloured and underlined. */
 .article-list { padding-left: 0; list-style: none; }
 .article-list > li + li { margin-top: var(--space-6); padding-top: var(--space-6); border-top: var(--rule-width) solid var(--color-border); }
-.article-list > li > a { display: block; font-family: var(--font-heading); font-size: var(--text-lead); font-weight: var(--weight-heading); line-height: var(--line-heading); color: var(--color-ink); text-decoration: none; text-wrap: balance; }
-.article-list > li > a:hover, .article-list > li > a:focus-visible { color: var(--color-accent); text-decoration: underline; }
-.article-list > li > p { margin-top: var(--space-2); color: var(--color-muted); font-size: var(--text-small); }
+.article-list > li > a:not(.thumb), .article-list > li > div > a { display: block; font-family: var(--font-heading); font-size: var(--text-lead); font-weight: var(--weight-heading); line-height: var(--line-heading); color: var(--color-ink); text-decoration: none; text-wrap: balance; }
+.article-list > li > a:not(.thumb):hover, .article-list > li > a:not(.thumb):focus-visible, .article-list > li > div > a:hover, .article-list > li > div > a:focus-visible { color: var(--color-accent); text-decoration: underline; }
+.article-list > li > p, .article-list > li > div > p { margin-top: var(--space-2); color: var(--color-muted); font-size: var(--text-small); }
 /* The category is a label above its list, never larger than the titles it introduces. */
 .category-group > h2 { font-family: var(--font-body); font-size: var(--text-small); font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
 .category-group > h2 > a { color: var(--color-muted); text-decoration: none; }
@@ -127,6 +127,30 @@ button:active { translate: 0 1px; }
 .card-lead .card-title { font-size: clamp(1.9rem, 4.5vw, 3rem); }
 .card-summary { display: block; margin-top: var(--space-3); font-size: var(--text-lead); color: var(--color-muted); max-width: var(--reading-width); }
 .card-link:hover .card-title, .card-link:focus-visible .card-title { text-decoration: underline; }
+
+/* The editorial intro put the heading in a flex row beside a grey box while the body centred itself in a
+   narrower column below, so the two never shared a left edge and the page read as a layout fault.
+   One reading column for the whole article instead. The contents link stays: two tests click it by name. */
+.article-editorial { max-width: var(--reading-width); margin-inline: auto; }
+.article-editorial > .article-body { margin-inline: 0; max-width: none; }
+.article-editorial .editorial-intro { display: block; }
+.article-editorial .editorial-intro > aside { flex: none; padding: 0; background: none; font-size: var(--text-small); }
+.article-editorial .editorial-intro > aside { padding-top: var(--space-2); }
+.article-editorial .editorial-intro > aside a { color: var(--color-accent); }
+
+/* Photographs: fixed ratio so a mixed set of crops still lines the grid up. */
+.card-image { display: block; margin-bottom: var(--space-3); }
+.card-image img, .with-thumbs .thumb img, .article-lead img { display: block; width: 100%; height: auto; }
+.card-image img, .with-thumbs .thumb img { aspect-ratio: 16 / 9; object-fit: cover; }
+.article-lead { margin: 0 0 var(--space-8); }
+.article-lead figcaption { padding-top: var(--space-2); font-size: var(--text-small); color: var(--color-muted); }
+.with-thumbs > li { display: grid; grid-template-columns: var(--thumb-width) 1fr; gap: var(--space-4); align-items: start; }
+.with-thumbs > li > div > p { margin-top: var(--space-2); }
+@media (max-width: 30rem) { .with-thumbs > li { grid-template-columns: 1fr; } }
+
+/* A handful of subjects have no photograph worth using. Those cards get a rule instead of a picture, so
+   the grid reads as a deliberate mix rather than a row with a hole in it. */
+.card-text .card-label { border-top: var(--rule-width) solid var(--color-ink); padding-top: var(--space-3); }
 
 #cc-main {
   --cc-font-family: var(--font-body);

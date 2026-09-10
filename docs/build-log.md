@@ -1086,3 +1086,34 @@ forbi filteret, slitasjekurven, veggtypene som ikke bærer. De tre første diagr
 - `trommel-varmevei`: etiketten lå først utenfor rammen, deretter oppå sløyfen.
 
 Ingen av disse ville blitt fanget av en test. De ble funnet ved å rendre hvert diagram og se på det.
+
+## 2026-09-10 — Bilder, og tre reelle layoutfeil
+
+Utgiver: «nettsiden ser helt fæl ut sånn som den er bygd nå.» Berettiget. Bilder manglet, men det var ikke
+alt.
+
+**Layoutfeil funnet ved å se på hele sider:**
+- Artikkelsiden la overskriften i en flex-rad ved siden av en grå boks, mens brødteksten sentrerte seg i en
+  smalere spalte under. De delte aldri venstrekant, og siden så ut som en byggefeil. Nå én lesespalte.
+  Innholdslenken beholdes — `phase4/http-test.ts` og `measure-performance.ts` klikker den ved navn.
+- Kategorisidene var en naken lenkeliste uten ingress eller bilde. Nå miniatyr, tittel og ingress.
+- Kort uten bilde etterlot hull i rutenettet. De får nå en strek over kategorietiketten, så blandingen
+  leser som et valg.
+
+**Bilder fra Pexels, med gjennomgang av hvert enkelt.** 70 av 78 artikler har bilde. Åtte har ikke, fordi
+biblioteket ikke har brukbare motiv: avfukter, luftrenser, muggsopp, radon, tørketrommel, vaskemidler-pH,
+vedlikehold av støvsuger og én til. Tre runder ble forsøkt. Utvalget som ble forkastet underveis:
+et nødhjelpsbilde av en identifiserbar privatperson, et barn inne i en vaskemaskindør, en bildonkraft
+under «verktøykasse», en luftfukter under «avfukter», og et bringebær i vann under «rengjøring uten sterke
+midler». Ingen av dem ville blitt fanget av noe annet enn å se på bildet.
+
+**Arkitekturreglene brøt jeg, og skjulte det for meg selv.** `npm run lint` kjører `check-architecture`, som
+kaster med `Error:`. Jeg grep-et etter `error` med `-E` og filtrerte dermed bort min egen feil i flere runder.
+Bruddene var: synlig JSX-tekst i `diagrams.tsx` og `article-view.tsx`, `title`/`alt`-attributter som
+strengliteraler, en SVG-`title`-tagg som traff SEO-regelen, og designliteraler i CSS.
+Alt er rettet: all diagramkopi ligger nå i `site.config.ts`, komponenten holder kun geometri, og
+`--thumb-width` er blitt et token.
+
+**Én regel er endret, med vilje.** CSS-regelen forbød `: <tall><enhet>` i `globals.css`. Mediaspørringer kan
+ikke bruke CSS-variabler — det er en språkbegrensning — så regelen unntar nå `@media`-betingelser og
+gjelder fortsatt alt en deklarasjon kan nå.

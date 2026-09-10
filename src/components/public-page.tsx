@@ -4,6 +4,7 @@ import type {PublicPage} from '@/lib/public-pages';
 import {layoutVariants} from '@/lib/layouts';
 import {readRuntimeConfig} from '@/lib/config';
 import {articlePath} from '@/lib/seo/urls';
+import {leadImage} from '@/lib/lead-images';
 import {queryHref} from '@/lib/seo/listing';
 import {breadcrumbsGraph,combineGraphs,personGraph,siteGraph} from '@/lib/seo/json-ld';
 import {JsonLd} from '@/lib/seo/json-ld-element';
@@ -22,12 +23,16 @@ export function PublicPageView({page}:{page:PublicPage}) {
   // Whole cards are the link target, the way a news front page behaves. A lead image renders when the
   // article has one; without it the card is text only, so the grid never waits on artwork.
   const shown=page.articles.slice(0,site.pageSize);
-  const card=(article:(typeof shown)[number],lead:boolean)=><li key={article.id} className={lead?'card card-lead':'card'}>
-   <a className="card-link" href={articlePath(article.categorySlug,article.slug)}>
-    <span className="card-label">{article.categoryName}</span>
-    <span className="card-title">{article.title}</span>
-    {lead&&<span className="card-summary">{article.summary}</span>}
-   </a></li>;
+  const card=(article:(typeof shown)[number],lead:boolean)=>{
+   const bilde=leadImage(article.slug);
+   return <li key={article.id} className={`card${lead?' card-lead':''}${bilde?'':' card-text'}`}>
+    <a className="card-link" href={articlePath(article.categorySlug,article.slug)}>
+     {bilde&&<span className="card-image"><Image src={bilde.url} alt={bilde.alt} width={bilde.bredde} height={bilde.hoyde} sizes={lead?'(max-width: 48rem) 100vw, 1088px':'(max-width: 48rem) 100vw, 22rem'} priority={lead} /></span>}
+     <span className="card-label">{article.categoryName}</span>
+     <span className="card-title">{article.title}</span>
+     {lead&&<span className="card-summary">{article.summary}</span>}
+    </a></li>;
+  };
   const feed=<ul className="front-grid">{shown.map((article,index)=>card(article,index===0))}</ul>;
   const groups=page.groups.map(({category,articles})=><section className="category-group stack" key={category.id}><h2><a href={`/${category.slug}`}>{category.name}</a></h2><ul className="article-list">{articles.slice(0,site.pageSize).map(article=><li key={article.id}><a href={articlePath(article.categorySlug,article.slug)}>{article.title}</a>{variant==='magazine'&&<p>{article.summary}</p>}</li>)}</ul></section>);
   return <div className={`stack home-${variant}`} data-layout={variant}><header className="home-intro stack"><h1>{page.title}</h1><p className="lead">{site.content.home}</p></header>
@@ -40,7 +45,7 @@ export function PublicPageView({page}:{page:PublicPage}) {
  return <div className="stack listing-page"><Breadcrumbs items={crumbs} /><h1>{page.title}{page.query.page>1&&<> · {site.labels.page} {page.query.page}</>}</h1>{page.intro&&<p className="lead">{page.intro}</p>}
   {page.author&&<section className="author-profile stack">{page.author.image&&<Image src={page.author.image.url} alt={page.author.image.alt} width={page.author.image.width} height={page.author.image.height} sizes={site.media.sizes} />}<p>{page.author.bio}</p>{Boolean(page.author.expertise?.length)&&<><h2>{site.labels.expertise}</h2><ul>{page.author.expertise?.map(item=><li key={item}>{item}</li>)}</ul></>}{Boolean(page.author.sameAs?.length)&&<nav aria-label={site.labels.profiles}>{page.author.sameAs?.map(url=><a key={url} href={url}>{url}</a>)}</nav>}</section>}
   <form action={page.path} method="get" className="listing-filters"><label>{site.labels.sort}<select name="sort" defaultValue={page.query.sort}><option value="newest">{site.labels.newest}</option><option value="oldest">{site.labels.oldest}</option></select></label><button type="submit">{site.labels.apply}</button></form>
-  <ul className="article-list">{page.articles.map(article=><li key={article.id}><a href={articlePath(article.categorySlug,article.slug)}>{article.title}</a></li>)}</ul>
+  <ul className="article-list with-thumbs">{page.articles.map(article=>{const bilde=leadImage(article.slug);return <li key={article.id}>{bilde&&<a className="thumb" href={articlePath(article.categorySlug,article.slug)} tabIndex={-1} aria-hidden="true"><Image src={bilde.url} alt={bilde.alt} width={bilde.bredde} height={bilde.hoyde} sizes="10rem" /></a>}<div><a href={articlePath(article.categorySlug,article.slug)}>{article.title}</a><p>{article.summary}</p></div></li>;})}</ul>
   {page.pages>1&&<nav aria-label={site.labels.pagination}><ol className="pagination">{Array.from({length:page.pages},(_,i)=>i+1).map(number=><li key={number}><a href={queryHref(page.path,{...page.query.params,page:String(number)})} aria-current={number===page.query.page?'page':undefined}>{site.labels.page} {number}</a></li>)}</ol></nav>}
   <JsonLd graph={graph} /></div>;
 }
