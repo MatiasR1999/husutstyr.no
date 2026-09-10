@@ -488,5 +488,26 @@
   "kilde": "https://www.pexels.com/photo/a-dirty-concrete-wall-9998140/",
   "bredde": 1600,
   "hoyde": 900
+ },
+ "oppbevaring-i-smaa-leiligheter": {
+  "alt": "A stylish studio apartment with a cozy bed, bookshelf, and modern decor.",
+  "fotograf": "Lisa Anna",
+  "kilde": "https://www.pexels.com/photo/cozy-bedroom-with-bed-and-wooden-desk-19857234/",
+  "bredde": 1600,
+  "hoyde": 900
+ },
+ "vedlikehold-av-stovsugeren": {
+  "alt": "A red vacuum cleaner on a carpet in a stylish home setting with barefoot user.",
+  "fotograf": "Liliana Drew",
+  "kilde": "https://www.pexels.com/photo/a-person-vacuuming-a-carpet-9462139/",
+  "bredde": 1600,
+  "hoyde": 900
+ },
+ "vaskemidler-ph": {
+  "alt": "Close-up view of green liquid in bottles, ideal for household cleaning and stocks.",
+  "fotograf": "Matthias Zomer",
+  "kilde": "https://www.pexels.com/photo/white-plastic-bottle-lot-592670/",
+  "bredde": 1600,
+  "hoyde": 900
  }
 }
