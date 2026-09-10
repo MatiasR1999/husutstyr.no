@@ -48,64 +48,6 @@ const site = {
   formattingLocale: 'nb-NO',
   niche: 'hus',
   toneOfVoice: 'Nøktern og konkret bruksveiledning på norsk. Vi beskriver hva utstyret gjør og hvem det passer for, oppgir hva vurderingen bygger på, og unngår superlativer og salgsspråk. Vi er like tydelige på svakheter og på hvem produktet ikke passer for.',
-  // All visible diagram copy lives here, like every other string the reader sees. The components hold
-  // geometry only.
-  diagrams: {
-    'luftfuktighet-arsgang': {
-      navn: 'Samme uteluft, oppvarmet inne',
-      beskrivelse: 'To panel. Om vinteren har uteluft på null grader 90 prosent relativ fuktighet, men bare 3,9 gram vann per kubikkmeter. Varmet til 21 grader inne faller den relative fuktigheten til 21 prosent, uten at vannmengden endrer seg. Om sommeren har uteluft på 20 grader og 70 prosent fuktighet 12,1 gram vann per kubikkmeter, og inne ved 21 grader blir den relative fuktigheten 66 prosent. Vannsøylene nederst deler skala og viser at vinterluft inneholder omtrent en tredjedel så mye vann som sommerluft.',
-      tekst: { rh: 'RELATIV FUKTIGHET', varmes: 'varmes', vann: 'VANN I LUFTA — UENDRET AV OPPVARMINGEN', inne: 'Inne 21 °C', vinter: 'Vinter', sommer: 'Sommer', uteVinter: 'Ute 0 °C', uteSommer: 'Ute 20 °C', gramVinter: '3,9 g/m³', gramSommer: '12,1 g/m³' },
-      linjer: [],
-    },
-    'induksjon-mot-keramisk': {
-      navn: 'Hvor varmen oppstår',
-      beskrivelse: 'To lagdelte snitt. På induksjon lager spolen et magnetfelt, og varmen oppstår direkte i pannens bunn; glasset varmes bare av panna, og effekten endres nesten umiddelbart. På keramisk topp varmes elementet under glasset, og varmen må ledes opp gjennom glasset før den når panna, noe som gir treghet både opp og ned.',
-      tekst: { panne: 'Panne', glass: 'Glass', spole: 'Spole', element: 'Element', induksjon: 'Induksjon', keramisk: 'Keramisk' },
-      linjer: [['Varmen oppstår i panna.', 'Glasset varmes bare indirekte.', 'Reagerer nesten umiddelbart.'], ['Varmen oppstår i elementet.', 'Må ledes opp gjennom glasset.', 'Treghet både opp og ned.']],
-    },
-    'panne-varmefordeling': {
-      navn: 'Varmelagring mot responstid',
-      beskrivelse: 'Tre pannetyper sammenlignet på to egenskaper. Støpejern lagrer mest varme, men reagerer tregest på endret effekt. Belagt aluminium reagerer raskest, men lagrer minst. Karbonstål ligger mellom de to.',
-      tekst: { lagrer: 'Lagrer varme', reagerer: 'Reagerer raskt', note: 'Egenskapene trekker mot hverandre: masse som holder på varme, kan ikke også slippe den raskt.' },
-      linjer: [['Støpejern', 'Karbonstål', 'Belagt aluminium']],
-    },
-    'ventilasjonstyper': {
-      navn: 'Naturlig avtrekk mot balansert ventilasjon',
-      beskrivelse: 'To husnitt. Naturlig avtrekk henter tilluft gjennom ventiler og utettheter og slipper den ut gjennom kanal, drevet av temperaturforskjell og vind. Tettes tilluften, stopper luftskiftet. Balansert ventilasjon har mekanisk til- og fraluft med varmegjenvinner, og gir jevnt luftskifte uavhengig av vær.',
-      tekst: { naturlig: 'Naturlig avtrekk', balansert: 'Balansert', ventiler: 'ventiler', kanal: 'kanal', tilluft: 'tilluft', fraluft: 'fraluft', gjenvinner: 'gjenvinner' },
-      linjer: [['Drives av temperaturforskjell og vind.', 'Virker best når det er kaldt og blåser.', 'Tettes tilluften, stopper luftskiftet.'], ['Mekanisk til- og fraluft.', 'Varmen gjenvinnes fra fraluften.', 'Jevnt luftskifte uavhengig av vær.']],
-    },
-    'vaskemiddel-ph': {
-      navn: 'pH avgjør hva middelet kan brukes på',
-      beskrivelse: 'En pH-skala fra 0 til 14. Sure midler under pH 6 løser kalk og såperester og hører hjemme på bad og i vannkokere, men matter naturstein permanent. Nøytrale midler rundt pH 7 er trygge på nesten alt og tilsvarende svakere. Alkaliske midler over pH 8 løser fett og organisk smuss og hører hjemme på kjøkken og i ovn, men matter aluminium. Klorholdige midler blandet med sure midler avgir klorgass.',
-      tekst: { ph: 'pH', advarsel: 'Klor + surt gir klorgass. Bland aldri, og aller minst på bad.' },
-      linjer: [['SURT', 'NØYTRALT', 'ALKALISK'], ['Løser kalk og såperester', 'Trygt på nesten alt', 'Løser fett og organisk smuss'], ['Bad, vannkoker', 'Daglig renhold', 'Kjøkken, ovn'], ['Matter naturstein permanent', '', 'Matter aluminium']],
-    },
-    'filter-forbigang': {
-      navn: 'Luft som går utenom filteret',
-      beskrivelse: 'Et snitt gjennom en maskin. Mesteparten av luften går gjennom filteret og kommer ut renset. Er maskinen utett, går en del av luften rundt filteret i stedet for gjennom det, og finstøv slipper ut igjen uansett hvor god filterklassen er. Klassifiseringen beskriver filteret, ikke maskinen rundt det.',
-      tekst: { maskinen: 'MASKINEN', filter: 'filter', inn: 'skitten luft inn', ut: 'ren luft ut', lekkasje: 'lekkasje forbi filteret', note: 'Klassen beskriver filteret. Den sier ingenting om hvor tett maskinen rundt det er.' },
-      linjer: [],
-    },
-    'vasketemperatur-avveining': {
-      navn: 'Hva temperaturen løser og hva den koster',
-      beskrivelse: 'En temperaturakse fra 20 til 90 grader. Evnen til å løse fett og redusere mikroorganismer stiger med temperaturen. Det gjør også slitasjen: farger blekner, fibre krymper og elastan mister spenst. Blod og egg vaskes kaldt fordi varme koagulerer proteinet, farget tøy så kaldt som mulig, fett og svette varmt, og høy temperatur er for hygiene ved sykdom. Lang tid ved lav temperatur gir ofte samme resultat som kort tid ved høy.',
-      tekst: { loser: 'Løser fett og mikroorganismer', slitasje: 'Slitasje på farge og fibre', grad: '°C', note: 'Tid kan erstatte temperatur: lange program kaldt gir ofte samme resultat som korte varmt.' },
-      linjer: [['Blod og egg', 'Farget tøy', 'Fett og svette', 'Ved sykdom']],
-    },
-    'hylle-innfesting': {
-      navn: 'Det er veggen som setter grensen',
-      beskrivelse: 'Fire veggtyper sammenlignet. Gipsplate alene bærer svært lite og trepanel er kledning som ikke er ment å bære; i begge tilfeller må festet treffe bindingsverket bak. Gips med treff i stender og betong eller tegl bærer mye, forutsatt riktig plugg. En hylle belastes dessuten dynamisk: å dra en tung eske ut gir et rykk større enn den statiske vekten.',
-      tekst: { header: 'HVA INNFESTINGEN TÅLER', note: 'Regn med rykk, ikke bare vekt: å dra en tung eske ut belaster festet mer enn esken veier.' },
-      linjer: [['Gips alene', 'Gips med treff i stender', 'Betong og tegl', 'Trepanel'], ['Plugger for hulrom. Lite vekt.', 'Skru i stenderen, ikke i platen.', 'Krever slagbor og riktig plugg.', 'Kledning. Skru i bindingsverket bak.']],
-    },
-    'trommel-varmevei': {
-      navn: 'Hvor varmen tar veien',
-      beskrivelse: 'To tørketromler. Kondenstrommel varmer luften kraftig, feller ut vannet ved nedkjøling og avgir varmen til rommet den står i. Varmepumpetrommel gjenbruker varmen i et kretsløp og tørker ved lavere temperatur, bruker vesentlig mindre strøm og er skånsommere mot tekstilene, men bruker lengre tid.',
-      tekst: { kondens: 'Kondens', varmepumpe: 'Varmepumpe', toy: 'tøy', utIRommet: 'varme ut i rommet', gjenbrukes: 'varmen gjenbrukes' },
-      linjer: [['Høy temperatur, rask syklus.', 'Mer strøm, mer slitasje på fibrene.', 'Varmer opp rommet den står i.'], ['Lavere temperatur, lengre syklus.', 'Vesentlig mindre strøm, skånsommere.', 'Avgir lite varme til rommet.']],
-    },
-  },
   tokens: {
     '--color-page': '#ffffff', '--color-ink': '#000000', '--color-muted': '#5a5a5a',
     '--color-accent': '#c8102e', '--color-surface': '#f2f2f2', '--color-border': '#dcdcdc',

@@ -1117,3 +1117,20 @@ Alt er rettet: all diagramkopi ligger nå i `site.config.ts`, komponenten holder
 **Én regel er endret, med vilje.** CSS-regelen forbød `: <tall><enhet>` i `globals.css`. Mediaspørringer kan
 ikke bruke CSS-variabler — det er en språkbegrensning — så regelen unntar nå `@media`-betingelser og
 gjelder fortsatt alt en deklarasjon kan nå.
+
+## 2026-09-10 — Diagrammene fjernet
+
+Utgiver foretrekker foto framfor diagrammer. Alle ni er fjernet.
+
+**Rekkefølgen betydde noe:** blokkene ble tatt ut av innholdet først, gjennom vanlig
+`save_revision → submit → approve → publish` på hver av de ni artiklene. Hadde koden blitt fjernet først,
+ville `contentSchema` avvist enhver artikkel som fortsatt refererte til en diagramblokk.
+Verifisert etterpå: null i publisert innhold, null i gjeldende revisjoner.
+
+Fjernet: `src/components/diagrams.tsx`, `src/lib/domain/diagrams.ts`, `scripts/add-diagram.ts`,
+diagram-blokktypen i innholdsskjemaet, renderingen i `article-body.tsx`, CSS-reglene, kopien i
+`site.config.ts` og typen i `site-types.ts`.
+
+**Én kjent konsekvens:** ni historiske revisjoner inneholder fortsatt diagramblokker. De er uforanderlige
+og rendres aldri — `documents()` og `getArticle` leser bare gjeldende og publisert revisjon. Men blir en av
+dem republisert direkte mot databasen, vil den ikke validere. Ingen vei i grensesnittet gjør det.

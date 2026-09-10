@@ -59,11 +59,6 @@ export interface SiteDefinition {
   readonly formattingLocale: 'nb-NO';
   readonly niche: string;
   readonly toneOfVoice: string;
-  readonly diagrams: Readonly<Record<string, {
-    readonly navn: string; readonly beskrivelse: string;
-    readonly tekst: Readonly<Record<string, string>>;
-    readonly linjer: readonly (readonly string[])[];
-  }>>;
   readonly tokens: Readonly<Record<`--${string}`, string>>;
   readonly routes: { readonly reserved: readonly string[]; readonly maxSlugLength: number };
   readonly ui: { readonly skip: string; readonly menu: string; readonly home: string; readonly category: string; readonly read: string; readonly contents: string; readonly published: string; readonly modified: string; readonly author: string; readonly notFound: string; readonly back: string; readonly breadcrumb: string ; readonly photo: string; readonly photoSource: string};
