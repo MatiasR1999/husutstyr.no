@@ -42,7 +42,9 @@ export interface SiteDefinition {
   readonly layouts: { readonly home: 'index' | 'magazine' | 'directory'; readonly article: 'classic' | 'editorial' | 'reference' };
   readonly minTopicArticles: number;
   readonly pageSize: number;
-  readonly fonts: { readonly body: 'Geist'; readonly heading: 'Source_Serif_4' };
+  // Both names are next/font/google exports; the generator writes them straight into an import, so the
+  // union is what keeps an arbitrary string out of generated source.
+  readonly fonts: { readonly body: 'Geist'; readonly heading: 'Source_Serif_4' | 'Archivo' };
   readonly media: { readonly sizes: string; readonly remotePatterns: readonly { readonly protocol: 'https'; readonly hostname: string }[] };
   readonly og: { readonly width: number; readonly height: number; readonly padding: number; readonly titleSize: number; readonly smallSize: number };
   readonly seoTemplates: Readonly<Record<'home'|'article'|'news'|'review'|'category'|'topic'|'author'|'page', string>>;
@@ -58,8 +60,6 @@ export interface SiteDefinition {
   readonly niche: string;
   readonly toneOfVoice: string;
   readonly tokens: Readonly<Record<`--${string}`, string>>;
-  /** Overrides applied under prefers-color-scheme: dark. Each key must already exist in `tokens`. */
-  readonly tokensDark?: Readonly<Record<`--${string}`, string>>;
   readonly routes: { readonly reserved: readonly string[]; readonly maxSlugLength: number };
   readonly ui: { readonly skip: string; readonly menu: string; readonly home: string; readonly category: string; readonly read: string; readonly contents: string; readonly published: string; readonly modified: string; readonly author: string; readonly notFound: string; readonly back: string; readonly breadcrumb: string };
   readonly content: { readonly home: string; readonly category: string; readonly footer: string };

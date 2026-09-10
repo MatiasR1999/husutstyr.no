@@ -54,7 +54,13 @@ button { padding: var(--space-2) var(--space-4); border: var(--rule-width) solid
 .article-body figure img { width: 100%; height: auto; }
 .article-body ul, .review-facts ul { list-style: disc; padding-left: var(--space-6); }
 .home-intro { max-width: var(--reading-width); padding-block: var(--space-8); }
-.home-magazine h1, .article-editorial h1 { font-size: clamp(var(--text-heading), 5vw, var(--text-display)); }
+.article-editorial h1 { font-size: clamp(var(--text-heading), 5vw, var(--text-display)); }
+/* On a news front the lead story headline should outrank the site's own strapline, not the reverse. */
+.home-magazine h1 { font-size: var(--text-subheading); }
+.home-magazine .home-intro { padding-block: 0 var(--space-6); }
+.home-magazine .home-intro .lead { font-size: var(--text-body); color: var(--color-muted); }
+/* From 48rem the header already lists the categories, so the in-page copy would be a second set. */
+@media (min-width: 48rem) { .home-magazine > .category-links { display: none; } }
 .magazine-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,var(--card-min)),1fr)); gap: var(--space-8); }
 .category-group { padding: var(--space-6); border: var(--rule-width) solid var(--color-border); border-radius: var(--radius); box-shadow: var(--shadow); }
 .home-index .category-group { border: none; border-top: var(--rule-width) solid var(--color-border); }
@@ -81,8 +87,8 @@ h4 { font-size: var(--text-body); }
 .stack > * + h3, .stack > * + h4 { margin-top: var(--space-8); }
 .stack > h3 + *, .stack > h4 + * { margin-top: var(--space-3); }
 figcaption { font-size: var(--text-small); color: var(--color-muted); padding-top: var(--space-2); }
-/* Both palettes are declared, so let the browser theme its own form controls and scrollbars too. */
-html { color-scheme: light dark; }
+/* The site is light only, so pin the scheme rather than following the system. */
+html { color-scheme: light; }
 a:hover { color: var(--color-ink); }
 button:hover { background: var(--color-ink); border-color: var(--color-ink); }
 button:active { translate: 0 1px; }
@@ -111,6 +117,16 @@ button:active { translate: 0 1px; }
 .diagram { margin: 0; }
 .diagram-svg { display: block; width: 100%; height: auto; }
 .diagram figcaption { font-size: var(--text-small); color: var(--color-muted); padding-top: var(--space-2); }
+
+/* News-front layout: whole cards link, the first one leads at full width. */
+.front-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 16rem), 1fr)); gap: var(--space-8) var(--space-6); list-style: none; padding: 0; margin: 0; }
+.front-grid > .card-lead { grid-column: 1 / -1; border-bottom: var(--rule-width) solid var(--color-border); padding-bottom: var(--space-8); }
+.card-link { display: block; color: var(--color-ink); text-decoration: none; }
+.card-label { display: block; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-accent); margin-bottom: var(--space-1); }
+.card-title { display: block; font-family: var(--font-heading); font-weight: 700; font-size: 1.15rem; line-height: 1.18; text-wrap: balance; }
+.card-lead .card-title { font-size: clamp(1.9rem, 4.5vw, 3rem); }
+.card-summary { display: block; margin-top: var(--space-3); font-size: var(--text-lead); color: var(--color-muted); max-width: var(--reading-width); }
+.card-link:hover .card-title, .card-link:focus-visible .card-title { text-decoration: underline; }
 
 #cc-main {
   --cc-font-family: var(--font-body);

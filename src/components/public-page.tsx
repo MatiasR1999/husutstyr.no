@@ -19,7 +19,16 @@ export function PublicPageView({page}:{page:PublicPage}) {
   const variant=layoutVariants().home;
   const categoryLinks=<nav className="category-links" aria-label={site.labels.explore}>{page.categories.map(category=><a key={category.id} href={`/${category.slug}`}>{category.name}</a>)}</nav>;
   // Newest first across the whole site; the category is a label on each entry, not the ordering principle.
-  const feed=<ul className="article-list home-feed">{page.articles.slice(0,site.pageSize).map(article=><li key={article.id}><p className="entry-meta"><a href={`/${article.categorySlug}`}>{article.categoryName}</a></p><a href={articlePath(article.categorySlug,article.slug)}>{article.title}</a><p>{article.summary}</p></li>)}</ul>;
+  // Whole cards are the link target, the way a news front page behaves. A lead image renders when the
+  // article has one; without it the card is text only, so the grid never waits on artwork.
+  const shown=page.articles.slice(0,site.pageSize);
+  const card=(article:(typeof shown)[number],lead:boolean)=><li key={article.id} className={lead?'card card-lead':'card'}>
+   <a className="card-link" href={articlePath(article.categorySlug,article.slug)}>
+    <span className="card-label">{article.categoryName}</span>
+    <span className="card-title">{article.title}</span>
+    {lead&&<span className="card-summary">{article.summary}</span>}
+   </a></li>;
+  const feed=<ul className="front-grid">{shown.map((article,index)=>card(article,index===0))}</ul>;
   const groups=page.groups.map(({category,articles})=><section className="category-group stack" key={category.id}><h2><a href={`/${category.slug}`}>{category.name}</a></h2><ul className="article-list">{articles.slice(0,site.pageSize).map(article=><li key={article.id}><a href={articlePath(article.categorySlug,article.slug)}>{article.title}</a>{variant==='magazine'&&<p>{article.summary}</p>}</li>)}</ul></section>);
   return <div className={`stack home-${variant}`} data-layout={variant}><header className="home-intro stack"><h1>{page.title}</h1><p className="lead">{site.content.home}</p></header>
    {variant==='index'?<>{categoryLinks}{groups}</>:variant==='magazine'?<>{categoryLinks}{feed}</>:<div className="directory-grid"><aside>{categoryLinks}</aside><div className="stack">{groups}</div></div>}

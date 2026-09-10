@@ -1035,3 +1035,26 @@ på et diagram som ikke finnes. `scripts/add-diagram.ts` legger dem inn gjennom 
 - Induksjonsdiagrammets to forklaringslinjer kolliderte, og høyre kolonne rant utenfor viewBox.
 
 Verifisert i begge temaer med axe (`wcag2a`, `wcag2aa`, `wcag21aa`) på artikkelen som inneholder diagram.
+
+## 2026-09-10 — Nyhetsforside, hvit palett, og et bildeforsøk som ble stoppet
+
+**Hvit bakgrunn, svart tekst.** Mørkt tema fjernet helt — både `tokensDark`, generatorstøtten og
+`prefers-color-scheme`-blokken — i stedet for å la maskineriet ligge dødt. `color-scheme` låst til `light`.
+Palett: `#ffffff` / `#000000` / dempet `#5a5a5a` / aksent `#c8102e`. Laveste kontrast 5.88:1.
+
+**Forsiden bygget om som nyhetsforside.** Overskriftsfont byttet fra Source Serif 4 til Archivo, hele kort
+er lenkemål, hovedsak i full bredde øverst, resten i et tett rutenett. Kategorien er en rød etikett.
+Forsidens h1 nedskalert, siden hovedsakens tittel skal rangere over sidens egen ingress.
+Kategorilenkene i sideinnholdet skjules fra 48rem, der toppmenyen allerede viser dem — ellers sto de to ganger.
+
+**Bilder: forsøkt, og stoppet med vilje.** Utgiver ba om at jeg henter bilder fra nettet. Openverse ble brukt
+med `license_type=commercial`, som gir lisenser som faktisk tillater kommersiell bruk. Men nøkkelordsøk mot
+CC-arkiver treffer feil oftere enn det treffer riktig, og prøvene var:
+
+- «rengjøring» ga et UK Aid-bilde av en identifiserbar privatperson etter en tyfon
+- «inneklima» ga en støpejernspanne
+- «vask» ga et bilde merket *magdalene laundries* — irske institusjoner der kvinner ble holdt innesperret
+
+Det første ville vært bruk av et virkelig menneskes bilde i kommersiell sammenheng uten samtykke.
+Automatisk henting er derfor lagt bort. Kortoppsettet har bildeplass, men rendrer rent tekstlig uten bilde,
+så forsiden fungerer i dag og forbedres når bilder med klarerte rettigheter finnes.

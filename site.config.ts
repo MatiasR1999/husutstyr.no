@@ -22,7 +22,7 @@ const site = {
   },
   affiliate: { allowedOrigins: [], disclosure: 'Reklame: Noen lenker på denne siden er annonselenker. Handler du gjennom dem, kan Husutstyr.no få provisjon. Prisen din blir ikke høyere.', ownedDisclosure: 'Reklame: Denne lenken går til en butikk utgiveren av Husutstyr.no eier selv.', linkLabel: 'Annonselenke', ownedLinkLabel: 'Reklame: Egen butikk' },
   layouts: { home: 'magazine', article: 'editorial' }, minTopicArticles: 5, pageSize: 20,
-  fonts: { body: 'Geist', heading: 'Source_Serif_4' },
+  fonts: { body: 'Geist', heading: 'Archivo' },
   media: { sizes: '(max-width: 768px) 100vw, 736px', remotePatterns: [{ protocol: 'https', hostname: '*.public.blob.vercel-storage.com' }] },
   og: { width: 1200, height: 630, padding: 64, titleSize: 64, smallSize: 28 },
   seoTemplates: { home: '{title}', article: '{title}', news: '{title}', review: '{title}', category: '{title}', topic: '{title}', author: '{title}', page: '{title}' },
@@ -49,8 +49,8 @@ const site = {
   niche: 'hus',
   toneOfVoice: 'Nøktern og konkret bruksveiledning på norsk. Vi beskriver hva utstyret gjør og hvem det passer for, oppgir hva vurderingen bygger på, og unngår superlativer og salgsspråk. Vi er like tydelige på svakheter og på hvem produktet ikke passer for.',
   tokens: {
-    '--color-page': '#fbfbfa', '--color-ink': '#1a1c1e', '--color-muted': '#5b6167',
-    '--color-accent': '#2c4a63', '--color-surface': '#f1f2f2', '--color-border': '#d7d9da',
+    '--color-page': '#ffffff', '--color-ink': '#000000', '--color-muted': '#5a5a5a',
+    '--color-accent': '#c8102e', '--color-surface': '#f2f2f2', '--color-border': '#dcdcdc',
     '--font-body': 'var(--loaded-body), sans-serif', '--font-heading': 'var(--loaded-heading), serif',
     '--text-body': '1rem', '--text-small': '0.875rem', '--text-lead': '1.125rem',
     '--text-heading': '2rem', '--text-subheading': '1.375rem', '--line-body': '1.65', '--line-heading': '1.2',
@@ -59,12 +59,6 @@ const site = {
     '--card-min': '18rem', '--sidebar-width': '16rem', '--text-display': '3rem', '--radius': '0', '--shadow': 'none', '--reading-width': '46rem', '--page-width': '68rem',
     '--rule-width': '1px', '--focus-width': '3px', '--weight-heading': '650',
     '--text-minorheading': '1.125rem',
-  },
-  // Applied under prefers-color-scheme: dark. Every foreground/background pair here clears WCAG AA (>=4.5:1),
-  // mirroring the light palette's contrast profile so the same rules hold in both themes.
-  tokensDark: {
-    '--color-page': '#121416', '--color-ink': '#e7e9ea', '--color-muted': '#9aa1a7',
-    '--color-accent': '#9dbdd6', '--color-surface': '#1a1d20', '--color-border': '#2f3438',
   },
   routes: { reserved: ['anmeldelser', 'api', 'go', 'om-oss', 'kontakt', 'forfatter', 'personvern', 'cookies', 'redaksjon', 'redaksjonell-policy', 'slik-tester-vi', 'annonsorinformasjon', 'emne', 'og', 'visninger', 'sider'], maxSlugLength: 100 },
   ui: { skip: 'Til innholdet', menu: 'Meny', home: 'Forside', category: 'Kategori', read: 'Les artikkelen', contents: 'Til kontrollpunktet', published: 'Publisert', modified: 'Sist oppdatert', author: 'Forfatter', notFound: 'Siden finnes ikke', back: 'Tilbake til forsiden', breadcrumb: 'Brødsmuler' },

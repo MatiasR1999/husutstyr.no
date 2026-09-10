@@ -1,11 +1,11 @@
 /* Generated from site.config.ts. Do not edit. */
 :root {
-  --color-page: #fbfbfa;
-  --color-ink: #1a1c1e;
-  --color-muted: #5b6167;
-  --color-accent: #2c4a63;
-  --color-surface: #f1f2f2;
-  --color-border: #d7d9da;
+  --color-page: #ffffff;
+  --color-ink: #000000;
+  --color-muted: #5a5a5a;
+  --color-accent: #c8102e;
+  --color-surface: #f2f2f2;
+  --color-border: #dcdcdc;
   --font-body: var(--loaded-body), sans-serif;
   --font-heading: var(--loaded-heading), serif;
   --text-body: 1rem;
@@ -33,15 +33,4 @@
   --focus-width: 3px;
   --weight-heading: 650;
   --text-minorheading: 1.125rem;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-page: #121416;
-    --color-ink: #e7e9ea;
-    --color-muted: #9aa1a7;
-    --color-accent: #9dbdd6;
-    --color-surface: #1a1d20;
-    --color-border: #2f3438;
-  }
 }
